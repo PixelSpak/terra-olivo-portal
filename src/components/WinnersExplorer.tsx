@@ -9,6 +9,7 @@ interface Props {
   years: number[];
   prizes: Prize[];
   countries: string[];
+  varieties: string[];
 }
 
 const ALL = "All";
@@ -18,16 +19,19 @@ export default function WinnersExplorer({
   years,
   prizes,
   countries,
+  varieties,
 }: Props) {
   const [query, setQuery] = useState("");
   const [year, setYear] = useState<string>(ALL);
   const [prize, setPrize] = useState<string>(ALL);
   const [country, setCountry] = useState<string>(ALL);
+  const [variety, setVariety] = useState<string>(ALL);
 
   const results = useMemo(() => {
     const q = query.trim().toLowerCase();
     return oils.filter((oil) => {
       if (country !== ALL && oil.country !== country) return false;
+      if (variety !== ALL && !oil.varieties.includes(variety)) return false;
       if (year !== ALL && !oil.awards.some((a) => a.year === Number(year)))
         return false;
       if (prize !== ALL && !oil.awards.some((a) => a.prize === prize))
@@ -46,17 +50,22 @@ export default function WinnersExplorer({
       }
       return true;
     });
-  }, [oils, query, year, prize, country]);
+  }, [oils, query, year, prize, country, variety]);
 
   const reset = () => {
     setQuery("");
     setYear(ALL);
     setPrize(ALL);
     setCountry(ALL);
+    setVariety(ALL);
   };
 
   const isFiltered =
-    query !== "" || year !== ALL || prize !== ALL || country !== ALL;
+    query !== "" ||
+    year !== ALL ||
+    prize !== ALL ||
+    country !== ALL ||
+    variety !== ALL;
 
   const selectClass =
     "rounded-lg border border-olive-300 bg-white px-3 py-2 text-sm text-olive-900 focus:border-olive-600 focus:outline-none";
@@ -64,7 +73,7 @@ export default function WinnersExplorer({
   return (
     <div>
       <div className="rounded-xl border border-olive-200 bg-white p-4">
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
           <input
             type="search"
             value={query}
@@ -111,6 +120,19 @@ export default function WinnersExplorer({
             {countries.map((c) => (
               <option key={c} value={c}>
                 {c}
+              </option>
+            ))}
+          </select>
+          <select
+            value={variety}
+            onChange={(e) => setVariety(e.target.value)}
+            className={selectClass}
+            aria-label="Filter by olive variety"
+          >
+            <option value={ALL}>All varieties</option>
+            {varieties.map((v) => (
+              <option key={v} value={v}>
+                {v}
               </option>
             ))}
           </select>

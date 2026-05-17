@@ -52,6 +52,36 @@ function slugify(str) {
     .slice(0, 80);
 }
 
+// ── Olive variety detection from oil name ──────────────────────────────────
+const VARIETIES = [
+  "Koroneiki", "Picual", "Coratina", "Arbequina", "Arbequino", "Barnea",
+  "Picholine", "Pichuline", "Picholina", "Souri", "Frantoio", "Peranzana",
+  "Leccino", "Lecciana", "Leccino", "Hojiblanca", "Manzanilla", "Nocellara",
+  "Maurino", "Moraiolo", "Itrana", "Chetoui", "Memecik", "Nabali", "Chemlali",
+  "Ascolana", "Cobrançosa", "Cobrancosa", "Galega", "Cornicabra", "Empeltre",
+  "Taggiasca", "Ogliarola", "Carolea", "Biancolilla", "Verdial", "Changlot",
+  "Blanqueta", "Farga", "Sevillenca", "Morisca", "Gemlik", "Ayvalik",
+  "Tonda Iblea", "Nocellara del Belice", "Maalot", "Picholine Marocaine",
+];
+
+function detectVarieties(name) {
+  const found = [];
+  const lower = name.toLowerCase();
+  for (const v of VARIETIES) {
+    if (lower.includes(v.toLowerCase())) {
+      // normalise Arbequino → Arbequina, Pichuline/Picholina → Picholine, Leccino/Lecciana → Leccino
+      let canon = v;
+      if (v === "Arbequino") canon = "Arbequina";
+      if (v === "Pichuline" || v === "Picholina") canon = "Picholine";
+      if (v === "Lecciana" || v === "Leccino") canon = "Leccino";
+      if (v === "Cobrancosa") canon = "Cobrançosa";
+      if (!found.includes(canon)) found.push(canon);
+    }
+  }
+  if (found.length === 0 && /\bblend\b/i.test(name)) found.push("Blend");
+  return found;
+}
+
 // ── Main ───────────────────────────────────────────────────────────────────
 const text = readFileSync(CSV_PATH, "utf-8");
 const rows = parseCSV(text);
@@ -68,10 +98,11 @@ for (const row of dataRows) {
   if (row.length < 4) continue;
   let [evooName, brandName, country, medal, medalFile, certificate] = row;
 
-  brandName = brandName?.trim() || "";
-  evooName = evooName?.trim() || "";
-  country = country?.trim() || "";
-  medal = medal?.trim() || "";
+  // Collapse internal whitespace/newlines from multiline CSV cells
+  brandName = (brandName || "").replace(/\s+/g, " ").trim();
+  evooName = (evooName || "").replace(/\s+/g, " ").trim();
+  country = (country || "").replace(/\s+/g, " ").trim();
+  medal = (medal || "").replace(/\s+/g, " ").trim();
 
   if (!brandName && !evooName) continue;
 
@@ -100,7 +131,7 @@ for (const row of dataRows) {
       producerSlug: producer.slug,
       country,
       region: "",
-      varieties: [],
+      varieties: detectVarieties(oilName),
       intensity: "Medium",
       description: `${oilName} is an award-winning extra virgin olive oil from ${country}.`,
       tastingNotes: [],

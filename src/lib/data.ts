@@ -91,6 +91,10 @@ export function getCountries(): string[] {
   return [...new Set(oils.map((o) => o.country))].sort();
 }
 
+export function getVarieties(): string[] {
+  return [...new Set(oils.flatMap((o) => o.varieties))].sort();
+}
+
 /** Oils that won a prize in the given edition year. */
 export function getWinnersByYear(year: number): OliveOil[] {
   return getAllOils().filter((o) => o.awards.some((a) => a.year === year));

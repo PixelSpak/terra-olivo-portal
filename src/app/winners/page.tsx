@@ -1,6 +1,12 @@
 import type { Metadata } from "next";
 import WinnersExplorer from "@/components/WinnersExplorer";
-import { getAllOils, getCountries, getPrizes, getYears } from "@/lib/data";
+import {
+  getAllOils,
+  getCountries,
+  getPrizes,
+  getVarieties,
+  getYears,
+} from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Winners",
@@ -25,6 +31,7 @@ export default function WinnersPage() {
           years={getYears()}
           prizes={getPrizes()}
           countries={getCountries()}
+          varieties={getVarieties()}
         />
       </div>
     </div>

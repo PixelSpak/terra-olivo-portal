@@ -134,24 +134,24 @@
   },
   {
     "slug": "azeite-casa-mourad",
-    "name": "Azeite Casa Mourad",
+    "name": "Azeite Casa Mourad",
     "country": "Brazil",
     "region": "",
-    "description": "Azeite Casa Mourad is an award-winning olive oil producer from Brazil."
+    "description": "Azeite Casa Mourad is an award-winning olive oil producer from Brazil."
   },
   {
     "slug": "azeite-organico-bene",
-    "name": "Azeite Organico Bene",
+    "name": "Azeite Organico Bene",
     "country": "Brazil",
     "region": "",
-    "description": "Azeite Organico Bene is an award-winning olive oil producer from Brazil."
+    "description": "Azeite Organico Bene is an award-winning olive oil producer from Brazil."
   },
   {
     "slug": "azeite-tres-meninas",
-    "name": "Azeite Três Meninas",
+    "name": "Azeite Três Meninas",
     "country": "Brazil",
     "region": "",
-    "description": "Azeite Três Meninas is an award-winning olive oil producer from Brazil."
+    "description": "Azeite Três Meninas is an award-winning olive oil producer from Brazil."
   },
   {
     "slug": "barel-olive-oil",
@@ -372,13 +372,6 @@
   },
   {
     "slug": "eretz-zait-shemen-meshek-bar-hai-david",
-    "name": "Eretz Zait  Shemen Meshek Bar Hai David",
-    "country": "Israel",
-    "region": "",
-    "description": "Eretz Zait  Shemen Meshek Bar Hai David is an award-winning olive oil producer from Israel."
-  },
-  {
-    "slug": "eretz-zait-shemen-meshek-bar-hai-david-2",
     "name": "Eretz Zait Shemen Meshek Bar Hai David",
     "country": "Israel",
     "region": "",
