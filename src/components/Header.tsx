@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const navLinks = [
@@ -9,10 +10,15 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-olive-100 bg-white/95 backdrop-blur">
       <div className="container-page flex h-16 items-center justify-between">
-        <Link href="/" className="flex items-center gap-3">
-          <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full border-2 border-gold-400 bg-olive-900 font-serif text-base font-bold text-gold-400">
-            T
-          </span>
+        <Link href="/" className="flex items-center gap-2">
+          <Image
+            src="/logo.png"
+            alt="Terra Olivo"
+            width={48}
+            height={48}
+            className="h-12 w-12 shrink-0"
+            priority
+          />
           <span className="font-serif text-xl font-semibold tracking-tight text-olive-900">
             Terra Olivo
           </span>

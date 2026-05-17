@@ -31,7 +31,7 @@ export default function HomePage() {
   return (
     <>
       {/* ── DARK HERO ─────────────────────────────────────────────── */}
-      <section className="bg-olive-950 text-cream">
+      <section className="bg-olive-700 text-cream">
         <div className="container-page py-24 lg:py-32">
           {/* Badge */}
           <div className="inline-flex items-center gap-2 rounded-full border border-gold-400/40 bg-gold-400/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] text-gold-400">
@@ -47,7 +47,7 @@ export default function HomePage() {
           </h1>
 
           {/* Subtitle */}
-          <p className="mt-6 max-w-xl text-base leading-relaxed text-olive-300 sm:text-lg">
+          <p className="mt-6 max-w-xl text-base leading-relaxed text-olive-100 sm:text-lg">
             Terra Olivo is the International Olive Oil Competition held annually
             in Israel — a prestigious blind-tasting event that recognises
             excellence in extra virgin olive oil from every corner of the globe.
@@ -72,7 +72,7 @@ export default function HomePage() {
           </div>
 
           {/* Divider + stats */}
-          <div className="mt-12 border-t border-olive-800 pt-10">
+          <div className="mt-12 border-t border-olive-600 pt-10">
             <dl className="flex flex-wrap gap-10">
               {[
                 { value: stats.countries, label: "Countries" },
@@ -84,7 +84,7 @@ export default function HomePage() {
                   <dt className="font-serif text-3xl font-bold text-gold-400">
                     {s.value}
                   </dt>
-                  <dd className="mt-0.5 text-xs font-semibold uppercase tracking-[0.15em] text-olive-400">
+                  <dd className="mt-0.5 text-xs font-semibold uppercase tracking-[0.15em] text-olive-200">
                     {s.label}
                   </dd>
                 </div>
@@ -95,16 +95,17 @@ export default function HomePage() {
       </section>
 
       {/* ── SPONSORS MARQUEE ──────────────────────────────────────── */}
-      <section className="bg-olive-950 py-14 overflow-hidden border-t border-olive-800">
+      <section className="bg-olive-800 py-14 overflow-hidden border-t border-olive-700">
         <div className="container-page mb-8 text-center">
-          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-olive-500">
+          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-olive-300">
             Official Partners &amp; Sponsors
           </p>
         </div>
         <div className="relative flex overflow-hidden">
           {/* gradient fade edges */}
-          <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-olive-950 to-transparent" />
-          <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-olive-950 to-transparent" />
+          <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-olive-800 to-transparent" />
+          <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-olive-800 to-transparent" />
+
 
           <div className="animate-marquee flex shrink-0 items-center gap-12 whitespace-nowrap">
             {[...SPONSORS, ...SPONSORS].map((s, i) => (
