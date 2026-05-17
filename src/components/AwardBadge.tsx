@@ -2,7 +2,7 @@ import type { Prize } from "@/lib/types";
 
 const styles: Record<Prize, string> = {
   "Grand Prestige Gold": "bg-gold-400 text-olive-950",
-  "Best in Class": "bg-olive-700 text-cream",
+  "Best in Class": "bg-terracotta-500 text-white",
   "Prestige Gold": "bg-gold-500 text-olive-950",
   "Prestige Silver": "bg-olive-200 text-olive-900",
 };

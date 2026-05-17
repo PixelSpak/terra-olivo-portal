@@ -32,7 +32,7 @@ export default function ProducerCard({
         {producer.description}
       </p>
       <div className="mt-4 flex items-center gap-2">
-        <span className="rounded-full bg-gold-400 px-3 py-1 text-xs font-bold text-olive-950">
+        <span className="rounded-sm bg-terracotta-500 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">
           {awardCount} {awardCount === 1 ? "prize" : "prizes"} won
         </span>
         <span className="rounded-full bg-olive-100 px-3 py-1 text-xs font-medium text-olive-700">

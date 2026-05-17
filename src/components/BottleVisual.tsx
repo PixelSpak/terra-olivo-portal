@@ -1,9 +1,9 @@
 import type { Intensity } from "@/lib/types";
 
 const fill: Record<Intensity, string> = {
-  Delicate: "#c2cd78",
-  Medium: "#8b9b38",
-  Intense: "#525f24",
+  Delicate: "#c5d0a5",
+  Medium: "#7d8e4a",
+  Intense: "#536031",
 };
 
 export default function BottleVisual({
@@ -26,11 +26,11 @@ export default function BottleVisual({
         role="img"
         aria-label={`${label} bottle`}
       >
-        <rect x="34" y="4" width="12" height="16" rx="2" fill="#3a421f" />
+        <rect x="34" y="4" width="12" height="16" rx="2" fill="#2d361a" />
         <path
           d="M30 20 h20 v14 q14 8 14 30 v82 q0 8 -8 8 h-32 q-8 0 -8 -8 v-82 q0 -22 14 -30 z"
           fill={fill[category]}
-          stroke="#3a421f"
+          stroke="#2d361a"
           strokeWidth="2"
         />
         <rect
@@ -39,7 +39,7 @@ export default function BottleVisual({
           width="40"
           height="56"
           rx="3"
-          fill="#faf8f1"
+          fill="#f0ebe3"
           opacity="0.92"
         />
         <text
@@ -49,7 +49,7 @@ export default function BottleVisual({
           fontFamily="Georgia, serif"
           fontSize="26"
           fontWeight="bold"
-          fill="#3a421f"
+          fill="#2d361a"
         >
           {initial}
         </text>

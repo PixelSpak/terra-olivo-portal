@@ -37,13 +37,13 @@ export default function HomePage() {
             <div className="mt-8 flex flex-wrap gap-4">
               <Link
                 href="/winners"
-                className="rounded-full bg-gold-400 px-6 py-3 text-sm font-semibold text-olive-950 hover:bg-gold-500"
+                className="rounded-sm bg-terracotta-500 px-6 py-3 text-sm font-semibold uppercase tracking-[0.1em] text-white hover:bg-terracotta-600"
               >
                 Browse Winners
               </Link>
               <Link
                 href="/producers"
-                className="rounded-full border border-olive-400 px-6 py-3 text-sm font-semibold text-cream hover:bg-olive-800"
+                className="rounded-sm border border-cream px-6 py-3 text-sm font-semibold uppercase tracking-[0.1em] text-cream hover:bg-olive-800"
               >
                 Explore Producers
               </Link>
@@ -121,7 +121,7 @@ export default function HomePage() {
               },
             ].map((item) => (
               <div key={item.step} className="text-center">
-                <span className="font-serif text-3xl font-bold text-gold-500">
+                <span className="font-serif text-3xl font-bold text-terracotta-500">
                   {item.step}
                 </span>
                 <h3 className="mt-2 font-serif text-lg font-semibold text-olive-900">
