@@ -33,8 +33,8 @@ export default function HomePage() {
   return (
     <>
       {/* ── DARK HERO ─────────────────────────────────────────────── */}
-      <section className="bg-olive-700 text-cream">
-        <div className="container-page py-24 lg:py-32">
+      <section className="bg-olive-700 text-cream text-center">
+        <div className="container-page flex flex-col items-center py-24 lg:py-32">
           {/* Badge */}
           <div className="inline-flex items-center gap-2 rounded-full border border-gold-400/40 bg-gold-400/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] text-gold-400">
             <span>★</span>
@@ -42,21 +42,21 @@ export default function HomePage() {
           </div>
 
           {/* Headline */}
-          <h1 className="mt-6 max-w-3xl font-serif text-5xl font-bold leading-[1.05] sm:text-6xl lg:text-7xl">
+          <h1 className="mt-6 max-w-3xl font-serif text-5xl font-bold leading-[1.05] sm:text-6xl lg:text-7xl mx-auto">
             <span className="text-cream">The World&apos;s Best</span>
             <br />
             <span className="text-gold-400">Olive Oils.</span>
           </h1>
 
           {/* Subtitle */}
-          <p className="mt-6 max-w-xl text-base leading-relaxed text-olive-100 sm:text-lg">
+          <p className="mt-6 max-w-xl mx-auto text-base leading-relaxed text-olive-100 sm:text-lg">
             Terra Olivo is the International Olive Oil Competition held annually
             in Israel — a prestigious blind-tasting event that recognises
             excellence in extra virgin olive oil from every corner of the globe.
           </p>
 
           {/* Primary CTAs */}
-          <div className="mt-9 flex flex-wrap gap-4">
+          <div className="mt-9 flex flex-wrap justify-center gap-4">
             <Link
               href="/winners"
               className="inline-flex items-center gap-2 rounded-sm bg-gold-400 px-8 py-4 text-sm font-bold uppercase tracking-[0.12em] text-olive-950 shadow-lg transition-colors hover:bg-gold-500"
@@ -74,8 +74,8 @@ export default function HomePage() {
           </div>
 
           {/* Divider + stats */}
-          <div className="mt-12 border-t border-olive-600 pt-10">
-            <dl className="flex flex-wrap gap-10">
+          <div className="mt-12 w-full border-t border-olive-600 pt-10">
+            <dl className="flex flex-wrap justify-center gap-10">
               {[
                 { value: stats.countries, label: "Countries" },
                 { value: stats.oils, label: "Award-Winning Oils" },

@@ -3,1043 +3,1132 @@
     "slug": "amg-karabelas-pc",
     "name": "A.M.G. Karabelas PC",
     "country": "Greece",
-    "region": "",
-    "description": "A.M.G. Karabelas PC is an award-winning olive oil producer from Greece."
+    "region": "Peloponnese",
+    "description": "We, the Karabelas family, are fourth-generation olive growers, cultivating more than 4,500 family-owned olive trees. The average age of these trees is over a century, in olive groves all over the slopes and the Valley, surrounding Ancient Olympia.",
+    "website": "https://theolivetemple.gr",
+    "logo": "/images/producers/amg-karabelas-pc.png"
   },
   {
     "slug": "aceite-la-masada-roya-andorra-dop-aceite-del-bajo-aragon",
     "name": "Aceite La Masada Roya (Andorra) - Dop Aceite Del Bajo Aragón",
     "country": "Spain",
-    "region": "",
-    "description": "Aceite La Masada Roya (Andorra) - Dop Aceite Del Bajo Aragón is an award-winning olive oil producer from Spain."
+    "region": "Aragon",
+    "description": "Descubre la esencia del Bajo Aragón en cada gota. Compra el mejor aceite de oliva en nuestra tienda online. Calidad y sabor inigualables",
+    "website": "https://masada-roya.es",
+    "logo": "/images/producers/aceite-la-masada-roya-andorra-dop-aceite-del-bajo-aragon.png"
   },
   {
     "slug": "aceites-garcia-de-la-cruz-sl",
     "name": "Aceites Garcia De La Cruz S.L.",
     "country": "Spain",
-    "region": "",
-    "description": "Aceites Garcia De La Cruz S.L. is an award-winning olive oil producer from Spain."
+    "region": "Andalusia",
+    "description": "Design by GemPages ALL OF OUR OILS ARE ORGANIC, EXTRA VIRGIN & 100% FROM SPAIN",
+    "website": "https://garciadelacruzoliveoil.com",
+    "logo": "/images/producers/aceites-garcia-de-la-cruz-sl.png"
   },
   {
     "slug": "aceites-queo-porcuna",
     "name": "Aceites Queo Porcuna",
     "country": "Spain",
-    "region": "",
-    "description": "Aceites Queo Porcuna is an award-winning olive oil producer from Spain."
+    "region": "Andalusia",
+    "description": "In Queo we have been awarded with the CINVE 2023 GOLD award for our EVOO, of great quality, flavor and elaboration. This is an international olive oil event in which other companies in the same sector participate. They also award several different prizes for other sectors, but all of them of their own elaboration.",
+    "website": "https://aceitesqueoporcuna.com",
+    "logo": "/images/producers/aceites-queo-porcuna.png"
   },
   {
     "slug": "acushla-sa",
     "name": "Acushla S.A.",
     "country": "Portugal",
-    "region": "",
-    "description": "Acushla S.A. is an award-winning olive oil producer from Portugal."
+    "region": "Alentejo",
+    "description": "Acushla, a word of Celtic origin that means \"beat of my heart\", arose from the search for a unique expression that could translate all the emotion and passion of its founder, in order to materialize this project that materialized in 2006 and allowed to unite several generations of the same family around olive-growing agriculture.",
+    "website": "https://acushla.com"
   },
   {
     "slug": "adama-boutique-olive-oil",
     "name": "Adama Boutique olive oil",
     "country": "Israel",
-    "region": "",
-    "description": "Adama Boutique olive oil is an award-winning olive oil producer from Israel."
+    "region": "Israel (Various)",
+    "description": "Adama Boutique Olive Oil is a producer based in Israel. The company focuses on producing high-quality extra virgin olive oils. They utilize traditional and sustainable farming methods in olive cultivation. The olive oils produced by Adama are characterized by their rich flavor profiles and are often used in gourmet cooking.",
+    "website": "https://tasteatlas.com",
+    "logo": "/images/producers/adama-boutique-olive-oil.png"
   },
   {
     "slug": "agricola-sant-isidre-i-sc-de-juncosa-sccl",
     "name": "Agricola Sant Isidre I Sc De Juncosa Sccl",
     "country": "Spain",
-    "region": "",
-    "description": "Agricola Sant Isidre I Sc De Juncosa Sccl is an award-winning olive oil producer from Spain."
+    "region": "Catalonia",
+    "description": "Agrícola Sant Isidre i S.C. de Juncosa SCCL We are a Catalonian agricultural cooperative founded in 1919, with 140 producers dedicated to producing excellent quality products while preserving the land.",
+    "website": "https://oliveoilranking.org"
   },
   {
     "slug": "agro-foods-commerce",
     "name": "Agro Foods & Commerce",
     "country": "Spain",
-    "region": "",
-    "description": "Agro Foods & Commerce is an award-winning olive oil producer from Spain."
+    "region": "Andalusia",
+    "description": "Agro Foods & Commerce won Gold for Priordei 1789 Rojal and Silver for Priordei 1789 Arbequina at the 2026 NYIOOC World Olive Oil Competition.",
+    "website": "https://news.nyiooc.org",
+    "logo": "/images/producers/agro-foods-commerce.png"
   },
   {
     "slug": "agroalimentos-la-redonda",
     "name": "Agroalimentos La Redonda",
     "country": "Spain",
-    "region": "",
-    "description": "Agroalimentos La Redonda is an award-winning olive oil producer from Spain."
+    "region": "Andalusia",
+    "description": "Agroalimentos La Redonda es una empresa familiar dedicada al ACEITE DE OLIVA VIRGEN EXTRA, puro jugo de aceituna.",
+    "website": "https://laredonda.net",
+    "logo": "/images/producers/agroalimentos-la-redonda.png"
   },
   {
     "slug": "agropecuaria-el-mistol-sa",
     "name": "Agropecuaria El Mistol SA",
     "country": "Argentina",
-    "region": "",
-    "description": "Agropecuaria El Mistol SA is an award-winning olive oil producer from Argentina."
+    "region": "Argentina",
+    "description": "El Mistol — Mejor AOVE de Argentina 2025. Aceite de oliva virgen extra premium de San Juan, Argentina. 350 hectáreas en los Andes. Acidez menor a 0,25%. Exportamos a Brasil, Paraguay y el mundo.",
+    "website": "https://elmistol.com",
+    "logo": "/images/producers/agropecuaria-el-mistol-sa.png"
   },
   {
     "slug": "agrovim-sa",
     "name": "Agrovim S.A.",
     "country": "Greece",
-    "region": "",
-    "description": "Agrovim S.A. is an award-winning olive oil producer from Greece."
+    "region": "Peloponnese",
+    "description": "Agrovim is one of the largest Olive Oil producing companies in Greece. Our multi-awarded brand of olive oils & olives \"ILIADA\" was born here.",
+    "website": "https://agrovim.gr",
+    "logo": "/images/producers/agrovim-sa.png"
   },
   {
     "slug": "akg-zeytincilik-gda-ltd-sti",
     "name": "AKG Zeytincilik Gıda LTD ŞTİ",
     "country": "Turkey",
-    "region": "",
-    "description": "AKG Zeytincilik Gıda LTD ŞTİ is an award-winning olive oil producer from Turkey."
+    "region": "Rio Grande do Sul",
+    "description": "Aka Zeytincilik Ltd. Şti. olarak Bursa İli'nin Mudanya İlçesine bağlı Tirilye beldesine ait zeytin bahçelerimizden elde ettiğimiz zeytinlerimizi; geleneksel yöntemlerle ileri teknolojiyi birleştirerek işliyoruz.",
+    "website": "https://akazeytincilik.com",
+    "logo": "/images/producers/akg-zeytincilik-gda-ltd-sti.png"
   },
   {
     "slug": "al-zait-co",
     "name": "Al-Zait & Co.",
     "country": "Brazil",
-    "region": "",
-    "description": "Al-Zait & Co. is an award-winning olive oil producer from Brazil."
+    "region": "Rio Grande do Sul",
+    "description": "A AL-ZAIT & Co., experiências e produtos que carregam em sua essência os ativos das oliveiras e sua origem histórica.",
+    "website": "https://al-zait.com",
+    "logo": "/images/producers/al-zait-co.png"
   },
   {
     "slug": "almazara-artal-albalate-del-arzobispo-dop-aceite-del-bajo-aragon",
     "name": "Almazara Artal (Albalate Del Arzobispo) - Dop Aceite Del Bajo Aragón",
     "country": "Spain",
-    "region": "",
-    "description": "Almazara Artal (Albalate Del Arzobispo) - Dop Aceite Del Bajo Aragón is an award-winning olive oil producer from Spain."
+    "region": "Aragon",
+    "description": "DEL OLIVO A LA BOTELLA: COMPRA ACEITE DE OLIVA VIRGEN EXTRA ONLINE En nuestra tienda encontrarás una selección de aceites de oliva virgen extra del Bajo Aragón, elaborados con dedicación y control en cada fase, desde el campo hasta la botella.",
+    "website": "https://almazaraartal.com",
+    "logo": "/images/producers/almazara-artal-albalate-del-arzobispo-dop-aceite-del-bajo-aragon.png"
   },
   {
     "slug": "almazaras-de-la-subbetica-sl",
     "name": "Almazaras De La Subbetica S.L.",
     "country": "Spain",
-    "region": "",
-    "description": "Almazaras De La Subbetica S.L. is an award-winning olive oil producer from Spain."
+    "region": "Andalusia",
+    "description": "Rincón de la Subbética is an organic extra virgin olive oil, made exclusively from Hojiblanca olives, harvested in the early days of the season. Born in the heart of the Sierras Subbéticas Natural Park, this EVOO has been awarded year after year as the best organic olive oil in the world.",
+    "website": "https://almazarasdelasubbetica.com",
+    "logo": "/images/producers/almazaras-de-la-subbetica-sl.png"
   },
   {
     "slug": "anshei-hazait",
     "name": "Anshei Hazait",
     "country": "Israel",
-    "region": "",
-    "description": "Anshei Hazait is an award-winning olive oil producer from Israel."
+    "region": "São Paulo",
+    "description": "Anshei HaZayit Yaniv Zaban runs Anshei Zayit with both respect, love and marvel for everything olive. A professional and trained olive grower from central Israel, Zaban produces quality olives and oils including the revered Coratina olive and the popular and peppery Syrian olive.",
+    "website": "https://en.shuktlv.co.il",
+    "logo": "/images/producers/anshei-hazait.png"
   },
   {
     "slug": "apadrinaunolivoorg-oliete-dop-aceite-del-bajo-aragon",
     "name": "Apadrinaunolivo.Org (Oliete) - Dop Aceite Del Bajo Aragón",
     "country": "Spain",
-    "region": "",
-    "description": "Apadrinaunolivo.Org (Oliete) - Dop Aceite Del Bajo Aragón is an award-winning olive oil producer from Spain."
+    "region": "Aragon",
+    "description": "This oil is proof that passion finds means, Apadrinaunolivo.org, the first social and solidary extra virgin oil of the world.",
+    "website": "https://apadrinaunolivo.org",
+    "logo": "/images/producers/apadrinaunolivoorg-oliete-dop-aceite-del-bajo-aragon.png"
   },
   {
     "slug": "aparthenasa",
     "name": "Aparthenasa",
     "country": "Cyprus",
-    "region": "",
-    "description": "Aparthenasa is an award-winning olive oil producer from Cyprus."
+    "region": "Rio Grande do Sul",
+    "description": "What we do We take care of the health and biodiversity of 6.5 ha of olive trees, and work closely with millers, agronomists, researchers and land agents in order to produce limited quantities of monovarietal, high phenolic and sensorially exciting Extra Virgin Olive Oil.",
+    "website": "https://aparthenasa.com",
+    "logo": "/images/producers/aparthenasa.png"
   },
   {
     "slug": "assi-emek-amayanot",
     "name": "Assi emek amayanot",
     "country": "Israel",
-    "region": "",
-    "description": "Assi emek amayanot is an award-winning olive oil producer from Israel."
+    "region": "Emek HaMaayanot",
+    "description": "Assi, Emek HaMa'ayanot Assi Olive Mill stands in the fertile plains near Beit She'an, where olive cultivation has shaped daily life since biblical times. Their mission: elevate Israeli olive oil while honoring the hardworking families who grow the fruit itself.",
+    "website": "https://israelcart.com",
+    "logo": "/images/producers/assi-emek-amayanot.png"
   },
   {
     "slug": "azeite-casa-mourad",
     "name": "Azeite Casa Mourad",
     "country": "Brazil",
-    "region": "",
-    "description": "Azeite Casa Mourad is an award-winning olive oil producer from Brazil."
+    "region": "Rio Grande do Sul",
+    "description": "Compra rápida Azeite de oliva premium extravirgem, com sabor leve, agradável e perfeita harmonia... adicionar ao carrinho",
+    "website": "https://casamourad.com.br",
+    "logo": "/images/producers/azeite-casa-mourad.png"
   },
   {
     "slug": "azeite-organico-bene",
     "name": "Azeite Organico Bene",
     "country": "Brazil",
-    "region": "",
-    "description": "Azeite Organico Bene is an award-winning olive oil producer from Brazil."
+    "region": "São Paulo",
+    "description": "Produzido na Fazenda São Benedito, em Bom Sucesso de Itararé (SP), o azeite orgânico brasileiro Bene conquistou o \"Blend Gold Award\" na edição de 2026 da Anatolian International Olive Oil Competition, premiação voltada a azeites de oliva extravirgem realizada na Turquia. O produto foi o único representante brasileiro premiado na competição.",
+    "website": "https://globorural.globo.com",
+    "logo": "/images/producers/azeite-organico-bene.png"
   },
   {
     "slug": "azeite-tres-meninas",
     "name": "Azeite Três Meninas",
     "country": "Brazil",
-    "region": "",
-    "description": "Azeite Três Meninas is an award-winning olive oil producer from Brazil."
+    "region": "Rio Grande do Sul",
+    "description": "Única marca de azeite no mundo a ser eleita por 3 anos consecutivos o MELHOR AZEITE DO BRASIL e entre os 10 MELHORES AZEITES DO MUNDO no Concurso Internacional TerraOlivo do Mediterrâneo (2022, 2023 e 2024)",
+    "website": "https://estanciadasoliveiras.com.br",
+    "logo": "/images/producers/azeite-tres-meninas.png"
   },
   {
     "slug": "barel-olive-oil",
     "name": "Barel Olive oil",
     "country": "Israel",
-    "region": "",
-    "description": "Barel Olive oil is an award-winning olive oil producer from Israel."
+    "region": "Puglia",
+    "description": "Since 1936, Bari Olive Oil grows & produces the finest Extra Virgin Olive Oil in California. Bari is proud to offer Organic and Vegan Extra Virgin Olive Oil, authentic Balsamic Vinegar from Modena, Italy, a line of Olive Oil Skincare Products, and Olive Oil Product Accessories.",
+    "website": "https://barioliveoil.com",
+    "logo": "/images/producers/barel-olive-oil.png"
   },
   {
     "slug": "bio-evoo-sl",
     "name": "Bio Evoo S.L.",
     "country": "Spain",
-    "region": "",
-    "description": "Bio Evoo S.L. is an award-winning olive oil producer from Spain."
+    "region": "Andalusia",
+    "description": "OlioEvo.eu is the online shop for the sale of extra virgin olive oil and where you can buy the best 100% Italian extra virgin olive oil and products based on Italian extra virgin olive oil directly from the producers. Not only the best organic extra virgin olive oil but also kitchen accessories, gastronomic favors, ceramic oil cruets, olive wood cutting boards, unique and original gift items ...",
+    "website": "https://olioevo.eu",
+    "logo": "/images/producers/bio-evoo-sl.png"
   },
   {
     "slug": "bio-orto",
     "name": "Bio Orto",
     "country": "Italy",
-    "region": "",
-    "description": "Bio Orto is an award-winning olive oil producer from Italy."
+    "region": "Puglia",
+    "description": "A collection that preserves the purity and richness of the Apulian oil-making tradition through organic extra virgin olive oils from native cultivars such as Ogliarola , Peranzana and Coratina . Each bottle is born from a careful process, respectful of the land and time, to offer only the best of fresh fruit and cold pressing.",
+    "website": "https://bio-orto.com",
+    "logo": "/images/producers/bio-orto.png"
   },
   {
     "slug": "borlu-tarm-isletmeleri",
     "name": "borlu Tarım İşletmeleri",
     "country": "Turkey",
-    "region": "",
-    "description": "borlu Tarım İşletmeleri is an award-winning olive oil producer from Turkey."
+    "region": "Rio Grande do Sul",
+    "description": "We produce high-quality extra virgin olive oil with care and expertise. Our olives are processed under strict quality controls for. The Olive Oil Ania (Yesilce/ PreGreen) delivers in quality and taste. This Olive Oil has the premium level of freshness. Crafted from sun-drenched groves, our olive oil reflects our rich heritage.",
+    "website": "https://liooc2025.globaloliveoilstars.com"
   },
   {
     "slug": "bozburun-tarm-ltd-sti",
     "name": "Bozburun Tarım LTD ŞTİ",
     "country": "Turkey",
-    "region": "",
-    "description": "Bozburun Tarım LTD ŞTİ is an award-winning olive oil producer from Turkey."
+    "region": "Aegean",
+    "description": "Ne şanslıyım ki, Ağabey dediğim kişi eşi ile birlikte bu işletmeyi yoktan var etti. Ve sayenizde gönül rahatlığıyla sevdiğim ailem ve dostlarımla birlikte ürettiğiniz zeytin yağları ve fazlasına ulaşabiliyorum.",
+    "website": "https://bozelli.com.tr"
   },
   {
     "slug": "bvs-jerusalemoliveoil",
     "name": "BVS JerusalemOliveOil",
     "country": "Israel",
-    "region": "",
-    "description": "BVS JerusalemOliveOil is an award-winning olive oil producer from Israel."
+    "region": "Judea",
+    "description": "BVS Jerusalem Olive Oil Jerusalem Olive Oil is a family-owned boutique producer from Beit Hanan, Israel. Founded in 1928, the farm is now led by third-generation farmer Moosh Ashkenazi and his wife Hani. Their award-winning extra virgin olive oils are made with passion, tradition and care from handpicked olives cold-pressed on harvest day.",
+    "website": "https://oliveoilranking.org",
+    "logo": "/images/producers/bvs-jerusalemoliveoil.png"
   },
   {
     "slug": "california-olive-ranch",
     "name": "California Olive Ranch",
     "country": "Italy",
-    "region": "",
-    "description": "California Olive Ranch is an award-winning olive oil producer from Italy."
+    "region": "Puglia",
+    "description": "Award-winning quality from California and beyond. With over 230 awards over the last 10 years, elevate your cooking with our extra virgin olive oils, vinegars, sauces, marinades, pestos, and sprays.",
+    "website": "https://californiaoliveranch.com",
+    "logo": "/images/producers/california-olive-ranch.png"
   },
   {
     "slug": "camp-de-cogul-sccl",
     "name": "Camp De Cogul SCCL",
     "country": "Spain",
-    "region": "",
-    "description": "Camp De Cogul SCCL is an award-winning olive oil producer from Spain."
+    "region": "Andalusia",
+    "description": "The cooperative combines heritage and modern expertise, preserving the region's authentic character. El Cogul, famous for its prehistoric cave paintings recognised as a UNESCO World Heritage Site, also hides another treasure—its exceptional extra virgin olive oil, where tradition and modernity meet in liquid form.",
+    "website": "https://eliteoliveoils.com",
+    "logo": "/images/producers/camp-de-cogul-sccl.png"
   },
   {
     "slug": "capolivo",
     "name": "Capolivo",
     "country": "Brazil",
-    "region": "",
-    "description": "Capolivo is an award-winning olive oil producer from Brazil."
+    "region": "Rio Grande do Sul",
+    "description": "Discover Pasolivo's award-winning California olive oil. Single-origin and heart-healthy, our high quality premium olive oils are all pressed in Paso Robles, CA.",
+    "website": "https://pasolivo.com",
+    "logo": "/images/producers/capolivo.png"
   },
   {
     "slug": "carm-casa-agricola-roboredo-madeira-sa",
     "name": "Carm - Casa Agricola Roboredo Madeira S.A.",
     "country": "Portugal",
-    "region": "",
-    "description": "Carm - Casa Agricola Roboredo Madeira S.A. is an award-winning olive oil producer from Portugal."
+    "region": "Alentejo",
+    "description": "Entre em contacto conosco. Casa Agrícola Roboredo Madeira, SARua da Calábria - 5150-021 Almendra, Portugal / Tel +351 279 718 010Fax +351 279 718 011 / info@carm.pt",
+    "website": "https://carm.pt",
+    "logo": "/images/producers/carm-casa-agricola-roboredo-madeira-sa.png"
   },
   {
     "slug": "catsacoulis-sa",
     "name": "Catsacoulis S.A.",
     "country": "Greece",
-    "region": "",
-    "description": "Catsacoulis S.A. is an award-winning olive oil producer from Greece."
+    "region": "Lesvos",
+    "description": ". CATSACOULIS S.A. Olive Oil Exporting Co, is the oldest olive oil company in Greece, founded in 1863 on the island of Lesvos . From the start we were export-oriented, as the extra virgin olive oil of our island is strongly appreciated abroad. Early on we gave priority to conditioning the product in small packages adapted to the needs of the ...",
+    "website": "https://catsacoulis.gr",
+    "logo": "/images/producers/catsacoulis-sa.png"
   },
   {
     "slug": "colhida",
     "name": "Colhida",
     "country": "Brazil",
-    "region": "",
-    "description": "Colhida is an award-winning olive oil producer from Brazil."
+    "region": "Rio Grande do Sul",
+    "description": "Colavita also offers a selection of infused oils including Roasted Garlic, Lemon, Truffle, and more! Each of these oils is infused with high quality ingredients and are perfect for marinades, dressings, dips, and roasting! A fan favorite is our Certified FODMAP Friendly Roasted Garlic Extra Virgin Olive Oil.",
+    "website": "https://colavita.com",
+    "logo": "/images/producers/colhida.png"
   },
   {
     "slug": "comercializadora-y-exportadora-las-doscientas-spa",
     "name": "Comercializadora Y Exportadora Las Doscientas Spa",
     "country": "Chile",
-    "region": "",
-    "description": "Comercializadora Y Exportadora Las Doscientas Spa is an award-winning olive oil producer from Chile."
+    "region": "São Paulo",
+    "description": "Conoce nuestro excelente aceite de oliva extra virgen de consumo diario que no puede faltar en tu mesa",
+    "website": "https://las200.cl"
   },
   {
     "slug": "cooperativa-agricola-dos-olivicultores-de-murca-crl",
     "name": "Cooperativa Agrícola Dos Olivicultores De Murça Crl",
     "country": "Portugal",
-    "region": "",
-    "description": "Cooperativa Agrícola Dos Olivicultores De Murça Crl is an award-winning olive oil producer from Portugal."
+    "region": "Trás-os-Montes",
+    "description": "A Cooperativa dos Olivicultores de Murça apresenta-lhe o melhor azeite transmontano. Premiado internacionalmente, o azeite de Murça faz a diferença pelo sabor suave e requintado.",
+    "website": "https://caom.pt"
   },
   {
     "slug": "cooperativa-de-aceites-del-matarrana-scl-calaceite-dop-aceite-del-bajo-aragon",
     "name": "Cooperativa De Aceites Del Matarraña, Scl (Calaceite) - Dop Aceite Del Bajo Aragón",
     "country": "Spain",
-    "region": "",
-    "description": "Cooperativa De Aceites Del Matarraña, Scl (Calaceite) - Dop Aceite Del Bajo Aragón is an award-winning olive oil producer from Spain."
+    "region": "Aragon",
+    "description": "Venta y producción de aceite virgen extra con D.O. Bajo Aragón y productos derivados como aceitunas y paté ecológico en la Comarca del Matarraña/Matarranya, tierra del olivar en Aragón.",
+    "website": "https://aceitesmatarranya.com"
   },
   {
     "slug": "cooperativa-la-granadella",
     "name": "Cooperativa La Granadella",
     "country": "Spain",
-    "region": "",
-    "description": "Cooperativa La Granadella is an award-winning olive oil producer from Spain."
+    "region": "Andalusia",
+    "description": "About us We are farmers, we understand what olive trees need to grow and we give the land everything it requires to produce olives of the highest quality, so they can be turned into an exceptional extra virgin olive oil. The La Granadella Cooperative was created in 1920 to provide olive oil from the farmer directly to the consumer.",
+    "website": "https://cooperativalagranadella.cat"
   },
   {
     "slug": "cooperativa-olivarera-virgen-de-la-sierra-de-cabra-sca",
     "name": "Cooperativa Olivarera Virgen De La Sierra De Cabra S.C.A.",
     "country": "Spain",
-    "region": "",
-    "description": "Cooperativa Olivarera Virgen De La Sierra De Cabra S.C.A. is an award-winning olive oil producer from Spain."
+    "region": "Andalusia",
+    "description": "En Cooperativa Olivarera Virgen de la Sierra de Cabra, cultivamos la tradición y el compromiso con la excelencia en cada gota de aceite.",
+    "website": "https://monteoliva.com"
   },
   {
     "slug": "cooperativa-olivicultores-valpacos-crl",
     "name": "Cooperativa Olivicultores Valpaços Crl",
     "country": "Portugal",
-    "region": "",
-    "description": "Cooperativa Olivicultores Valpaços Crl is an award-winning olive oil producer from Portugal."
+    "region": "Trás-os-Montes",
+    "description": "The project came into being thanks to the dedication and know-how of the olive growers of Valpaços, who have been committed to the production of top-quality olive oil since 1951: a PDO extra virgin olive oil that continues to win awards in Portugal and around the world year after year.",
+    "website": "https://azeite-valpacos.com"
   },
   {
     "slug": "cortijo-de-suerte-alta-sl",
     "name": "Cortijo De Suerte Alta Sl",
     "country": "Spain",
-    "region": "",
-    "description": "Cortijo De Suerte Alta Sl is an award-winning olive oil producer from Spain."
+    "region": "Andalusia",
+    "description": "The estate, El Cortijo de Suerte Alta, is located next to the town of Albendín (Baena), in the province of Cordoba (Spain). The land in this area is well known for the coexistence of the three main varieties of the olive trees in Andalucía: picudo, hojiblanco and picual.",
+    "website": "https://suertealta.es"
   },
   {
     "slug": "corto-olive-co",
     "name": "Corto Olive Co.",
     "country": "United States",
-    "region": "",
-    "description": "Corto Olive Co. is an award-winning olive oil producer from United States."
+    "region": "United States",
+    "description": "Experience the freshness and full flavor of Corto Olive Oil, loved by chefs nationwide. Our EVOO is harvested at peak for exceptional taste. Explore now.",
+    "website": "https://corto-olive.com",
+    "logo": "/images/producers/corto-olive-co.png"
   },
   {
     "slug": "cottage-products-gozo-ltd",
     "name": "Cottage Products (Gozo) Ltd",
     "country": "Malta",
-    "region": "",
-    "description": "Cottage Products (Gozo) Ltd is an award-winning olive oil producer from Malta."
+    "region": "Malta",
+    "description": "Blessed with the sun, the fertile soil in terraced fields and the fresh groundwater agricultural products harvested in Gozo are well renowned for their superior taste and quality. Gozo Cottage was setup with the sole purpose to use and promote local Gozitan Produce.",
+    "website": "https://gozocottage.com"
   },
   {
     "slug": "crdo-aceite-de-madrid",
     "name": "Crdo Aceite De Madrid",
     "country": "Spain",
-    "region": "",
-    "description": "Crdo Aceite De Madrid is an award-winning olive oil producer from Spain."
+    "region": "Madrid",
+    "description": "Descubre el Aceite de Madrid DOP, el aceite de oliva virgen extra certificado de la Comunidad de Madrid, elaborado con aceitunas de nuestros olivares, garantía de calidad y origen. Conoce su historia, variedades y panel de cata.",
+    "website": "https://dopaceitedemadrid.com"
   },
   {
     "slug": "delice-farm-house",
     "name": "Delice Farm House",
     "country": "Turkey",
-    "region": "",
-    "description": "Delice Farm House is an award-winning olive oil producer from Turkey."
+    "region": "Aegean",
+    "description": "We produce high-quality extra virgin olive oil with care and expertise. Our olives are blending modern techniques with ancient methods. Celebrated for its quality, aroma, and authenticity. Delice Farm House",
+    "website": "https://liooc2025.globaloliveoilstars.com"
   },
   {
     "slug": "diego-hollender",
     "name": "Diego Hollender",
     "country": "Argentina",
-    "region": "",
-    "description": "Diego Hollender is an award-winning olive oil producer from Argentina."
+    "region": "Argentina",
+    "description": "¿Cuál fue la decisión? Volver a los orígenes. Diego, Martín, Mariana y Federico Hollender, el equipo a pleno en el showroom de aceite de oliva en Coronel Dorrego, sobre la ruta 3.",
+    "website": "https://clarin.com",
+    "logo": "/images/producers/diego-hollender.png"
   },
   {
     "slug": "domenica-fiore",
     "name": "Domenica Fiore",
     "country": "Italy",
-    "region": "",
-    "description": "Domenica Fiore is an award-winning olive oil producer from Italy."
+    "region": "Puglia",
+    "description": "Recognized as the number one Italian producer, Domenica Fiore's award-winning world-class organic extra virgin olive oils are a creation brought to life by the land, the light, and the labor of masters.",
+    "website": "https://domenicafiore.com"
   },
   {
     "slug": "domenico-manca-spa",
     "name": "Domenico Manca S.P.A.",
     "country": "Italy",
-    "region": "",
-    "description": "Domenico Manca S.P.A. is an award-winning olive oil producer from Italy."
+    "region": "Puglia",
+    "description": "Nella terra della Biodiversità La Sardegna è una terra unica, dove la natura è davvero capace di produrre frutti d'eccezione. È qui che produciamo il nostro Extravergine D.O.P., esclusivamente da olive del nord dell'isola, e il \"Monocultivar\" Bosana, oliva sarda per eccellenza.",
+    "website": "https://sangiuliano.it"
   },
   {
     "slug": "ekin-kocadag-ltd-sti",
     "name": "Ekin Kocadağ LTD ŞTİ",
     "country": "Turkey",
-    "region": "",
-    "description": "Ekin Kocadağ LTD ŞTİ is an award-winning olive oil producer from Turkey."
+    "region": "Aegean",
+    "description": "Soğuk sıkım naturel sızma zeytinyağı Edremit'ten sofranıza. %0,1 asit oranı, yüksek kalite ve lezzet. Ekin Kocadağ ile güvenle satın alın.",
+    "website": "https://ekinkocadag.com"
   },
   {
     "slug": "elasion-malliotaki-maria",
     "name": "Elasion -Malliotaki Maria",
     "country": "Greece",
-    "region": "",
-    "description": "Elasion -Malliotaki Maria is an award-winning olive oil producer from Greece."
+    "region": "Crete",
+    "description": "Gold Elasion Extra Virgin Olive Oil is a premium product, crafted exclusively from Koroneiki olives grown in carefully selected regions of Crete, renowned for producing some of the world's finest olive oil. It is made using traditional methods and without any chemical processing, preserving all its natural nutritional values. Production is limited and carefully curated, with olives harvested ...",
+    "website": "https://elasion.gr"
   },
   {
     "slug": "eliad-olive-oil",
     "name": "Eliad Olive oil",
     "country": "Israel",
-    "region": "",
-    "description": "Eliad Olive oil is an award-winning olive oil producer from Israel."
+    "region": "Golan Heights",
+    "description": "Eliada Premium extra virgin olive oil is a superior olive oil obtained directly from olives and solely through mechanical processes. It has a medium fruity taste and low acidity, offering a distinctive and refined flavour. The final notes of subtle green condiments add a touch of freshness and a richness of aromas.",
+    "website": "https://eliadaoliveoil.com"
   },
   {
     "slug": "eretz-geshur",
     "name": "Eretz Geshur",
     "country": "Israel",
-    "region": "",
-    "description": "Eretz Geshur is an award-winning olive oil producer from Israel."
+    "region": "Golan Heights",
+    "description": "On your next trip to northern Israel, plan to visit Eretz Gshur in Kibbutz Geshur, a fifteen-minute scenic ride from the Sea of Galilee, and experience the fascinating world of olive oil. During your visit, you can observe the process of olive oil production (during the harvest season); watch a film that tells the story of Eretz Gshur; learn about how olive oil is used; and, of course, taste ...",
+    "website": "https://tourgolan.org.il"
   },
   {
     "slug": "eretz-zait-shemen-meshek-bar-hai-david",
     "name": "Eretz Zait Shemen Meshek Bar Hai David",
     "country": "Israel",
-    "region": "",
-    "description": "Eretz Zait Shemen Meshek Bar Hai David is an award-winning olive oil producer from Israel."
+    "region": "Galilee / Coastal Plain",
+    "description": "RANKING MUNDIAL DE ACEITES DE OLIVA VIRGEN EXTRA",
+    "website": "https://evooworldranking.org"
   },
   {
     "slug": "essenza",
     "name": "Essenza",
     "country": "Brazil",
-    "region": "",
-    "description": "Essenza is an award-winning olive oil producer from Brazil."
+    "region": "Rio Grande do Sul",
+    "description": "The health-giving properties of extra-virgin olive oil are well known the world over; but did you know that many extra-virgin olive oils in your supermarket or delicatessen may not be fresh or of sufficient quality to give you the benefits you seek? Here at Es-senza, we are dedicated to producing the highest quality extra-virgin oils from the best varieties of olives. Our certified Organic and ...",
+    "website": "https://essenzaoliveoil.com"
   },
   {
     "slug": "establecimiento-olivum-sa",
     "name": "Establecimiento Olivum SA",
     "country": "Argentina",
-    "region": "",
-    "description": "Establecimiento Olivum SA is an award-winning olive oil producer from Argentina."
+    "region": "Argentina",
+    "description": "Ruta Nacional 40 km 3377 (5435), Sarmiento, Provincia de San Juan, Republica Argentina | Tel.: (+54) 264 420 3193 | E-mail: info.eosa@olivumsa.com.ar",
+    "website": "https://olivumsa.com.ar"
   },
   {
     "slug": "estancia-das-oliveiras",
     "name": "Estância Das Oliveiras",
     "country": "Brazil",
-    "region": "",
-    "description": "Estância Das Oliveiras is an award-winning olive oil producer from Brazil."
+    "region": "Rio Grande do Sul",
+    "description": "O ano 2024 foi surpreendente para a Estância das Oliveiras. A agroindústria de azeite de oliva sediada em Viamão, na Região Metropolitana, foi reconhecida no ranking da EVOO WR (Extra Virgin Olive Oil World Ranking) este Ranking analisa o desempenho de todas as marcas...",
+    "website": "https://estanciadasoliveiras.com.br",
+    "logo": "/images/producers/estancia-das-oliveiras.png"
   },
   {
     "slug": "etz-hasade",
     "name": "Etz Hasade",
     "country": "Israel",
-    "region": "",
+    "region": "Israel (Various)",
     "description": "Etz Hasade is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "fazenda-maria-da-fe",
     "name": "Fazenda Maria da Fé",
     "country": "Brazil",
-    "region": "",
+    "region": "Minas Gerais",
     "description": "Fazenda Maria da Fé is an award-winning olive oil producer from Brazil."
   },
   {
     "slug": "finca-la-comarca",
     "name": "Finca La Comarca",
     "country": "Argentina",
-    "region": "",
+    "region": "Argentina",
     "description": "Finca La Comarca is an award-winning olive oil producer from Argentina."
   },
   {
     "slug": "gaia-oliva-ltd",
     "name": "Gaia Oliva LTD",
     "country": "Turkey",
-    "region": "",
+    "region": "Aegean",
     "description": "Gaia Oliva LTD is an award-winning olive oil producer from Turkey."
   },
   {
     "slug": "gallo-worldwide",
     "name": "Gallo Worldwide",
     "country": "Portugal",
-    "region": "",
+    "region": "Alentejo",
     "description": "Gallo Worldwide is an award-winning olive oil producer from Portugal."
   },
   {
     "slug": "gokduman-tarm-gda-turz-ltd-sti",
     "name": "Gökduman Tarım Gıda Turz LTD ŞTİ",
     "country": "Turkey",
-    "region": "",
+    "region": "Aegean",
     "description": "Gökduman Tarım Gıda Turz LTD ŞTİ is an award-winning olive oil producer from Turkey."
   },
   {
     "slug": "gortys-extra-virgin-olive-oil",
     "name": "Gortys Extra Virgin Olive Oil",
     "country": "Greece",
-    "region": "",
+    "region": "Peloponnese",
     "description": "Gortys Extra Virgin Olive Oil is an award-winning olive oil producer from Greece."
   },
   {
     "slug": "goya-en-espana-sau",
     "name": "Goya En España S.A.U",
     "country": "Spain",
-    "region": "",
+    "region": "Andalusia",
     "description": "Goya En España S.A.U is an award-winning olive oil producer from Spain."
   },
   {
     "slug": "grattaciello",
     "name": "Grattaciello",
     "country": "Brazil",
-    "region": "",
+    "region": "Rio Grande do Sul",
     "description": "Grattaciello is an award-winning olive oil producer from Brazil."
   },
   {
     "slug": "grattacielo",
     "name": "GrattaCielo",
     "country": "Brazil",
-    "region": "",
+    "region": "Rio Grande do Sul",
     "description": "GrattaCielo is an award-winning olive oil producer from Brazil."
   },
   {
     "slug": "hacienda-la-serrata-sl",
     "name": "Hacienda La Serrata S.L.",
     "country": "Spain",
-    "region": "",
+    "region": "Andalusia",
     "description": "Hacienda La Serrata S.L. is an award-winning olive oil producer from Spain."
   },
   {
     "slug": "halil-esen-zeytin-zeytinyag",
     "name": "Halil Esen Zeytin Zeytinyağı",
     "country": "Turkey",
-    "region": "",
+    "region": "Aegean",
     "description": "Halil Esen Zeytin Zeytinyağı is an award-winning olive oil producer from Turkey."
   },
   {
     "slug": "hanotrim-meshek-naftaly-meshek-shternberg-meshek-kabesa-meshek-igner-meshek-refa",
     "name": "Hanotrim (Meshek Naftaly, Meshek Shternberg, Meshek Kabesa, Meshek Igner, Meshek Refael)",
     "country": "Israel",
-    "region": "",
+    "region": "Galilee / Coastal Plain",
     "description": "Hanotrim (Meshek Naftaly, Meshek Shternberg, Meshek Kabesa, Meshek Igner, Meshek Refael) is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "hashemen-shel-srulik",
     "name": "Hashemen shel Srulik",
     "country": "Israel",
-    "region": "",
+    "region": "Israel (Various)",
     "description": "Hashemen shel Srulik is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "il-fontanaro",
     "name": "Il Fontanaro",
     "country": "Italy",
-    "region": "",
+    "region": "Puglia",
     "description": "Il Fontanaro is an award-winning olive oil producer from Italy."
   },
   {
     "slug": "jaencoop-sca-2grado",
     "name": "Jaencoop Sca 2ºgrado",
     "country": "Spain",
-    "region": "",
+    "region": "Andalusia",
     "description": "Jaencoop Sca 2ºgrado is an award-winning olive oil producer from Spain."
   },
   {
     "slug": "jahshan",
     "name": "Jahshan",
     "country": "Israel",
-    "region": "",
+    "region": "Israel (Various)",
     "description": "Jahshan is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "jordan-olivenol-gmbh",
     "name": "Jordan Olivenöl Gmbh",
     "country": "Greece",
-    "region": "",
+    "region": "Peloponnese",
     "description": "Jordan Olivenöl Gmbh is an award-winning olive oil producer from Greece."
   },
   {
     "slug": "kavalaria-estate-saridakis-georgios",
     "name": "Kavalaria Estate - Saridakis Georgios",
     "country": "Greece",
-    "region": "",
+    "region": "Peloponnese",
     "description": "Kavalaria Estate - Saridakis Georgios is an award-winning olive oil producer from Greece."
   },
   {
     "slug": "kibutz-shomriya",
     "name": "kibutz shomriya",
     "country": "Israel",
-    "region": "",
+    "region": "Israel (Various)",
     "description": "kibutz shomriya is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "kielder-south-africa-pty-ltd",
     "name": "Kielder South Africa (Pty) Ltd",
     "country": "South Africa",
-    "region": "",
+    "region": "South Africa",
     "description": "Kielder South Africa (Pty) Ltd is an award-winning olive oil producer from South Africa."
   },
   {
     "slug": "knolive-oils-sl",
     "name": "Knolive Oils S.L.",
     "country": "Spain",
-    "region": "",
+    "region": "Andalusia",
     "description": "Knolive Oils S.L. is an award-winning olive oil producer from Spain."
   },
   {
     "slug": "kochen-azeite-saborizado",
     "name": "Kochen Azeite Saborizado",
     "country": "Brazil",
-    "region": "",
+    "region": "Rio Grande do Sul",
     "description": "Kochen Azeite Saborizado is an award-winning olive oil producer from Brazil."
   },
   {
     "slug": "laconiko",
     "name": "Laconiko",
     "country": "Greece",
-    "region": "",
+    "region": "Peloponnese",
     "description": "Laconiko is an award-winning olive oil producer from Greece."
   },
   {
     "slug": "lagar-h-agroindustria-ltda",
     "name": "Lagar H Agroindustria Ltda.",
     "country": "Brazil",
-    "region": "",
+    "region": "Rio Grande do Sul",
     "description": "Lagar H Agroindustria Ltda. is an award-winning olive oil producer from Brazil."
   },
   {
     "slug": "lamda-foods-sa",
     "name": "Lamda Foods S.A.",
     "country": "Greece",
-    "region": "",
+    "region": "Peloponnese",
     "description": "Lamda Foods S.A. is an award-winning olive oil producer from Greece."
   },
   {
     "slug": "levant",
     "name": "Levant",
     "country": "Israel",
-    "region": "",
+    "region": "Israel (Various)",
     "description": "Levant is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "levin-farm",
     "name": "Levin Farm",
     "country": "Israel",
-    "region": "",
+    "region": "Israel (Various)",
     "description": "Levin Farm is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "lia-cultivators-ike",
     "name": "Lia Cultivators Ike",
     "country": "Greece",
-    "region": "",
+    "region": "Rio Grande do Sul",
     "description": "Lia Cultivators Ike is an award-winning olive oil producer from Greece."
   },
   {
     "slug": "liokareas-olive-oil",
     "name": "Liokareas Olive Oil",
     "country": "Greece",
-    "region": "",
+    "region": "Peloponnese",
     "description": "Liokareas Olive Oil is an award-winning olive oil producer from Greece."
   },
   {
     "slug": "mardouw-investments-za-pty-ltd",
     "name": "Mardouw Investments Za Pty Ltd",
     "country": "South Africa",
-    "region": "",
+    "region": "South Africa",
     "description": "Mardouw Investments Za Pty Ltd is an award-winning olive oil producer from South Africa."
   },
   {
     "slug": "markakis-vasileios-kai-sia-oe",
     "name": "Markakis Vasileios Kai Sia Oe",
     "country": "Greece",
-    "region": "",
+    "region": "Peloponnese",
     "description": "Markakis Vasileios Kai Sia Oe is an award-winning olive oil producer from Greece."
   },
   {
     "slug": "maxouli-sa",
     "name": "Maxouli S.A.",
     "country": "Greece",
-    "region": "",
+    "region": "Peloponnese",
     "description": "Maxouli S.A. is an award-winning olive oil producer from Greece."
   },
   {
     "slug": "melissa-kikizas-sa-for-terra-creta-evoo-brand",
     "name": "Melissa-Kikizas Sa (For Terra Creta Evoo Brand)",
     "country": "Greece",
-    "region": "",
+    "region": "Peloponnese",
     "description": "Melissa-Kikizas Sa (For Terra Creta Evoo Brand) is an award-winning olive oil producer from Greece."
   },
   {
     "slug": "meshek-80-martin-kutcher",
     "name": "Meshek 80, Martin Kutcher",
     "country": "Israel",
-    "region": "",
+    "region": "Galilee / Coastal Plain",
     "description": "Meshek 80, Martin Kutcher is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "meshek-achiya",
     "name": "Meshek Achiya",
     "country": "Israel",
-    "region": "",
+    "region": "Galilee / Coastal Plain",
     "description": "Meshek Achiya is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "meshek-avner",
     "name": "Meshek Avner",
     "country": "Israel",
-    "region": "",
+    "region": "Galilee / Coastal Plain",
     "description": "Meshek Avner is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "meshek-azar",
     "name": "Meshek Azar",
     "country": "Israel",
-    "region": "",
+    "region": "Galilee / Coastal Plain",
     "description": "Meshek Azar is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "meshek-ben-yaacov",
     "name": "Meshek Ben Yaacov",
     "country": "Israel",
-    "region": "",
+    "region": "Galilee / Coastal Plain",
     "description": "Meshek Ben Yaacov is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "meshek-dagan",
     "name": "Meshek Dagan",
     "country": "Israel",
-    "region": "",
+    "region": "Galilee / Coastal Plain",
     "description": "Meshek Dagan is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "meshek-eshed",
     "name": "Meshek Eshed",
     "country": "Israel",
-    "region": "",
+    "region": "Galilee / Coastal Plain",
     "description": "Meshek Eshed is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "meshek-hilman",
     "name": "Meshek Hilman",
     "country": "Israel",
-    "region": "",
+    "region": "Galilee / Coastal Plain",
     "description": "Meshek Hilman is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "meshek-inbal",
     "name": "Meshek Inbal",
     "country": "Israel",
-    "region": "",
+    "region": "Galilee / Coastal Plain",
     "description": "Meshek Inbal is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "meshek-salomon",
     "name": "Meshek Salomon",
     "country": "Israel",
-    "region": "",
+    "region": "Galilee / Coastal Plain",
     "description": "Meshek Salomon is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "mesogis-zeytin-zeytinyag-gda-san-ve-tic-ltd-sti",
     "name": "Mesogis Zeytin Zeytinyağı Gıda San Ve Tic. Ltd. Şti",
     "country": "Turkey",
-    "region": "",
+    "region": "Aegean",
     "description": "Mesogis Zeytin Zeytinyağı Gıda San Ve Tic. Ltd. Şti is an award-winning olive oil producer from Turkey."
   },
   {
     "slug": "molino-alfonso-belchite-dop-aceite-del-bajo-aragon",
     "name": "Molino Alfonso (Belchite) - Dop Aceite Del Bajo Aragón",
     "country": "Spain",
-    "region": "",
+    "region": "Aragon",
     "description": "Molino Alfonso (Belchite) - Dop Aceite Del Bajo Aragón is an award-winning olive oil producer from Spain."
   },
   {
     "slug": "monva-sl",
     "name": "Monva S.L.",
     "country": "Spain",
-    "region": "",
+    "region": "Andalusia",
     "description": "Monva S.L. is an award-winning olive oil producer from Spain."
   },
   {
     "slug": "muela-olives-sl",
     "name": "Muela-Olives S.L.",
     "country": "Spain",
-    "region": "",
+    "region": "Andalusia",
     "description": "Muela-Olives S.L. is an award-winning olive oil producer from Spain."
   },
   {
     "slug": "nahalei-shemen",
     "name": "Nahalei Shemen",
     "country": "Israel",
-    "region": "",
+    "region": "Israel (Various)",
     "description": "Nahalei Shemen is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "nicola-pantaleo-spa",
     "name": "Nicola Pantaleo Spa",
     "country": "Italy",
-    "region": "",
+    "region": "Puglia",
     "description": "Nicola Pantaleo Spa is an award-winning olive oil producer from Italy."
   },
   {
     "slug": "novavera-ltd-sti",
     "name": "Novavera LTD ŞTİ",
     "country": "Turkey",
-    "region": "",
+    "region": "Aegean",
     "description": "Novavera LTD ŞTİ is an award-winning olive oil producer from Turkey."
   },
   {
     "slug": "oleicola-de-lemporda-sl",
     "name": "Oleicola De L'Empordà S.L.",
     "country": "Spain",
-    "region": "",
+    "region": "Catalonia",
     "description": "Oleicola De L'Empordà S.L. is an award-winning olive oil producer from Spain."
   },
   {
     "slug": "olioinversiones-glam-sa",
     "name": "Olioinversiones Glam S.A.",
     "country": "Argentina",
-    "region": "",
+    "region": "Rio Grande do Sul",
     "description": "Olioinversiones Glam S.A. is an award-winning olive oil producer from Argentina."
   },
   {
     "slug": "olivapalacios-sl",
     "name": "Olivapalacios S.L.",
     "country": "Spain",
-    "region": "",
+    "region": "Andalusia",
     "description": "Olivapalacios S.L. is an award-winning olive oil producer from Spain."
   },
   {
     "slug": "olivea",
     "name": "Olivea",
     "country": "Israel",
-    "region": "",
+    "region": "Israel (Various)",
     "description": "Olivea is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "opg-nives-morovic",
     "name": "Opg Nives Morović",
     "country": "Croatia",
-    "region": "",
+    "region": "Croatia",
     "description": "Opg Nives Morović is an award-winning olive oil producer from Croatia."
   },
   {
     "slug": "otto-olivas-de-gramado-ltda",
     "name": "Otto Olivas de Gramado Ltda",
     "country": "Brazil",
-    "region": "",
+    "region": "Rio Grande do Sul",
     "description": "Otto Olivas de Gramado Ltda is an award-winning olive oil producer from Brazil."
   },
   {
     "slug": "ozemle-yasam",
     "name": "Özem'le Yaşam",
     "country": "Turkey",
-    "region": "",
+    "region": "Aegean",
     "description": "Özem'le Yaşam is an award-winning olive oil producer from Turkey."
   },
   {
     "slug": "pmmatsoukas-ltd",
     "name": "P.M.Matsoukas Ltd",
     "country": "Cyprus",
-    "region": "",
+    "region": "Cyprus",
     "description": "P.M.Matsoukas Ltd is an award-winning olive oil producer from Cyprus."
   },
   {
     "slug": "pago-de-los-baldios-de-san-carlos-sl",
     "name": "Pago De Los Baldios De San Carlos S.L.",
     "country": "Spain",
-    "region": "",
+    "region": "Andalusia",
     "description": "Pago De Los Baldios De San Carlos S.L. is an award-winning olive oil producer from Spain."
   },
   {
     "slug": "pallas-tarm-urunleri-ltd-sti",
     "name": "Pallas Tarım Ürünleri LTD ŞTİ",
     "country": "Turkey",
-    "region": "",
+    "region": "Aegean",
     "description": "Pallas Tarım Ürünleri LTD ŞTİ is an award-winning olive oil producer from Turkey."
   },
   {
     "slug": "papadopoulos-olive-oil-pc",
     "name": "Papadopoulos Olive Oil P.C.",
     "country": "Greece",
-    "region": "",
+    "region": "Peloponnese",
     "description": "Papadopoulos Olive Oil P.C. is an award-winning olive oil producer from Greece."
   },
   {
     "slug": "prosperato",
     "name": "Prosperato",
     "country": "Brazil",
-    "region": "",
+    "region": "São Paulo",
     "description": "Prosperato is an award-winning olive oil producer from Brazil."
   },
   {
     "slug": "ptora-family-boutique",
     "name": "Ptora Family Boutique",
     "country": "Israel",
-    "region": "",
+    "region": "Israel (Various)",
     "description": "Ptora Family Boutique is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "reales-almazaras-de-alcaniz-coop-del-mezquin-scl-la-codonera-dop-aceite-del-bajo",
     "name": "Reales Almazaras De Alcañiz / Coop. Del Mezquín, Scl (La Codoñera) - Dop Aceite Del Bajo Aragón",
     "country": "Spain",
-    "region": "",
+    "region": "Aragon",
     "description": "Reales Almazaras De Alcañiz / Coop. Del Mezquín, Scl (La Codoñera) - Dop Aceite Del Bajo Aragón is an award-winning olive oil producer from Spain."
   },
   {
     "slug": "roma-olivas-agroindustria-ltda",
     "name": "Roma Olivas Agroindústria Ltda",
     "country": "Brazil",
-    "region": "",
+    "region": "Rio Grande do Sul",
     "description": "Roma Olivas Agroindústria Ltda is an award-winning olive oil producer from Brazil."
   },
   {
     "slug": "rumeli-zirai-ve-gida-yatirimlari-as",
     "name": "Rumeli Zirai Ve Gida Yatirimlari A.S.",
     "country": "Turkey",
-    "region": "",
+    "region": "Aegean",
     "description": "Rumeli Zirai Ve Gida Yatirimlari A.S. is an award-winning olive oil producer from Turkey."
   },
   {
     "slug": "sabia",
     "name": "Sabia",
     "country": "Brazil",
-    "region": "",
+    "region": "Rio Grande do Sul",
     "description": "Sabia is an award-winning olive oil producer from Brazil."
   },
   {
     "slug": "sakellaropoulos-organic-farms",
     "name": "Sakellaropoulos Organic Farms",
     "country": "Greece",
-    "region": "",
+    "region": "Peloponnese",
     "description": "Sakellaropoulos Organic Farms is an award-winning olive oil producer from Greece."
   },
   {
     "slug": "sant-isidre-de-les-borges-blanques-i-seccio-de-credit",
     "name": "Sant Isidre De Les Borges Blanques I Seccio De Credit",
     "country": "Spain",
-    "region": "",
+    "region": "Andalusia",
     "description": "Sant Isidre De Les Borges Blanques I Seccio De Credit is an award-winning olive oil producer from Spain."
   },
   {
     "slug": "sc-agricola-san-lorenzo-maella-dop-aceite-del-bajo-aragon",
     "name": "SC Agrícola San Lorenzo (Maella) - Dop Aceite Del Bajo Aragón",
     "country": "Spain",
-    "region": "",
+    "region": "Aragon",
     "description": "SC Agrícola San Lorenzo (Maella) - Dop Aceite Del Bajo Aragón is an award-winning olive oil producer from Spain."
   },
   {
     "slug": "sca-olivarera-la-purisima",
     "name": "Sca. Olivarera La Purísima",
     "country": "Spain",
-    "region": "",
+    "region": "Andalusia",
     "description": "Sca. Olivarera La Purísima is an award-winning olive oil producer from Spain."
   },
   {
     "slug": "schorr-wolf-farm",
     "name": "Schorr Wolf farm",
     "country": "Israel",
-    "region": "",
+    "region": "Israel (Various)",
     "description": "Schorr Wolf farm is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "shemen-darom",
     "name": "Shemen Darom",
     "country": "Israel",
-    "region": "",
+    "region": "Israel (Various)",
     "description": "Shemen Darom is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "shemen-yogev",
     "name": "Shemen Yogev",
     "country": "Israel",
-    "region": "",
+    "region": "Israel (Various)",
     "description": "Shemen Yogev is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "shiloach-farm",
     "name": "Shiloach Farm",
     "country": "Israel",
-    "region": "",
+    "region": "Israel (Various)",
     "description": "Shiloach Farm is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "shimon-paz",
     "name": "Shimon paz",
     "country": "Israel",
-    "region": "",
+    "region": "Israel (Various)",
     "description": "Shimon paz is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "sindyanna-of-galilee",
     "name": "Sindyanna of Galilee",
     "country": "Israel",
-    "region": "",
+    "region": "Galilee",
     "description": "Sindyanna of Galilee is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "solfrut-sa-2",
     "name": "Solfrut S.A.",
     "country": "Argentina",
-    "region": "",
+    "region": "Argentina",
     "description": "Solfrut S.A. is an award-winning olive oil producer from Argentina."
   },
   {
     "slug": "solfrut-sa",
     "name": "SolFrut SA",
     "country": "Argentina",
-    "region": "",
+    "region": "Argentina",
     "description": "SolFrut SA is an award-winning olive oil producer from Argentina."
   },
   {
     "slug": "soul-mantiqueira",
     "name": "Soul Mantiqueira",
     "country": "Brazil",
-    "region": "",
+    "region": "Rio Grande do Sul",
     "description": "Soul Mantiqueira is an award-winning olive oil producer from Brazil."
   },
   {
     "slug": "sovena-consumer-and-goods-sa",
     "name": "Sovena Consumer And Goods S.A.",
     "country": "Portugal",
-    "region": "",
+    "region": "Alentejo",
     "description": "Sovena Consumer And Goods S.A. is an award-winning olive oil producer from Portugal."
   },
   {
     "slug": "sparta-gourmet",
     "name": "Sparta Gourmet",
     "country": "Greece",
-    "region": "",
+    "region": "Peloponnese",
     "description": "Sparta Gourmet is an award-winning olive oil producer from Greece."
   },
   {
     "slug": "terra-nova",
     "name": "Terra Nova",
     "country": "Israel",
-    "region": "",
+    "region": "Israel (Various)",
     "description": "Terra Nova is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "torres-morente-de-aceites-maeva",
     "name": "Torres Morente De Aceites Maeva",
     "country": "Spain",
-    "region": "",
+    "region": "Andalusia",
     "description": "Torres Morente De Aceites Maeva is an award-winning olive oil producer from Spain."
   },
   {
     "slug": "vassilakis-emm-sa",
     "name": "Vassilakis Emm S.A.",
     "country": "Greece",
-    "region": "",
+    "region": "Peloponnese",
     "description": "Vassilakis Emm S.A. is an award-winning olive oil producer from Greece."
   },
   {
     "slug": "via-viv",
     "name": "Via Viv",
     "country": "Italy",
-    "region": "",
+    "region": "Puglia",
     "description": "Via Viv is an award-winning olive oil producer from Italy."
   },
   {
     "slug": "willow-creek-products-pty-ltd",
     "name": "Willow Creek Products (Pty) Ltd",
     "country": "South Africa",
-    "region": "",
+    "region": "South Africa",
     "description": "Willow Creek Products (Pty) Ltd is an award-winning olive oil producer from South Africa."
   },
   {
     "slug": "yad-mordechai-apiary-strauss",
     "name": "Yad-Mordechai Apiary Strauss",
     "country": "Israel",
-    "region": "",
+    "region": "Israel (Various)",
     "description": "Yad-Mordechai Apiary Strauss is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "yagmur-organik-urunler-ltd-sti",
     "name": "Yağmur Organik Ürünler LTD ŞTİ",
     "country": "Turkey",
-    "region": "",
+    "region": "Aegean",
     "description": "Yağmur Organik Ürünler LTD ŞTİ is an award-winning olive oil producer from Turkey."
   },
   {
     "slug": "yihai-kerry-foodstuffs-marketing-co-ltd",
     "name": "Yihai Kerry Foodstuffs Marketing Co. Ltd",
     "country": "Spain",
-    "region": "",
+    "region": "Andalusia",
     "description": "Yihai Kerry Foodstuffs Marketing Co. Ltd is an award-winning olive oil producer from Spain."
   },
   {
     "slug": "yosef-olive-oil",
     "name": "Yosef Olive oil",
     "country": "Israel",
-    "region": "",
+    "region": "Israel (Various)",
     "description": "Yosef Olive oil is an award-winning olive oil producer from Israel."
   },
   {
     "slug": "stathorakis-olive-oil-mill",
     "name": "Ελαιουργειο Σταθορακησ (Stathorakis Olive Oil Mill)",
     "country": "Greece",
-    "region": "",
+    "region": "Peloponnese",
     "description": "Ελαιουργειο Σταθορακησ (Stathorakis Olive Oil Mill) is an award-winning olive oil producer from Greece."
   }
 ]

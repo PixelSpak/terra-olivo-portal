@@ -61,4 +61,6 @@ export interface Producer {
   website?: string;
   /** Path or URL to the producer photo (placeholder for now). */
   image?: string;
+  /** Path or URL to the producer logo. */
+  logo?: string;
 }

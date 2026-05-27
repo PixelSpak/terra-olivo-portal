@@ -70,9 +70,17 @@ export default async function ProducerPage({
       <header className="mt-6 grid gap-8 lg:grid-cols-[1fr_320px] lg:items-start">
         <div>
           <div className="flex items-center gap-4">
-            <span className="grid h-16 w-16 shrink-0 place-items-center rounded-full bg-olive-700 font-serif text-2xl font-bold text-cream">
-              {producer.name.charAt(0)}
-            </span>
+            {producer.logo ? (
+              <img
+                src={producer.logo}
+                alt={producer.name}
+                className="h-16 w-16 shrink-0 rounded-full object-cover border border-olive-200 bg-white"
+              />
+            ) : (
+              <span className="grid h-16 w-16 shrink-0 place-items-center rounded-full bg-olive-700 font-serif text-2xl font-bold text-cream">
+                {producer.name.charAt(0)}
+              </span>
+            )}
             <div>
               <h1 className="font-serif text-4xl font-bold text-olive-900">
                 {producer.name}
@@ -162,7 +170,6 @@ export default async function ProducerPage({
                 <th className="px-4 py-3 font-semibold">Edition</th>
                 <th className="px-4 py-3 font-semibold">Olive Oil</th>
                 <th className="px-4 py-3 font-semibold">Prize</th>
-                <th className="px-4 py-3 font-semibold">Score</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-olive-200">
@@ -181,9 +188,6 @@ export default async function ProducerPage({
                   </td>
                   <td className="px-4 py-3">
                     <AwardBadge prize={award.prize} />
-                  </td>
-                  <td className="px-4 py-3 text-olive-700">
-                    {award.score !== undefined ? `${award.score}/100` : "—"}
                   </td>
                 </tr>
               ))}

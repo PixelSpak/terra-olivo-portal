@@ -16,9 +16,17 @@ export default function ProducerCard({
       className="group flex flex-col rounded-xl border border-olive-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
     >
       <div className="flex items-center gap-3">
-        <span className="grid h-12 w-12 shrink-0 place-items-center rounded-full bg-olive-700 font-serif text-xl font-bold text-cream">
-          {producer.name.charAt(0)}
-        </span>
+        {producer.logo ? (
+          <img
+            src={producer.logo}
+            alt={producer.name}
+            className="h-12 w-12 shrink-0 rounded-full object-cover border border-olive-200"
+          />
+        ) : (
+          <span className="grid h-12 w-12 shrink-0 place-items-center rounded-full bg-olive-700 font-serif text-xl font-bold text-cream">
+            {producer.name.charAt(0)}
+          </span>
+        )}
         <div>
           <h3 className="font-serif text-lg font-semibold text-olive-900 group-hover:text-olive-600">
             {producer.name}

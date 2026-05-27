@@ -29,11 +29,25 @@ function oilRank(oil: OliveOil): number {
 }
 
 export function getAllOils(): OliveOil[] {
-  return [...oils].sort((a, b) => oilRank(a) - oilRank(b));
+  return [...oils].sort((a, b) => {
+    const aHasImage = !!a.image;
+    const bHasImage = !!b.image;
+    
+    if (aHasImage && !bHasImage) return -1;
+    if (!aHasImage && bHasImage) return 1;
+    
+    return oilRank(a) - oilRank(b);
+  });
 }
 
 export function getAllProducers(): Producer[] {
-  return [...producers].sort((a, b) => a.name.localeCompare(b.name));
+  return [...producers].sort((a, b) => {
+    const aHasLogo = !!a.logo;
+    const bHasLogo = !!b.logo;
+    if (aHasLogo && !bHasLogo) return -1;
+    if (!aHasLogo && bHasLogo) return 1;
+    return a.name.localeCompare(b.name);
+  });
 }
 
 export function getOilBySlug(slug: string): OliveOil | undefined {

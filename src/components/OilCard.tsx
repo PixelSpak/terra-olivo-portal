@@ -11,38 +11,38 @@ export default function OilCard({ oil }: { oil: OliveOil }) {
   return (
     <Link
       href={`/winners/${oil.slug}`}
-      className="group flex flex-col overflow-hidden rounded-xl border border-olive-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-md"
+      className="group relative flex flex-col h-full transition hover:-translate-y-1"
     >
-      <div className="relative">
-        <OilImage
-          src={oil.image}
-          name={oil.name}
-          intensity={oil.intensity}
-          className="h-44 w-full"
-        />
+      <div className="relative flex-1 flex flex-col rounded-2xl bg-olive-900 border border-olive-800 shadow-md p-5 text-center">
+        
+        {/* Score Badge */}
         {best.score !== undefined && (
-          <span className="absolute right-3 top-3 grid h-11 w-11 place-items-center rounded-full bg-olive-900 text-sm font-bold text-cream">
+          <span className="absolute right-3 top-3 grid h-10 w-10 place-items-center rounded-full bg-gold-500 text-sm font-bold text-olive-950 z-30 shadow-md">
             {best.score}
           </span>
         )}
-      </div>
-      <div className="flex flex-1 flex-col gap-2 p-4">
-        <p className="text-xs font-medium uppercase tracking-wide text-olive-500">
-          {oil.varieties.join(" · ")}
-        </p>
-        <h3 className="font-serif text-lg font-semibold text-olive-900 group-hover:text-olive-600">
-          {oil.name}
-        </h3>
-        <p className="text-sm text-olive-600">
-          {oil.region}, {oil.country}
-        </p>
-        <div className="mt-auto flex flex-wrap items-center gap-2 pt-2">
-          <AwardBadge prize={best.prize} year={best.year} />
-          {wins > 1 && (
-            <span className="rounded-full bg-olive-100 px-2.5 py-1 text-xs font-medium text-olive-700">
-              {wins} prizes
-            </span>
-          )}
+
+        {/* Contained Bottle Image */}
+        <div className="flex justify-center items-center h-52 w-full mb-4 pointer-events-none z-20">
+           <OilImage
+             src={oil.image}
+             name={oil.name}
+             intensity={oil.intensity}
+             className="h-full object-contain drop-shadow-xl"
+             transparentBg
+           />
+        </div>
+
+        <div className="flex flex-col items-center justify-end gap-1.5 mt-auto">
+          <h3 className="font-serif text-xl font-bold text-cream group-hover:text-gold-400 transition-colors leading-tight">
+            {oil.name}
+          </h3>
+          <p className="text-xs font-medium text-olive-300">
+            by {oil.producerSlug?.replace(/-/g, ' ')}
+          </p>
+          <p className="text-xs font-semibold text-olive-400 mt-1">
+            {oil.country} {oil.intensity ? `· ${oil.intensity}` : ''}
+          </p>
         </div>
       </div>
     </Link>

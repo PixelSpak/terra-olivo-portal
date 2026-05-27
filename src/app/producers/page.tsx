@@ -13,9 +13,13 @@ export const metadata: Metadata = {
 };
 
 export default function ProducersPage() {
-  const producers = [...getAllProducers()].sort(
-    (a, b) => getProducerAwardCount(b.slug) - getProducerAwardCount(a.slug),
-  );
+  const producers = [...getAllProducers()].sort((a, b) => {
+    const aHasLogo = !!a.logo;
+    const bHasLogo = !!b.logo;
+    if (aHasLogo && !bHasLogo) return -1;
+    if (!aHasLogo && bHasLogo) return 1;
+    return getProducerAwardCount(b.slug) - getProducerAwardCount(a.slug);
+  });
 
   return (
     <div className="container-page py-12">

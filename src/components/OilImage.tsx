@@ -11,22 +11,33 @@ export default function OilImage({
   name,
   intensity,
   className = "",
+  transparentBg = false,
 }: {
   src?: string;
   name: string;
   intensity: Intensity;
   className?: string;
+  transparentBg?: boolean;
 }) {
   if (src) {
+    if (transparentBg) {
+      // Direct img without wrappers to prevent flex/grid explosion bugs
+      return (
+        <img
+          src={src}
+          alt={name}
+          className={`object-contain ${className}`}
+        />
+      );
+    }
     return (
       <div
         className={`grid place-items-center bg-gradient-to-b from-olive-50 to-olive-100 ${className}`}
       >
-        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={src}
           alt={name}
-          className="h-full w-full object-contain py-2"
+          className="h-full w-auto object-contain py-2 drop-shadow-xl"
         />
       </div>
     );

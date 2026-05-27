@@ -67,16 +67,11 @@ export default async function WinnerPage({
       <div className="mt-8 grid gap-10 lg:grid-cols-[380px_1fr] lg:items-start">
 
         {/* Left — image + certificates */}
-        <div className="flex flex-col gap-5">
-          <div className="relative overflow-hidden rounded-2xl border border-olive-200 bg-white shadow-sm">
-            <OilImage
-              src={oil.image}
-              name={oil.name}
-              intensity={oil.intensity}
-              className="h-96 w-full"
-            />
-            {/* Year badge */}
-            <div className="absolute left-4 top-4 grid h-14 w-14 place-items-center rounded-full border-2 border-gold-400 bg-olive-900 text-center shadow-md">
+        <div className="flex flex-col gap-5 pt-8">
+          <div className="relative rounded-2xl bg-olive-900 shadow-sm border border-olive-800 pb-8 px-6 pt-8 flex flex-col items-center">
+            
+            {/* Year badge - moved to the top left of the card in normal flow */}
+            <div className="absolute left-4 top-4 grid h-14 w-14 place-items-center rounded-full border-2 border-gold-400 bg-olive-950 text-center shadow-md z-30">
               <span className="block text-[10px] font-semibold uppercase leading-none tracking-wide text-gold-400">
                 Terra
               </span>
@@ -84,6 +79,18 @@ export default async function WinnerPage({
                 {years[years.length - 1]}
               </span>
             </div>
+
+            {/* Contained Bottle Image */}
+            <div className="flex justify-center items-center h-80 w-full mb-6 pointer-events-none z-20">
+              <OilImage
+                src={oil.image}
+                name={oil.name}
+                intensity={oil.intensity}
+                className="h-full object-contain drop-shadow-2xl"
+                transparentBg
+              />
+            </div>
+            
           </div>
 
           {/* Certificate images stacked below */}
