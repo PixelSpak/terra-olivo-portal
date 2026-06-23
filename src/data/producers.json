@@ -58,7 +58,8 @@
     "country": "Spain",
     "region": "Catalonia",
     "description": "Agrícola Sant Isidre i S.C. de Juncosa SCCL We are a Catalonian agricultural cooperative founded in 1919, with 140 producers dedicated to producing excellent quality products while preserving the land.",
-    "website": "https://oliveoilranking.org"
+    "website": "https://oliveoilranking.org",
+    "logo": "/images/producers/logo__agricola-sant-isidre-i-sc-de-juncosa-sccl.png"
   },
   {
     "slug": "agro-foods-commerce",
@@ -646,7 +647,8 @@
     "name": "Laconiko",
     "country": "Greece",
     "region": "Peloponnese",
-    "description": "Laconiko is an award-winning olive oil producer from Greece."
+    "description": "Laconiko is an award-winning olive oil producer from Greece.",
+    "logo": "/images/producers/logo__laconiko.png"
   },
   {
     "slug": "lagar-h-agroindustria-ltda",
@@ -716,7 +718,8 @@
     "name": "Melissa-Kikizas Sa (For Terra Creta Evoo Brand)",
     "country": "Greece",
     "region": "Peloponnese",
-    "description": "Melissa-Kikizas Sa (For Terra Creta Evoo Brand) is an award-winning olive oil producer from Greece."
+    "description": "Melissa-Kikizas Sa (For Terra Creta Evoo Brand) is an award-winning olive oil producer from Greece.",
+    "logo": "/images/producers/logo__melissa-kikizas-sa-for-terra-creta-evoo-brand.png"
   },
   {
     "slug": "meshek-80-martin-kutcher",
@@ -870,7 +873,8 @@
     "name": "Opg Nives Morović",
     "country": "Croatia",
     "region": "Croatia",
-    "description": "Opg Nives Morović is an award-winning olive oil producer from Croatia."
+    "description": "Opg Nives Morović is an award-winning olive oil producer from Croatia.",
+    "logo": "/images/producers/logo__opg-nives-morovic.png"
   },
   {
     "slug": "otto-olivas-de-gramado-ltda",
@@ -968,7 +972,8 @@
     "name": "Sant Isidre De Les Borges Blanques I Seccio De Credit",
     "country": "Spain",
     "region": "Andalusia",
-    "description": "Sant Isidre De Les Borges Blanques I Seccio De Credit is an award-winning olive oil producer from Spain."
+    "description": "Sant Isidre De Les Borges Blanques I Seccio De Credit is an award-winning olive oil producer from Spain.",
+    "logo": "/images/producers/logo__sant-isidre-de-les-borges-blanques-i-seccio-de-credit.png"
   },
   {
     "slug": "sc-agricola-san-lorenzo-maella-dop-aceite-del-bajo-aragon",
@@ -1059,7 +1064,8 @@
     "name": "Sparta Gourmet",
     "country": "Greece",
     "region": "Peloponnese",
-    "description": "Sparta Gourmet is an award-winning olive oil producer from Greece."
+    "description": "Sparta Gourmet is an award-winning olive oil producer from Greece.",
+    "logo": "/images/producers/logo__sparta-gourmet.png"
   },
   {
     "slug": "terra-nova",
