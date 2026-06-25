@@ -41,7 +41,8 @@
     "country": "Portugal",
     "region": "Alentejo",
     "description": "Acushla, a word of Celtic origin that means \"beat of my heart\", arose from the search for a unique expression that could translate all the emotion and passion of its founder, in order to materialize this project that materialized in 2006 and allowed to unite several generations of the same family around olive-growing agriculture.",
-    "website": "https://acushla.com"
+    "website": "https://acushla.com",
+    "logo": "/images/producers/logo__acushla-sa.png"
   },
   {
     "slug": "adama-boutique-olive-oil",
@@ -237,7 +238,8 @@
     "country": "Turkey",
     "region": "Aegean",
     "description": "Ne şanslıyım ki, Ağabey dediğim kişi eşi ile birlikte bu işletmeyi yoktan var etti. Ve sayenizde gönül rahatlığıyla sevdiğim ailem ve dostlarımla birlikte ürettiğiniz zeytin yağları ve fazlasına ulaşabiliyorum.",
-    "website": "https://bozelli.com.tr"
+    "website": "https://bozelli.com.tr",
+    "logo": "/images/producers/logo__bozburun-tarm-ltd-sti.png"
   },
   {
     "slug": "bvs-jerusalemoliveoil",
@@ -316,7 +318,8 @@
     "country": "Portugal",
     "region": "Trás-os-Montes",
     "description": "A Cooperativa dos Olivicultores de Murça apresenta-lhe o melhor azeite transmontano. Premiado internacionalmente, o azeite de Murça faz a diferença pelo sabor suave e requintado.",
-    "website": "https://caom.pt"
+    "website": "https://caom.pt",
+    "logo": "/images/producers/logo__cooperativa-agricola-dos-olivicultores-de-murca-crl.png"
   },
   {
     "slug": "cooperativa-de-aceites-del-matarrana-scl-calaceite-dop-aceite-del-bajo-aragon",
@@ -324,7 +327,8 @@
     "country": "Spain",
     "region": "Aragon",
     "description": "Venta y producción de aceite virgen extra con D.O. Bajo Aragón y productos derivados como aceitunas y paté ecológico en la Comarca del Matarraña/Matarranya, tierra del olivar en Aragón.",
-    "website": "https://aceitesmatarranya.com"
+    "website": "https://aceitesmatarranya.com",
+    "logo": "/images/producers/logo__cooperativa-de-aceites-del-matarrana-scl-calaceite-dop-aceite-del-bajo-aragon.png"
   },
   {
     "slug": "cooperativa-la-granadella",
@@ -332,7 +336,8 @@
     "country": "Spain",
     "region": "Andalusia",
     "description": "About us We are farmers, we understand what olive trees need to grow and we give the land everything it requires to produce olives of the highest quality, so they can be turned into an exceptional extra virgin olive oil. The La Granadella Cooperative was created in 1920 to provide olive oil from the farmer directly to the consumer.",
-    "website": "https://cooperativalagranadella.cat"
+    "website": "https://cooperativalagranadella.cat",
+    "logo": "/images/producers/logo__cooperativa-la-granadella.png"
   },
   {
     "slug": "cooperativa-olivarera-virgen-de-la-sierra-de-cabra-sca",
@@ -340,7 +345,8 @@
     "country": "Spain",
     "region": "Andalusia",
     "description": "En Cooperativa Olivarera Virgen de la Sierra de Cabra, cultivamos la tradición y el compromiso con la excelencia en cada gota de aceite.",
-    "website": "https://monteoliva.com"
+    "website": "https://monteoliva.com",
+    "logo": "/images/producers/logo__cooperativa-olivarera-virgen-de-la-sierra-de-cabra-sca.png"
   },
   {
     "slug": "cooperativa-olivicultores-valpacos-crl",
@@ -356,7 +362,8 @@
     "country": "Spain",
     "region": "Andalusia",
     "description": "The estate, El Cortijo de Suerte Alta, is located next to the town of Albendín (Baena), in the province of Cordoba (Spain). The land in this area is well known for the coexistence of the three main varieties of the olive trees in Andalucía: picudo, hojiblanco and picual.",
-    "website": "https://suertealta.es"
+    "website": "https://suertealta.es",
+    "logo": "/images/producers/logo__cortijo-de-suerte-alta-sl.png"
   },
   {
     "slug": "corto-olive-co",
@@ -381,7 +388,8 @@
     "country": "Spain",
     "region": "Madrid",
     "description": "Descubre el Aceite de Madrid DOP, el aceite de oliva virgen extra certificado de la Comunidad de Madrid, elaborado con aceitunas de nuestros olivares, garantía de calidad y origen. Conoce su historia, variedades y panel de cata.",
-    "website": "https://dopaceitedemadrid.com"
+    "website": "https://dopaceitedemadrid.com",
+    "logo": "/images/producers/logo__crdo-aceite-de-madrid.png"
   },
   {
     "slug": "delice-farm-house",
@@ -406,7 +414,8 @@
     "country": "Italy",
     "region": "Puglia",
     "description": "Recognized as the number one Italian producer, Domenica Fiore's award-winning world-class organic extra virgin olive oils are a creation brought to life by the land, the light, and the labor of masters.",
-    "website": "https://domenicafiore.com"
+    "website": "https://domenicafiore.com",
+    "logo": "/images/producers/logo__domenica-fiore.png"
   },
   {
     "slug": "domenico-manca-spa",
@@ -430,7 +439,8 @@
     "country": "Greece",
     "region": "Crete",
     "description": "Gold Elasion Extra Virgin Olive Oil is a premium product, crafted exclusively from Koroneiki olives grown in carefully selected regions of Crete, renowned for producing some of the world's finest olive oil. It is made using traditional methods and without any chemical processing, preserving all its natural nutritional values. Production is limited and carefully curated, with olives harvested ...",
-    "website": "https://elasion.gr"
+    "website": "https://elasion.gr",
+    "logo": "/images/producers/logo__elasion-malliotaki-maria.png"
   },
   {
     "slug": "eliad-olive-oil",
@@ -438,7 +448,8 @@
     "country": "Israel",
     "region": "Golan Heights",
     "description": "Eliada Premium extra virgin olive oil is a superior olive oil obtained directly from olives and solely through mechanical processes. It has a medium fruity taste and low acidity, offering a distinctive and refined flavour. The final notes of subtle green condiments add a touch of freshness and a richness of aromas.",
-    "website": "https://eliadaoliveoil.com"
+    "website": "https://eliadaoliveoil.com",
+    "logo": "/images/producers/logo__eliad-olive-oil.png"
   },
   {
     "slug": "eretz-geshur",
@@ -446,7 +457,8 @@
     "country": "Israel",
     "region": "Golan Heights",
     "description": "On your next trip to northern Israel, plan to visit Eretz Gshur in Kibbutz Geshur, a fifteen-minute scenic ride from the Sea of Galilee, and experience the fascinating world of olive oil. During your visit, you can observe the process of olive oil production (during the harvest season); watch a film that tells the story of Eretz Gshur; learn about how olive oil is used; and, of course, taste ...",
-    "website": "https://tourgolan.org.il"
+    "website": "https://tourgolan.org.il",
+    "logo": "/images/producers/logo__eretz-geshur.png"
   },
   {
     "slug": "eretz-zait-shemen-meshek-bar-hai-david",
@@ -462,7 +474,8 @@
     "country": "Brazil",
     "region": "Rio Grande do Sul",
     "description": "The health-giving properties of extra-virgin olive oil are well known the world over; but did you know that many extra-virgin olive oils in your supermarket or delicatessen may not be fresh or of sufficient quality to give you the benefits you seek? Here at Es-senza, we are dedicated to producing the highest quality extra-virgin oils from the best varieties of olives. Our certified Organic and ...",
-    "website": "https://essenzaoliveoil.com"
+    "website": "https://essenzaoliveoil.com",
+    "logo": "/images/producers/logo__essenza.png"
   },
   {
     "slug": "establecimiento-olivum-sa",
