@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const navLinks = [
   { href: "/winners", label: "Winners" },
@@ -7,6 +10,13 @@ const navLinks = [
 ];
 
 export default function Header() {
+  const pathname = usePathname();
+
+  // Hide header on the homepage for a pure splash screen experience
+  if (pathname === "/") {
+    return null;
+  }
+
   return (
     <header className="sticky top-0 z-40 border-b border-olive-100 bg-white/95 backdrop-blur">
       <div className="container-page flex h-16 items-center justify-between">

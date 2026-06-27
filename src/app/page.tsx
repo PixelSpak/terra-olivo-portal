@@ -24,46 +24,46 @@ export default function HomePage() {
     <>
       {/* ── HERO & SPONSORS (Combined Background) ─────────────────── */}
       <div 
-        className="relative text-cream bg-cover bg-center bg-no-repeat h-[calc(100dvh-64px)] flex flex-col justify-between overflow-hidden"
+        className="relative text-cream bg-cover bg-center bg-no-repeat h-[100dvh] flex flex-col justify-between overflow-hidden"
         style={{ backgroundImage: "url('/images/bg_main.png')" }}
       >
         {/* Subtle dark overlay to ensure text readability across both sections */}
         <div className="absolute inset-0 bg-olive-950/50"></div>
         
         {/* HERO CONTENT */}
-        <section className="container-page relative z-10 flex flex-col items-center justify-center flex-grow text-center py-8 px-4 sm:py-12">
+        <section className="container-page relative z-10 flex flex-col items-center justify-center flex-grow text-center py-4 px-4 sm:py-6">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 rounded-full border border-gold-400/40 bg-gold-400/10 px-3 py-1 sm:px-4 sm:py-1.5 text-[10px] sm:text-xs font-semibold uppercase tracking-[0.2em] text-gold-400">
+          <div className="inline-flex items-center gap-2 rounded-full border border-gold-400/40 bg-gold-400/10 px-3 py-1 sm:px-4 sm:py-1 text-[10px] sm:text-xs font-semibold uppercase tracking-[0.2em] text-gold-400">
             <span>★</span>
             <span>{latestYear} Official Results</span>
           </div>
 
           {/* Headline */}
-          <h1 className="mt-4 sm:mt-6 max-w-3xl font-serif text-4xl font-bold leading-[1.05] sm:text-5xl lg:text-7xl mx-auto">
+          <h1 className="mt-3 sm:mt-5 max-w-3xl font-serif text-4xl font-bold leading-[1.05] sm:text-5xl lg:text-6xl mx-auto">
             <span className="text-cream">The World&apos;s Best</span>
             <br />
             <span className="text-gold-400">Olive Oils.</span>
           </h1>
 
           {/* Subtitle */}
-          <p className="mt-4 sm:mt-6 max-w-xl mx-auto text-sm leading-relaxed text-olive-100 sm:text-base lg:text-lg hidden sm:block">
+          <p className="mt-3 sm:mt-4 max-w-xl mx-auto text-sm leading-relaxed text-olive-100 sm:text-base hidden sm:block">
             Terra Olivo is the International Olive Oil Competition held annually
             in Israel — a prestigious blind-tasting event that recognises
             excellence in extra virgin olive oil from every corner of the globe.
           </p>
 
           {/* Primary CTAs */}
-          <div className="mt-6 sm:mt-9 flex flex-col sm:flex-row flex-wrap justify-center gap-3 sm:gap-4 w-full sm:w-auto">
+          <div className="mt-5 sm:mt-6 flex flex-col sm:flex-row flex-wrap justify-center gap-3 w-full sm:w-auto">
             <Link
               href="/winners"
-              className="inline-flex items-center justify-center gap-2 rounded-sm bg-gold-400 px-6 py-3 sm:px-8 sm:py-4 text-xs sm:text-sm font-bold uppercase tracking-[0.12em] text-olive-950 shadow-lg transition-colors hover:bg-gold-500 w-full sm:w-auto"
+              className="inline-flex items-center justify-center gap-2 rounded-sm bg-gold-400 px-6 py-2.5 sm:px-8 sm:py-3 text-xs sm:text-sm font-bold uppercase tracking-[0.12em] text-olive-950 shadow-lg transition-colors hover:bg-gold-500 w-full sm:w-auto"
             >
               Discover {latestYear} Winners
               <span aria-hidden>→</span>
             </Link>
             <Link
               href="/producers"
-              className="inline-flex items-center justify-center gap-2 rounded-sm border-2 border-cream px-6 py-3 sm:px-8 sm:py-4 text-xs sm:text-sm font-bold uppercase tracking-[0.12em] text-cream transition-colors hover:bg-cream hover:text-olive-950 w-full sm:w-auto"
+              className="inline-flex items-center justify-center gap-2 rounded-sm border-2 border-cream px-6 py-2.5 sm:px-8 sm:py-3 text-xs sm:text-sm font-bold uppercase tracking-[0.12em] text-cream transition-colors hover:bg-cream hover:text-olive-950 w-full sm:w-auto"
             >
               Explore Producers
               <span aria-hidden>→</span>
@@ -71,8 +71,8 @@ export default function HomePage() {
           </div>
 
           {/* Divider + stats */}
-          <div className="mt-8 sm:mt-12 w-full max-w-4xl mx-auto border-t border-olive-500/30 pt-6 sm:pt-8">
-            <dl className="grid grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 lg:gap-16 justify-center">
+          <div className="mt-6 sm:mt-8 w-full max-w-4xl mx-auto border-t border-olive-500/30 pt-4 sm:pt-6">
+            <dl className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8 justify-center">
               {[
                 { value: stats.countries, label: "Countries" },
                 { value: stats.oils, label: "Award-Winning Oils" },
@@ -93,9 +93,9 @@ export default function HomePage() {
         </section>
 
         {/* SPONSORS MARQUEE */}
-        <section className="relative z-10 py-4 sm:py-6 overflow-hidden border-t border-olive-500/30 shrink-0 bg-olive-950/20 backdrop-blur-md">
-          <div className="container-page mb-3 text-center">
-            <p className="text-[10px] font-semibold uppercase tracking-[0.25em] text-olive-300">
+        <section className="relative z-10 py-3 sm:py-4 overflow-hidden border-t border-olive-500/30 shrink-0 bg-olive-950/20 backdrop-blur-md">
+          <div className="container-page mb-2 text-center">
+            <p className="text-[9px] font-semibold uppercase tracking-[0.25em] text-olive-300">
               Official Partners &amp; Sponsors
             </p>
           </div>
@@ -108,14 +108,14 @@ export default function HomePage() {
               {[...SPONSORS, ...SPONSORS].map((s, i) => (
                 <div
                   key={i}
-                  className="flex h-12 w-28 sm:h-16 sm:w-36 shrink-0 items-center justify-center rounded-xl bg-white/10 px-3 sm:px-4"
+                  className="flex h-10 w-24 sm:h-12 sm:w-32 shrink-0 items-center justify-center rounded-xl bg-white/10 px-2 sm:px-3"
                 >
                   <Image
                     src={`/sponsors/${s.file}.png`}
                     alt={s.alt}
                     width={120}
                     height={56}
-                    className="max-h-8 sm:max-h-12 w-auto object-contain"
+                    className="max-h-6 sm:max-h-8 w-auto object-contain"
                   />
                 </div>
               ))}
