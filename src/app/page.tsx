@@ -1,13 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import ProducerCard from "@/components/ProducerCard";
-import {
-  getAllProducers,
-  getLatestYear,
-  getOilsByProducer,
-  getPortalStats,
-  getProducerAwardCount,
-} from "@/lib/data";
+import { getLatestYear, getPortalStats } from "@/lib/data";
 
 const SPONSORS = [
   { file: "olive-division",   alt: "Olive Division" },
@@ -26,22 +19,19 @@ const SPONSORS = [
 export default function HomePage() {
   const stats = getPortalStats();
   const latestYear = getLatestYear();
-  const topProducers = [...getAllProducers()]
-    .sort((a, b) => getProducerAwardCount(b.slug) - getProducerAwardCount(a.slug))
-    .slice(0, 3);
 
   return (
     <>
       {/* ── HERO & SPONSORS (Combined Background) ─────────────────── */}
       <div 
-        className="relative text-cream bg-cover bg-center bg-no-repeat"
+        className="relative text-cream bg-cover bg-center bg-no-repeat h-screen flex flex-col justify-between overflow-hidden"
         style={{ backgroundImage: "url('/images/bg_main.png')" }}
       >
         {/* Subtle dark overlay to ensure text readability across both sections */}
         <div className="absolute inset-0 bg-olive-950/50"></div>
         
         {/* HERO CONTENT */}
-        <section className="container-page relative z-10 flex flex-col items-center py-24 lg:py-32 text-center">
+        <section className="container-page relative z-10 flex flex-col items-center justify-center flex-grow text-center">
           {/* Badge */}
           <div className="inline-flex items-center gap-2 rounded-full border border-gold-400/40 bg-gold-400/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] text-gold-400">
             <span>★</span>
@@ -81,8 +71,8 @@ export default function HomePage() {
           </div>
 
           {/* Divider + stats */}
-          <div className="mt-12 w-full border-t border-olive-500/30 pt-10">
-            <dl className="flex flex-wrap justify-center gap-10">
+          <div className="mt-12 w-full max-w-4xl mx-auto border-t border-olive-500/30 pt-8">
+            <dl className="flex flex-wrap justify-center gap-8 lg:gap-16">
               {[
                 { value: stats.countries, label: "Countries" },
                 { value: stats.oils, label: "Award-Winning Oils" },
@@ -103,9 +93,9 @@ export default function HomePage() {
         </section>
 
         {/* SPONSORS MARQUEE */}
-        <section className="relative z-10 py-14 overflow-hidden border-t border-olive-500/30">
-          <div className="container-page mb-8 text-center">
-            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-olive-300">
+        <section className="relative z-10 py-6 overflow-hidden border-t border-olive-500/30 shrink-0">
+          <div className="container-page mb-4 text-center">
+            <p className="text-[10px] font-semibold uppercase tracking-[0.25em] text-olive-300">
               Official Partners &amp; Sponsors
             </p>
           </div>
@@ -114,18 +104,18 @@ export default function HomePage() {
             <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-[#172016] to-transparent" />
             <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-[#172016] to-transparent" />
 
-            <div className="animate-marquee flex shrink-0 items-center gap-16 whitespace-nowrap">
+            <div className="animate-marquee flex shrink-0 items-center gap-12 whitespace-nowrap">
               {[...SPONSORS, ...SPONSORS].map((s, i) => (
                 <div
                   key={i}
-                  className="flex h-20 w-44 shrink-0 items-center justify-center rounded-xl bg-white/10 px-4 backdrop-blur-sm"
+                  className="flex h-16 w-36 shrink-0 items-center justify-center rounded-xl bg-white/10 px-4 backdrop-blur-sm"
                 >
                   <Image
                     src={`/sponsors/${s.file}.png`}
                     alt={s.alt}
-                    width={160}
-                    height={72}
-                    className="max-h-16 w-auto object-contain"
+                    width={120}
+                    height={56}
+                    className="max-h-12 w-auto object-contain"
                   />
                 </div>
               ))}
@@ -133,79 +123,6 @@ export default function HomePage() {
           </div>
         </section>
       </div>
-
-      {/* ── ABOUT THE COMPETITION ─────────────────────────────────── */}
-      <section className="bg-white py-20">
-        <div className="container-page">
-          <div className="mb-12 text-center">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-terracotta-500">
-              About the Competition
-            </p>
-            <h2 className="mt-3 font-serif text-3xl font-bold text-olive-900">
-              A Global Standard for Olive Oil Excellence
-            </h2>
-          </div>
-          <div className="grid gap-8 sm:grid-cols-3">
-            {[
-              {
-                icon: "🌍",
-                title: "International Submissions",
-                text: "Producers from across the Mediterranean and beyond submit their finest extra virgin olive oils each year, representing dozens of countries and hundreds of varieties.",
-              },
-              {
-                icon: "👁",
-                title: "Rigorous Blind Tasting",
-                text: "An elite international panel of certified judges evaluates each oil blind — scoring aroma, fruitiness, bitterness, pungency and harmony with no knowledge of origin.",
-              },
-              {
-                icon: "🏆",
-                title: "Prestigious Recognition",
-                text: "From Grand Prestige Gold to Gold Medal, winning oils receive official certificates and international visibility, helping consumers discover the very best.",
-              },
-            ].map((item) => (
-              <div
-                key={item.title}
-                className="rounded-2xl border border-olive-100 p-7 text-center"
-              >
-                <span className="text-4xl">{item.icon}</span>
-                <h3 className="mt-4 font-serif text-lg font-bold text-olive-900">
-                  {item.title}
-                </h3>
-                <p className="mt-3 text-sm leading-relaxed text-olive-700">
-                  {item.text}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── TOP PRODUCERS ─────────────────────────────────────────── */}
-      <section className="bg-olive-50 py-16">
-        <div className="container-page">
-          <div className="flex items-end justify-between">
-            <h2 className="font-serif text-2xl font-bold text-olive-900">
-              Most Awarded Producers
-            </h2>
-            <Link
-              href="/producers"
-              className="text-sm font-semibold text-olive-700 hover:text-olive-500"
-            >
-              View all →
-            </Link>
-          </div>
-          <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {topProducers.map((producer) => (
-              <ProducerCard
-                key={producer.slug}
-                producer={producer}
-                awardCount={getProducerAwardCount(producer.slug)}
-                oilCount={getOilsByProducer(producer.slug).length}
-              />
-            ))}
-          </div>
-        </div>
-      </section>
     </>
   );
 }
