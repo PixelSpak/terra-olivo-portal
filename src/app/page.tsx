@@ -32,15 +32,16 @@ export default function HomePage() {
 
   return (
     <>
-      {/* ── DARK HERO ─────────────────────────────────────────────── */}
-      <section 
-        className="relative text-cream text-center bg-cover bg-center bg-no-repeat"
+      {/* ── HERO & SPONSORS (Combined Background) ─────────────────── */}
+      <div 
+        className="relative text-cream bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: "url('/images/bg_main.png')" }}
       >
-        {/* Subtle dark overlay to ensure text readability */}
-        <div className="absolute inset-0 bg-olive-950/40"></div>
+        {/* Subtle dark overlay to ensure text readability across both sections */}
+        <div className="absolute inset-0 bg-olive-950/50"></div>
         
-        <div className="container-page relative z-10 flex flex-col items-center py-24 lg:py-32">
+        {/* HERO CONTENT */}
+        <section className="container-page relative z-10 flex flex-col items-center py-24 lg:py-32 text-center">
           {/* Badge */}
           <div className="inline-flex items-center gap-2 rounded-full border border-gold-400/40 bg-gold-400/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] text-gold-400">
             <span>★</span>
@@ -80,7 +81,7 @@ export default function HomePage() {
           </div>
 
           {/* Divider + stats */}
-          <div className="mt-12 w-full border-t border-olive-600 pt-10">
+          <div className="mt-12 w-full border-t border-olive-500/30 pt-10">
             <dl className="flex flex-wrap justify-center gap-10">
               {[
                 { value: stats.countries, label: "Countries" },
@@ -99,40 +100,39 @@ export default function HomePage() {
               ))}
             </dl>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* ── SPONSORS MARQUEE ──────────────────────────────────────── */}
-      <section className="bg-olive-800 py-14 overflow-hidden border-t border-olive-700">
-        <div className="container-page mb-8 text-center">
-          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-olive-300">
-            Official Partners &amp; Sponsors
-          </p>
-        </div>
-        <div className="relative flex overflow-hidden">
-          {/* gradient fade edges */}
-          <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-olive-800 to-transparent" />
-          <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-olive-800 to-transparent" />
-
-
-          <div className="animate-marquee flex shrink-0 items-center gap-16 whitespace-nowrap">
-            {[...SPONSORS, ...SPONSORS].map((s, i) => (
-              <div
-                key={i}
-                className="flex h-20 w-44 shrink-0 items-center justify-center rounded-xl bg-white/10 px-4"
-              >
-                <Image
-                  src={`/sponsors/${s.file}.png`}
-                  alt={s.alt}
-                  width={160}
-                  height={72}
-                  className="max-h-16 w-auto object-contain"
-                />
-              </div>
-            ))}
+        {/* SPONSORS MARQUEE */}
+        <section className="relative z-10 py-14 overflow-hidden border-t border-olive-500/30">
+          <div className="container-page mb-8 text-center">
+            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-olive-300">
+              Official Partners &amp; Sponsors
+            </p>
           </div>
-        </div>
-      </section>
+          <div className="relative flex overflow-hidden">
+            {/* gradient fade edges using black/transparent to blend with the overlay */}
+            <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-[#172016] to-transparent" />
+            <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-[#172016] to-transparent" />
+
+            <div className="animate-marquee flex shrink-0 items-center gap-16 whitespace-nowrap">
+              {[...SPONSORS, ...SPONSORS].map((s, i) => (
+                <div
+                  key={i}
+                  className="flex h-20 w-44 shrink-0 items-center justify-center rounded-xl bg-white/10 px-4 backdrop-blur-sm"
+                >
+                  <Image
+                    src={`/sponsors/${s.file}.png`}
+                    alt={s.alt}
+                    width={160}
+                    height={72}
+                    className="max-h-16 w-auto object-contain"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      </div>
 
       {/* ── ABOUT THE COMPETITION ─────────────────────────────────── */}
       <section className="bg-white py-20">
