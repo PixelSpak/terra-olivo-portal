@@ -51,6 +51,8 @@ export interface OliveOil {
   format?: "good" | "bad";
   /** Every prize this oil has won, across all editions. */
   awards: Award[];
+  /** URL to the official PDF certificate on Google Drive. */
+  certificate?: string;
 }
 
 export interface Producer {

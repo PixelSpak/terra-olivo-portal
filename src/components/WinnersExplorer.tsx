@@ -81,6 +81,24 @@ export default function WinnersExplorer({
 
   return (
     <div>
+      <div className="mb-6 flex space-x-2 rounded-xl bg-olive-100 p-1 overflow-x-auto">
+        <button
+          onClick={() => setYear(ALL)}
+          className={`whitespace-nowrap rounded-lg px-6 py-2.5 text-sm font-semibold transition-all ${year === ALL ? 'bg-white text-olive-900 shadow-sm' : 'text-olive-600 hover:text-olive-900 hover:bg-olive-200/50'}`}
+        >
+          All Editions
+        </button>
+        {years.map((y) => (
+          <button
+            key={y}
+            onClick={() => setYear(y.toString())}
+            className={`whitespace-nowrap rounded-lg px-6 py-2.5 text-sm font-semibold transition-all ${year === y.toString() ? 'bg-white text-olive-900 shadow-sm' : 'text-olive-600 hover:text-olive-900 hover:bg-olive-200/50'}`}
+          >
+            {y} Edition
+          </button>
+        ))}
+      </div>
+
       <div className="rounded-xl border border-olive-200 bg-white p-4">
         {/* Mobile toggle button */}
         <button
@@ -92,7 +110,7 @@ export default function WinnersExplorer({
           <span className="text-xl leading-none">{showFilters ? "−" : "+"}</span>
         </button>
 
-        <div className={`${showFilters ? "grid" : "hidden"} lg:grid gap-3 sm:grid-cols-2 lg:grid-cols-5`}>
+        <div className={`${showFilters ? "grid" : "hidden"} lg:grid gap-3 sm:grid-cols-2 lg:grid-cols-4`}>
           <input
             type="search"
             value={query}
@@ -101,19 +119,7 @@ export default function WinnersExplorer({
             className={selectClass}
             aria-label="Search winners"
           />
-          <select
-            value={year}
-            onChange={(e) => setYear(e.target.value)}
-            className={selectClass}
-            aria-label="Filter by edition year"
-          >
-            <option value={ALL}>All editions</option>
-            {years.map((y) => (
-              <option key={y} value={y}>
-                {y}
-              </option>
-            ))}
-          </select>
+
           <select
             value={prize}
             onChange={(e) => setPrize(e.target.value)}

@@ -104,18 +104,18 @@ export default function HomePage() {
             <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-16 sm:w-24 bg-gradient-to-r from-olive-950/80 to-transparent" />
             <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-16 sm:w-24 bg-gradient-to-l from-olive-950/80 to-transparent" />
 
-            <div className="animate-marquee flex shrink-0 items-center gap-8 sm:gap-12 whitespace-nowrap">
+            <div className="animate-marquee flex shrink-0 items-center gap-10 sm:gap-16 whitespace-nowrap">
               {[...SPONSORS, ...SPONSORS].map((s, i) => (
                 <div
                   key={i}
-                  className="flex h-10 w-24 sm:h-12 sm:w-32 shrink-0 items-center justify-center rounded-xl bg-white/10 px-2 sm:px-3"
+                  className="flex h-14 w-32 sm:h-20 sm:w-48 shrink-0 items-center justify-center rounded-xl bg-white/50 px-3 sm:px-4"
                 >
                   <Image
                     src={`/sponsors/${s.file}.png`}
                     alt={s.alt}
-                    width={120}
-                    height={56}
-                    className="max-h-6 sm:max-h-8 w-auto object-contain"
+                    width={180}
+                    height={80}
+                    className="max-h-10 sm:max-h-14 w-auto object-contain opacity-90 transition-opacity hover:opacity-100 mix-blend-multiply"
                   />
                 </div>
               ))}
