@@ -5,6 +5,8 @@ export async function GET(
   { params }: { params: Promise<{ id: string }> }
 ) {
   const { id } = await params;
+  const { searchParams } = new URL(request.url);
+  const name = searchParams.get('name') || 'Terra_Olivo_Certificate';
   
   if (!id) {
     return new NextResponse('Missing certificate ID', { status: 400 });
@@ -28,10 +30,13 @@ export async function GET(
 
     const arrayBuffer = await response.arrayBuffer();
 
+    // Sanitize filename to avoid header issues
+    const safeName = name.replace(/[^a-zA-Z0-9 -]/g, '').replace(/\s+/g, '_');
+
     return new NextResponse(arrayBuffer, {
       headers: {
         'Content-Type': 'application/pdf',
-        'Content-Disposition': `attachment; filename="Terra_Olivo_Certificate.pdf"`,
+        'Content-Disposition': `attachment; filename="${safeName}.pdf"`,
         'Cache-Control': 'public, max-age=3600',
       },
     });

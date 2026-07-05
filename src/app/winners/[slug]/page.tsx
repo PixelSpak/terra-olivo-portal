@@ -110,7 +110,7 @@ export default async function WinnerPage({
             if (!fileId) return null;
             return (
               <a
-                href={`/api/certificate/${fileId}`}
+                href={`/api/certificate/${fileId}?name=${encodeURIComponent(oil.name + ' Certificate')}`}
                 className="flex items-center justify-center gap-2 rounded-xl border-2 border-terracotta-400 bg-terracotta-50 px-5 py-3 text-sm font-bold text-terracotta-700 shadow-sm transition-all hover:bg-terracotta-100 hover:shadow-md"
                 download
               >
