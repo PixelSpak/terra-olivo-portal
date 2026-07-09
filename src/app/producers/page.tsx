@@ -9,7 +9,7 @@ import {
 export const metadata: Metadata = {
   title: "Producers",
   description:
-    "Meet the olive oil producers awarded in the Terra Olivo competition and see how many prizes each has won.",
+    "Meet the olive oil producers awarded in the Terra Olivo competition and see how many awards each has won.",
 };
 
 export default function ProducersPage() {
@@ -33,7 +33,7 @@ export default function ProducersPage() {
         </h1>
         <p className="mt-2 text-olive-600">
           {producersData.length} estates and mills behind the Terra Olivo winners,
-          ranked by prizes won.
+          ranked by awards won.
         </p>
       </header>
       

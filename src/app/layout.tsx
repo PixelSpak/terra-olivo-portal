@@ -10,6 +10,10 @@ export const metadata: Metadata = {
   },
   description:
     "Terra Olivo is the official guide to the world's best extra virgin olive oils — an audited classification of award-winning producers and brands.",
+  icons: {
+    icon: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({

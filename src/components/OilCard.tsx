@@ -4,7 +4,13 @@ import OilImage from "@/components/OilImage";
 import { bestAward } from "@/lib/data";
 import type { OliveOil } from "@/lib/types";
 
-export default function OilCard({ oil }: { oil: OliveOil }) {
+export default function OilCard({
+  oil,
+  priority = false,
+}: {
+  oil: OliveOil;
+  priority?: boolean;
+}) {
   const best = bestAward(oil);
   const wins = oil.awards.length;
 
@@ -28,7 +34,9 @@ export default function OilCard({ oil }: { oil: OliveOil }) {
              src={oil.image}
              name={oil.name}
              intensity={oil.intensity}
-             className="h-full object-contain drop-shadow-xl"
+             className="h-full w-full"
+             sizes="(max-width: 640px) 33vw, (max-width: 1024px) 25vw, 220px"
+             eager={priority}
              transparentBg
            />
         </div>

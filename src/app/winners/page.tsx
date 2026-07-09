@@ -11,7 +11,7 @@ import {
 export const metadata: Metadata = {
   title: "Winners",
   description:
-    "Browse every award-winning olive oil from the Terra Olivo competition, filterable by edition, prize and country.",
+    "Browse every award-winning olive oil from the Terra Olivo competition, filterable by edition, award and country.",
 };
 
 export default function WinnersPage() {

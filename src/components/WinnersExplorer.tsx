@@ -124,9 +124,9 @@ export default function WinnersExplorer({
             value={prize}
             onChange={(e) => setPrize(e.target.value)}
             className={selectClass}
-            aria-label="Filter by prize"
+            aria-label="Filter by award"
           >
-            <option value={ALL}>All prizes</option>
+            <option value={ALL}>All awards</option>
             {[...prizes]
               .sort((a, b) => prizeRank(a) - prizeRank(b))
               .map((p) => (
@@ -180,8 +180,8 @@ export default function WinnersExplorer({
 
       {results.length > 0 ? (
         <div className="mt-6 grid gap-2 sm:gap-6 grid-cols-3 lg:grid-cols-4">
-          {results.map((oil) => (
-            <OilCard key={oil.slug} oil={oil} />
+          {results.map((oil, index) => (
+            <OilCard key={oil.slug} oil={oil} priority={index < 4} />
           ))}
         </div>
       ) : (

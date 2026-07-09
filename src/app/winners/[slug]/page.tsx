@@ -86,7 +86,9 @@ export default async function WinnerPage({
                 src={oil.image}
                 name={oil.name}
                 intensity={oil.intensity}
-                className="h-full object-contain drop-shadow-2xl"
+                className="h-full w-full"
+                sizes="(max-width: 1024px) 90vw, 380px"
+                eager
                 transparentBg
               />
             </div>
@@ -248,7 +250,7 @@ export default async function WinnerPage({
             </div>
             <p className="mt-4 text-sm text-olive-500">
               {oil.awards.length}{" "}
-              {oil.awards.length === 1 ? "prize" : "prizes"} won
+              {oil.awards.length === 1 ? "award" : "awards"} won
               {years.length > 1 && ` across ${years.length} editions`}
             </p>
           </div>

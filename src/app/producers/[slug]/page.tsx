@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import AwardBadge from "@/components/AwardBadge";
@@ -71,9 +72,12 @@ export default async function ProducerPage({
         <div>
           <div className="flex items-center gap-4">
             {producer.logo ? (
-              <img
+              <Image
                 src={producer.logo}
                 alt={producer.name}
+                width={64}
+                height={64}
+                sizes="64px"
                 className="h-16 w-16 shrink-0 rounded-full object-cover border border-olive-200 bg-white"
               />
             ) : (
@@ -124,7 +128,7 @@ export default async function ProducerPage({
 
         <div className="rounded-2xl border border-olive-200 bg-white p-6">
           <p className="text-xs uppercase tracking-wide text-olive-500">
-            Prizes won
+            Awards won
           </p>
           <p className="font-serif text-5xl font-bold text-gold-500">
             {totalPrizes}
@@ -161,7 +165,7 @@ export default async function ProducerPage({
 
       <section className="mt-14">
         <h2 className="font-serif text-2xl font-bold text-olive-900">
-          Prize History
+          Award History
         </h2>
         <div className="mt-6 overflow-hidden rounded-xl border border-olive-200">
           <table className="w-full text-left text-sm">
@@ -169,7 +173,7 @@ export default async function ProducerPage({
               <tr>
                 <th className="px-4 py-3 font-semibold">Edition</th>
                 <th className="px-4 py-3 font-semibold">Olive Oil</th>
-                <th className="px-4 py-3 font-semibold">Prize</th>
+                <th className="px-4 py-3 font-semibold">Award</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-olive-200">

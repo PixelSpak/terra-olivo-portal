@@ -77,7 +77,7 @@ export default function HomePage() {
                 { value: stats.countries, label: "Countries" },
                 { value: stats.oils, label: "Award-Winning Oils" },
                 { value: stats.producers, label: "Producers" },
-                { value: stats.awards, label: "Prizes Awarded" },
+                { value: stats.awards, label: "Awards Granted" },
               ].map((s) => (
                 <div key={s.label}>
                   <dt className="font-serif text-2xl sm:text-3xl font-bold text-gold-400">
@@ -108,14 +108,14 @@ export default function HomePage() {
               {[...SPONSORS, ...SPONSORS].map((s, i) => (
                 <div
                   key={i}
-                  className="flex h-14 w-32 sm:h-20 sm:w-48 shrink-0 items-center justify-center rounded-xl bg-white/50 px-3 sm:px-4"
+                  className="flex h-14 w-32 sm:h-20 sm:w-48 shrink-0 items-center justify-center rounded-xl bg-white px-3 shadow-sm ring-1 ring-white/80 sm:px-4"
                 >
                   <Image
                     src={`/sponsors/${s.file}.png`}
                     alt={s.alt}
                     width={180}
                     height={80}
-                    className="max-h-10 sm:max-h-14 w-auto object-contain opacity-90 transition-opacity hover:opacity-100 mix-blend-multiply"
+                    className="max-h-10 w-auto object-contain opacity-95 transition-opacity hover:opacity-100 sm:max-h-14"
                   />
                 </div>
               ))}

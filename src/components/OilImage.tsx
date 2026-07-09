@@ -1,4 +1,4 @@
-import BottleVisual from "@/components/BottleVisual";
+import Image from "next/image";
 import type { Intensity } from "@/lib/types";
 
 /**
@@ -12,41 +12,44 @@ export default function OilImage({
   intensity,
   className = "",
   transparentBg = false,
+  sizes = "(max-width: 640px) 33vw, (max-width: 1024px) 25vw, 220px",
+  eager = false,
 }: {
   src?: string;
   name: string;
   intensity: Intensity;
   className?: string;
   transparentBg?: boolean;
+  sizes?: string;
+  eager?: boolean;
 }) {
-  if (src) {
-    if (transparentBg) {
-      // Direct img without wrappers to prevent flex/grid explosion bugs
-      return (
-        <img
-          src={src}
-          alt={name}
-          className={`object-contain ${className}`}
-        />
-      );
-    }
+  const imageSrc = src ?? "/images/default-bottle.png";
+  const alt = src ? name : `${name} bottle`;
+  const image = (
+    <Image
+      src={imageSrc}
+      alt={alt}
+      fill
+      sizes={sizes}
+      className="object-contain p-2 drop-shadow-xl"
+      loading={eager ? "eager" : "lazy"}
+    />
+  );
+
+  if (transparentBg) {
     return (
-      <div
-        className={`grid place-items-center bg-gradient-to-b from-olive-50 to-olive-100 ${className}`}
-      >
-        <img
-          src={src}
-          alt={name}
-          className="h-full w-auto object-contain py-2 drop-shadow-xl"
-        />
-      </div>
+      <span className={`relative block ${className}`}>
+        {image}
+      </span>
     );
   }
+
   return (
-    <img
-      src="/images/default-bottle.png"
-      alt={`${name} bottle`}
-      className={`h-[85%] max-h-44 w-auto object-contain py-2 drop-shadow-xl ${className}`}
-    />
+    <span
+      className={`relative grid place-items-center overflow-hidden bg-gradient-to-b from-olive-50 to-olive-100 ${className}`}
+      data-intensity={intensity}
+    >
+      {image}
+    </span>
   );
 }
