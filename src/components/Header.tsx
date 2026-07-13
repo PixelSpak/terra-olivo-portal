@@ -18,11 +18,6 @@ export default function Header() {
     setIsOpen(false);
   }, [pathname]);
 
-  // Hide header on the homepage for a pure splash screen experience
-  if (pathname === "/") {
-    return null;
-  }
-
   return (
     <header className="sticky top-0 z-[100] border-b border-olive-100 bg-white/95 backdrop-blur">
       <div className="container-page relative flex h-14 items-center justify-between sm:h-16">
