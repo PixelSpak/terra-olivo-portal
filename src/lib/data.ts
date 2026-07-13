@@ -1,16 +1,48 @@
 import oilsData from "@/data/oils.json";
+import producerAwardsData from "@/data/producer-awards.json";
 import producersData from "@/data/producers.json";
 import {
   compareAwards,
   prizeRank,
   type Award,
+  type AwardEntry,
+  type OilAwardEntry,
   type OliveOil,
   type Prize,
   type Producer,
+  type ProducerAward,
+  type ProducerAwardEntry,
 } from "@/lib/types";
 
 const oils = oilsData as OliveOil[];
 const producers = producersData as Producer[];
+const producerAwards = producerAwardsData as ProducerAward[];
+const producersBySlug = new Map(producers.map((producer) => [producer.slug, producer]));
+
+function slugify(value: string): string {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function oilAwardSlug(oil: OliveOil, award: Award): string {
+  return `${oil.slug}-${award.year}-${slugify(award.prize)}`;
+}
+
+export function getAwardEntryTitle(entry: AwardEntry): string {
+  return entry.kind === "oil" ? entry.oil.name : entry.producer.name;
+}
+
+export function compareAwardEntries(a: AwardEntry, b: AwardEntry): number {
+  return (
+    compareAwards(a.award, b.award) ||
+    getAwardEntryTitle(a).localeCompare(getAwardEntryTitle(b))
+  );
+}
 
 /** Primary award for ordering: newest edition first, then award tier. */
 export function bestAward(oil: OliveOil): Award {
@@ -52,19 +84,59 @@ export function getOilBySlug(slug: string): OliveOil | undefined {
 }
 
 export function getProducerBySlug(slug: string): Producer | undefined {
-  return producers.find((p) => p.slug === slug);
+  return producersBySlug.get(slug);
 }
 
 export function getOilsByProducer(producerSlug: string): OliveOil[] {
   return getAllOils().filter((o) => o.producerSlug === producerSlug);
 }
 
+export function getProducerAwards(producerSlug?: string): ProducerAward[] {
+  const awards = producerSlug
+    ? producerAwards.filter((award) => award.producerSlug === producerSlug)
+    : producerAwards;
+
+  return [...awards].sort(compareAwards);
+}
+
+export function getAllAwardEntries(): AwardEntry[] {
+  const oilEntries: OilAwardEntry[] = oils.flatMap((oil) =>
+    oil.awards.map((award) => ({
+      kind: "oil" as const,
+      slug: oilAwardSlug(oil, award),
+      oil,
+      producer: getProducerBySlug(oil.producerSlug),
+      award,
+    })),
+  );
+
+  const producerEntries: ProducerAwardEntry[] = producerAwards.flatMap((award) => {
+    const producer = getProducerBySlug(award.producerSlug);
+    if (!producer) return [];
+    return [
+      {
+        kind: "producer" as const,
+        slug: award.slug,
+        producer,
+        award,
+      },
+    ];
+  });
+
+  return [...oilEntries, ...producerEntries].sort(compareAwardEntries);
+}
+
+export function getAwardEntryBySlug(slug: string): AwardEntry | undefined {
+  return getAllAwardEntries().find((entry) => entry.slug === slug);
+}
+
 /** Total prizes a producer has won across all their oils and editions. */
 export function getProducerAwardCount(producerSlug: string): number {
-  return getOilsByProducer(producerSlug).reduce(
+  const oilAwardCount = getOilsByProducer(producerSlug).reduce(
     (sum, oil) => sum + oil.awards.length,
     0,
   );
+  return oilAwardCount + getProducerAwards(producerSlug).length;
 }
 
 /** Count of awards a producer holds, grouped by prize tier. */
@@ -77,6 +149,9 @@ export function getProducerPrizeBreakdown(
       counts.set(award.prize, (counts.get(award.prize) ?? 0) + 1);
     }
   }
+  for (const award of getProducerAwards(producerSlug)) {
+    counts.set(award.prize, (counts.get(award.prize) ?? 0) + 1);
+  }
   return [...counts.entries()]
     .map(([prize, count]) => ({ prize, count }))
     .sort((a, b) => prizeRank(a.prize) - prizeRank(b.prize));
@@ -85,6 +160,7 @@ export function getProducerPrizeBreakdown(
 export function getYears(): number[] {
   const years = new Set<number>();
   for (const oil of oils) for (const a of oil.awards) years.add(a.year);
+  for (const award of producerAwards) years.add(award.year);
   return [...years].sort((a, b) => b - a);
 }
 
@@ -95,11 +171,17 @@ export function getLatestYear(): number {
 export function getPrizes(): Prize[] {
   const prizes = new Set<Prize>();
   for (const oil of oils) for (const a of oil.awards) prizes.add(a.prize);
+  for (const award of producerAwards) prizes.add(award.prize);
   return [...prizes].sort((a, b) => prizeRank(a) - prizeRank(b));
 }
 
 export function getCountries(): string[] {
-  return [...new Set(oils.map((o) => o.country))].sort();
+  return [
+    ...new Set([
+      ...oils.map((o) => o.country),
+      ...producerAwards.map((award) => award.country),
+    ]),
+  ].sort();
 }
 
 /** Oils that won a prize in the given edition year. */
@@ -149,7 +231,7 @@ export function getPortalStats(): PortalStats {
     oils: oils.length,
     producers: producers.length,
     countries: getCountries().length,
-    awards: oils.reduce((sum, o) => sum + o.awards.length, 0),
+    awards: oils.reduce((sum, o) => sum + o.awards.length, 0) + producerAwards.length,
     editions: getYears().length,
   };
 }

@@ -48,7 +48,7 @@ export default function ProducerCard({
           {awardCount} {awardCount === 1 ? "award" : "awards"} won
         </span>
         <span className="rounded-full bg-olive-100 px-3 py-1 text-xs font-medium text-olive-700">
-          {oilCount} {oilCount === 1 ? "oil" : "oils"}
+          {oilCount} {oilCount === 1 ? "Olive oil" : "Olive oils"}
         </span>
       </div>
     </Link>

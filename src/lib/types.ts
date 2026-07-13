@@ -2,22 +2,50 @@ export type Intensity = "Delicate" | "Medium" | "Intense";
 
 export type Prize = string;
 
+export const AWARD_ORDER: Prize[] = [
+  "Raúl Castellani International Champion Trophy",
+  "Moshe Spak Best International brand",
+  "Israel Grand Champion Trophy",
+  "Israel Boutique Grand Champion",
+  "Best Israeli family Boutique Grand Champion",
+  "TOP TEN",
+  "Best of Turkey",
+  "Best of Spain",
+  "Best of Greece",
+  "Best of Argentina",
+  "Best of Brazil",
+  "Best of Creta",
+  "Best of Italy",
+  "Best of Portugal",
+  "Best Sweet Almond",
+  "Best Flavored Oil",
+  "Best International Organic",
+  "Best International Packaging",
+  "Best Israeli Comercial Brand",
+  "Best Israeli Boutique Brand",
+  "Best Israeli Olive Mill",
+  "Best Israeli Coratina",
+  "Best Israeli Souri",
+  "Best Israeli Picual",
+  "Best Israeli Arbequina",
+  "Best Israeli Koroneiki",
+  "Best Israeli Picholine",
+  "Best Israeli Blend",
+  "Best Israeli Olive Council Quality award",
+  "Best Israeli Flavoured",
+  "Best Israeli Packaging",
+  "Grand Prestige Gold",
+  "Prestige Gold",
+  "Gold Medal",
+];
+
 /** Rank used for sorting — lower number is a higher honour. */
-export const PRIZE_RANK: Record<string, number> = {
-  "Raúl Castellani International Champion Trophy": 0,
-  "Moshe Spak Best International brand": 0,
-  "Israel Grand Champion Trophy": 0,
-  "Israel Boutique Grand Champion": 0,
-  "Best Israeli Family Boutique Grand Champion": 0,
-  "TOP TEN": 0,
-  "Grand Prestige Gold": 1,
-  "Prestige Gold": 2,
-  "Gold Medal": 3,
-  "Prestige Silver": 4,
-};
+export const PRIZE_RANK: Record<string, number> = Object.fromEntries(
+  AWARD_ORDER.map((prize, index) => [prize, index]),
+);
 
 export function prizeRank(prize: Prize): number {
-  return PRIZE_RANK[prize] ?? 0;
+  return PRIZE_RANK[prize] ?? 99;
 }
 
 export function compareAwards(a: Award, b: Award): number {
@@ -39,7 +67,32 @@ export interface Award {
   score?: number;
   /** Path or URL to the award certificate image (placeholder for now). */
   certificateImage?: string;
+  /** Path or URL to a downloadable PDF certificate for this award. */
+  certificatePdf?: string;
 }
+
+export interface ProducerAward extends Award {
+  slug: string;
+  producerSlug: string;
+  country: string;
+}
+
+export interface OilAwardEntry {
+  kind: "oil";
+  slug: string;
+  oil: OliveOil;
+  producer?: Producer;
+  award: Award;
+}
+
+export interface ProducerAwardEntry {
+  kind: "producer";
+  slug: string;
+  producer: Producer;
+  award: ProducerAward;
+}
+
+export type AwardEntry = OilAwardEntry | ProducerAwardEntry;
 
 export interface OliveOil {
   slug: string;

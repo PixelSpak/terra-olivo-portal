@@ -796,6 +796,12 @@
       {
         "year": 2025,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "Best Israeli Packaging",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/bvs-jerusalemoliveoil-heart-notes-blend-best-israeli-packaging.pdf"
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1SUBotkkzjRtuIDE0BhPfdCki0dO322Q-",
@@ -1246,7 +1252,7 @@
   {
     "slug": "delice-farm-house",
     "name": "Delice Farm House",
-    "producerSlug": "delice-farm-house",
+    "producerSlug": "delice-zeytincilik-ltd-sti",
     "country": "Turkey",
     "region": "",
     "varieties": [],
@@ -2668,6 +2674,18 @@
       {
         "year": 2026,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "TOP TEN",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/gaia-oliva-memecik-top-ten.pdf"
+      },
+      {
+        "year": 2026,
+        "prize": "Best of Turkey",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/gaia-oliva-memecik-best-of-turkey.pdf"
       }
     ],
     "image": "/images/oils/gaia-oliva-memecik.png",
@@ -3174,6 +3192,12 @@
       {
         "year": 2026,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "Best Flavored Oil",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/goya-truffle-best-flavored.pdf"
       }
     ],
     "image": "/images/oils/goya-truffle.png",
@@ -3209,7 +3233,7 @@
   {
     "slug": "grattaciello-blend-de-safra",
     "name": "Grattaciello Blend de Safra",
-    "producerSlug": "grattaciello",
+    "producerSlug": "grattacielo",
     "country": "Brazil",
     "region": "",
     "varieties": [
@@ -3670,6 +3694,24 @@
       {
         "year": 2026,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "Raúl Castellani International Champion Trophy",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/knolive-epicure-raul-castellani-international-champion-trophy.pdf"
+      },
+      {
+        "year": 2026,
+        "prize": "TOP TEN",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/knolive-epicure-top-ten.pdf"
+      },
+      {
+        "year": 2026,
+        "prize": "Best of Spain",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/knolive-epicure-best-of-spain.pdf"
       }
     ],
     "image": "/images/oils/knolive-epicure.png",
@@ -4191,6 +4233,12 @@
       {
         "year": 2026,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "Best Israeli Koroneiki",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/levin-farm-koroneiki-best-israeli-koroneiki.pdf"
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1_CglLgLvHAUKx1e7ZbLmsPWitfPbEDST",
@@ -5150,7 +5198,7 @@
   {
     "slug": "meshek-paz-coratina",
     "name": "Meshek paz Coratina",
-    "producerSlug": "shimon-paz",
+    "producerSlug": "meshek-paz",
     "country": "Israel",
     "region": "",
     "varieties": [
@@ -5975,6 +6023,12 @@
       {
         "year": 2026,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "TOP TEN",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/novavera-yamalak-sars-top-ten.pdf"
       }
     ],
     "image": "/images/oils/bottle__novavera-ltd-sti__novavera-yamalak-sars.png",
@@ -6610,6 +6664,12 @@
       {
         "year": 2026,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "TOP TEN",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/palacio-de-los-olivos-picual-top-ten.pdf"
       }
     ],
     "image": "/images/oils/palacio-de-los-olivos-picual.png",
@@ -7377,6 +7437,12 @@
       {
         "year": 2026,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "Best of Argentina",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/rumaroli-blend-best-of-argentina.pdf"
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1i523HCXqU6THIJ_l23YZcnRJEG6mKr9x"
@@ -7680,7 +7746,7 @@
   {
     "slug": "shiloach-farm-oregano",
     "name": "Shiloach Farm Oregano",
-    "producerSlug": "shiloach-farm",
+    "producerSlug": "meshek-haklai-shai-shiloach",
     "country": "Israel",
     "region": "",
     "varieties": [],
@@ -8250,6 +8316,18 @@
       {
         "year": 2026,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "TOP TEN",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/lucini-premium-select-extra-virgin-olive-oil-top-ten.pdf"
+      },
+      {
+        "year": 2026,
+        "prize": "Best of Italy",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/lucini-premium-select-extra-virgin-olive-oil-best-of-italy.pdf"
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1ZyVzrIVDwhnUaDT1ACyCtojjrKU-M0Mz",
@@ -8272,6 +8350,18 @@
       {
         "year": 2026,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "TOP TEN",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/gallo-classico-top-ten.pdf"
+      },
+      {
+        "year": 2026,
+        "prize": "Best of Portugal",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/gallo-classico-best-of-portugal.pdf"
       }
     ],
     "image": "/images/oils/gallo-classico.png",
@@ -8294,6 +8384,12 @@
       {
         "year": 2026,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "TOP TEN",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/parqueoliva-serie-oro-dop-priego-de-cordoba-2-top-ten.pdf"
       }
     ],
     "image": "/images/oils/parqueoliva-serie-oro-dop-priego-de-cordoba.png",
@@ -8316,6 +8412,12 @@
       {
         "year": 2026,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "TOP TEN",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/gaia-oliva-signature-blend-top-ten.pdf"
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1oOlrt5YvbK7FZla-WeMGwvXBawe7QVOF"
@@ -8336,6 +8438,18 @@
       {
         "year": 2026,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "TOP TEN",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/azeite-sitio-da-pedra-blend-de-safra-top-ten.pdf"
+      },
+      {
+        "year": 2026,
+        "prize": "Best of Brazil",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/azeite-sitio-da-pedra-blend-de-safra-best-of-brazil.pdf"
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=15CVvgbx4yPjr8FryKhH9jwCMG05t6EtQ"
@@ -8356,6 +8470,12 @@
       {
         "year": 2026,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "TOP TEN",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/gallo-reserva-top-ten.pdf"
       }
     ],
     "image": "/images/oils/gallo-reserva.png",
@@ -8378,6 +8498,12 @@
       {
         "year": 2026,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "Best Israeli Flavoured",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/galili-olive-oil-basil-flavored-best-israeli-flavored.pdf"
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1AmeMANLyygBquYahQVFJV2CkuGNIWjHu",
@@ -8522,6 +8648,12 @@
       {
         "year": 2026,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "Best International Organic",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/lucini-premium-select-organic-extra-virgin-olive-oil-best-international-organic.pdf"
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=17yG88WbaVXEAULpVlOo5RzILKlqgibu6",
@@ -8564,6 +8696,12 @@
       {
         "year": 2026,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "Best of Greece",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/iliada-kalamata-pdo-gold-line-best-of-greece.pdf"
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1E2lPHu2_LE5goqQbCr1HvuazB6wCNEO6",
@@ -8691,6 +8829,12 @@
       {
         "year": 2026,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "Best of Creta",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/terra-creta-pgi-kriti-evoo-best-of-crete.pdf"
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=171VwYdpMBf0zBDkms0t6iivh4VKaZO9D"
@@ -8895,6 +9039,18 @@
       {
         "year": 2026,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "Israel Boutique Grand Champion",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/shay-shiloach-hojiblanca-israel-boutique-grand-champion.pdf"
+      },
+      {
+        "year": 2026,
+        "prize": "Best Israeli Olive Council Quality award",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/shay-shiloach-hojiblanca-best-israeli-olive-council-quality-award.pdf"
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=17ZaeSGxQjkxVH4t3eoYnH4A2WUVwgQ6D",
@@ -8936,6 +9092,12 @@
       {
         "year": 2026,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "Best Israeli Picholine",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/meshek-dagan-pichuline-best-israeli-picholine.pdf"
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1-qk-WekuAOtMUy9iJ1d2a5nY09Sg7vey",
@@ -9026,7 +9188,7 @@
   {
     "slug": "meshek-schorr-wolf-pichuline-early-harvest",
     "name": "Meshek Schorr Wolf Pichuline Early Harvest",
-    "producerSlug": "meshek-schorr-wolf",
+    "producerSlug": "schorr-wolf-farm",
     "country": "Israel",
     "region": "",
     "varieties": [
@@ -9163,6 +9325,12 @@
       {
         "year": 2026,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "Best Israeli Coratina",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/kibutz-shomriya-coratina-best-israeli-coratina.pdf"
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1_pIOq28cAAEfX8A22ohN8_1mSIh1mcNG",
@@ -9350,6 +9518,18 @@
       {
         "year": 2026,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "Israel Grand Champion Trophy",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/eliad-olive-oil-limited-edition-green-olive-aroma-israel-grand-champion-trophy.pdf"
+      },
+      {
+        "year": 2026,
+        "prize": "Best Israeli Blend",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/eliad-olive-oil-limited-edition-green-olive-aroma-best-israeli-blend.pdf"
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1SAs2x76iRZSSvihOGlJb-ZKWGhFACG-4",
@@ -10089,6 +10269,12 @@
       {
         "year": 2026,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "Best Israeli family Boutique Grand Champion",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/ruach-mekedem-blend-best-israeli-family-boutique-grand-champion.pdf"
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1KBJr53A8qC2V6ToK0G6UOYh79_I_sIvo",
@@ -10337,6 +10523,12 @@
       {
         "year": 2026,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "Best Israeli Picual",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/jerusalemoliveoil-picual-best-israeli-picual.pdf"
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1XX4UvvKlg2aeCiCbdYCcVbtNCDy_257y",
@@ -10378,6 +10570,12 @@
       {
         "year": 2026,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "Best Israeli Souri",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/kerem-ahinoam-souri-best-israeli-souri.pdf"
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1oFnioUHy-LhjIX153P_2HbiiwEESNLZE",
@@ -10399,6 +10597,12 @@
       {
         "year": 2026,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "Best International Packaging",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/orfeu-picual-best-international-packaging.pdf"
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1-ytYPYUgPPtTqak5l86Al5USbHOM5gly"
@@ -10509,7 +10713,7 @@
   {
     "slug": "ptora-family-boutique-arbequina",
     "name": "Ptora Family Boutique Arbequina",
-    "producerSlug": "tamir-farm",
+    "producerSlug": "ptora-family-boutique",
     "country": "Israel",
     "region": "",
     "varieties": [
@@ -10522,6 +10726,12 @@
       {
         "year": 2026,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "Best Israeli Arbequina",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/ptora-family-boutique-arbequina-best-israeli-arbequina.pdf"
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1b_nkJfs0GgiUjTP3DzH61ubePpFpXlXV",
@@ -10550,7 +10760,7 @@
   {
     "slug": "ptora-family-boutique-midnight-hojiblanca",
     "name": "Ptora Family Boutique Midnight Hojiblanca",
-    "producerSlug": "tamir-farm",
+    "producerSlug": "ptora-family-boutique",
     "country": "Israel",
     "region": "",
     "varieties": [
@@ -10649,6 +10859,12 @@
       {
         "year": 2026,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "Best Sweet Almond",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/la-calandina-dop-aceite-del-bajo-aragon-best-sweet-almond.pdf"
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1w0OwBsh7kakM47TM2fnCED5KY28qyj0t"
@@ -10718,7 +10934,7 @@
   {
     "slug": "ptora-family-boutique-midnight-picholine",
     "name": "Ptora Family Boutique Midnight Picholine",
-    "producerSlug": "tamir-farm",
+    "producerSlug": "ptora-family-boutique",
     "country": "Israel",
     "region": "",
     "varieties": [
@@ -10862,7 +11078,7 @@
   {
     "slug": "eliad-olive-mill-golan-hights-koroneiki",
     "name": "Eliad Olive Mill Golan Hights Koroneiki",
-    "producerSlug": "eliad-olive-mill-golan-hights",
+    "producerSlug": "eliad-olive-oil",
     "country": "Israel",
     "region": "",
     "varieties": [
@@ -10883,7 +11099,7 @@
   {
     "slug": "meshek-schorr-wolf-ha-ela-river-blend",
     "name": "Meshek Schorr Wolf Ha Ela River Blend",
-    "producerSlug": "meshek-schorr-wolf",
+    "producerSlug": "schorr-wolf-farm",
     "country": "Israel",
     "region": "",
     "varieties": [
@@ -10904,7 +11120,7 @@
   {
     "slug": "meshek-schorr-wolf-picual",
     "name": "Meshek Schorr Wolf Picual",
-    "producerSlug": "meshek-schorr-wolf",
+    "producerSlug": "schorr-wolf-farm",
     "country": "Israel",
     "region": "",
     "varieties": [
@@ -11823,7 +12039,7 @@
   {
     "slug": "estilo-oliva-coratina-2",
     "name": "Estilo Oliva Coratina",
-    "producerSlug": "diego-roberto-hollender",
+    "producerSlug": "diego-hollender",
     "country": "Argentina",
     "region": "",
     "varieties": [
@@ -12127,7 +12343,7 @@
   {
     "slug": "ptora-family-boutique-midnight-coratina",
     "name": "Ptora Family Boutique Midnight Coratina",
-    "producerSlug": "tamir-farm",
+    "producerSlug": "ptora-family-boutique",
     "country": "Israel",
     "region": "",
     "varieties": [
@@ -12230,7 +12446,7 @@
   {
     "slug": "eliad-olive-mill-golan-hights-classic",
     "name": "Eliad Olive Mill Golan Hights Classic",
-    "producerSlug": "eliad-olive-mill-golan-hights",
+    "producerSlug": "eliad-olive-oil",
     "country": "Israel",
     "region": "",
     "varieties": [
@@ -12251,7 +12467,7 @@
   {
     "slug": "ptora-family-boutique-midnight-picual",
     "name": "Ptora Family Boutique Midnight Picual",
-    "producerSlug": "tamir-farm",
+    "producerSlug": "ptora-family-boutique",
     "country": "Israel",
     "region": "",
     "varieties": [
@@ -12758,7 +12974,7 @@
   {
     "slug": "ptora-family-boutique-nabali",
     "name": "Ptora Family Boutique Nabali",
-    "producerSlug": "tamir-farm",
+    "producerSlug": "ptora-family-boutique",
     "country": "Israel",
     "region": "",
     "varieties": [
@@ -13009,7 +13225,7 @@
   {
     "slug": "oliovita-genovesa",
     "name": "Oliovita Genovesa",
-    "producerSlug": "solfrut-sa-2",
+    "producerSlug": "solfrut-sa",
     "country": "Argentina",
     "region": "",
     "varieties": [
@@ -13133,7 +13349,7 @@
   {
     "slug": "estilo-oliva-arbosana",
     "name": "Estilo Oliva Arbosana",
-    "producerSlug": "diego-roberto-hollender",
+    "producerSlug": "diego-hollender",
     "country": "Argentina",
     "region": "",
     "varieties": [

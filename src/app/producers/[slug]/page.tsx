@@ -5,13 +5,15 @@ import { notFound } from "next/navigation";
 import AwardBadge from "@/components/AwardBadge";
 import OilCard from "@/components/OilCard";
 import {
+  compareAwardEntries,
+  getAllAwardEntries,
   getAllProducers,
   getOilsByProducer,
   getProducerAwardCount,
   getProducerBySlug,
   getProducerPrizeBreakdown,
 } from "@/lib/data";
-import { compareAwards, type Prize } from "@/lib/types";
+import type { Prize } from "@/lib/types";
 
 export function generateStaticParams() {
   return getAllProducers().map((p) => ({ slug: p.slug }));
@@ -41,15 +43,13 @@ export default async function ProducerPage({
   const totalPrizes = getProducerAwardCount(producer.slug);
   const breakdown = getProducerPrizeBreakdown(producer.slug);
 
-  const history = oils
-    .flatMap((oil) =>
-      oil.awards.map((award) => ({ oil, award })),
+  const history = getAllAwardEntries()
+    .filter((entry) =>
+      entry.kind === "oil"
+        ? entry.oil.producerSlug === producer.slug
+        : entry.producer.slug === producer.slug,
     )
-    .sort(
-      (a, b) =>
-        compareAwards(a.award, b.award) ||
-        a.oil.name.localeCompare(b.oil.name),
-    );
+    .sort(compareAwardEntries);
 
   const meta: { label: string; value: string }[] = [
     { label: "Country", value: producer.country },
@@ -133,7 +133,7 @@ export default async function ProducerPage({
             {totalPrizes}
           </p>
           <p className="mt-1 text-sm text-olive-600">
-            across {oils.length} {oils.length === 1 ? "oil" : "oils"}
+            across {oils.length} {oils.length === 1 ? "Olive oil" : "Olive oils"} and producer honors
           </p>
           <ul className="mt-4 space-y-2 border-t border-olive-200 pt-4">
             {breakdown.map(({ prize, count }) => (
@@ -153,7 +153,7 @@ export default async function ProducerPage({
 
       <section className="mt-14">
         <h2 className="font-serif text-2xl font-bold text-olive-900">
-          Award-Winning Oils
+          Award-Winning Olive Oils
         </h2>
         <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {oils.map((oil) => (
@@ -176,21 +176,29 @@ export default async function ProducerPage({
               </tr>
             </thead>
             <tbody className="divide-y divide-olive-200">
-              {history.map(({ oil, award }) => (
-                <tr key={`${oil.slug}-${award.year}-${award.prize}`}>
+              {history.map((entry) => (
+                <tr key={entry.slug}>
                   <td className="px-4 py-3 font-medium text-olive-900">
-                    {award.year}
+                    {entry.award.year}
                   </td>
                   <td className="px-4 py-3">
-                    <Link
-                      href={`/winners/${oil.slug}`}
-                      className="text-olive-700 underline-offset-2 hover:underline"
-                    >
-                      {oil.name}
+                    {entry.kind === "oil" ? (
+                      <Link
+                        href={`/winners/${entry.oil.slug}`}
+                        className="text-olive-700 underline-offset-2 hover:underline"
+                      >
+                        {entry.oil.name}
+                      </Link>
+                    ) : (
+                      <span className="font-medium text-olive-700">
+                        Producer award
+                      </span>
+                    )}
+                  </td>
+                  <td className="px-4 py-3">
+                    <Link href={`/awards/${entry.slug}`} className="inline-block">
+                      <AwardBadge prize={entry.award.prize} />
                     </Link>
-                  </td>
-                  <td className="px-4 py-3">
-                    <AwardBadge prize={award.prize} />
                   </td>
                 </tr>
               ))}

@@ -1,64 +1,62 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import OilCard from "@/components/OilCard";
+import AwardEntryCard from "@/components/AwardEntryCard";
 import {
-  compareAwards,
   prizeRank,
-  type Award,
+  type AwardEntry,
   type OliveOil,
   type Prize,
 } from "@/lib/types";
 
 interface Props {
-  oils: OliveOil[];
+  entries: AwardEntry[];
   years: number[];
   prizes: Prize[];
   countries: string[];
+  initialYear?: string;
 }
 
 const ALL = "All";
 
-function primaryAwardForFilters(
-  oil: OliveOil,
-  selectedYear: string,
-  selectedPrize: string,
-): Award {
-  const matchingAwards = oil.awards.filter((award) => {
-    if (selectedYear !== ALL && award.year !== Number(selectedYear)) return false;
-    if (selectedPrize !== ALL && award.prize !== selectedPrize) return false;
-    return true;
-  });
-
-  return [...(matchingAwards.length > 0 ? matchingAwards : oil.awards)].sort(
-    compareAwards,
-  )[0];
+function entryCountry(entry: AwardEntry): string {
+  return entry.kind === "oil" ? entry.oil.country : entry.award.country;
 }
 
-function hasMatchingAward(
-  oil: OliveOil,
-  selectedYear: string,
-  selectedPrize: string,
-): boolean {
-  return oil.awards.some((award) => {
-    if (selectedYear !== ALL && award.year !== Number(selectedYear)) return false;
-    if (selectedPrize !== ALL && award.prize !== selectedPrize) return false;
-    return true;
-  });
+function oilSearchableText(oil: OliveOil, prize: Prize): string {
+  return [
+    oil.name,
+    oil.producerSlug.replace(/-/g, " "),
+    oil.country,
+    prize,
+    ...oil.tastingNotes,
+  ]
+    .join(" ")
+    .toLowerCase();
 }
 
-function compareAwardsForExplorer(a: Award, b: Award): number {
-  return b.year - a.year || prizeRank(a.prize) - prizeRank(b.prize);
+function producerAwardSearchableText(entry: AwardEntry): string {
+  if (entry.kind !== "producer") return "";
+
+  return [
+    entry.producer.name,
+    entry.producer.country,
+    entry.producer.description,
+    entry.award.prize,
+  ]
+    .join(" ")
+    .toLowerCase();
 }
 
 export default function WinnersExplorer({
-  oils,
+  entries,
   years,
   prizes,
   countries,
+  initialYear = ALL,
 }: Props) {
   const [query, setQuery] = useState("");
-  const [year, setYear] = useState<string>(ALL);
+  const [year, setYear] = useState<string>(initialYear);
   const [prize, setPrize] = useState<string>(ALL);
   const [country, setCountry] = useState<string>(ALL);
 
@@ -66,29 +64,28 @@ export default function WinnersExplorer({
 
   const results = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return oils.filter((oil) => {
-      if (country !== ALL && oil.country !== country) return false;
-      if (!hasMatchingAward(oil, year, prize)) return false;
+    return entries.filter((entry) => {
+      if (country !== ALL && entryCountry(entry) !== country) return false;
+      if (year !== ALL && entry.award.year !== Number(year)) return false;
+      if (prize !== ALL && entry.award.prize !== prize) return false;
       if (q) {
-        const haystack = [
-          oil.name,
-          oil.producerSlug.replace(/-/g, " "),
-          oil.country,
-          ...oil.tastingNotes,
-        ]
-          .join(" ")
-          .toLowerCase();
+        const haystack =
+          entry.kind === "oil"
+            ? oilSearchableText(entry.oil, entry.award.prize)
+            : producerAwardSearchableText(entry);
         if (!haystack.includes(q)) return false;
       }
       return true;
     }).sort((a, b) => {
-      const awardOrder = compareAwardsForExplorer(
-        primaryAwardForFilters(a, year, prize),
-        primaryAwardForFilters(b, year, prize),
+      const aName = a.kind === "oil" ? a.oil.name : a.producer.name;
+      const bName = b.kind === "oil" ? b.oil.name : b.producer.name;
+      return (
+        b.award.year - a.award.year ||
+        prizeRank(a.award.prize) - prizeRank(b.award.prize) ||
+        aName.localeCompare(bName)
       );
-      return awardOrder || a.name.localeCompare(b.name);
     });
-  }, [oils, query, year, prize, country]);
+  }, [entries, query, year, prize, country]);
 
   const reset = () => {
     setQuery("");
@@ -113,7 +110,7 @@ export default function WinnersExplorer({
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search oils, producers, countries..."
+          placeholder="Search olive oils, producers, countries..."
           className={selectClass}
           aria-label="Search winners"
         />
@@ -172,7 +169,7 @@ export default function WinnersExplorer({
         </div>
         <div className="mt-3 flex items-center justify-between">
           <p className="text-sm text-olive-600">
-            {results.length} {results.length === 1 ? "winner" : "winners"}
+            {results.length} {results.length === 1 ? "result" : "results"}
           </p>
           {isFiltered && (
             <button
@@ -188,21 +185,17 @@ export default function WinnersExplorer({
 
       {results.length > 0 ? (
         <div className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {results.map((oil, index) => {
-            const displayAward = primaryAwardForFilters(oil, year, prize);
-            return (
-              <OilCard
-                key={oil.slug}
-                oil={oil}
-                award={displayAward}
-                priority={index < 4}
-              />
-            );
-          })}
+          {results.map((entry, index) => (
+            <AwardEntryCard
+              key={entry.slug}
+              entry={entry}
+              priority={index < 4}
+            />
+          ))}
         </div>
       ) : (
         <p className="mt-12 text-center text-olive-600">
-          No winners match these filters.
+          No awards match these filters.
         </p>
       )}
     </div>

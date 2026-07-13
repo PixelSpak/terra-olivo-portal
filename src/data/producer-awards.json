@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "eretz-geshur-best-israeli-comercial-brand-2026",
+    "producerSlug": "eretz-geshur",
+    "year": 2026,
+    "prize": "Best Israeli Comercial Brand",
+    "category": "Producer Award",
+    "country": "Israel",
+    "certificatePdf": "/certificates/special-awards/2026/eretz-geshur-koroneiki-best-israeli-commercial-brand.pdf"
+  },
+  {
+    "slug": "gallo-worldwide-moshe-spak-best-international-brand-2026",
+    "producerSlug": "gallo-worldwide",
+    "year": 2026,
+    "prize": "Moshe Spak Best International brand",
+    "category": "Producer Award",
+    "country": "Portugal",
+    "certificatePdf": "/certificates/special-awards/2026/gallo-classico-moshe-spak-best-international-brand.pdf"
+  },
+  {
+    "slug": "jahshan-best-israeli-olive-mill-2026",
+    "producerSlug": "jahshan",
+    "year": 2026,
+    "prize": "Best Israeli Olive Mill",
+    "category": "Producer Award",
+    "country": "Israel",
+    "certificatePdf": "/certificates/special-awards/2026/1863-extra-virgin-olive-oil-best-israeli-olive-mill.pdf"
+  },
+  {
+    "slug": "meshek-dagan-best-israeli-boutique-brand-2026",
+    "producerSlug": "meshek-dagan",
+    "year": 2026,
+    "prize": "Best Israeli Boutique Brand",
+    "category": "Producer Award",
+    "country": "Israel",
+    "certificatePdf": "/certificates/special-awards/2026/meshek-dagan-pichuline-best-israeli-boutique-brand.pdf"
+  }
+]

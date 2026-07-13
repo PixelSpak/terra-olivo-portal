@@ -39,10 +39,30 @@ const awardStickerAliases: Record<string, string> = {
     "best-international-award",
   [normalize("Moshe Spak Best International brand")]:
     "best-international-brand",
+  [normalize("Moshe Spak Best International Brand")]:
+    "best-international-brand",
   [normalize("Israel Boutique Grand Champion")]:
     "israeli-boutique-grand-champion",
   [normalize("Best Israeli Boutique Grand Champion")]:
     "best-israeli-family-boutique-grand-champion",
+  [normalize("Best Israeli Family Boutique Grand Champion")]:
+    "best-israeli-family-boutique-grand-champion",
+  [normalize("Best Israeli family Boutique Grand Champion")]:
+    "best-israeli-family-boutique-grand-champion",
+  [normalize("Best Flavored Oil")]: "best-flavored",
+  [normalize("Best International Packaging")]: "packaging",
+  [normalize("Best Israeli Comercial Brand")]: "best-israeli-commercial-brand",
+  [normalize("Best Israeli Commercial Brand")]: "best-israeli-commercial-brand",
+  [normalize("Best Israeli Flavoured")]: "best-israeli-flavored",
+  [normalize("Best Israeli Flavored")]: "best-israeli-flavored",
+  [normalize("Best Israeli Olive Council Quality award")]:
+    "best-israeli-olive-council-quality-award",
+  [normalize("Best Israeli Olive Council Quality Award")]:
+    "best-israeli-olive-council-quality-award",
+  [normalize("Best of Brasil")]: "best-of-brasil",
+  [normalize("Best of Brazil")]: "best-of-brasil",
+  [normalize("Best of Creta")]: "best-of-crete",
+  [normalize("Best of Crete")]: "best-of-crete",
   [normalize("Best Packaging")]: "packaging",
   [normalize("Packaging")]: "packaging",
 };

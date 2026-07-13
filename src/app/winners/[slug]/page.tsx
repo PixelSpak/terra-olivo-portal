@@ -3,12 +3,13 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import AwardBadge from "@/components/AwardBadge";
 import AwardSticker, { awardStickerMedalClass } from "@/components/AwardSticker";
-import CertificateImage from "@/components/CertificateImage";
+import CertificateDownloads from "@/components/CertificateDownloads";
 import OilCard from "@/components/OilCard";
 import OilImage from "@/components/OilImage";
 import {
   awardsByYear,
   bestAward,
+  getAllAwardEntries,
   getAllOils,
   getOilBySlug,
   getOilsByProducer,
@@ -42,6 +43,14 @@ export default async function WinnerPage({
   const producer = getProducerBySlug(oil.producerSlug);
   const best = bestAward(oil);
   const awards = awardsByYear(oil);
+  const awardLinks = new Map(
+    getAllAwardEntries()
+      .filter((entry) => entry.kind === "oil" && entry.oil.slug === oil.slug)
+      .map((entry) => [
+        `${entry.award.year}-${entry.award.prize}`,
+        `/awards/${entry.slug}`,
+      ]),
+  );
   const related = getOilsByProducer(oil.producerSlug)
     .filter((o) => o.slug !== oil.slug)
     .slice(0, 3);
@@ -62,7 +71,7 @@ export default async function WinnerPage({
       {/* Hero grid */}
       <div className="mt-8 grid gap-10 lg:grid-cols-[380px_1fr] lg:items-start">
 
-        {/* Left — image + certificates */}
+        {/* Left — image */}
         <div className="flex flex-col gap-5 pt-8">
           <div className="relative flex flex-col items-center overflow-hidden rounded-lg border border-gold-400/25 bg-[radial-gradient(circle_at_48%_34%,#fff9eb_0%,#eee4ca_42%,#c5cf9d_100%)] px-6 pb-8 pt-10 shadow-[0_22px_52px_rgba(28,34,16,0.18)]">
             <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(135deg,rgba(255,255,255,0.56),rgba(201,162,39,0.08)_42%,rgba(28,34,16,0.2))]" />
@@ -86,37 +95,7 @@ export default async function WinnerPage({
                 transparentBg
               />
             </div>
-            
           </div>
-
-          {/* Certificate images stacked below */}
-          {awards.filter((a) => a.certificateImage).slice(0, 2).map((award) => (
-            <CertificateImage key={`${award.year}-${award.prize}`} award={award} />
-          ))}
-          {awards.filter((a) => a.certificateImage).length > 2 && (
-            <p className="text-center text-sm text-olive-500">
-              +{awards.filter((a) => a.certificateImage).length - 2} more certificates below
-            </p>
-          )}
-
-          {/* Certificate PDF download */}
-          {oil.certificate && (() => {
-            const fileIdMatch = oil.certificate.match(/id=([^&]+)/);
-            const fileId = fileIdMatch ? fileIdMatch[1] : null;
-            if (!fileId) return null;
-            return (
-              <a
-                href={`/api/certificate/${fileId}?name=${encodeURIComponent(oil.name + ' Certificate')}`}
-                className="flex items-center justify-center gap-2 rounded-xl border-2 border-terracotta-400 bg-terracotta-50 px-5 py-3 text-sm font-bold text-terracotta-700 shadow-sm transition-all hover:bg-terracotta-100 hover:shadow-md"
-                download
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                  <path fillRule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z" clipRule="evenodd" />
-                </svg>
-                Download Official Certificate (PDF)
-              </a>
-            );
-          })()}
         </div>
 
         {/* Right — all details */}
@@ -148,7 +127,13 @@ export default async function WinnerPage({
           {/* Award badges */}
           <div className="flex flex-wrap gap-2">
             {awards.map((award) => (
-              <AwardBadge key={`${award.year}-${award.prize}`} prize={award.prize} year={award.year} />
+              <Link
+                key={`${award.year}-${award.prize}`}
+                href={awardLinks.get(`${award.year}-${award.prize}`) ?? "#"}
+                className="inline-block"
+              >
+                <AwardBadge prize={award.prize} year={award.year} />
+              </Link>
             ))}
           </div>
 
@@ -191,7 +176,12 @@ export default async function WinnerPage({
                     {award.year}
                   </span>
                   <div className="h-px flex-1 bg-olive-100" />
-                  <AwardBadge prize={award.prize} />
+                  <Link
+                    href={awardLinks.get(`${award.year}-${award.prize}`) ?? "#"}
+                    className="inline-block"
+                  >
+                    <AwardBadge prize={award.prize} />
+                  </Link>
                 </div>
               ))}
             </div>
@@ -214,19 +204,13 @@ export default async function WinnerPage({
         </div>
       </div>
 
-      {/* All certificates (if more than 2) */}
-      {awards.filter((a) => a.certificateImage).length > 2 && (
-        <section className="mt-14">
-          <h2 className="font-serif text-2xl font-bold text-olive-900">
-            All Certificates
-          </h2>
-          <div className="mt-6 grid gap-4 sm:grid-cols-3 lg:grid-cols-4">
-            {awards.map((award) => (
-              <CertificateImage key={`${award.year}-${award.prize}`} award={award} />
-            ))}
-          </div>
-        </section>
-      )}
+      <div className="mt-10">
+        <CertificateDownloads
+          awards={awards}
+          oilName={oil.name}
+          legacyCertificate={oil.certificate}
+        />
+      </div>
 
       {/* Producer card */}
       {producer && (

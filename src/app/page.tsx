@@ -55,7 +55,7 @@ export default function HomePage() {
           {/* Primary CTAs */}
           <div className="mt-5 sm:mt-6 flex flex-col sm:flex-row flex-wrap justify-center gap-3 w-full sm:w-auto">
             <Link
-              href="/winners"
+              href={`/winners?year=${latestYear}`}
               className="inline-flex items-center justify-center gap-2 rounded-sm bg-gold-400 px-6 py-2.5 sm:px-8 sm:py-3 text-xs sm:text-sm font-bold uppercase tracking-[0.12em] text-olive-950 shadow-lg transition-colors hover:bg-gold-500 w-full sm:w-auto"
             >
               Discover {latestYear} Winners
@@ -78,7 +78,7 @@ export default function HomePage() {
             <dl className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8 justify-center">
               {[
                 { value: stats.countries, label: "Countries" },
-                { value: stats.oils, label: "Award-Winning Oils" },
+                { value: stats.oils, label: "Award-Winning Olive Oils" },
                 { value: stats.producers, label: "Producers" },
                 { value: stats.awards, label: "Awards Granted" },
               ].map((s) => (
