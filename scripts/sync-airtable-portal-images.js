@@ -11,6 +11,8 @@ const DEFAULT_UPDATE_STATUS = "Update";
 const DEFAULT_DONE_STATUS = "Done";
 const DEFAULT_TRANSPARENT_BG_FIELD = "Transparent bg";
 const ATTACHMENTS_FIELD = "Attachments";
+const MAX_AIRTABLE_ATTACHMENT_BYTES = 5 * 1024 * 1024;
+const MAX_TRANSPARENT_IMAGE_DIMENSION = 1800;
 const IMAGE_EXTENSIONS = new Set(["png", "jpg", "jpeg", "webp"]);
 const IMAGE_TYPE_TO_EXTENSION = {
   "image/png": "png",
@@ -131,6 +133,10 @@ function airtableAttachmentUploadUrl(baseId, recordId, fieldName) {
   ].join("/");
 }
 
+function formatMegabytes(bytes) {
+  return (bytes / 1024 / 1024).toFixed(1);
+}
+
 function createAirtableClient({
   token,
   baseId,
@@ -199,6 +205,14 @@ function createAirtableClient({
     },
 
     async uploadTransparentBackgroundAttachment(recordId, image) {
+      if (image.buffer.length > MAX_AIRTABLE_ATTACHMENT_BYTES) {
+        throw new Error(
+          `Transparent bg upload is ${formatMegabytes(
+            image.buffer.length,
+          )} MB; Airtable direct uploads must be 5 MB or smaller.`,
+        );
+      }
+
       const response = await fetchImpl(
         airtableAttachmentUploadUrl(baseId, recordId, transparentBgField),
         {
@@ -414,6 +428,12 @@ async function removeWhiteBackgroundFromImage(input) {
     buffer: await sharp(data, {
       raw: { width, height, channels: 4 },
     })
+      .resize({
+        width: MAX_TRANSPARENT_IMAGE_DIMENSION,
+        height: MAX_TRANSPARENT_IMAGE_DIMENSION,
+        fit: "inside",
+        withoutEnlargement: true,
+      })
       .png({ compressionLevel: 9 })
       .toBuffer(),
     contentType: "image/png",

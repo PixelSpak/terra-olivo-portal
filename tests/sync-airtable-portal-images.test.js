@@ -206,6 +206,53 @@ test("removes only edge-connected white backgrounds from uploaded bottle images"
   assert.equal(alphaAt(1, 2), 255);
 });
 
+test("resizes processed transparent images for Airtable upload", async () => {
+  const input = await sharp({
+    create: {
+      width: 2200,
+      height: 1200,
+      channels: 4,
+      background: { r: 255, g: 255, b: 255, alpha: 1 },
+    },
+  })
+    .composite([
+      {
+        input: Buffer.from([48, 82, 36, 255]),
+        raw: { width: 1, height: 1, channels: 4 },
+        left: 1100,
+        top: 600,
+      },
+    ])
+    .png()
+    .toBuffer();
+
+  const result = await removeWhiteBackgroundFromImage(input);
+  const metadata = await sharp(result.buffer).metadata();
+
+  assert.equal(metadata.width, 1800);
+  assert.equal(metadata.height, 982);
+});
+
+test("Airtable client rejects transparent images over the upload limit before fetch", async () => {
+  const client = createAirtableClient({
+    token: "pat123",
+    baseId: "app123",
+    tableName: "tbl123",
+    fetchImpl: async () => {
+      throw new Error("fetch should not be called");
+    },
+  });
+
+  await assert.rejects(
+    client.uploadTransparentBackgroundAttachment("rec123", {
+      buffer: Buffer.alloc(5 * 1024 * 1024 + 1),
+      contentType: "image/png",
+      filename: "too-large.png",
+    }),
+    /Transparent bg upload is 5\.0 MB; Airtable direct uploads must be 5 MB or smaller/,
+  );
+});
+
 test("sync writes the processed transparent PNG from uploaded images", async () => {
   const rootDir = makePortalFixture();
   const uploadedTransparentImages = [];
