@@ -1,0 +1,562 @@
+[
+  {
+    "year": 2026,
+    "label": "Best Flavored",
+    "slug": "best-flavored",
+    "image": "/images/award-stickers/2026/best-flavored.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best Flavored.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best International Award",
+    "slug": "best-international-award",
+    "image": "/images/award-stickers/2026/best-international-award.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best International Award.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best International Brand",
+    "slug": "best-international-brand",
+    "image": "/images/award-stickers/2026/best-international-brand.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best International Brand.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best International Organic",
+    "slug": "best-international-organic",
+    "image": "/images/award-stickers/2026/best-international-organic.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best International Organic.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best Israeli Arbequina",
+    "slug": "best-israeli-arbequina",
+    "image": "/images/award-stickers/2026/best-israeli-arbequina.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best Israeli Arbequina.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best Israeli Barnea",
+    "slug": "best-israeli-barnea",
+    "image": "/images/award-stickers/2026/best-israeli-barnea.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best Israeli Barnea.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best Israeli Blend",
+    "slug": "best-israeli-blend",
+    "image": "/images/award-stickers/2026/best-israeli-blend.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best Israeli Blend.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best Israeli Boutique Brand",
+    "slug": "best-israeli-boutique-brand",
+    "image": "/images/award-stickers/2026/best-israeli-boutique-brand.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best Israeli Boutique Brand.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best Israeli Boutique Olive Oil",
+    "slug": "best-israeli-boutique-olive-oil",
+    "image": "/images/award-stickers/2026/best-israeli-boutique-olive-oil.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best Israeli Boutique Olive Oil.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best Israeli Commercial Brand",
+    "slug": "best-israeli-commercial-brand",
+    "image": "/images/award-stickers/2026/best-israeli-commercial-brand.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best Israeli Commercial Brand.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best Israeli Coratina",
+    "slug": "best-israeli-coratina",
+    "image": "/images/award-stickers/2026/best-israeli-coratina.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best Israeli Coratina.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best Israeli Family Boutique Grand Champion",
+    "slug": "best-israeli-family-boutique-grand-champion",
+    "image": "/images/award-stickers/2026/best-israeli-family-boutique-grand-champion.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best Israeli Family Boutique Grand Champion.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best Israeli Flavored",
+    "slug": "best-israeli-flavored",
+    "image": "/images/award-stickers/2026/best-israeli-flavored.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best Israeli Flavored.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best Israeli Koroneiki",
+    "slug": "best-israeli-koroneiki",
+    "image": "/images/award-stickers/2026/best-israeli-koroneiki.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best Israeli Koroneiki.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best Israeli Olive Council Quality Award",
+    "slug": "best-israeli-olive-council-quality-award",
+    "image": "/images/award-stickers/2026/best-israeli-olive-council-quality-award.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best Israeli Olive Council Quality Award.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best Israeli Olive Mill",
+    "slug": "best-israeli-olive-mill",
+    "image": "/images/award-stickers/2026/best-israeli-olive-mill.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best Israeli Olive Mill.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best Israeli Organic",
+    "slug": "best-israeli-organic",
+    "image": "/images/award-stickers/2026/best-israeli-organic.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best Israeli Organic.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best Israeli Packaging",
+    "slug": "best-israeli-packaging",
+    "image": "/images/award-stickers/2026/best-israeli-packaging.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best Israeli Packaging.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best Israeli Picholine",
+    "slug": "best-israeli-picholine",
+    "image": "/images/award-stickers/2026/best-israeli-picholine.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best Israeli Picholine.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best Israeli Picual",
+    "slug": "best-israeli-picual",
+    "image": "/images/award-stickers/2026/best-israeli-picual.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best Israeli Picual.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best Israeli Souri",
+    "slug": "best-israeli-souri",
+    "image": "/images/award-stickers/2026/best-israeli-souri.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best Israeli Souri.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best of Argentina",
+    "slug": "best-of-argentina",
+    "image": "/images/award-stickers/2026/best-of-argentina.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best of Argentina.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best of Brasil",
+    "slug": "best-of-brasil",
+    "image": "/images/award-stickers/2026/best-of-brasil.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best of Brasil.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best of Crete",
+    "slug": "best-of-crete",
+    "image": "/images/award-stickers/2026/best-of-crete.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best of Crete.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best of Greece",
+    "slug": "best-of-greece",
+    "image": "/images/award-stickers/2026/best-of-greece.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best of Greece.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best of Italy",
+    "slug": "best-of-italy",
+    "image": "/images/award-stickers/2026/best-of-italy.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best of Italy.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best of Portugal",
+    "slug": "best-of-portugal",
+    "image": "/images/award-stickers/2026/best-of-portugal.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best of Portugal.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best of South Africa",
+    "slug": "best-of-south-africa",
+    "image": "/images/award-stickers/2026/best-of-south-africa.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best of South Africa.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best of Spain",
+    "slug": "best-of-spain",
+    "image": "/images/award-stickers/2026/best-of-spain.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best of Spain.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best of Turkey",
+    "slug": "best-of-turkey",
+    "image": "/images/award-stickers/2026/best-of-turkey.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best of Turkey.png"
+  },
+  {
+    "year": 2026,
+    "label": "Best Sweet Almond",
+    "slug": "best-sweet-almond",
+    "image": "/images/award-stickers/2026/best-sweet-almond.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best Sweet Almond.png"
+  },
+  {
+    "year": 2026,
+    "label": "Finalist",
+    "slug": "finalist",
+    "image": "/images/award-stickers/2026/finalist.png",
+    "sourceFile": "TERRAOLIVO 2026 - Finalist.png"
+  },
+  {
+    "year": 2026,
+    "label": "Gold",
+    "slug": "gold",
+    "image": "/images/award-stickers/2026/gold.png",
+    "sourceFile": "TERRAOLIVO 2026 - Gold.png"
+  },
+  {
+    "year": 2026,
+    "label": "Gran Prestige Gold",
+    "slug": "gran-prestige-gold",
+    "image": "/images/award-stickers/2026/gran-prestige-gold.png",
+    "sourceFile": "TERRAOLIVO 2026 - Gran Prestige Gold.png"
+  },
+  {
+    "year": 2026,
+    "label": "Israel Boutique Brand",
+    "slug": "israel-boutique-brand",
+    "image": "/images/award-stickers/2026/israel-boutique-brand.png",
+    "sourceFile": "TERRAOLIVO 2026 - Israel Boutique Brand.png"
+  },
+  {
+    "year": 2026,
+    "label": "Israel Grand Champion Trophy",
+    "slug": "israel-grand-champion-trophy",
+    "image": "/images/award-stickers/2026/israel-grand-champion-trophy.png",
+    "sourceFile": "TERRAOLIVO 2026 - Israel Grand Champion Trophy.png"
+  },
+  {
+    "year": 2026,
+    "label": "Israeli Boutique Grand Champion",
+    "slug": "israeli-boutique-grand-champion",
+    "image": "/images/award-stickers/2026/israeli-boutique-grand-champion.png",
+    "sourceFile": "TERRAOLIVO 2026 - Israeli Boutique Grand Champion.png"
+  },
+  {
+    "year": 2026,
+    "label": "Packaging",
+    "slug": "packaging",
+    "image": "/images/award-stickers/2026/packaging.png",
+    "sourceFile": "TERRAOLIVO 2026 - Packaging.png"
+  },
+  {
+    "year": 2026,
+    "label": "Prestige Gold",
+    "slug": "prestige-gold",
+    "image": "/images/award-stickers/2026/prestige-gold.png",
+    "sourceFile": "TERRAOLIVO 2026 - Prestige Gold.png"
+  },
+  {
+    "year": 2026,
+    "label": "TOP",
+    "slug": "top",
+    "image": "/images/award-stickers/2026/top.png",
+    "sourceFile": "TERRAOLIVO 2026 - TOP.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best Flavored",
+    "slug": "best-flavored",
+    "image": "/images/award-stickers/2025/best-flavored.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best Flavored.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best International Award",
+    "slug": "best-international-award",
+    "image": "/images/award-stickers/2025/best-international-award.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best International Award.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best International Brand",
+    "slug": "best-international-brand",
+    "image": "/images/award-stickers/2025/best-international-brand.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best International Brand.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best International Organic",
+    "slug": "best-international-organic",
+    "image": "/images/award-stickers/2025/best-international-organic.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best International Organic.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best Israeli Arbequina",
+    "slug": "best-israeli-arbequina",
+    "image": "/images/award-stickers/2025/best-israeli-arbequina.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best Israeli Arbequina.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best Israeli Barnea",
+    "slug": "best-israeli-barnea",
+    "image": "/images/award-stickers/2025/best-israeli-barnea.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best Israeli Barnea.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best Israeli Blend",
+    "slug": "best-israeli-blend",
+    "image": "/images/award-stickers/2025/best-israeli-blend.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best Israeli Blend.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best Israeli Boutique Brand",
+    "slug": "best-israeli-boutique-brand",
+    "image": "/images/award-stickers/2025/best-israeli-boutique-brand.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best Israeli Boutique Brand.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best Israeli Boutique Olive Oil",
+    "slug": "best-israeli-boutique-olive-oil",
+    "image": "/images/award-stickers/2025/best-israeli-boutique-olive-oil.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best Israeli Boutique Olive Oil.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best Israeli Commercial Brand",
+    "slug": "best-israeli-commercial-brand",
+    "image": "/images/award-stickers/2025/best-israeli-commercial-brand.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best Israeli Commercial Brand.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best Israeli Coratina",
+    "slug": "best-israeli-coratina",
+    "image": "/images/award-stickers/2025/best-israeli-coratina.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best Israeli Coratina.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best Israeli Family Boutique Grand Champion",
+    "slug": "best-israeli-family-boutique-grand-champion",
+    "image": "/images/award-stickers/2025/best-israeli-family-boutique-grand-champion.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best Israeli Family Boutique Grand Champion.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best Israeli Flavored",
+    "slug": "best-israeli-flavored",
+    "image": "/images/award-stickers/2025/best-israeli-flavored.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best Israeli Flavored.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best Israeli Koroneiki",
+    "slug": "best-israeli-koroneiki",
+    "image": "/images/award-stickers/2025/best-israeli-koroneiki.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best Israeli Koroneiki.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best Israeli Olive Council Quality Award",
+    "slug": "best-israeli-olive-council-quality-award",
+    "image": "/images/award-stickers/2025/best-israeli-olive-council-quality-award.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best Israeli Olive Council Quality Award.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best Israeli Olive Mill",
+    "slug": "best-israeli-olive-mill",
+    "image": "/images/award-stickers/2025/best-israeli-olive-mill.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best Israeli Olive Mill.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best Israeli Organic",
+    "slug": "best-israeli-organic",
+    "image": "/images/award-stickers/2025/best-israeli-organic.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best Israeli Organic.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best Israeli Packaging",
+    "slug": "best-israeli-packaging",
+    "image": "/images/award-stickers/2025/best-israeli-packaging.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best Israeli Packaging.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best Israeli Picholine",
+    "slug": "best-israeli-picholine",
+    "image": "/images/award-stickers/2025/best-israeli-picholine.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best Israeli Picholine.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best Israeli Picual",
+    "slug": "best-israeli-picual",
+    "image": "/images/award-stickers/2025/best-israeli-picual.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best Israeli Picual.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best Israeli Souri",
+    "slug": "best-israeli-souri",
+    "image": "/images/award-stickers/2025/best-israeli-souri.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best Israeli Souri.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best of Argentina",
+    "slug": "best-of-argentina",
+    "image": "/images/award-stickers/2025/best-of-argentina.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best of Argentina.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best of Brasil",
+    "slug": "best-of-brasil",
+    "image": "/images/award-stickers/2025/best-of-brasil.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best of Brasil.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best of Crete",
+    "slug": "best-of-crete",
+    "image": "/images/award-stickers/2025/best-of-crete.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best of Crete.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best of Greece",
+    "slug": "best-of-greece",
+    "image": "/images/award-stickers/2025/best-of-greece.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best of Greece.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best of Italy",
+    "slug": "best-of-italy",
+    "image": "/images/award-stickers/2025/best-of-italy.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best of Italy.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best of Portugal",
+    "slug": "best-of-portugal",
+    "image": "/images/award-stickers/2025/best-of-portugal.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best of Portugal.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best of South Africa",
+    "slug": "best-of-south-africa",
+    "image": "/images/award-stickers/2025/best-of-south-africa.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best of South Africa.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best of Spain",
+    "slug": "best-of-spain",
+    "image": "/images/award-stickers/2025/best-of-spain.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best of Spain.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best of Turkey",
+    "slug": "best-of-turkey",
+    "image": "/images/award-stickers/2025/best-of-turkey.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best of Turkey.png"
+  },
+  {
+    "year": 2025,
+    "label": "Best Sweet Almond",
+    "slug": "best-sweet-almond",
+    "image": "/images/award-stickers/2025/best-sweet-almond.png",
+    "sourceFile": "TERRAOLIVO 2025 - Best Sweet Almond.png"
+  },
+  {
+    "year": 2025,
+    "label": "Finalist",
+    "slug": "finalist",
+    "image": "/images/award-stickers/2025/finalist.png",
+    "sourceFile": "TERRAOLIVO 2025 - Finalist.png"
+  },
+  {
+    "year": 2025,
+    "label": "Gold",
+    "slug": "gold",
+    "image": "/images/award-stickers/2025/gold.png",
+    "sourceFile": "TERRAOLIVO 2025 - Gold.png"
+  },
+  {
+    "year": 2025,
+    "label": "Gran Prestige Gold",
+    "slug": "gran-prestige-gold",
+    "image": "/images/award-stickers/2025/gran-prestige-gold.png",
+    "sourceFile": "TERRAOLIVO 2025 - Gran Prestige Gold.png"
+  },
+  {
+    "year": 2025,
+    "label": "Israel Boutique Brand",
+    "slug": "israel-boutique-brand",
+    "image": "/images/award-stickers/2025/israel-boutique-brand.png",
+    "sourceFile": "TERRAOLIVO 2025 - Israel Boutique Brand.png"
+  },
+  {
+    "year": 2025,
+    "label": "Israel Grand Champion Trophy",
+    "slug": "israel-grand-champion-trophy",
+    "image": "/images/award-stickers/2025/israel-grand-champion-trophy.png",
+    "sourceFile": "TERRAOLIVO 2025 - Israel Grand Champion Trophy.png"
+  },
+  {
+    "year": 2025,
+    "label": "Israeli Boutique Grand Champion",
+    "slug": "israeli-boutique-grand-champion",
+    "image": "/images/award-stickers/2025/israeli-boutique-grand-champion.png",
+    "sourceFile": "TERRAOLIVO 2025 - Israeli Boutique Grand Champion.png"
+  },
+  {
+    "year": 2025,
+    "label": "Packaging",
+    "slug": "packaging",
+    "image": "/images/award-stickers/2025/packaging.png",
+    "sourceFile": "TERRAOLIVO 2025 - Packaging.png"
+  },
+  {
+    "year": 2025,
+    "label": "Prestige Gold",
+    "slug": "prestige-gold",
+    "image": "/images/award-stickers/2025/prestige-gold.png",
+    "sourceFile": "TERRAOLIVO 2025 - Prestige Gold.png"
+  },
+  {
+    "year": 2025,
+    "label": "TOP",
+    "slug": "top",
+    "image": "/images/award-stickers/2025/top.png",
+    "sourceFile": "TERRAOLIVO 2025 - TOP.png"
+  }
+]

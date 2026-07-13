@@ -18,11 +18,7 @@ export default function ProducersPage() {
     awardCount: getProducerAwardCount(producer.slug),
     oilCount: getOilsByProducer(producer.slug).length,
   })).sort((a, b) => {
-    const aHasLogo = !!a.logo;
-    const bHasLogo = !!b.logo;
-    if (aHasLogo && !bHasLogo) return -1;
-    if (!aHasLogo && bHasLogo) return 1;
-    return b.awardCount - a.awardCount;
+    return a.name.localeCompare(b.name);
   });
 
   return (
@@ -33,7 +29,7 @@ export default function ProducersPage() {
         </h1>
         <p className="mt-2 text-olive-600">
           {producersData.length} estates and mills behind the Terra Olivo winners,
-          ranked by awards won.
+          listed alphabetically.
         </p>
       </header>
       

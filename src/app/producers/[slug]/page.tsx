@@ -11,7 +11,7 @@ import {
   getProducerBySlug,
   getProducerPrizeBreakdown,
 } from "@/lib/data";
-import type { Prize } from "@/lib/types";
+import { compareAwards, type Prize } from "@/lib/types";
 
 export function generateStaticParams() {
   return getAllProducers().map((p) => ({ slug: p.slug }));
@@ -47,13 +47,12 @@ export default async function ProducerPage({
     )
     .sort(
       (a, b) =>
-        b.award.year - a.award.year ||
+        compareAwards(a.award, b.award) ||
         a.oil.name.localeCompare(b.oil.name),
     );
 
   const meta: { label: string; value: string }[] = [
     { label: "Country", value: producer.country },
-    { label: "Region", value: producer.region },
   ];
   if (producer.founded)
     meta.push({ label: "Founded", value: String(producer.founded) });
@@ -90,7 +89,7 @@ export default async function ProducerPage({
                 {producer.name}
               </h1>
               <p className="mt-1 text-olive-600">
-                {producer.region}, {producer.country}
+                {producer.country}
               </p>
             </div>
           </div>

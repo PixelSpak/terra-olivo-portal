@@ -11,6 +11,7 @@ export default function OilImage({
   name,
   intensity,
   className = "",
+  imageClassName = "",
   transparentBg = false,
   sizes = "(max-width: 640px) 33vw, (max-width: 1024px) 25vw, 220px",
   eager = false,
@@ -19,11 +20,12 @@ export default function OilImage({
   name: string;
   intensity: Intensity;
   className?: string;
+  imageClassName?: string;
   transparentBg?: boolean;
   sizes?: string;
   eager?: boolean;
 }) {
-  const imageSrc = src ?? "/images/default-bottle.png";
+  const imageSrc = src ?? "/images/tempbottle_image.png";
   const alt = src ? name : `${name} bottle`;
   const image = (
     <Image
@@ -31,7 +33,7 @@ export default function OilImage({
       alt={alt}
       fill
       sizes={sizes}
-      className="object-contain p-2 drop-shadow-xl"
+      className={`object-contain p-1 drop-shadow-xl ${imageClassName}`}
       loading={eager ? "eager" : "lazy"}
     />
   );

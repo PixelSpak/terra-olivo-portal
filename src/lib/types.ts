@@ -5,19 +5,28 @@ export type Prize = string;
 /** Rank used for sorting — lower number is a higher honour. */
 export const PRIZE_RANK: Record<string, number> = {
   "Raúl Castellani International Champion Trophy": 0,
-  "Moshe Spak Best International brand": 1,
-  "Israel Grand Champion Trophy": 2,
-  "Israel Boutique Grand Champion": 3,
-  "Best Israeli Family Boutique Grand Champion": 4,
-  "Grand Prestige Gold": 5,
-  "Gold Medal": 6,
-  "Prestige Gold": 7,
-  "Prestige Silver": 8,
-  "TOP TEN": 9,
+  "Moshe Spak Best International brand": 0,
+  "Israel Grand Champion Trophy": 0,
+  "Israel Boutique Grand Champion": 0,
+  "Best Israeli Family Boutique Grand Champion": 0,
+  "TOP TEN": 0,
+  "Grand Prestige Gold": 1,
+  "Prestige Gold": 2,
+  "Gold Medal": 3,
+  "Prestige Silver": 4,
 };
 
 export function prizeRank(prize: Prize): number {
-  return PRIZE_RANK[prize] ?? 50;
+  return PRIZE_RANK[prize] ?? 0;
+}
+
+export function compareAwards(a: Award, b: Award): number {
+  return (
+    b.year - a.year ||
+    prizeRank(a.prize) - prizeRank(b.prize) ||
+    (b.score ?? -1) - (a.score ?? -1) ||
+    a.prize.localeCompare(b.prize)
+  );
 }
 
 /** A single win: one olive oil taking one prize in one competition edition. */

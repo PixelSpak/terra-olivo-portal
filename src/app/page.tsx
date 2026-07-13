@@ -69,6 +69,9 @@ export default function HomePage() {
               <span aria-hidden>→</span>
             </Link>
           </div>
+          <p className="mt-3 max-w-xl text-[11px] font-medium uppercase tracking-[0.14em] text-olive-200/85">
+            Archive currently includes 2025 and 2026 results. Past editions will be uploaded soon.
+          </p>
 
           {/* Divider + stats */}
           <div className="mt-6 sm:mt-8 w-full max-w-4xl mx-auto border-t border-olive-500/30 pt-4 sm:pt-6">

@@ -1,6 +1,7 @@
 import oilsData from "@/data/oils.json";
 import producersData from "@/data/producers.json";
 import {
+  compareAwards,
   prizeRank,
   type Award,
   type OliveOil,
@@ -11,32 +12,28 @@ import {
 const oils = oilsData as OliveOil[];
 const producers = producersData as Producer[];
 
-/** The most prestigious award an oil holds (best prize, then latest year). */
+/** Primary award for ordering: newest edition first, then award tier. */
 export function bestAward(oil: OliveOil): Award {
-  return [...oil.awards].sort(
-    (a, b) => prizeRank(a.prize) - prizeRank(b.prize) || b.year - a.year,
-  )[0];
+  return [...oil.awards].sort(compareAwards)[0];
 }
 
-/** Awards sorted newest edition first. */
+/** Awards sorted newest edition first, then by award tier. */
 export function awardsByYear(oil: OliveOil): Award[] {
-  return [...oil.awards].sort((a, b) => b.year - a.year);
-}
-
-function oilRank(oil: OliveOil): number {
-  const best = bestAward(oil);
-  return prizeRank(best.prize) * 1000 - (best.score ?? 0);
+  return [...oil.awards].sort(compareAwards);
 }
 
 export function getAllOils(): OliveOil[] {
   return [...oils].sort((a, b) => {
+    const awardOrder = compareAwards(bestAward(a), bestAward(b));
+    if (awardOrder !== 0) return awardOrder;
+
     const aHasImage = !!a.image;
     const bHasImage = !!b.image;
-    
+
     if (aHasImage && !bHasImage) return -1;
     if (!aHasImage && bHasImage) return 1;
-    
-    return oilRank(a) - oilRank(b);
+
+    return a.name.localeCompare(b.name);
   });
 }
 
@@ -105,10 +102,6 @@ export function getCountries(): string[] {
   return [...new Set(oils.map((o) => o.country))].sort();
 }
 
-export function getVarieties(): string[] {
-  return [...new Set(oils.flatMap((o) => o.varieties))].sort();
-}
-
 /** Oils that won a prize in the given edition year. */
 export function getWinnersByYear(year: number): OliveOil[] {
   return getAllOils().filter((o) => o.awards.some((a) => a.year === year));
@@ -132,9 +125,7 @@ export function filterOils(filters: OilFilters): OliveOil[] {
     if (query) {
       const haystack = [
         oil.name,
-        oil.region,
         oil.country,
-        ...oil.varieties,
         ...oil.tastingNotes,
       ]
         .join(" ")

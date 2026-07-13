@@ -35,7 +35,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/42-premium-blend.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1jwmun76NpdvXMbYEdUeyM-E5wuiBfg0X"
   },
@@ -87,7 +87,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/adama-boutique-olive-oil-pichuline.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1e2WG5FayP142c_2Y9y0midyLxoVmJcKn"
   },
@@ -133,7 +133,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/oils/agroulida-02.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1JEIataTtig2HDwqj2v3piGTWREIfdEQP"
   },
@@ -311,7 +311,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/anshei-hazait-coratina.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1XFVHFriLBY5G8v0qQK8zzYOpuqypvAFK"
   },
@@ -333,7 +333,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1k1ZIXPkC8UQd3PQpec1wXcdRi8pjczbn"
+    "certificate": "https://drive.google.com/uc?export=download&id=1k1ZIXPkC8UQd3PQpec1wXcdRi8pjczbn",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "anshei-hazait-shahar-blend",
@@ -353,7 +354,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/anshei-hazait-shahar-blend.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1sIpZb2SXf6txCeR09Wn2fAeAO371f3_W"
   },
@@ -373,7 +374,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/aparthenasa-vavatsinia.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1I5xb4RW_pkuz749ckWvuX270W8aHFT91"
   },
@@ -439,7 +440,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/assi-classic.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1Q5YIUv3-15ni5iuNuXWNcqtDJD2mPE_J"
   },
@@ -461,7 +462,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/assi-coratina.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=16Bft6oqDctfJJ_7PKvthwr2CPjqtNvvy"
   },
@@ -483,7 +484,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/azeite-casa-mourad-blend-da-safra-2025.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1jXuNFN-5eGuiCb6qyocB5V76sTiWFDvR"
   },
@@ -527,7 +528,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/oils/azeite-tres-meninas-blend.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1vax4sE4hiX4yKMP3kaAuildhaW9sH53r"
   },
@@ -549,7 +550,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/barel-olive-oil-barnea.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1O02CH96c_JNPD5EuaG3ixLlmNeTsLe7J"
   },
@@ -571,7 +572,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/ben-yaacov-koroneiki-organic.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1YDHu5fXefSKvbGcH-dKdyMOzxpT7zObc"
   },
@@ -593,7 +594,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1vg4q6ZJNY0cLqZCESnytmclowA21eqzJ"
+    "certificate": "https://drive.google.com/uc?export=download&id=1vg4q6ZJNY0cLqZCESnytmclowA21eqzJ",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "bio-orto-coratina",
@@ -732,7 +734,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/oils/bottle__bvs-jerusalemoliveoil__bvs-jerusalemoliveoil-barnea.png",
+    "image": "/images/oils/bvs-jerusalemoliveoil-barnea.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1D9aOmYDILbwK15SaZEsa0NJ5RNiAgCpI"
   },
@@ -752,7 +754,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/bottle__bvs-jerusalemoliveoil__bvs-jerusalemoliveoil-colombia.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1eB7AAyemaKE-5Mt2lWXuQs6DAQkmx37I"
   },
@@ -774,7 +776,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/bottle__bvs-jerusalemoliveoil__bvs-jerusalemoliveoil-coratina.png",
+    "image": "/images/oils/bvs-jerusalemoliveoil-coratina.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1MO9fYsAcDmEG9ZS1FvbJu5znHABmgHgB"
   },
@@ -796,7 +798,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1SUBotkkzjRtuIDE0BhPfdCki0dO322Q-"
+    "certificate": "https://drive.google.com/uc?export=download&id=1SUBotkkzjRtuIDE0BhPfdCki0dO322Q-",
+    "image": "/images/oils/bvs-jerusalemoliveoil-heart-notes-blend.png"
   },
   {
     "slug": "bvs-jerusalemoliveoil-koroneiki",
@@ -816,7 +819,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/bottle__bvs-jerusalemoliveoil__bvs-jerusalemoliveoil-koroneiki.png",
+    "image": "/images/oils/bvs-jerusalemoliveoil-koroneiki.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=19u43PbVm0BMOeRLFfXICIK32M-mRmg6Q"
   },
@@ -838,7 +841,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1gqOrxgEGXv2uh6p5UX9aPZ89IFQMB6t8"
+    "certificate": "https://drive.google.com/uc?export=download&id=1gqOrxgEGXv2uh6p5UX9aPZ89IFQMB6t8",
+    "image": "/images/oils/bvs-jerusalemoliveoil-picual.png"
   },
   {
     "slug": "bvs-jerusalemoliveoil-sunrise-early-harvest",
@@ -876,7 +880,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/bottle__bvs-jerusalemoliveoil__bvs-jerusalemoliveoil-with-basil.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1Bf4TBqff1BxGUoGx-XpeDiTumNGajY0Y"
   },
@@ -896,7 +900,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1cJXMM9Uyzi-uywjUSrT-4lloCgPQEHoD"
+    "certificate": "https://drive.google.com/uc?export=download&id=1cJXMM9Uyzi-uywjUSrT-4lloCgPQEHoD",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "bvs-jerusalemoliveoil-with-lemon",
@@ -914,7 +919,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/bottle__bvs-jerusalemoliveoil__bvs-jerusalemoliveoil-with-lemon.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1r1KbaKEQcbP1Cl8HVJRw6iOFTR3w14Rj"
   },
@@ -934,7 +939,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/bottle__bvs-jerusalemoliveoil__bvs-jerusalemoliveoil-with-lemongrass-mint.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1PHZ-cRqyzUsDM2DqHJVjU2GESW4vUlkG"
   },
@@ -954,7 +959,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/bottle__bvs-jerusalemoliveoil__bvs-jerusalemoliveoil-with-zaatar.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=12dhEoi2j_ggHt4CQNfL8ZhrX_ml-FcbA"
   },
@@ -1114,7 +1119,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/oils/clos-de-la-torre.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1mi4rnksaXzlmmhzYIvoPc7z8gzlqr_K8"
   },
@@ -1214,7 +1219,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/degustus.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=13Tt5P3GOqo9hhIVJqAVLr1VDhO_YVuho"
   },
@@ -1460,7 +1465,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/ekin-kocadag-trilye.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1lyLrmmTRfP2HTrpwNVkCS_Tj-gYO8uhq"
   },
@@ -1484,13 +1489,13 @@
   },
   {
     "slug": "el-empiedro-dop-priego-de-cordoba",
-    "name": "El Empiedro - Dop Priego De Córdoba",
+    "name": "El Empiedro",
     "producerSlug": "sca-olivarera-la-purisima",
     "country": "Spain",
     "region": "",
     "varieties": [],
     "intensity": "Medium",
-    "description": "El Empiedro - Dop Priego De Córdoba is an award-winning extra virgin olive oil from Spain.",
+    "description": "El Empiedro is an award-winning extra virgin olive oil from Spain.",
     "tastingNotes": [],
     "awards": [
       {
@@ -1504,13 +1509,13 @@
   },
   {
     "slug": "el-empiedro-bio-dop-priego-de-cordoba",
-    "name": "El Empiedro Bio - Dop Priego De Córdoba",
+    "name": "El Empiedro Bio",
     "producerSlug": "sca-olivarera-la-purisima",
     "country": "Spain",
     "region": "",
     "varieties": [],
     "intensity": "Medium",
-    "description": "El Empiedro Bio - Dop Priego De Córdoba is an award-winning extra virgin olive oil from Spain.",
+    "description": "El Empiedro Bio is an award-winning extra virgin olive oil from Spain.",
     "tastingNotes": [],
     "awards": [
       {
@@ -1608,7 +1613,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1164wHCH3W_ALdyQ0zG2u8qtdf-p3A0Q9"
+    "certificate": "https://drive.google.com/uc?export=download&id=1164wHCH3W_ALdyQ0zG2u8qtdf-p3A0Q9",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "eliad-from-the-holy-land-intense-fruity",
@@ -1626,7 +1632,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1qZHtvjA7E3TKaQ2ljBS6C8Kw1MkhfB3w"
+    "certificate": "https://drive.google.com/uc?export=download&id=1qZHtvjA7E3TKaQ2ljBS6C8Kw1MkhfB3w",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "eliad-from-the-holy-land-smooth-balanced",
@@ -1644,7 +1651,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/eliad-from-the-holy-land-smooth-balanced.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1RUkisxUZHaNzJMqLvbFs8vYupiPisrnC"
   },
@@ -1664,7 +1671,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/eliad-olive-oil-arbosana.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1oOqURz_rtRzw0Tg5KsPtSqK3jP24eALw"
   },
@@ -1684,7 +1691,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/eliad-olive-oil-classic-flavor.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1OM-LhYJB5_vXjNSIBoUOXAR0yyAj0TCS"
   },
@@ -1706,7 +1713,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/eliad-olive-oil-coratina.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1L9kIXcj_e50eGbdn3ykteOzMKzlXI1gw"
   },
@@ -1728,7 +1735,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/eliad-olive-oil-koroneiki.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1Cn34gppf3JPe6mStqfGLqoLbIjbAdtQ8"
   },
@@ -1750,7 +1757,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1zSKgW4jMmYt1YAv6desyKOZvad1KzLo4"
+    "certificate": "https://drive.google.com/uc?export=download&id=1zSKgW4jMmYt1YAv6desyKOZvad1KzLo4",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "eliad-olive-oil-rich-and-unique-flavor",
@@ -1768,7 +1776,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/oils/eliad-olive-oil-rich-and-unique-flavor.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1HfFaB2QCeM2E6Yi4utPcwYubpwqn_ghj"
   },
@@ -1790,7 +1798,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1Q0VH2ZMJVBLT7mN2tje0PI8j3Ob9AwvV"
+    "certificate": "https://drive.google.com/uc?export=download&id=1Q0VH2ZMJVBLT7mN2tje0PI8j3Ob9AwvV",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "eretz-geshur-arbosana",
@@ -1808,7 +1817,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1PQMXE9bbIVB8HjNAb97PH0QnPodPVABA"
+    "certificate": "https://drive.google.com/uc?export=download&id=1PQMXE9bbIVB8HjNAb97PH0QnPodPVABA",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "eretz-geshur-barnea",
@@ -1828,7 +1838,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/oils/eretz-geshur-barnea.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=183XTyPXHMrymfg6_IY6g6LnxOr1-4jiW"
   },
@@ -1854,7 +1864,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/oils/eretz-geshur-coratina.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1EPNUbO7SLq8XbjMmBcFbQg80o3JS9wlS"
   },
@@ -1881,7 +1891,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/eretz-geshur-koroneiki.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1N23uvtn2rdshVmgyq44HzXeB91EHSwOC"
   },
@@ -1903,7 +1913,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/oils/eretz-geshur-leccino.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1V-KcystVdqbcjUhjExgQRHlgOfx7s8ya"
   },
@@ -1929,7 +1939,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1eZtdfLZXIp5i7_aNm9senSDpTxb0LZdU"
+    "certificate": "https://drive.google.com/uc?export=download&id=1eZtdfLZXIp5i7_aNm9senSDpTxb0LZdU",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "eretz-geshur-picual",
@@ -1953,7 +1964,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/eretz-geshur-picual.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1wLugW7EAPnNvRspwb-uXD_bIVQpKyalb"
   },
@@ -1975,7 +1986,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/eretz-zait-meshek-bar-hai-david-blend.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=19s6YXPlfkj9LbPX_Zl0tAw94V_mYZmZf"
   },
@@ -2206,7 +2217,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/etz-hasade-arbequina.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1hY8B2OxIDN4WFzRlx3FkhH8ziFroTrYh"
   },
@@ -2232,7 +2243,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/oils/etz-hasade-coratina.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1l6e0O3KDNgAkoMZ5ChSa7fTV9LqN5g9Y"
   },
@@ -2254,7 +2265,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/oils/etz-hasade-israeli-blend.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1vhlB9PL2BOPjCY4LFxahb-8WDi0mjx-D"
   },
@@ -2280,7 +2291,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1oVAbCiulGtHPONh95JdAL8_TOSIYnM9V"
+    "certificate": "https://drive.google.com/uc?export=download&id=1oVAbCiulGtHPONh95JdAL8_TOSIYnM9V",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "etz-hasade-organic-blend",
@@ -2300,7 +2312,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/etz-hasade-organic-blend.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1jmEjNm8SJuv7cc6taCN2smIMh1iUzJ7I"
   },
@@ -2326,7 +2338,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/etz-hasade-picual.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1iiAWwP5DJSQU6bW1p1HVkjXv4qXZr3zW"
   },
@@ -2348,7 +2360,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/etz-hasade-souri.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1FzyCNHTz0bdK2RB070RAhRbQ4EK_2iBo"
   },
@@ -2408,7 +2420,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/finca-la-comarca.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=13-fhLDfYigkFmJ6wcawkmi44XQf4mn2Q"
   },
@@ -2930,7 +2942,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/gaudea-signature.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1ncuAriplXaIK1FDl9LFiFo3_JN7MJl6R"
   },
@@ -2950,7 +2962,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/gemstone.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1H8-vapt-MeFFQlJE2gEf-b_w4h7tbN3N"
   },
@@ -3008,7 +3020,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/gortys-bio.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1sfiFYHpg1UVsC9wttNVoMRmw77fS4Dp5"
   },
@@ -3212,7 +3224,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/grattaciello-blend-de-safra.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1IC4uy8onZ0didajGJ3hE5rrmCSJNg231"
   },
@@ -3282,7 +3294,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1MOw_FMTuvCMJd6u51cDWFM0CqLtlhqC2"
+    "certificate": "https://drive.google.com/uc?export=download&id=1MOw_FMTuvCMJd6u51cDWFM0CqLtlhqC2",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "hanotrim-koroneiki",
@@ -3302,7 +3315,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1sbQBktZJhYEVEytFarhmLDmO2iYN5pS-"
+    "certificate": "https://drive.google.com/uc?export=download&id=1sbQBktZJhYEVEytFarhmLDmO2iYN5pS-",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "hashemen-shel-srulik-koroneiki",
@@ -3322,7 +3336,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/hashemen-shel-srulik-koroneiki.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1olaROba7v3EacAhWg4BjOZ__7S5qkRs5"
   },
@@ -3446,7 +3460,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/jahshan-classic-galilean-blend.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1zLC14bsp2skZ_7RYIxk30yvJvdh_m7_g"
   },
@@ -3468,7 +3482,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/jahshan-koroneiki.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1KMCq6gdZJzIPvKJDjP0vEtwOlfxWTp78"
   },
@@ -3490,7 +3504,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/jahshan-traditional-nabali.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1rd_natNP8DjMQ37JuPrNx6LIatBk6Txp"
   },
@@ -3512,7 +3526,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/oils/jahshan-traditional-souri.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1Zvx5mEBuCWvmFF5MV6GBvnnv7a0jSlzI"
   },
@@ -3632,7 +3646,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/kishene.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1muJNxCFLkoDRgr_O598FqWo3iMLg9jTS"
   },
@@ -3718,7 +3732,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/oils/la-redonda.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1fSzuTIWeH8rhoMyQ-tGP-bwicS_lHJqQ"
   },
@@ -4084,7 +4098,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/levant-green-fields.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1ELjMCdW8qOT7olyeaZ4Q1wn3xGqVZhXC"
   },
@@ -4104,7 +4118,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/levant-late-blooming.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1wzn6u2llPgMqaZHhYTvLs-lsAGcPJfRJ"
   },
@@ -4126,7 +4140,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/oils/levin-farm-barnea.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1ICau2QyW3sw9qjltz6P91fxXSFpNphie"
   },
@@ -4153,7 +4167,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/levin-farm-house-blend.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1P9YCrLK2KUTpH93JdXmNSb8UKMU5Nwol"
   },
@@ -4179,7 +4193,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1_CglLgLvHAUKx1e7ZbLmsPWitfPbEDST"
+    "certificate": "https://drive.google.com/uc?export=download&id=1_CglLgLvHAUKx1e7ZbLmsPWitfPbEDST",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "levin-farm-pichulin",
@@ -4197,7 +4212,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1ebW2YOWILKU3abjEWomOu7PA87VcE-eN"
+    "certificate": "https://drive.google.com/uc?export=download&id=1ebW2YOWILKU3abjEWomOu7PA87VcE-eN",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "lia",
@@ -4241,7 +4257,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/liokareas-athinolia.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1VBdEu7iQwHpPChZ_1QtkJr9eoWQZH6xr"
   },
@@ -4267,7 +4283,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/oils/liokareas-cold-fused-baklouti.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1R_5EWMI-HhCL_DQrp8RH6V9v9O76yYsZ"
   },
@@ -4293,7 +4309,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/liokareas-cold-fused-garlic.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1i7ftR2PjZPu2wasEDUu6UuAXEXQS5PN6"
   },
@@ -4313,7 +4329,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=17vnf-Nj4LfRp2got6Nzp0qkjMNhpylFb"
+    "certificate": "https://drive.google.com/uc?export=download&id=17vnf-Nj4LfRp2got6Nzp0qkjMNhpylFb",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "liokareas-cold-fused-leek",
@@ -4337,7 +4354,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/oils/liokareas-cold-fused-leek.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=15ul2Cr1GUQjgOxIAbN_xdzsCRbXFbo03"
   },
@@ -4357,7 +4374,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/oils/liokareas-cold-fused-lemon.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=17UlhlgyOmuVm2iNh3okPdXvqoo_2thUo"
   },
@@ -4377,7 +4394,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/liokareas-cold-fused-neapolitan-herb.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1RKlYls5MxQKfq9pDffd-Ksw4nSOdCZ3X"
   },
@@ -4417,7 +4434,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/liokareas-cold-fused-rosemary.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1N8o9Ry-sBD-AQp0naGItIy9rIWaBjAwg"
   },
@@ -4443,7 +4460,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/liokareas-cold-fused-tuscan-herb.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=16gK3Ag2Y2VCSNOE6VyamQVTXseJnxrCu"
   },
@@ -4469,7 +4486,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/oils/liokareas-early-harvest.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1laVucgvVSoUupgZP2DXtWi3uvPz-nGcD"
   },
@@ -4531,7 +4548,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1X0aERVtAA4u2CTo_euIRGprrLUvNSNqh"
+    "certificate": "https://drive.google.com/uc?export=download&id=1X0aERVtAA4u2CTo_euIRGprrLUvNSNqh",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "maeva-biologico",
@@ -4609,7 +4627,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/majestic.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1S01BVtSl_ifqn6bUXSU5YDKYiUAHavo2"
   },
@@ -4867,7 +4885,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/meshek-achiya-koroneiki.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1UwE4gLBYOicu6VSoxs90jq0Z-6Gcpm32"
   },
@@ -4889,7 +4907,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/meshek-avner-beit-itzhak-coratina.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1lYYHibIDKaRI4SdM5RUGyLTmTl_aagoy"
   },
@@ -4911,7 +4929,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/meshek-azar-blend.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1qCrc3ku75h7TII5s1neTyFWtkd5OB5mO"
   },
@@ -4937,7 +4955,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/meshek-azar-picual.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1p4fyE8xLsuiRoiPAQYYinceyMLqY2lvY"
   },
@@ -4959,7 +4977,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/oils/meshek-dagan-barnea.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=14k78oPXpu-HvUNVxueC6K_2EDHpl2OHk"
   },
@@ -4985,7 +5003,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/meshek-dagan-coratina.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1GznrsYH-sGbW0NteWCZyJrtuXu7LURB1"
   },
@@ -5011,7 +5029,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/meshek-dagan-picual.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1T7lhmsaiWl4ZrE0t_j6kSJApKoGMrGeK"
   },
@@ -5033,7 +5051,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/meshek-eshed-picholine.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1DwZYhEtP20iJN_IqHXElAwFwdnP566jr"
   },
@@ -5055,7 +5073,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/oils/meshek-hilman-koroneiki-balanced.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1Rs0ZZvfNgo9PELpOAo1g79KZaX7-0Db8"
   },
@@ -5077,7 +5095,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/oils/meshek-inbal-arbequina.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1XtEKr_eteInCeqeM9pU4GED1uwuQ2srL"
   },
@@ -5099,7 +5117,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/meshek-inbal-coratina.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1QagJ8Kr3J_LsTHQi_pn64dGOmj3G7JPj"
   },
@@ -5125,7 +5143,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/meshek-inbal-koroneiki.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1K_z_JmCGNrNc7KjGezjiGSXQBSzUyRrg"
   },
@@ -5147,7 +5165,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/oils/meshek-paz-coratina.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1xMS1daRLuwukC3WzsgJ9uGnR1QGx2-70"
   },
@@ -5173,7 +5191,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/oils/meshek-salomon-coratina.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1oKTjz9ytCXm3zitPPEUDTW99K0uoRByJ"
   },
@@ -5195,7 +5213,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/oils/meshek-shomriya-koroneiki.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1KIQ4cx-JCsLRiJyW-qkaECGMO-LbkmTJ"
   },
@@ -5217,7 +5235,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1jbWyhvrzRsNqKL5dnulB-3_Hi5gjm_ci"
+    "certificate": "https://drive.google.com/uc?export=download&id=1jbWyhvrzRsNqKL5dnulB-3_Hi5gjm_ci",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "mesogis-blend",
@@ -5361,7 +5380,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/nahalei-shemen-barnea.png",
+    "image": "/images/tempbottle_image.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=14ddbrmVcVUW0FMw0GseVRHiFf6U2s2az"
   },
@@ -5383,7 +5402,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1nJZhQWOFDiTzaHoRLtFzytdDS_uQYvdt"
+    "certificate": "https://drive.google.com/uc?export=download&id=1nJZhQWOFDiTzaHoRLtFzytdDS_uQYvdt",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "nai-33-coratina",
@@ -5831,7 +5851,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/oils/bottle__novavera-ltd-sti__novavera-organik.png",
+    "image": "/images/oils/novavera-organik.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1MuxqNb4re9xpkkq5-NqKFSKAwpoA89n5"
   },
@@ -6173,7 +6193,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1CPiSEnxfSxwafxJqtOg77aP-PPZkXEqJ"
+    "certificate": "https://drive.google.com/uc?export=download&id=1CPiSEnxfSxwafxJqtOg77aP-PPZkXEqJ",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "oliveira-da-serra-gourmet",
@@ -6486,7 +6507,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/bottle__hacienda-la-serrata-sl__pago-francisco-gomez-grosal.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1nI4GBqcpIDFpzQE3jJig-YtfsypzMU2R"
   },
@@ -6513,7 +6534,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/bottle__hacienda-la-serrata-sl__pago-francisco-gomez-lecciana.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1V9rmruU0XsCvFPbHVoIipS2V5wXOXA08"
   },
@@ -6713,13 +6734,13 @@
   },
   {
     "slug": "parqueoliva-serie-oro-dop-priego-de-cordoba",
-    "name": "Parqueoliva Serie Oro - Dop Priego De Cordoba",
+    "name": "Parqueoliva Serie Oro",
     "producerSlug": "almazaras-de-la-subbetica-sl",
     "country": "Spain",
     "region": "",
     "varieties": [],
     "intensity": "Medium",
-    "description": "Parqueoliva Serie Oro - Dop Priego De Cordoba is an award-winning extra virgin olive oil from Spain.",
+    "description": "Parqueoliva Serie Oro is an award-winning extra virgin olive oil from Spain.",
     "tastingNotes": [],
     "awards": [
       {
@@ -6807,7 +6828,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/bottle__cooperativa-agricola-dos-olivicultores-de-murca-crl__porca-de-murca-aromatizado-cocoa.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1TNWKgdkfC-Nh667RaWVzhW7Kx8tzSy1c"
   },
@@ -6889,7 +6910,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/bottle__cooperativa-agricola-dos-olivicultores-de-murca-crl__porca-de-murca-peeled-jewish-chestnuts.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1O4aUepMQN2J6ci8FIH9Lp2dl2XhZpsuz"
   },
@@ -7011,7 +7032,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1obwbPcsh-nDK5hEyBwEcF6X0E-_CGBq0"
+    "certificate": "https://drive.google.com/uc?export=download&id=1obwbPcsh-nDK5hEyBwEcF6X0E-_CGBq0",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "ptora-coratina",
@@ -7031,7 +7053,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1PUUZWaBBw3orl13O0Uyl2PCJZdZVLiIU"
+    "certificate": "https://drive.google.com/uc?export=download&id=1PUUZWaBBw3orl13O0Uyl2PCJZdZVLiIU",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "ptora-koroneiki",
@@ -7051,7 +7074,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1qZs3FaZSw4wpfk8g6d89gcDUQKJxbUtG"
+    "certificate": "https://drive.google.com/uc?export=download&id=1qZs3FaZSw4wpfk8g6d89gcDUQKJxbUtG",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "ptora-midnight-coratina",
@@ -7071,7 +7095,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/ptora-midnight-coratina.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=128jVv7cYgfvkBDh_dOic-whGVOkAIdoO"
   },
@@ -7093,7 +7117,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/oils/ptora-midnight-picholine.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1Klx8MhgBuZkNIO8vqqFHV2vx0bgNhk3p"
   },
@@ -7115,7 +7139,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/ptora-midnight-picual.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1BK9YYuapfnlSJUpWFq_GGjC6RXMCcoYG"
   },
@@ -7137,7 +7161,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1lTRjWwmqBbBn6R1R0e1qVuYtRESmbvTS"
+    "certificate": "https://drive.google.com/uc?export=download&id=1lTRjWwmqBbBn6R1R0e1qVuYtRESmbvTS",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "queo-premium-picual",
@@ -7181,13 +7206,13 @@
   },
   {
     "slug": "rincon-de-la-subbetica-dop-priego-de-cordoba",
-    "name": "Rincon De La Subbetica - Dop Priego De Cordoba",
+    "name": "Rincon De La Subbetica",
     "producerSlug": "almazaras-de-la-subbetica-sl",
     "country": "Spain",
     "region": "",
     "varieties": [],
     "intensity": "Medium",
-    "description": "Rincon De La Subbetica - Dop Priego De Cordoba is an award-winning extra virgin olive oil from Spain.",
+    "description": "Rincon De La Subbetica is an award-winning extra virgin olive oil from Spain.",
     "tastingNotes": [],
     "awards": [
       {
@@ -7544,7 +7569,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1RXiCdvZDXb2BB4PaqvH_ilMzsKZqqnbc"
+    "certificate": "https://drive.google.com/uc?export=download&id=1RXiCdvZDXb2BB4PaqvH_ilMzsKZqqnbc",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "schorr-wolf-farm-coratina",
@@ -7564,7 +7590,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1Zh9iFu-JgvBpABxsFf3zTBTPsMc8wz6Y"
+    "certificate": "https://drive.google.com/uc?export=download&id=1Zh9iFu-JgvBpABxsFf3zTBTPsMc8wz6Y",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "schorr-wolf-farm-early-harvest-pichuline",
@@ -7584,7 +7611,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1nVrTh6RSe1p910PkXEzUXWLsSDgWWTk7"
+    "certificate": "https://drive.google.com/uc?export=download&id=1nVrTh6RSe1p910PkXEzUXWLsSDgWWTk7",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "shemen-darom-coratina",
@@ -7604,7 +7632,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1pNiOMRGLVrWZtrNWOM1eRJcrKmslYS9i"
+    "certificate": "https://drive.google.com/uc?export=download&id=1pNiOMRGLVrWZtrNWOM1eRJcrKmslYS9i",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "shemen-darom-koroneiki",
@@ -7624,7 +7653,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1D2jst4o1t3uTWKUhdlvI1NkAgC3Cjwvp"
+    "certificate": "https://drive.google.com/uc?export=download&id=1D2jst4o1t3uTWKUhdlvI1NkAgC3Cjwvp",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "shemen-yogev-picual",
@@ -7644,7 +7674,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1IimTdgiHvDqV3mT_4rlip8nhcgqmuhzv"
+    "certificate": "https://drive.google.com/uc?export=download&id=1IimTdgiHvDqV3mT_4rlip8nhcgqmuhzv",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "shiloach-farm-oregano",
@@ -7662,7 +7693,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1dupuDn7MXkzuWPOi9fwS4eOezm8qdwU9"
+    "certificate": "https://drive.google.com/uc?export=download&id=1dupuDn7MXkzuWPOi9fwS4eOezm8qdwU9",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "sindyanna-of-galilee-extra-herbal-infused-with-rosemary",
@@ -7680,7 +7712,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1zMBtXO6hPw-EW_Poph3Ii7W0uWcRYyE7"
+    "certificate": "https://drive.google.com/uc?export=download&id=1zMBtXO6hPw-EW_Poph3Ii7W0uWcRYyE7",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "sindyanna-of-galilee-extra-herbal-infused-with-zaatar",
@@ -7698,7 +7731,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1cZGaS_YT3EPrdvuf62wBnnnFTYIH87ao"
+    "certificate": "https://drive.google.com/uc?export=download&id=1cZGaS_YT3EPrdvuf62wBnnnFTYIH87ao",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "soul-mantiqueira-blend-do-outono",
@@ -7742,7 +7776,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/oils/sparta-gourmet.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1grSxCE6Fm89T0MXBsogxxpMu7n5rKkSR"
   },
@@ -8135,7 +8169,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1feAkZfKcMXloYrw8qPfR0HSf8rjMGxBO"
+    "certificate": "https://drive.google.com/uc?export=download&id=1feAkZfKcMXloYrw8qPfR0HSf8rjMGxBO",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "yarok-zait-arbequina",
@@ -8155,7 +8190,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1sx9f1eTmiFJdD4WMdOZP0vC1vsr9-e0M"
+    "certificate": "https://drive.google.com/uc?export=download&id=1sx9f1eTmiFJdD4WMdOZP0vC1vsr9-e0M",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "yosef-olive-oil-koroneiki",
@@ -8175,7 +8211,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1HKBqqygARIIPOCMHXzybCPorE8jwtbc8"
+    "certificate": "https://drive.google.com/uc?export=download&id=1HKBqqygARIIPOCMHXzybCPorE8jwtbc8",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "zeid",
@@ -8199,7 +8236,7 @@
   },
   {
     "slug": "lucini-premium-select-extra-virgin-olive-oil",
-    "name": "Lucini Premium Select Extra Virgin Olive Oil",
+    "name": "Lucini Premium Select Evoo",
     "producerSlug": "california-olive-ranch",
     "country": "Italy",
     "region": "",
@@ -8207,7 +8244,7 @@
       "Frantoio, Leccino, Moraiolo,"
     ],
     "intensity": "Medium",
-    "description": "Lucini Premium Select Extra Virgin Olive Oil is an award-winning extra virgin olive oil from Italy.",
+    "description": "Lucini Premium Select Evoo is an award-winning extra virgin olive oil from Italy.",
     "tastingNotes": [],
     "awards": [
       {
@@ -8215,7 +8252,9 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1ZyVzrIVDwhnUaDT1ACyCtojjrKU-M0Mz"
+    "certificate": "https://drive.google.com/uc?export=download&id=1ZyVzrIVDwhnUaDT1ACyCtojjrKU-M0Mz",
+    "image": "/images/oils/lucini-premium-select-evoo.png",
+    "format": "good"
   },
   {
     "slug": "gallo-classico",
@@ -8241,7 +8280,7 @@
   },
   {
     "slug": "parqueoliva-serie-oro-dop-priego-de-cordoba-2",
-    "name": "Parqueoliva Serie Oro (Dop Priego De Córdoba)",
+    "name": "Parqueoliva Serie Oro",
     "producerSlug": "almazaras-de-la-subbetica-sl",
     "country": "Spain",
     "region": "",
@@ -8249,7 +8288,7 @@
       "Picuda, Hojiblanca, ,"
     ],
     "intensity": "Medium",
-    "description": "Parqueoliva Serie Oro (Dop Priego De Córdoba) is an award-winning extra virgin olive oil from Spain.",
+    "description": "Parqueoliva Serie Oro is an award-winning extra virgin olive oil from Spain.",
     "tastingNotes": [],
     "awards": [
       {
@@ -8341,7 +8380,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1AmeMANLyygBquYahQVFJV2CkuGNIWjHu"
+    "certificate": "https://drive.google.com/uc?export=download&id=1AmeMANLyygBquYahQVFJV2CkuGNIWjHu",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "azeite-porca-de-murca-cocoa",
@@ -8365,7 +8405,7 @@
   },
   {
     "slug": "agrumato-method-calabrian-chili",
-    "name": "Agrumato Method Calabrian Chili",
+    "name": "Corto Olive Agrumato-Method Calabrian Chili",
     "producerSlug": "corto-olive-co",
     "country": "United States",
     "region": "",
@@ -8373,7 +8413,7 @@
       "Chili"
     ],
     "intensity": "Medium",
-    "description": "Agrumato Method Calabrian Chili is an award-winning extra virgin olive oil from United States.",
+    "description": "Corto Olive Agrumato-Method Calabrian Chili is an award-winning extra virgin olive oil from United States.",
     "tastingNotes": [],
     "awards": [
       {
@@ -8381,7 +8421,9 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1mIBNiKBCnKMWGpiozm6mQgLBUnIlj-6v"
+    "certificate": "https://drive.google.com/uc?export=download&id=1mIBNiKBCnKMWGpiozm6mQgLBUnIlj-6v",
+    "image": "/images/oils/corto-olive-agrumato-method-calabrian-chili.png",
+    "format": "good"
   },
   {
     "slug": "jerusalemoliveoil-zaatar-olive-oil",
@@ -8401,7 +8443,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1KgXwp8KM60Zca82-5vA2pVeqH_aWaBx2"
+    "certificate": "https://drive.google.com/uc?export=download&id=1KgXwp8KM60Zca82-5vA2pVeqH_aWaBx2",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "lisadurne-hill-hojiblanca",
@@ -8465,7 +8508,7 @@
   },
   {
     "slug": "lucini-premium-select-organic-extra-virgin-olive-oil",
-    "name": "Lucini Premium Select Organic Extra Virgin Olive Oil",
+    "name": "Lucini Premium Select Organic Evoo",
     "producerSlug": "california-olive-ranch",
     "country": "Italy",
     "region": "",
@@ -8473,7 +8516,7 @@
       "Frantoio"
     ],
     "intensity": "Medium",
-    "description": "Lucini Premium Select Organic Extra Virgin Olive Oil is an award-winning extra virgin olive oil from Italy.",
+    "description": "Lucini Premium Select Organic Evoo is an award-winning extra virgin olive oil from Italy.",
     "tastingNotes": [],
     "awards": [
       {
@@ -8481,7 +8524,9 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=17yG88WbaVXEAULpVlOo5RzILKlqgibu6"
+    "certificate": "https://drive.google.com/uc?export=download&id=17yG88WbaVXEAULpVlOo5RzILKlqgibu6",
+    "image": "/images/oils/lucini-premium-select-organic-evoo.png",
+    "format": "good"
   },
   {
     "slug": "azeite-sabia-arbequina",
@@ -8505,7 +8550,7 @@
   },
   {
     "slug": "iliada-kalamata-pdo-gold-line",
-    "name": "Iliada Kalamata Pdo Gold Line",
+    "name": "Iliada Kalamata PDO",
     "producerSlug": "agrovim-sa",
     "country": "Greece",
     "region": "",
@@ -8513,7 +8558,7 @@
       "Koroneiki"
     ],
     "intensity": "Medium",
-    "description": "Iliada Kalamata Pdo Gold Line is an award-winning extra virgin olive oil from Greece.",
+    "description": "Iliada Kalamata PDO is an award-winning extra virgin olive oil from Greece.",
     "tastingNotes": [],
     "awards": [
       {
@@ -8521,7 +8566,9 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1E2lPHu2_LE5goqQbCr1HvuazB6wCNEO6"
+    "certificate": "https://drive.google.com/uc?export=download&id=1E2lPHu2_LE5goqQbCr1HvuazB6wCNEO6",
+    "image": "/images/oils/iliada-kalamata-pdo.png",
+    "format": "good"
   },
   {
     "slug": "primo-dop-monti-iblei",
@@ -8565,7 +8612,7 @@
   },
   {
     "slug": "iliada-organic-kalamata-pdo-platinum-line",
-    "name": "Iliada Organic Kalamata Pdo Platinum Line",
+    "name": "Iliada Kalamata Pdo Organic",
     "producerSlug": "agrovim-sa",
     "country": "Greece",
     "region": "",
@@ -8573,7 +8620,7 @@
       "Koroneiki"
     ],
     "intensity": "Medium",
-    "description": "Iliada Organic Kalamata Pdo Platinum Line is an award-winning extra virgin olive oil from Greece.",
+    "description": "Iliada Kalamata Pdo Organic is an award-winning extra virgin olive oil from Greece.",
     "tastingNotes": [],
     "awards": [
       {
@@ -8581,7 +8628,9 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1pDb4HIZ8-KSI_6LJZAHso0pd0CSEGf-1"
+    "certificate": "https://drive.google.com/uc?export=download&id=1pDb4HIZ8-KSI_6LJZAHso0pd0CSEGf-1",
+    "image": "/images/oils/iliada-kalamata-pdo-organic.png",
+    "format": "good"
   },
   {
     "slug": "jerusalemoliveoil-lemon-olive-oil",
@@ -8601,7 +8650,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1lCH_aayhqejyPuycIKYy3_1052-KovvV"
+    "certificate": "https://drive.google.com/uc?export=download&id=1lCH_aayhqejyPuycIKYy3_1052-KovvV",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "gallo-ancestral",
@@ -8847,7 +8897,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=17ZaeSGxQjkxVH4t3eoYnH4A2WUVwgQ6D"
+    "certificate": "https://drive.google.com/uc?export=download&id=17ZaeSGxQjkxVH4t3eoYnH4A2WUVwgQ6D",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "sen-bey-bahce-blendi",
@@ -8887,11 +8938,12 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1-qk-WekuAOtMUy9iJ1d2a5nY09Sg7vey"
+    "certificate": "https://drive.google.com/uc?export=download&id=1-qk-WekuAOtMUy9iJ1d2a5nY09Sg7vey",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "rincon-de-la-subbetica",
-    "name": "Rincon De La Subbética",
+    "name": "Rincon De La Subbetica",
     "producerSlug": "almazaras-de-la-subbetica-sl",
     "country": "Spain",
     "region": "",
@@ -8899,7 +8951,7 @@
       "Hojiblanca"
     ],
     "intensity": "Medium",
-    "description": "Rincon De La Subbética is an award-winning extra virgin olive oil from Spain.",
+    "description": "Rincon De La Subbetica is an award-winning extra virgin olive oil from Spain.",
     "tastingNotes": [],
     "awards": [
       {
@@ -8907,7 +8959,9 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1zRVMlNX_tdlX36TeU3tNn4193WUGOaZO"
+    "certificate": "https://drive.google.com/uc?export=download&id=1zRVMlNX_tdlX36TeU3tNn4193WUGOaZO",
+    "image": "/images/oils/rincon-de-la-subbetica-dop-priego-de-cordoba.png",
+    "format": "good"
   },
   {
     "slug": "alta-da-serra-blend-de-safra",
@@ -8987,7 +9041,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1cpJMWo5cc_MIdydHAIX4RxszmOSJQ5YD"
+    "certificate": "https://drive.google.com/uc?export=download&id=1cpJMWo5cc_MIdydHAIX4RxszmOSJQ5YD",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "nombre-propio-edicion-limitada",
@@ -9089,7 +9144,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1LSKJDkFgO1sso9Ck0jj0IzWj_ZjhCIy2"
+    "certificate": "https://drive.google.com/uc?export=download&id=1LSKJDkFgO1sso9Ck0jj0IzWj_ZjhCIy2",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "kibutz-shomriya-coratina",
@@ -9109,7 +9165,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1_pIOq28cAAEfX8A22ohN8_1mSIh1mcNG"
+    "certificate": "https://drive.google.com/uc?export=download&id=1_pIOq28cAAEfX8A22ohN8_1mSIh1mcNG",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "gallo-rossio-de-abrantes-verde",
@@ -9133,7 +9190,7 @@
   },
   {
     "slug": "almazaras-de-la-subbetica-bio",
-    "name": "Almazaras De La Subbetica Bio",
+    "name": "Almaoliva Bio",
     "producerSlug": "almazaras-de-la-subbetica-sl",
     "country": "Spain",
     "region": "",
@@ -9141,7 +9198,7 @@
       "Picuda, Picual, Hojiblanca,"
     ],
     "intensity": "Medium",
-    "description": "Almazaras De La Subbetica Bio is an award-winning extra virgin olive oil from Spain.",
+    "description": "Almaoliva Bio is an award-winning extra virgin olive oil from Spain.",
     "tastingNotes": [],
     "awards": [
       {
@@ -9149,7 +9206,9 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1OYahyioMAN1S4RtmA2TwJMTaAoy-O9X5"
+    "certificate": "https://drive.google.com/uc?export=download&id=1OYahyioMAN1S4RtmA2TwJMTaAoy-O9X5",
+    "image": "/images/oils/almaoliva-bio.png",
+    "format": "good"
   },
   {
     "slug": "jerusalemoliveoil-lemongrass-mint",
@@ -9169,7 +9228,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/bottle__bvs-jerusalemoliveoil__bvs-jerusalemoliveoil-with-lemongrass-mint.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1AqWerdffaC_SKlvKHSC77E63JMiST7JN"
   },
@@ -9191,7 +9250,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/oli-vogue-premium-selection.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1mLPhbgZhUUMlWj9c8Cis60vJnth4v_BV"
   },
@@ -9293,7 +9352,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1SAs2x76iRZSSvihOGlJb-ZKWGhFACG-4"
+    "certificate": "https://drive.google.com/uc?export=download&id=1SAs2x76iRZSSvihOGlJb-ZKWGhFACG-4",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "kibutz-shomriya-koroneiki",
@@ -9313,7 +9373,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1nr9K1UQg4X3eOmO_txRwLtrB4VjrUO7w"
+    "certificate": "https://drive.google.com/uc?export=download&id=1nr9K1UQg4X3eOmO_txRwLtrB4VjrUO7w",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "olikarnas-memecik",
@@ -9541,7 +9602,7 @@
   },
   {
     "slug": "gallo-rossio-de-abrantes-frutado",
-    "name": "Gallo Rossio De Abrantes Frutado",
+    "name": "Rossio De Abrantes Frutado Casa Gallo",
     "producerSlug": "gallo-worldwide",
     "country": "Portugal",
     "region": "",
@@ -9549,7 +9610,7 @@
       "Cobrançosa, Picual, Hojiblanca,"
     ],
     "intensity": "Medium",
-    "description": "Gallo Rossio De Abrantes Frutado is an award-winning extra virgin olive oil from Portugal.",
+    "description": "Rossio De Abrantes Frutado Casa Gallo is an award-winning extra virgin olive oil from Portugal.",
     "tastingNotes": [],
     "awards": [
       {
@@ -9557,7 +9618,9 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1EjRWLVcwCnXAUPxR0fafq0u7h1Z48-o8"
+    "certificate": "https://drive.google.com/uc?export=download&id=1EjRWLVcwCnXAUPxR0fafq0u7h1Z48-o8",
+    "image": "/images/oils/rossio-de-abrantes-frutado-casa-gallo.png",
+    "format": "good"
   },
   {
     "slug": "lagar-h-coratina",
@@ -9597,7 +9660,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1ZqXnRudPvahWb9mRgYf02gvFmmNFXsI9"
+    "certificate": "https://drive.google.com/uc?export=download&id=1ZqXnRudPvahWb9mRgYf02gvFmmNFXsI9",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "ayolis-anne-cocuk",
@@ -9621,7 +9685,7 @@
   },
   {
     "slug": "el-empiedro-dop-priego-de-cordoba-2",
-    "name": "El Empiedro (Dop Priego De Córdoba)",
+    "name": "El Empiedro",
     "producerSlug": "sca-olivarera-la-purisima",
     "country": "Spain",
     "region": "",
@@ -9629,7 +9693,7 @@
       "Hojiblanca"
     ],
     "intensity": "Medium",
-    "description": "El Empiedro (Dop Priego De Córdoba) is an award-winning extra virgin olive oil from Spain.",
+    "description": "El Empiedro is an award-winning extra virgin olive oil from Spain.",
     "tastingNotes": [],
     "awards": [
       {
@@ -9659,7 +9723,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=10-6bWF7Bs8T_ryt7lOm4nEgMz4u6uP3u"
+    "certificate": "https://drive.google.com/uc?export=download&id=10-6bWF7Bs8T_ryt7lOm4nEgMz4u6uP3u",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "petra-chili",
@@ -9825,7 +9890,7 @@
   },
   {
     "slug": "gallo-socalcos-do-norte",
-    "name": "Gallo Socalcos Do Norte",
+    "name": "Gallo Socalcos Do Norte Casa Gallo",
     "producerSlug": "gallo-worldwide",
     "country": "Portugal",
     "region": "",
@@ -9833,7 +9898,7 @@
       "Cordovil, Verdeal, Cobrançosa,"
     ],
     "intensity": "Medium",
-    "description": "Gallo Socalcos Do Norte is an award-winning extra virgin olive oil from Portugal.",
+    "description": "Gallo Socalcos Do Norte Casa Gallo is an award-winning extra virgin olive oil from Portugal.",
     "tastingNotes": [],
     "awards": [
       {
@@ -9841,11 +9906,13 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1uAE_p3ZfWLNOdj3QYcoIJdXUD9gFnkrl"
+    "certificate": "https://drive.google.com/uc?export=download&id=1uAE_p3ZfWLNOdj3QYcoIJdXUD9gFnkrl",
+    "image": "/images/oils/gallo-socalcos-do-norte-casa-gallo.png",
+    "format": "good"
   },
   {
     "slug": "bio-orto-biologico-di-peranzana",
-    "name": "Bio Orto Biologico Di Peranzana",
+    "name": "Bio Orto Peranzana",
     "producerSlug": "bio-orto",
     "country": "Italy",
     "region": "",
@@ -9853,7 +9920,7 @@
       "Peranzana"
     ],
     "intensity": "Medium",
-    "description": "Bio Orto Biologico Di Peranzana is an award-winning extra virgin olive oil from Italy.",
+    "description": "Bio Orto Peranzana is an award-winning extra virgin olive oil from Italy.",
     "tastingNotes": [],
     "awards": [
       {
@@ -9861,7 +9928,9 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1LfyQnLJl35DjhJ5bKzJtgA688b0ZXO1d"
+    "certificate": "https://drive.google.com/uc?export=download&id=1LfyQnLJl35DjhJ5bKzJtgA688b0ZXO1d",
+    "image": "/images/oils/bio-orto-peranzana.png",
+    "format": "good"
   },
   {
     "slug": "goldi-smooth",
@@ -9901,7 +9970,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1KiEo-YoaH-D8xDornmzXb_ny0J2XlPOp"
+    "certificate": "https://drive.google.com/uc?export=download&id=1KiEo-YoaH-D8xDornmzXb_ny0J2XlPOp",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "oasis-olives-frantoio-organic",
@@ -10021,7 +10091,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1KBJr53A8qC2V6ToK0G6UOYh79_I_sIvo"
+    "certificate": "https://drive.google.com/uc?export=download&id=1KBJr53A8qC2V6ToK0G6UOYh79_I_sIvo",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "herdade-da-bica-cobrancosa",
@@ -10247,7 +10318,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1Os-8CP8iNNWl4-p6huu809DdaQgvijJZ"
+    "certificate": "https://drive.google.com/uc?export=download&id=1Os-8CP8iNNWl4-p6huu809DdaQgvijJZ",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "jerusalemoliveoil-picual",
@@ -10267,7 +10339,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1XX4UvvKlg2aeCiCbdYCcVbtNCDy_257y"
+    "certificate": "https://drive.google.com/uc?export=download&id=1XX4UvvKlg2aeCiCbdYCcVbtNCDy_257y",
+    "image": "/images/oils/bvs-jerusalemoliveoil-picual.png"
   },
   {
     "slug": "gaia-oliva-bodrum-mandalinas",
@@ -10307,7 +10380,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1oFnioUHy-LhjIX153P_2HbiiwEESNLZE"
+    "certificate": "https://drive.google.com/uc?export=download&id=1oFnioUHy-LhjIX153P_2HbiiwEESNLZE",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "orfeu-picual",
@@ -10429,7 +10503,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1pQiOHXFXqHScmxw_mz3rp0maDKJU-dnb"
+    "certificate": "https://drive.google.com/uc?export=download&id=1pQiOHXFXqHScmxw_mz3rp0maDKJU-dnb",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "ptora-family-boutique-arbequina",
@@ -10449,7 +10524,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1b_nkJfs0GgiUjTP3DzH61ubePpFpXlXV"
+    "certificate": "https://drive.google.com/uc?export=download&id=1b_nkJfs0GgiUjTP3DzH61ubePpFpXlXV",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "las-tanas",
@@ -10489,7 +10565,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1e67_XpymHou2wgvuDvBEHHq23Ar-zEhK"
+    "certificate": "https://drive.google.com/uc?export=download&id=1e67_XpymHou2wgvuDvBEHHq23Ar-zEhK",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "jerusalemoliveoil-koroneiki",
@@ -10509,7 +10586,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/oils/bottle__bvs-jerusalemoliveoil__bvs-jerusalemoliveoil-koroneiki.png",
+    "image": "/images/oils/bvs-jerusalemoliveoil-koroneiki.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1dL-Jfu5bUijG_iHR9MvhRl_TB0P1n3KT"
   },
@@ -10531,7 +10608,9 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=10wASaihtIgRo1MNE6h7Y1335t6DTo5ba"
+    "certificate": "https://drive.google.com/uc?export=download&id=10wASaihtIgRo1MNE6h7Y1335t6DTo5ba",
+    "image": "/images/oils/coupage-natural.png",
+    "format": "good"
   },
   {
     "slug": "1863-extra-virgin-olive-oil",
@@ -10551,7 +10630,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1l8iYFv02pqldPZ3DyVYLslF8WfBfpQNw"
+    "certificate": "https://drive.google.com/uc?export=download&id=1l8iYFv02pqldPZ3DyVYLslF8WfBfpQNw",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "la-calandina-dop-aceite-del-bajo-aragon",
@@ -10591,7 +10671,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1dcu1Rjt0zgIUI13q1XKgJgsc3XhmPGuK"
+    "certificate": "https://drive.google.com/uc?export=download&id=1dcu1Rjt0zgIUI13q1XKgJgsc3XhmPGuK",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "meshek-achiya-house-blend",
@@ -10611,7 +10692,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1C11dZqYhpo_j4eQdXp3vsOx3Br2R18b0"
+    "certificate": "https://drive.google.com/uc?export=download&id=1C11dZqYhpo_j4eQdXp3vsOx3Br2R18b0",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "ayolis-organik",
@@ -10651,7 +10733,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1tYpIEhrVmjXgLVxC7nGFp9Zm-qUdBqK1"
+    "certificate": "https://drive.google.com/uc?export=download&id=1tYpIEhrVmjXgLVxC7nGFp9Zm-qUdBqK1",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "degustus-ecologic-seleccio-especial",
@@ -10691,7 +10774,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1rEIkNSQKlOQi05ssdr-8LB-60Axy7NS9"
+    "certificate": "https://drive.google.com/uc?export=download&id=1rEIkNSQKlOQi05ssdr-8LB-60Axy7NS9",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "shay-shiloach-arbequina",
@@ -10711,7 +10795,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1iYYGBJO6jSrvWPE09vXPro78VFrIADHx"
+    "certificate": "https://drive.google.com/uc?export=download&id=1iYYGBJO6jSrvWPE09vXPro78VFrIADHx",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "liokareas-liokareas-cold-fused-milanese-gremolata",
@@ -10731,7 +10816,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1L7KliSPVHy6CAIUaB0A7AeWrol_4yJy5"
+    "certificate": "https://drive.google.com/uc?export=download&id=1L7KliSPVHy6CAIUaB0A7AeWrol_4yJy5",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "olivya-gokceovack-kids",
@@ -10791,7 +10877,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1wb09O7VUSdOh0wO9ljLXOt2uGd4C-rL2"
+    "certificate": "https://drive.google.com/uc?export=download&id=1wb09O7VUSdOh0wO9ljLXOt2uGd4C-rL2",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "meshek-schorr-wolf-ha-ela-river-blend",
@@ -10811,7 +10898,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1OZdmhRN1n2BsF89XuPQZu3MILXtpUpDM"
+    "certificate": "https://drive.google.com/uc?export=download&id=1OZdmhRN1n2BsF89XuPQZu3MILXtpUpDM",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "meshek-schorr-wolf-picual",
@@ -10831,7 +10919,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1ge887ynKbdUMpPY7rv7CF7DA29NgNac-"
+    "certificate": "https://drive.google.com/uc?export=download&id=1ge887ynKbdUMpPY7rv7CF7DA29NgNac-",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "meshek-paz-pichulin",
@@ -10851,7 +10940,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1UTdN-P5T30Myt4ZQXYvtXQmUCBgv7Vn8"
+    "certificate": "https://drive.google.com/uc?export=download&id=1UTdN-P5T30Myt4ZQXYvtXQmUCBgv7Vn8",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "olibest",
@@ -10891,7 +10981,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1sHPFwYoPgYQi2ru7hOrt1f_0J1EDZ-Gz"
+    "certificate": "https://drive.google.com/uc?export=download&id=1sHPFwYoPgYQi2ru7hOrt1f_0J1EDZ-Gz",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "azeite-vera-cruz-azeite-vera-cruz",
@@ -10955,7 +11046,7 @@
   },
   {
     "slug": "azeite-porca-de-murca-dop",
-    "name": "Azeite Porca De Murça Dop",
+    "name": "Porca De Murça DOP",
     "producerSlug": "cooperativa-agricola-dos-olivicultores-de-murca-crl",
     "country": "Portugal",
     "region": "",
@@ -10963,7 +11054,7 @@
       "Verdeal, Madural, Cobrançosa, Cordovil"
     ],
     "intensity": "Medium",
-    "description": "Azeite Porca De Murça Dop is an award-winning extra virgin olive oil from Portugal.",
+    "description": "Porca De Murça DOP is an award-winning extra virgin olive oil from Portugal.",
     "tastingNotes": [],
     "awards": [
       {
@@ -10971,7 +11062,9 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1jn_WyDFh_CXXhUZyuluxlMdgz3NUpEc4"
+    "certificate": "https://drive.google.com/uc?export=download&id=1jn_WyDFh_CXXhUZyuluxlMdgz3NUpEc4",
+    "image": "/images/oils/porca-de-murca-dop.png",
+    "format": "good"
   },
   {
     "slug": "verde-louro-azeites-picual",
@@ -11091,7 +11184,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1Fl0ba6u0by8M7ASPgJL4J92ZwFxSdx35"
+    "certificate": "https://drive.google.com/uc?export=download&id=1Fl0ba6u0by8M7ASPgJL4J92ZwFxSdx35",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "sindyanna-of-galilee-extra-positive-olive-oil",
@@ -11111,7 +11205,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=19abxIu9_RQHzpemANWUlcpvu7My4vKYq"
+    "certificate": "https://drive.google.com/uc?export=download&id=19abxIu9_RQHzpemANWUlcpvu7My4vKYq",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "vienzo-koroneiki",
@@ -11273,7 +11368,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1LJTBqV8EayuJsf-nlwZnrkwyUL56f-X1"
+    "certificate": "https://drive.google.com/uc?export=download&id=1LJTBqV8EayuJsf-nlwZnrkwyUL56f-X1",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "300-organic",
@@ -11297,7 +11393,7 @@
   },
   {
     "slug": "terra-creta-infusions-evoo-infused-with-fresh-basil",
-    "name": "Terra Creta Infusions, Evoo Infused With Fresh Basil",
+    "name": "Terra Creta Infusions With Fresh Basil",
     "producerSlug": "melissa-kikizas-sa-for-terra-creta-evoo-brand",
     "country": "Greece",
     "region": "",
@@ -11305,7 +11401,7 @@
       "Basil"
     ],
     "intensity": "Medium",
-    "description": "Terra Creta Infusions, Evoo Infused With Fresh Basil is an award-winning extra virgin olive oil from Greece.",
+    "description": "Terra Creta Infusions With Fresh Basil is an award-winning extra virgin olive oil from Greece.",
     "tastingNotes": [],
     "awards": [
       {
@@ -11313,7 +11409,9 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=13TZ_1ixATEWKDVnpKdVT91c0Id_9esRD"
+    "certificate": "https://drive.google.com/uc?export=download&id=13TZ_1ixATEWKDVnpKdVT91c0Id_9esRD",
+    "image": "/images/oils/bottle__melissa-kikizas-sa-for-terra-creta-evoo-brand__terra-creta-infusions-with-fresh-basil.png",
+    "format": "good"
   },
   {
     "slug": "delice-farm-house-premium",
@@ -11373,7 +11471,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1iyD2_hb5UL8aobAS9NZt7-awY-hksl2Y"
+    "certificate": "https://drive.google.com/uc?export=download&id=1iyD2_hb5UL8aobAS9NZt7-awY-hksl2Y",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "masterpiece-blend-flavored-with-pimento-cloves-nutmeg-and-cinnamon",
@@ -11533,7 +11632,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1xjy5MPde1PeJPjXQKQhcJaqQD0wfu6eU"
+    "certificate": "https://drive.google.com/uc?export=download&id=1xjy5MPde1PeJPjXQKQhcJaqQD0wfu6eU",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "liokareas-cold-fused-basil",
@@ -11553,7 +11653,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1IN6ym7nqAbApAUGGv6et8H4mHZdHnMyI"
+    "certificate": "https://drive.google.com/uc?export=download&id=1IN6ym7nqAbApAUGGv6et8H4mHZdHnMyI",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "jerusalemoliveoil-basil-olive-oil",
@@ -11573,11 +11674,12 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1ims4JzAILOaVziyTE4fCZDFJBJo5n3af"
+    "certificate": "https://drive.google.com/uc?export=download&id=1ims4JzAILOaVziyTE4fCZDFJBJo5n3af",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "azeite-porca-de-murca-cordovil",
-    "name": "Azeite Porca De Murça Cordovil",
+    "name": "Porca De Murça Cordovil",
     "producerSlug": "cooperativa-agricola-dos-olivicultores-de-murca-crl",
     "country": "Portugal",
     "region": "",
@@ -11585,7 +11687,7 @@
       "Córdovil"
     ],
     "intensity": "Medium",
-    "description": "Azeite Porca De Murça Cordovil is an award-winning extra virgin olive oil from Portugal.",
+    "description": "Porca De Murça Cordovil is an award-winning extra virgin olive oil from Portugal.",
     "tastingNotes": [],
     "awards": [
       {
@@ -11593,7 +11695,9 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1U9bihD0b6yGZAoxZQAOiiijwxXMgQ0pT"
+    "certificate": "https://drive.google.com/uc?export=download&id=1U9bihD0b6yGZAoxZQAOiiijwxXMgQ0pT",
+    "image": "/images/oils/bottle__cooperativa-agricola-dos-olivicultores-de-murca-crl__porca-de-murca-cordovil.png",
+    "format": "good"
   },
   {
     "slug": "olivya-gokceovack-bahce",
@@ -11633,7 +11737,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1UaRT9bxLVwRodBtyAzhLE5_5l0LCNp4x"
+    "certificate": "https://drive.google.com/uc?export=download&id=1UaRT9bxLVwRodBtyAzhLE5_5l0LCNp4x",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "meshek-yamin-souri",
@@ -11653,7 +11758,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=148cSk6CsXRwjg7U081DXMAQMgy_MMezh"
+    "certificate": "https://drive.google.com/uc?export=download&id=148cSk6CsXRwjg7U081DXMAQMgy_MMezh",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "shemen-darom-house-blend",
@@ -11671,7 +11777,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1C4TeXsBZagCoQr7LSWDpjB5JQIn_B1qL"
+    "certificate": "https://drive.google.com/uc?export=download&id=1C4TeXsBZagCoQr7LSWDpjB5JQIn_B1qL",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "verde-louro-azeites-koroneiki",
@@ -11731,7 +11838,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/oils/estilo-oliva-coratina.png",
+    "image": "/images/oils/estilo-oliva-coratina-2.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1mJoaqIxkmnaRX-h2_ey2gqn6VMTSptx_"
   },
@@ -11833,7 +11940,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=12JGRtG9DhWEZh9uluZYzxBCqrO0Ghgk2"
+    "certificate": "https://drive.google.com/uc?export=download&id=12JGRtG9DhWEZh9uluZYzxBCqrO0Ghgk2",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "jerusalemoliveoil-heart-notes-blend",
@@ -11853,7 +11961,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=14xW4hkiREx-kS2svt5frQgSDqiMyTkju"
+    "certificate": "https://drive.google.com/uc?export=download&id=14xW4hkiREx-kS2svt5frQgSDqiMyTkju",
+    "image": "/images/oils/bvs-jerusalemoliveoil-heart-notes-blend.png"
   },
   {
     "slug": "sen-bey-trilye",
@@ -12033,7 +12142,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1WDiTmJeOoVfTdjwqbUheePRE3g9eEjtE"
+    "certificate": "https://drive.google.com/uc?export=download&id=1WDiTmJeOoVfTdjwqbUheePRE3g9eEjtE",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "alcober-dop-aceite-del-bajo-aragon",
@@ -12093,7 +12203,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1HiQtuzkAwtB2B8IPhpzqi8EBoPSpFjlx"
+    "certificate": "https://drive.google.com/uc?export=download&id=1HiQtuzkAwtB2B8IPhpzqi8EBoPSpFjlx",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "meshek-salomon-askal",
@@ -12113,7 +12224,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1ziSEL77n11hmHxBY9YYnicSM1-tKgU1J"
+    "certificate": "https://drive.google.com/uc?export=download&id=1ziSEL77n11hmHxBY9YYnicSM1-tKgU1J",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "eliad-olive-mill-golan-hights-classic",
@@ -12133,7 +12245,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1wnLrJP3CDh1qILWo1b2GKShbe1kJ8Uwi"
+    "certificate": "https://drive.google.com/uc?export=download&id=1wnLrJP3CDh1qILWo1b2GKShbe1kJ8Uwi",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "ptora-family-boutique-midnight-picual",
@@ -12153,7 +12266,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1TzZmPfR92Z4cUu7W-_UPzAa47a3YjmqV"
+    "certificate": "https://drive.google.com/uc?export=download&id=1TzZmPfR92Z4cUu7W-_UPzAa47a3YjmqV",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "syllektikon-gourmet-flavored-evoo-with-lemon-orange-and-thyme",
@@ -12191,7 +12305,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1rDqIFULuKh5EkB9YNX-VBAx22-srhRM4"
+    "certificate": "https://drive.google.com/uc?export=download&id=1rDqIFULuKh5EkB9YNX-VBAx22-srhRM4",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "liokareas-cold-fused-wild-dill",
@@ -12211,7 +12326,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=15uqOGckenPqSQ9EJ8w82ogpiAH2PaQB2"
+    "certificate": "https://drive.google.com/uc?export=download&id=15uqOGckenPqSQ9EJ8w82ogpiAH2PaQB2",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "recanto-maestro-arbequina",
@@ -12473,7 +12589,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1TX0erZWEjBMRBEoUJgnvuUGHPM9olsBS"
+    "certificate": "https://drive.google.com/uc?export=download&id=1TX0erZWEjBMRBEoUJgnvuUGHPM9olsBS",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "azeite-batalha-frutado",
@@ -12514,28 +12631,6 @@
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1c7nhqULJxFEuFjlGB6_IalB2RYfeXK0Z"
-  },
-  {
-    "slug": "jerusalemoliveoil-coratina",
-    "name": "JerusalemOliveOil Coratina",
-    "producerSlug": "bvs-jerusalemoliveoil",
-    "country": "Israel",
-    "region": "",
-    "varieties": [
-      "Coratina"
-    ],
-    "intensity": "Medium",
-    "description": "JerusalemOliveOil Coratina is an award-winning extra virgin olive oil from Israel.",
-    "tastingNotes": [],
-    "awards": [
-      {
-        "year": 2026,
-        "prize": "Gold Medal"
-      }
-    ],
-    "image": "/images/oils/bottle__bvs-jerusalemoliveoil__bvs-jerusalemoliveoil-coratina.png",
-    "format": "good",
-    "certificate": "https://drive.google.com/uc?export=download&id=1fPZ758NAnfAcsOuPpDNjWcuB8GgmhpZ8"
   },
   {
     "slug": "ninurta-edremit-2",
@@ -12637,7 +12732,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1RRAtn2lzX61bfqApswocNPFhVa_gM9hn"
+    "certificate": "https://drive.google.com/uc?export=download&id=1RRAtn2lzX61bfqApswocNPFhVa_gM9hn",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "ninurta-troia-blend-2",
@@ -12677,7 +12773,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1tJtS0WjJzgPjVYdJ0WvzQ0P43U2fZXVr"
+    "certificate": "https://drive.google.com/uc?export=download&id=1tJtS0WjJzgPjVYdJ0WvzQ0P43U2fZXVr",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "maxouli",
@@ -12698,26 +12795,6 @@
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1JMYdphlhD93GG9K528Rs3zmlytGpgJ8u"
-  },
-  {
-    "slug": "jerusalemoliveoil-arbequina",
-    "name": "JerusalemOliveOil Arbequina",
-    "producerSlug": "bvs-jerusalemoliveoil",
-    "country": "Israel",
-    "region": "",
-    "varieties": [
-      "Arbequina"
-    ],
-    "intensity": "Medium",
-    "description": "JerusalemOliveOil Arbequina is an award-winning extra virgin olive oil from Israel.",
-    "tastingNotes": [],
-    "awards": [
-      {
-        "year": 2026,
-        "prize": "Gold Medal"
-      }
-    ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1fiyK25TXsOd58IMolN5Drcn9y9S190kv"
   },
   {
     "slug": "jordan-bio-olivenol-nativ-extra-2",
@@ -12779,7 +12856,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1Zm1gzreXgZfsyCyNvglVK8TmDlOOBl1p"
+    "certificate": "https://drive.google.com/uc?export=download&id=1Zm1gzreXgZfsyCyNvglVK8TmDlOOBl1p",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "meshek-margolin-shalom-tel-adashim-blend",
@@ -12799,7 +12877,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1itNB8tM2-9qqIyVacvaIcMwwi1zMH-n-"
+    "certificate": "https://drive.google.com/uc?export=download&id=1itNB8tM2-9qqIyVacvaIcMwwi1zMH-n-",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "maxouli-pgi-laconia",
@@ -12865,7 +12944,7 @@
   },
   {
     "slug": "nermin-hanm-zeytinligi-edremit-erken-hasat-zeytinyag",
-    "name": "Nermin Hanım Zeytinliği Edremit Erken Hasat Zeytinyağı",
+    "name": "Nermin Hanım Edremit Erken Hasat",
     "producerSlug": "gokduman-tarm-gda-turz-ltd-sti",
     "country": "Turkey",
     "region": "",
@@ -12873,7 +12952,7 @@
       "Edremit"
     ],
     "intensity": "Medium",
-    "description": "Nermin Hanım Zeytinliği Edremit Erken Hasat Zeytinyağı is an award-winning extra virgin olive oil from Turkey.",
+    "description": "Nermin Hanım Edremit Erken Hasat is an award-winning extra virgin olive oil from Turkey.",
     "tastingNotes": [],
     "awards": [
       {
@@ -12881,7 +12960,9 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1ACAmiv4ZbEsaZ2abNdDqF6IboHoCIbGf"
+    "certificate": "https://drive.google.com/uc?export=download&id=1ACAmiv4ZbEsaZ2abNdDqF6IboHoCIbGf",
+    "image": "/images/oils/nermin-hanm-edremit-erken-hasat.png",
+    "format": "good"
   },
   {
     "slug": "grattacielo-blend-de-safra",
@@ -12901,7 +12982,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/oils/grattaciello-blend-de-safra.png",
+    "image": "/images/tempbottle_image.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=114ZQbAfC6hhdp-1JOKJPrKdcc6QOg0fT"
   },
@@ -12963,7 +13044,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1vmMPzbozL604zTRJDWJVcdJyKSyKymNk"
+    "certificate": "https://drive.google.com/uc?export=download&id=1vmMPzbozL604zTRJDWJVcdJyKSyKymNk",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "raiz-organic-blend-de-safra",
@@ -13003,7 +13085,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1yXhCDapN4rR8sUGyDDzNvy_KAYYnnM0Y"
+    "certificate": "https://drive.google.com/uc?export=download&id=1yXhCDapN4rR8sUGyDDzNvy_KAYYnnM0Y",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "marcos",
@@ -13127,7 +13210,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1dQVeW8HwNmN0dthAcg26mt-NZ3lpBz4A"
+    "certificate": "https://drive.google.com/uc?export=download&id=1dQVeW8HwNmN0dthAcg26mt-NZ3lpBz4A",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "oz-koyum-naturel-szma-zeytinyagy",
@@ -13167,7 +13251,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1TNIxQaWovwmzBoTPf8elMylWKEvPmy0H"
+    "certificate": "https://drive.google.com/uc?export=download&id=1TNIxQaWovwmzBoTPf8elMylWKEvPmy0H",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "matere-bio",
@@ -13191,7 +13276,7 @@
   },
   {
     "slug": "azeite-porca-de-murca-cobrancosa",
-    "name": "Azeite Porca De Murça Cobrançosa",
+    "name": "Porca De Murça Cobrançosa",
     "producerSlug": "cooperativa-agricola-dos-olivicultores-de-murca-crl",
     "country": "Portugal",
     "region": "",
@@ -13199,7 +13284,7 @@
       "Cobrançosa"
     ],
     "intensity": "Medium",
-    "description": "Azeite Porca De Murça Cobrançosa is an award-winning extra virgin olive oil from Portugal.",
+    "description": "Porca De Murça Cobrançosa is an award-winning extra virgin olive oil from Portugal.",
     "tastingNotes": [],
     "awards": [
       {
@@ -13207,7 +13292,9 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1WMtj4jLmJKtS2u0gIMjxeCq4FN487Scd"
+    "certificate": "https://drive.google.com/uc?export=download&id=1WMtj4jLmJKtS2u0gIMjxeCq4FN487Scd",
+    "image": "/images/oils/bottle__cooperativa-agricola-dos-olivicultores-de-murca-crl__porca-de-murca-cobrancosa.png",
+    "format": "good"
   },
   {
     "slug": "olivya-gokceovack-yamac",
@@ -13245,7 +13332,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1WW9Yik_vohl9AVbljJCxCrwERpMe0D1b"
+    "certificate": "https://drive.google.com/uc?export=download&id=1WW9Yik_vohl9AVbljJCxCrwERpMe0D1b",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "orfeu-blend-de-safra",
@@ -13323,11 +13411,12 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1RXdaSj1Q5z4uLXOWboByamKfrHb0KD8t"
+    "certificate": "https://drive.google.com/uc?export=download&id=1RXdaSj1Q5z4uLXOWboByamKfrHb0KD8t",
+    "image": "/images/tempbottle_image.png"
   },
   {
     "slug": "molino-alfonso-dop-aceite-del-bajo-aragon",
-    "name": "Molino Alfonso - Dop Aceite Del Bajo Aragón",
+    "name": "Molino Alfonso",
     "producerSlug": "molino-alfonso-belchite-dop-aceite-del-bajo-aragon",
     "country": "Spain",
     "region": "",
@@ -13335,7 +13424,7 @@
       "Empeltre"
     ],
     "intensity": "Medium",
-    "description": "Molino Alfonso - Dop Aceite Del Bajo Aragón is an award-winning extra virgin olive oil from Spain.",
+    "description": "Molino Alfonso is an award-winning extra virgin olive oil from Spain.",
     "tastingNotes": [],
     "awards": [
       {
@@ -13343,7 +13432,9 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1blHV49GIrnLkv5a-Ron_GfizSirWXTfJ"
+    "certificate": "https://drive.google.com/uc?export=download&id=1blHV49GIrnLkv5a-Ron_GfizSirWXTfJ",
+    "image": "/images/oils/molino-alfonso.png",
+    "format": "good"
   },
   {
     "slug": "q-zeid-dop-aceite-del-bajo-aragon",
@@ -13381,6 +13472,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1SgGlJ5yOVAm4ZKaRzkglHdlcNwBZPHwj"
+    "certificate": "https://drive.google.com/uc?export=download&id=1SgGlJ5yOVAm4ZKaRzkglHdlcNwBZPHwj",
+    "image": "/images/tempbottle_image.png"
   }
 ]

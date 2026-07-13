@@ -4,14 +4,13 @@ import {
   getAllOils,
   getCountries,
   getPrizes,
-  getVarieties,
   getYears,
 } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Winners",
   description:
-    "Browse every award-winning olive oil from the Terra Olivo competition, filterable by edition, award and country.",
+    "Browse the 2025 and 2026 Terra Olivo award-winning olive oils, filterable by edition, award and country. Past editions will be uploaded soon.",
 };
 
 export default function WinnersPage() {
@@ -22,7 +21,8 @@ export default function WinnersPage() {
           Competition Winners
         </h1>
         <p className="mt-2 text-olive-600">
-          Award-winning extra virgin olive oils from every Terra Olivo edition.
+          Award-winning extra virgin olive oils from the 2025 and 2026 Terra Olivo editions.
+          Past editions will be uploaded soon.
         </p>
       </header>
       <div className="mt-8">
@@ -31,7 +31,6 @@ export default function WinnersPage() {
           years={getYears()}
           prizes={getPrizes()}
           countries={getCountries()}
-          varieties={getVarieties()}
         />
       </div>
     </div>

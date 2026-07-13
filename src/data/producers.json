@@ -6,16 +6,16 @@
     "region": "Peloponnese",
     "description": "A.M.G. Karabelas P.C., operating as \"The Olive Temple,\" is a fourth-generation, family-run olive oil producer located in Ancient Olympia, Greece. They manage a state-of-the-art mill where olives are processed within three hours of harvest, ensuring the highest quality for their award-winning extra virgin olive oils like Laurel & Flame. The producer stands out for its commitment to traceability through the \"MY ID Project,\" allowing consumers to scan a QR code to access detailed information about the oil's origin and production.",
     "website": "https://theolivetemple.gr",
-    "logo": "/images/producers/amg-karabelas-pc.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "aceite-la-masada-roya-andorra-dop-aceite-del-bajo-aragon",
-    "name": "Aceite La Masada Roya (Andorra) - Dop Aceite Del Bajo Arag\u00f3n",
+    "name": "Aceite La Masada Roya (Andorra) - Dop Aceite Del Bajo Aragón",
     "country": "Spain",
     "region": "Aragon",
-    "description": "Located in Andorra within the renowned Bajo Arag\u00f3n region of Spain, La Masada Roya is a distinguished producer of premium extra virgin olive oil certified under the DOP Aceite del Bajo Arag\u00f3n. Founded by Pedro Valero, the estate specializes in early harvest, cold-extracted oils crafted from native varieties like the traditional Empeltre. Their meticulously crafted oils are celebrated for their harmonious flavor profiles featuring delicate notes of almond and apple, earning them prestigious international accolades. Combining decades of expertise with modern, sustainable practices, La Masada Roya's exquisite oils reflect a deep dedication to preserving the authentic, vibrant essence of Arag\u00f3n's terroir.",
+    "description": "Located in Andorra within the renowned Bajo Aragón region of Spain, La Masada Roya is a distinguished producer of premium extra virgin olive oil certified under the DOP Aceite del Bajo Aragón. Founded by Pedro Valero, the estate specializes in early harvest, cold-extracted oils crafted from native varieties like the traditional Empeltre. Their meticulously crafted oils are celebrated for their harmonious flavor profiles featuring delicate notes of almond and apple, earning them prestigious international accolades. Combining decades of expertise with modern, sustainable practices, La Masada Roya's exquisite oils reflect a deep dedication to preserving the authentic, vibrant essence of Aragón's terroir.",
     "website": "https://masada-roya.es",
-    "logo": "/images/producers/aceite-la-masada-roya-andorra-dop-aceite-del-bajo-aragon.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "aceites-garcia-de-la-cruz-sl",
@@ -24,25 +24,25 @@
     "region": "Andalusia",
     "description": "Located in the Montes de Toledo, Spain, this family-owned producer has been making high-quality olive oil since 1872. With five generations of expertise, they craft exceptional organic and conventional extra virgin olive oils from Cornicabra, Picual, Hojiblanca, and Arbequina varieties. They are strongly committed to sustainable, circular economy practices and share their passion globally by exporting to over 40 countries.",
     "website": "https://garciadelacruzoliveoil.com",
-    "logo": "/images/producers/aceites-garcia-de-la-cruz-sl.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "aceites-queo-porcuna",
     "name": "Aceites Queo Porcuna",
     "country": "Spain",
     "region": "Andalusia",
-    "description": "Located in the historic olive-growing town of Porcuna in Ja\u00e9n, Spain, Aceites Queo represents the fourth generation of a family dedicated to the olive trade since the 1930s. Transitioning in 2021 to marketing their own premium brand, the three Barrionuevo Torres brothers named their enterprise \"Queo\"\u2014a local term meaning tranquility. They specialize in early-harvest Picual extra virgin olive oil, combining deep-rooted traditional knowledge with modern, sustainable practices.",
+    "description": "Located in the historic olive-growing town of Porcuna in Jaén, Spain, Aceites Queo represents the fourth generation of a family dedicated to the olive trade since the 1930s. Transitioning in 2021 to marketing their own premium brand, the three Barrionuevo Torres brothers named their enterprise \"Queo\"—a local term meaning tranquility. They specialize in early-harvest Picual extra virgin olive oil, combining deep-rooted traditional knowledge with modern, sustainable practices.",
     "website": "https://aceitesqueoporcuna.com",
-    "logo": "/images/producers/aceites-queo-porcuna.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "acushla-sa",
     "name": "Acushla S.A.",
     "country": "Portugal",
     "region": "Alentejo",
-    "description": "Established in 2006 by fashion entrepreneur Joaquim Moreira, Acushla is situated on the 300-hectare Quinta do Prado estate in the Tr\u00e1s-os-Montes e Alto Douro region of northeastern Portugal. The brand, whose Celtic name translates to \"beat of my heart,\" focuses on high-quality, organic extra virgin olive oil from native varieties like Cobran\u00e7osa and Madural. Acushla distinguishes itself through an uncompromising commitment to sustainability, utilizing organic farming, solar power, and operating an advanced mill with top-tier food safety certifications.",
+    "description": "Established in 2006 by fashion entrepreneur Joaquim Moreira, Acushla is situated on the 300-hectare Quinta do Prado estate in the Trás-os-Montes e Alto Douro region of northeastern Portugal. The brand, whose Celtic name translates to \"beat of my heart,\" focuses on high-quality, organic extra virgin olive oil from native varieties like Cobrançosa and Madural. Acushla distinguishes itself through an uncompromising commitment to sustainability, utilizing organic farming, solar power, and operating an advanced mill with top-tier food safety certifications.",
     "website": "https://acushla.com",
-    "logo": "/images/producers/logo__acushla-sa.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "adama-boutique-olive-oil",
@@ -50,32 +50,32 @@
     "country": "Israel",
     "region": "Israel (Various)",
     "description": "Hailing from the fertile Northern region of Israel, Adama Boutique is a renowned producer of premium extra virgin olive oil, celebrated for its artisanal and sustainable farming methods. Unrelated to the large agrochemical company of the same name, this boutique producer frequently garners acclaim in international competitions, including the EVOO World Ranking. They are especially recognized for crafting distinctive varietals such as Pichuline, emphasizing quality and tradition in every harvest.",
-    "logo": "/images/producers/adama-boutique-olive-oil.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "agricola-sant-isidre-i-sc-de-juncosa-sccl",
     "name": "Agricola Sant Isidre I Sc De Juncosa Sccl",
     "country": "Spain",
     "region": "Catalonia",
-    "description": "Founded in 1919 by local farmers in the village of Juncosa, Catalonia, the Cooperativa Agr\u00edcola Sant Isidre de Juncosa de les Garrigues is a cornerstone of the region's agricultural history. Operating under the PDO Les Garrigues, the cooperative is celebrated for its \"Les Cabanes\" brand, which pays homage to the traditional dry-stone cabins dotting their olive groves. Combining a century of expertise with a modernized mill opened in 2011, they produce exceptional Arbequina extra virgin olive oil, reflecting the unique terroir of their historic landscape.",
-    "logo": "/images/producers/logo__agricola-sant-isidre-i-sc-de-juncosa-sccl.png"
+    "description": "Founded in 1919 by local farmers in the village of Juncosa, Catalonia, the Cooperativa Agrícola Sant Isidre de Juncosa de les Garrigues is a cornerstone of the region's agricultural history. Operating under the PDO Les Garrigues, the cooperative is celebrated for its \"Les Cabanes\" brand, which pays homage to the traditional dry-stone cabins dotting their olive groves. Combining a century of expertise with a modernized mill opened in 2011, they produce exceptional Arbequina extra virgin olive oil, reflecting the unique terroir of their historic landscape.",
+    "logo": "/logo.png"
   },
   {
     "slug": "agro-foods-commerce",
     "name": "Agro Foods & Commerce",
     "country": "Spain",
     "region": "Andalusia",
-    "description": "Agro Foods & Commerce, SLU, operating under the Priordei brand, is located in the Priorat region of Catalonia, Spain. Led by the Ciuraneta family\u2014whose olive-growing legacy spans over ten generations\u2014the company cultivates Arbequina and Rojal varieties within the pristine Sierra de Montsant Natural Park. Through a strategic alliance with the Dcoop cooperative group, Priordei blends traditional terrace farming methods with a modern vision to elevate their award-winning, distinctive extra virgin olive oils on the global stage.",
-    "logo": "/images/producers/agro-foods-commerce.png"
+    "description": "Agro Foods & Commerce, SLU, operating under the Priordei brand, is located in the Priorat region of Catalonia, Spain. Led by the Ciuraneta family—whose olive-growing legacy spans over ten generations—the company cultivates Arbequina and Rojal varieties within the pristine Sierra de Montsant Natural Park. Through a strategic alliance with the Dcoop cooperative group, Priordei blends traditional terrace farming methods with a modern vision to elevate their award-winning, distinctive extra virgin olive oils on the global stage.",
+    "logo": "/logo.png"
   },
   {
     "slug": "agroalimentos-la-redonda",
     "name": "Agroalimentos La Redonda",
     "country": "Spain",
     "region": "Andalusia",
-    "description": "Based in the Jal\u00f3n Valley of Arag\u00f3n, Spain, Agroalimentos La Redonda is a family-owned enterprise with over 35 years of agricultural expertise. Operating from their 200-hectare estate in La Almunia de Do\u00f1a Godina, the company inaugurated its own state-of-the-art mill in 2004 to ensure complete traceability and superior quality. Specializing in the Arbequina variety, they meticulously control the entire production process from harvest to bottling, crafting award-winning extra virgin olive oils celebrated for their innovation and regional character.",
+    "description": "Based in the Jalón Valley of Aragón, Spain, Agroalimentos La Redonda is a family-owned enterprise with over 35 years of agricultural expertise. Operating from their 200-hectare estate in La Almunia de Doña Godina, the company inaugurated its own state-of-the-art mill in 2004 to ensure complete traceability and superior quality. Specializing in the Arbequina variety, they meticulously control the entire production process from harvest to bottling, crafting award-winning extra virgin olive oils celebrated for their innovation and regional character.",
     "website": "https://laredonda.net",
-    "logo": "/images/producers/agroalimentos-la-redonda.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "agropecuaria-el-mistol-sa",
@@ -84,7 +84,7 @@
     "region": "Argentina",
     "description": "Founded in 1997 by the Raspagliesi family, Agropecuaria El Mistol S.A. is an acclaimed Argentine producer located at the foot of the Andes Mountains in San Juan province. Named after a century-old Mistol tree on their \"Don Mario\" farm, the company cultivated 350 hectares of modern olive groves in a terroir uniquely suited for low-acidity extra virgin olive oils. Their premium blends, featuring varieties like Arbequina, Coratina, and Arauco, have garnered numerous prestigious international awards for their exceptional quality and flavor profile.",
     "website": "https://elmistol.com",
-    "logo": "/images/producers/agropecuaria-el-mistol-sa.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "agrovim-sa",
@@ -93,60 +93,60 @@
     "region": "Peloponnese",
     "description": "Originating from a family business established in 1964, Agrovim S.A. is a prominent Greek exporter based in Kalamata, within the globally renowned Messenia region of the Peloponnese. Famous for their flagship \"ILIADA\" brand, the company specializes in PDO Kalamata extra virgin olive oils and olives, primarily utilizing the prized Koroneiki variety. By partnering with thousands of local small-scale farmers and utilizing state-of-the-art, internationally certified processing facilities, Agrovim successfully shares Greece's rich olive-growing heritage with over 50 countries worldwide.",
     "website": "https://agrovim.gr",
-    "logo": "/images/producers/agrovim-sa.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "akg-zeytincilik-gda-ltd-sti",
-    "name": "AKG Zeytincilik G\u0131da LTD \u015eT\u0130",
+    "name": "AKG Zeytincilik Gıda LTD ŞTİ",
     "country": "Turkey",
     "region": "Rio Grande do Sul",
-    "description": "AKG Zeytincilik G\u0131da Tar\u0131m is a distinguished Turkish olive oil producer, famously known for its \"Granpa\" brand. The company operates a sprawling 240-hectare single-estate olive grove in the Mu\u011fla province of southwestern Turkey. Driven by an early harvest of exceptional quality that inspired the institutionalization of their brand, AKG Zeytincilik produces world-class, multi-award-winning extra virgin olive oils, notably from the regional Memecik olive variety.",
+    "description": "AKG Zeytincilik Gıda Tarım is a distinguished Turkish olive oil producer, famously known for its \"Granpa\" brand. The company operates a sprawling 240-hectare single-estate olive grove in the Muğla province of southwestern Turkey. Driven by an early harvest of exceptional quality that inspired the institutionalization of their brand, AKG Zeytincilik produces world-class, multi-award-winning extra virgin olive oils, notably from the regional Memecik olive variety.",
     "website": "https://akazeytincilik.com",
-    "logo": "/images/producers/akg-zeytincilik-gda-ltd-sti.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "al-zait-co",
     "name": "Al-Zait & Co.",
     "country": "Brazil",
     "region": "Rio Grande do Sul",
-    "description": "Al-Zait & Co. is a premium producer of Brazilian extra virgin olive oil, operating out of the Est\u00e2ncia Santa Leonida in Ros\u00e1rio do Sul, Rio Grande do Sul. This region is considered the heartland of Brazil's burgeoning olive oil industry due to its favorable winter climate. Emphasizing sustainable agriculture and rapid cold-pressing techniques, Al-Zait has gained significant international prestige\u2014frequently medaling in global competitions for its outstanding monocultivar oils like Picual and Koroneiki.",
+    "description": "Al-Zait & Co. is a premium producer of Brazilian extra virgin olive oil, operating out of the Estância Santa Leonida in Rosário do Sul, Rio Grande do Sul. This region is considered the heartland of Brazil's burgeoning olive oil industry due to its favorable winter climate. Emphasizing sustainable agriculture and rapid cold-pressing techniques, Al-Zait has gained significant international prestige—frequently medaling in global competitions for its outstanding monocultivar oils like Picual and Koroneiki.",
     "website": "https://al-zait.com",
-    "logo": "/images/producers/al-zait-co.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "almazara-artal-albalate-del-arzobispo-dop-aceite-del-bajo-aragon",
-    "name": "Almazara Artal (Albalate Del Arzobispo) - Dop Aceite Del Bajo Arag\u00f3n",
+    "name": "Almazara Artal (Albalate Del Arzobispo) - Dop Aceite Del Bajo Aragón",
     "country": "Spain",
     "region": "Aragon",
-    "description": "Situated in Albalate del Arzobispo within Spain's historic Bajo Arag\u00f3n region, Almazara Artal is a celebrated family-run olive mill managed by Arantxa Gar\u00edn. The mill is dedicated to crafting exceptional extra virgin olive oils, such as their award-winning \"El Aceite de Marta\" and \"Safeito,\" primarily using the region's signature Empeltre and Arbequina varieties. Operating under the rigorous Aceite del Bajo Arag\u00f3n PDO, they employ meticulously controlled mechanical processes to ensure the highest quality while promoting local oleotourism.",
+    "description": "Situated in Albalate del Arzobispo within Spain's historic Bajo Aragón region, Almazara Artal is a celebrated family-run olive mill managed by Arantxa Garín. The mill is dedicated to crafting exceptional extra virgin olive oils, such as their award-winning \"El Aceite de Marta\" and \"Safeito,\" primarily using the region's signature Empeltre and Arbequina varieties. Operating under the rigorous Aceite del Bajo Aragón PDO, they employ meticulously controlled mechanical processes to ensure the highest quality while promoting local oleotourism.",
     "website": "https://almazaraartal.com",
-    "logo": "/images/producers/almazara-artal-albalate-del-arzobispo-dop-aceite-del-bajo-aragon.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "almazaras-de-la-subbetica-sl",
     "name": "Almazaras De La Subbetica S.L.",
     "country": "Spain",
     "region": "Andalusia",
-    "description": "Formed in 2007 through the merger of historic local cooperatives, Almazaras de la Subb\u00e9tica is located in the rugged Sierras Subb\u00e9ticas Natural Park of C\u00f3rdoba, Andalusia. Representing roughly 7,000 olive-growing families, the cooperative leverages the region's challenging mountainous terrain and unique microclimate to produce spectacular oils under the Priego de C\u00f3rdoba PDO. Globally celebrated for sustainable and organic farming practices, they are widely considered one of the most awarded olive oil producers in the world.",
+    "description": "Formed in 2007 through the merger of historic local cooperatives, Almazaras de la Subbética is located in the rugged Sierras Subbéticas Natural Park of Córdoba, Andalusia. Representing roughly 7,000 olive-growing families, the cooperative leverages the region's challenging mountainous terrain and unique microclimate to produce spectacular oils under the Priego de Córdoba PDO. Globally celebrated for sustainable and organic farming practices, they are widely considered one of the most awarded olive oil producers in the world.",
     "website": "https://almazarasdelasubbetica.com",
-    "logo": "/images/producers/almazaras-de-la-subbetica-sl.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "anshei-hazait",
     "name": "Anshei Hazait",
     "country": "Israel",
-    "region": "S\u00e3o Paulo",
+    "region": "São Paulo",
     "description": "Anshei HaZayit Yaniv Zaban runs Anshei Zayit with both respect, love and marvel for everything olive. A professional and trained olive grower from central Israel, Zaban produces quality olives and oils including the revered Coratina olive and the popular and peppery Syrian olive.",
-    "logo": "/images/producers/anshei-hazait.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "apadrinaunolivoorg-oliete-dop-aceite-del-bajo-aragon",
-    "name": "Apadrinaunolivo.Org (Oliete) - Dop Aceite Del Bajo Arag\u00f3n",
+    "name": "Apadrinaunolivo.Org (Oliete) - Dop Aceite Del Bajo Aragón",
     "country": "Spain",
     "region": "Aragon",
     "description": "Based in Oliete, Teruel (Spain), this inspiring social and environmental project recovers abandoned centenary olive trees to combat rural depopulation. By producing artisan, cold-pressed extra virgin olive oil from native Empeltre and Arbequina varieties, they generate local employment and promote sustainable agriculture. Sponsors can adopt a tree and receive the region's high-quality, regenerative olive oil as a reward.",
     "website": "https://apadrinaunolivo.org",
-    "logo": "/images/producers/apadrinaunolivoorg-oliete-dop-aceite-del-bajo-aragon.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "aparthenasa",
@@ -155,7 +155,7 @@
     "region": "Rio Grande do Sul",
     "description": "What we do We take care of the health and biodiversity of 6.5 ha of olive trees, and work closely with millers, agronomists, researchers and land agents in order to produce limited quantities of monovarietal, high phenolic and sensorially exciting Extra Virgin Olive Oil.",
     "website": "https://aparthenasa.com",
-    "logo": "/images/producers/aparthenasa.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "assi-emek-amayanot",
@@ -164,7 +164,7 @@
     "region": "Emek HaMaayanot",
     "description": "Assi, Emek HaMa'ayanot Assi Olive Mill stands in the fertile plains near Beit She'an, where olive cultivation has shaped daily life since biblical times. Their mission: elevate Israeli olive oil while honoring the hardworking families who grow the fruit itself.",
     "website": "https://israelcart.com",
-    "logo": "/images/producers/assi-emek-amayanot.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "azeite-casa-mourad",
@@ -173,24 +173,24 @@
     "region": "Rio Grande do Sul",
     "description": "Nestled in the Serra da Mantiqueira of Minas Gerais, Brazil, Casa Mourad produces premium extra virgin olive oil from its high-altitude groves. Their signature blend features Koroneiki, Arbosana, and Arbequina olives, offering a light, balanced flavor with notes of green tea and tropical fruits. The estate's commitment to quality and careful cultivation has earned it prestigious awards at international competitions.",
     "website": "https://casamourad.com.br",
-    "logo": "/images/producers/azeite-casa-mourad.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "azeite-organico-bene",
     "name": "Azeite Organico Bene",
     "country": "Brazil",
-    "region": "S\u00e3o Paulo",
-    "description": "Produzido na Fazenda S\u00e3o Benedito, em Bom Sucesso de Itarar\u00e9 (SP), o azeite org\u00e2nico brasileiro Bene conquistou o \"Blend Gold Award\" na edi\u00e7\u00e3o de 2026 da Anatolian International Olive Oil Competition, premia\u00e7\u00e3o voltada a azeites de oliva extravirgem realizada na Turquia. O produto foi o \u00fanico representante brasileiro premiado na competi\u00e7\u00e3o.",
-    "logo": "/images/producers/azeite-organico-bene.png"
+    "region": "São Paulo",
+    "description": "Produzido na Fazenda São Benedito, em Bom Sucesso de Itararé (SP), o azeite orgânico brasileiro Bene conquistou o \"Blend Gold Award\" na edição de 2026 da Anatolian International Olive Oil Competition, premiação voltada a azeites de oliva extravirgem realizada na Turquia. O produto foi o único representante brasileiro premiado na competição.",
+    "logo": "/logo.png"
   },
   {
     "slug": "azeite-tres-meninas",
-    "name": "Azeite Tr\u00eas Meninas",
+    "name": "Azeite Três Meninas",
     "country": "Brazil",
     "region": "Rio Grande do Sul",
-    "description": "\u00danica marca de azeite no mundo a ser eleita por 3 anos consecutivos o MELHOR AZEITE DO BRASIL e entre os 10 MELHORES AZEITES DO MUNDO no Concurso Internacional TerraOlivo do Mediterr\u00e2neo (2022, 2023 e 2024)",
+    "description": "Única marca de azeite no mundo a ser eleita por 3 anos consecutivos o MELHOR AZEITE DO BRASIL e entre os 10 MELHORES AZEITES DO MUNDO no Concurso Internacional TerraOlivo do Mediterrâneo (2022, 2023 e 2024)",
     "website": "https://estanciadasoliveiras.com.br",
-    "logo": "/images/producers/azeite-tres-meninas.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "barel-olive-oil",
@@ -199,7 +199,7 @@
     "region": "Puglia",
     "description": "Since 1936, Bari Olive Oil grows & produces the finest Extra Virgin Olive Oil in California. Bari is proud to offer Organic and Vegan Extra Virgin Olive Oil, authentic Balsamic Vinegar from Modena, Italy, a line of Olive Oil Skincare Products, and Olive Oil Product Accessories.",
     "website": "https://barioliveoil.com",
-    "logo": "/images/producers/barel-olive-oil.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "bio-evoo-sl",
@@ -208,7 +208,7 @@
     "region": "Andalusia",
     "description": "OlioEvo.eu is the online shop for the sale of extra virgin olive oil and where you can buy the best 100% Italian extra virgin olive oil and products based on Italian extra virgin olive oil directly from the producers. Not only the best organic extra virgin olive oil but also kitchen accessories, gastronomic favors, ceramic oil cruets, olive wood cutting boards, unique and original gift items ...",
     "website": "https://olioevo.eu",
-    "logo": "/images/producers/bio-evoo-sl.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "bio-orto",
@@ -217,24 +217,24 @@
     "region": "Puglia",
     "description": "A collection that preserves the purity and richness of the Apulian oil-making tradition through organic extra virgin olive oils from native cultivars such as Ogliarola , Peranzana and Coratina . Each bottle is born from a careful process, respectful of the land and time, to offer only the best of fresh fruit and cold pressing.",
     "website": "https://bio-orto.com",
-    "logo": "/images/producers/bio-orto.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "borlu-tarm-isletmeleri",
-    "name": "borlu Tar\u0131m \u0130\u015fletmeleri",
+    "name": "borlu Tarım İşletmeleri",
     "country": "Turkey",
     "region": "Rio Grande do Sul",
     "description": "We produce high-quality extra virgin olive oil with care and expertise. Our olives are processed under strict quality controls for. The Olive Oil Ania (Yesilce/ PreGreen) delivers in quality and taste. This Olive Oil has the premium level of freshness. Crafted from sun-drenched groves, our olive oil reflects our rich heritage.",
-    "logo": "/images/producers/logo__borlu-tarm-isletmeleri.jpg"
+    "logo": "/logo.png"
   },
   {
     "slug": "bozburun-tarm-ltd-sti",
-    "name": "Bozburun Tar\u0131m LTD \u015eT\u0130",
+    "name": "Bozburun Tarım LTD ŞTİ",
     "country": "Turkey",
     "region": "Aegean",
-    "description": "Ne \u015fansl\u0131y\u0131m ki, A\u011fabey dedi\u011fim ki\u015fi e\u015fi ile birlikte bu i\u015fletmeyi yoktan var etti. Ve sayenizde g\u00f6n\u00fcl rahatl\u0131\u011f\u0131yla sevdi\u011fim ailem ve dostlar\u0131mla birlikte \u00fcretti\u011finiz zeytin ya\u011flar\u0131 ve fazlas\u0131na ula\u015fabiliyorum.",
+    "description": "Ne şanslıyım ki, Ağabey dediğim kişi eşi ile birlikte bu işletmeyi yoktan var etti. Ve sayenizde gönül rahatlığıyla sevdiğim ailem ve dostlarımla birlikte ürettiğiniz zeytin yağları ve fazlasına ulaşabiliyorum.",
     "website": "https://bozelli.com.tr",
-    "logo": "/images/producers/logo__bozburun-tarm-ltd-sti.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "bvs-jerusalemoliveoil",
@@ -242,7 +242,7 @@
     "country": "Israel",
     "region": "Judea",
     "description": "BVS Jerusalem Olive Oil Jerusalem Olive Oil is a family-owned boutique producer from Beit Hanan, Israel. Founded in 1928, the farm is now led by third-generation farmer Moosh Ashkenazi and his wife Hani. Their award-winning extra virgin olive oils are made with passion, tradition and care from handpicked olives cold-pressed on harvest day.",
-    "logo": "/images/producers/bvs-jerusalemoliveoil.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "california-olive-ranch",
@@ -251,25 +251,25 @@
     "region": "Puglia",
     "description": "As one of the largest and most recognized producers in the United States, California Olive Ranch has pioneered modern, sustainable olive farming. They are celebrated for their versatile 100% California-grown oils and transparently sourced global blends, which are all cold-pressed to strict extra virgin standards. Their innovative methods produce high-quality oils that are beloved by consumers for both everyday cooking and finishing.",
     "website": "https://californiaoliveranch.com",
-    "logo": "/images/producers/california-olive-ranch.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "camp-de-cogul-sccl",
     "name": "Camp De Cogul SCCL",
     "country": "Spain",
     "region": "Andalusia",
-    "description": "The cooperative combines heritage and modern expertise, preserving the region's authentic character. El Cogul, famous for its prehistoric cave paintings recognised as a UNESCO World Heritage Site, also hides another treasure\u2014its exceptional extra virgin olive oil, where tradition and modernity meet in liquid form.",
+    "description": "The cooperative combines heritage and modern expertise, preserving the region's authentic character. El Cogul, famous for its prehistoric cave paintings recognised as a UNESCO World Heritage Site, also hides another treasure—its exceptional extra virgin olive oil, where tradition and modernity meet in liquid form.",
     "website": "https://eliteoliveoils.com",
-    "logo": "/images/producers/camp-de-cogul-sccl.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "capolivo",
     "name": "Capolivo",
     "country": "Brazil",
     "region": "Rio Grande do Sul",
-    "description": "Cultivated at Fazenda Tarum\u00e3 da Boa Vista in Cangu\u00e7u, Brazil, Capolivo produces premium, award-winning extra virgin olive oil. The Capoani family leverages the region's excellent terroir to grow noble European varieties like Koroneiki, Arbequina, and Frantoio. With a commitment to freshness, low acidity, and careful harvesting, their artisan oils frequently win gold medals at major global competitions.",
+    "description": "Cultivated at Fazenda Tarumã da Boa Vista in Canguçu, Brazil, Capolivo produces premium, award-winning extra virgin olive oil. The Capoani family leverages the region's excellent terroir to grow noble European varieties like Koroneiki, Arbequina, and Frantoio. With a commitment to freshness, low acidity, and careful harvesting, their artisan oils frequently win gold medals at major global competitions.",
     "website": "https://pasolivo.com",
-    "logo": "/images/producers/capolivo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "carm-casa-agricola-roboredo-madeira-sa",
@@ -278,7 +278,7 @@
     "region": "Alentejo",
     "description": "Located in the rugged Douro Superior region of Portugal, this historic, family-owned estate has been cultivating olives since the 17th century. As pioneers of organic farming, they produce premium extra virgin olive oils like their acclaimed \"Grande Escolha\", crafted from traditional hand-picked varieties such as Madural and Verdeal. Their oils boast complex, rich, and fruity profiles with a characteristic peppery finish, repeatedly earning top honors globally.",
     "website": "https://carm.pt",
-    "logo": "/images/producers/carm-casa-agricola-roboredo-madeira-sa.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "catsacoulis-sa",
@@ -287,7 +287,7 @@
     "region": "Lesvos",
     "description": ". CATSACOULIS S.A. Olive Oil Exporting Co, is the oldest olive oil company in Greece, founded in 1863 on the island of Lesvos . From the start we were export-oriented, as the extra virgin olive oil of our island is strongly appreciated abroad. Early on we gave priority to conditioning the product in small packages adapted to the needs of the ...",
     "website": "https://catsacoulis.gr",
-    "logo": "/images/producers/catsacoulis-sa.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "colhida",
@@ -296,34 +296,34 @@
     "region": "Rio Grande do Sul",
     "description": "Colavita also offers a selection of infused oils including Roasted Garlic, Lemon, Truffle, and more! Each of these oils is infused with high quality ingredients and are perfect for marinades, dressings, dips, and roasting! A fan favorite is our Certified FODMAP Friendly Roasted Garlic Extra Virgin Olive Oil.",
     "website": "https://colavita.com",
-    "logo": "/images/producers/colhida.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "comercializadora-y-exportadora-las-doscientas-spa",
     "name": "Comercializadora Y Exportadora Las Doscientas Spa",
     "country": "Chile",
-    "region": "S\u00e3o Paulo",
+    "region": "São Paulo",
     "description": "Situated in the fertile Maule Valley near Talca, Chile, Las Doscientas produces high-quality, cold-pressed extra virgin olive oil. Cultivating varieties like Arbequina, Picual, and Frantoio, they prioritize freshness by milling their non-GMO olives within four hours of harvest. Their oils are highly regarded for their rich polyphenol content, balanced flavor profiles, and impressive track record of international awards.",
     "website": "https://las200.cl",
-    "logo": "/images/producers/logo__comercializadora-y-exportadora-las-doscientas-spa.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "cooperativa-agricola-dos-olivicultores-de-murca-crl",
-    "name": "Cooperativa Agr\u00edcola Dos Olivicultores De Mur\u00e7a Crl",
+    "name": "Cooperativa Agrícola Dos Olivicultores De Murça Crl",
     "country": "Portugal",
-    "region": "Tr\u00e1s-os-Montes",
-    "description": "Founded in 1956, this cooperative represents over 1,000 families in the Tr\u00e1s-os-Montes region of Portugal. Producing the highly awarded \"Azeite Porca de Mur\u00e7a\", they expertly combine traditional methods with modern technology to craft exceptional DOP-certified extra virgin olive oils. Benefiting from a unique microclimate, their oils consistently rank among the world's best for their authentic, natural, and healthy profile.",
+    "region": "Trás-os-Montes",
+    "description": "Founded in 1956, this cooperative represents over 1,000 families in the Trás-os-Montes region of Portugal. Producing the highly awarded \"Azeite Porca de Murça\", they expertly combine traditional methods with modern technology to craft exceptional DOP-certified extra virgin olive oils. Benefiting from a unique microclimate, their oils consistently rank among the world's best for their authentic, natural, and healthy profile.",
     "website": "https://caom.pt",
-    "logo": "/images/producers/logo__cooperativa-agricola-dos-olivicultores-de-murca-crl.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "cooperativa-de-aceites-del-matarrana-scl-calaceite-dop-aceite-del-bajo-aragon",
-    "name": "Cooperativa De Aceites Del Matarra\u00f1a, Scl (Calaceite) - Dop Aceite Del Bajo Arag\u00f3n",
+    "name": "Cooperativa De Aceites Del Matarraña, Scl (Calaceite) - Dop Aceite Del Bajo Aragón",
     "country": "Spain",
     "region": "Aragon",
-    "description": "Based in Calaceite, Teruel, this esteemed Spanish cooperative unifies hundreds of local producers to craft exceptional extra virgin olive oil under the D.O. Bajo Arag\u00f3n. Specializing in oils made exclusively from 100% Empeltre olives, their products are known for a smooth, sweet profile with subtle almond and fruity notes. They utilize low-temperature milling processes to preserve the maximum quality, color, and flavor of their internationally recognized oils.",
+    "description": "Based in Calaceite, Teruel, this esteemed Spanish cooperative unifies hundreds of local producers to craft exceptional extra virgin olive oil under the D.O. Bajo Aragón. Specializing in oils made exclusively from 100% Empeltre olives, their products are known for a smooth, sweet profile with subtle almond and fruity notes. They utilize low-temperature milling processes to preserve the maximum quality, color, and flavor of their internationally recognized oils.",
     "website": "https://aceitesmatarranya.com",
-    "logo": "/images/producers/logo__cooperativa-de-aceites-del-matarrana-scl-calaceite-dop-aceite-del-bajo-aragon.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "cooperativa-la-granadella",
@@ -332,43 +332,43 @@
     "region": "Andalusia",
     "description": "About us We are farmers, we understand what olive trees need to grow and we give the land everything it requires to produce olives of the highest quality, so they can be turned into an exceptional extra virgin olive oil. The La Granadella Cooperative was created in 1920 to provide olive oil from the farmer directly to the consumer.",
     "website": "https://cooperativalagranadella.cat",
-    "logo": "/images/producers/logo__cooperativa-la-granadella.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "cooperativa-olivarera-virgen-de-la-sierra-de-cabra-sca",
     "name": "Cooperativa Olivarera Virgen De La Sierra De Cabra S.C.A.",
     "country": "Spain",
     "region": "Andalusia",
-    "description": "Established in 1949, this cooperative in the Subb\u00e9tica region of C\u00f3rdoba, Spain, brings together over 1,800 passionate members. Marketing primarily under the renowned Monteoliva brand, their extra virgin olive oils are certified by the Baena DOP and produced through a blend of traditional harvesting and modern extraction. Frequently winning gold medals at international competitions, their organic and conventional oils are celebrated globally for exceptional quality.",
+    "description": "Established in 1949, this cooperative in the Subbética region of Córdoba, Spain, brings together over 1,800 passionate members. Marketing primarily under the renowned Monteoliva brand, their extra virgin olive oils are certified by the Baena DOP and produced through a blend of traditional harvesting and modern extraction. Frequently winning gold medals at international competitions, their organic and conventional oils are celebrated globally for exceptional quality.",
     "website": "https://monteoliva.com",
-    "logo": "/images/producers/logo__cooperativa-olivarera-virgen-de-la-sierra-de-cabra-sca.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "cooperativa-olivicultores-valpacos-crl",
-    "name": "Cooperativa Olivicultores Valpa\u00e7os Crl",
+    "name": "Cooperativa Olivicultores Valpaços Crl",
     "country": "Portugal",
-    "region": "Tr\u00e1s-os-Montes",
-    "description": "The project came into being thanks to the dedication and know-how of the olive growers of Valpa\u00e7os, who have been committed to the production of top-quality olive oil since 1951: a PDO extra virgin olive oil that continues to win awards in Portugal and around the world year after year.",
+    "region": "Trás-os-Montes",
+    "description": "The project came into being thanks to the dedication and know-how of the olive growers of Valpaços, who have been committed to the production of top-quality olive oil since 1951: a PDO extra virgin olive oil that continues to win awards in Portugal and around the world year after year.",
     "website": "https://azeite-valpacos.com",
-    "logo": "/images/producers/logo__cooperativa-olivicultores-valpacos-crl.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "cortijo-de-suerte-alta-sl",
     "name": "Cortijo De Suerte Alta Sl",
     "country": "Spain",
     "region": "Andalusia",
-    "description": "The estate, El Cortijo de Suerte Alta, is located next to the town of Albend\u00edn (Baena), in the province of Cordoba (Spain). The land in this area is well known for the coexistence of the three main varieties of the olive trees in Andaluc\u00eda: picudo, hojiblanco and picual.",
+    "description": "The estate, El Cortijo de Suerte Alta, is located next to the town of Albendín (Baena), in the province of Cordoba (Spain). The land in this area is well known for the coexistence of the three main varieties of the olive trees in Andalucía: picudo, hojiblanco and picual.",
     "website": "https://suertealta.es",
-    "logo": "/images/producers/logo__cortijo-de-suerte-alta-sl.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "corto-olive-co",
     "name": "Corto Olive Co.",
     "country": "United States",
     "region": "United States",
-    "description": "Based in Lodi, California, Corto Olive Co. is a family-owned producer favored by professional chefs for its fresh, high-quality extra virgin olive oils. Their flagship TRULY\u00ae 100% EVOO is cold-extracted and celebrated for its vibrant, fruity profile. Using advanced milling techniques and innovative, oxygen-free packaging, they expertly protect their award-winning oils to guarantee maximum freshness.",
+    "description": "Based in Lodi, California, Corto Olive Co. is a family-owned producer favored by professional chefs for its fresh, high-quality extra virgin olive oils. Their flagship TRULY® 100% EVOO is cold-extracted and celebrated for its vibrant, fruity profile. Using advanced milling techniques and innovative, oxygen-free packaging, they expertly protect their award-winning oils to guarantee maximum freshness.",
     "website": "https://corto-olive.com",
-    "logo": "/images/producers/corto-olive-co.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "cottage-products-gozo-ltd",
@@ -377,16 +377,16 @@
     "region": "Malta",
     "description": "Blessed with the sun, the fertile soil in terraced fields and the fresh groundwater agricultural products harvested in Gozo are well renowned for their superior taste and quality. Gozo Cottage was setup with the sole purpose to use and promote local Gozitan Produce.",
     "website": "https://gozocottage.com",
-    "logo": "/images/producers/logo__cottage-products-gozo-ltd.jpg"
+    "logo": "/logo.png"
   },
   {
     "slug": "crdo-aceite-de-madrid",
     "name": "Crdo Aceite De Madrid",
     "country": "Spain",
     "region": "Madrid",
-    "description": "Descubre el Aceite de Madrid DOP, el aceite de oliva virgen extra certificado de la Comunidad de Madrid, elaborado con aceitunas de nuestros olivares, garant\u00eda de calidad y origen. Conoce su historia, variedades y panel de cata.",
+    "description": "Descubre el Aceite de Madrid DOP, el aceite de oliva virgen extra certificado de la Comunidad de Madrid, elaborado con aceitunas de nuestros olivares, garantía de calidad y origen. Conoce su historia, variedades y panel de cata.",
     "website": "https://dopaceitedemadrid.com",
-    "logo": "/images/producers/logo__crdo-aceite-de-madrid.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "delice-farm-house",
@@ -394,7 +394,7 @@
     "country": "Turkey",
     "region": "Aegean",
     "description": "We produce high-quality extra virgin olive oil with care and expertise. Our olives are blending modern techniques with ancient methods. Celebrated for its quality, aroma, and authenticity. Delice Farm House",
-    "logo": "/images/producers/logo__delice-farm-house.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "diego-hollender",
@@ -402,7 +402,7 @@
     "country": "Argentina",
     "region": "Argentina",
     "description": "Operating in Coronel Dorrego, Argentina, Diego Hollender produces the acclaimed \"Estilo Oliva\" brand of extra virgin olive oils. This dedicated family-run enterprise manages the entire process, from their carefully tended groves to their modern on-site mill. Winning prestigious awards globally, they offer outstanding varietals like Coratina and Arbequina, alongside expertly crafted, highly ranked blends.",
-    "logo": "/images/producers/diego-hollender.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "domenica-fiore",
@@ -411,25 +411,25 @@
     "region": "Puglia",
     "description": "Recognized as the number one Italian producer, Domenica Fiore's award-winning world-class organic extra virgin olive oils are a creation brought to life by the land, the light, and the labor of masters.",
     "website": "https://domenicafiore.com",
-    "logo": "/images/producers/logo__domenica-fiore.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "domenico-manca-spa",
     "name": "Domenico Manca S.P.A.",
     "country": "Italy",
     "region": "Puglia",
-    "description": "Nella terra della Biodiversit\u00e0 La Sardegna \u00e8 una terra unica, dove la natura \u00e8 davvero capace di produrre frutti d'eccezione. \u00c8 qui che produciamo il nostro Extravergine D.O.P., esclusivamente da olive del nord dell'isola, e il \"Monocultivar\" Bosana, oliva sarda per eccellenza.",
+    "description": "Nella terra della Biodiversità La Sardegna è una terra unica, dove la natura è davvero capace di produrre frutti d'eccezione. È qui che produciamo il nostro Extravergine D.O.P., esclusivamente da olive del nord dell'isola, e il \"Monocultivar\" Bosana, oliva sarda per eccellenza.",
     "website": "https://sangiuliano.it",
-    "logo": "/images/producers/logo__domenico-manca-spa.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "ekin-kocadag-ltd-sti",
-    "name": "Ekin Kocada\u011f LTD \u015eT\u0130",
+    "name": "Ekin Kocadağ LTD ŞTİ",
     "country": "Turkey",
     "region": "Aegean",
-    "description": "Based in the Havran district of Bal\u0131kesir, Turkey, Ekin Kocada\u011f produces premium, award-winning cold-pressed olive oils. The brand focuses on early harvest techniques to ensure high polyphenol content and remarkably low acidity in their single-varietal oils like Domat and Memecik. Their commitment to sustainable and meticulous production has earned them consistent recognition at top international competitions.",
+    "description": "Based in the Havran district of Balıkesir, Turkey, Ekin Kocadağ produces premium, award-winning cold-pressed olive oils. The brand focuses on early harvest techniques to ensure high polyphenol content and remarkably low acidity in their single-varietal oils like Domat and Memecik. Their commitment to sustainable and meticulous production has earned them consistent recognition at top international competitions.",
     "website": "https://ekinkocadag.com",
-    "logo": "/images/producers/logo__ekin-kocadag-ltd-sti.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "elasion-malliotaki-maria",
@@ -438,7 +438,7 @@
     "region": "Crete",
     "description": "Gold Elasion Extra Virgin Olive Oil is a premium product, crafted exclusively from Koroneiki olives grown in carefully selected regions of Crete, renowned for producing some of the world's finest olive oil. It is made using traditional methods and without any chemical processing, preserving all its natural nutritional values. Production is limited and carefully curated, with olives harvested ...",
     "website": "https://elasion.gr",
-    "logo": "/images/producers/logo__elasion-malliotaki-maria.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "eliad-olive-oil",
@@ -447,7 +447,7 @@
     "region": "Golan Heights",
     "description": "Eliad Olive Oil is a premium Israeli producer located in the northern Golan Heights, where unique volcanic basalt soil and distinct climate conditions create exceptional terroir. The company meticulously manages the entire production cycle from grove to bottle, combining traditional methods with modern agricultural technology. Their resulting oils range from smooth to intense profiles, earning prestigious global recognition such as gold medals at the TerraOlivo Mediterranean International Extra Virgin Olive Oil Competition.",
     "website": "https://eliadaoliveoil.com",
-    "logo": "/images/producers/logo__eliad-olive-oil.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "eretz-geshur",
@@ -456,7 +456,7 @@
     "region": "Golan Heights",
     "description": "Eretz Geshur, located on Kibbutz Geshur in the southern Golan Heights of Israel, is a premier producer of high-quality extra virgin olive oil. Cultivating a diverse range of local and international varietals like Barnea and Koroneiki, they meticulously control their mechanical harvesting and cold-pressing using an on-site modern mill. Renowned for freshness and environmental sustainability, their award-winning oils reflect the unique terroir of the Golan Heights and are celebrated in both domestic and international competitions.",
     "website": "https://tourgolan.org.il",
-    "logo": "/images/producers/logo__eretz-geshur.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "eretz-zait-shemen-meshek-bar-hai-david",
@@ -465,7 +465,7 @@
     "region": "Galilee / Coastal Plain",
     "description": "Located in Israel, this esteemed boutique farm produces the highly regarded \"Meshek Bar Hai David Blend\" extra virgin olive oil. Renowned for their dedication to traditional agricultural practices and modern quality standards, they consistently achieve top positions in both local and international rankings. Their exceptional olive oils are a celebrated staple in Israel's gourmet culinary scene.",
     "website": "https://evooworldranking.org",
-    "logo": "/images/producers/logo__eretz-zait-shemen-meshek-bar-hai-david.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "essenza",
@@ -474,7 +474,7 @@
     "region": "Rio Grande do Sul",
     "description": "The health-giving properties of extra-virgin olive oil are well known the world over; but did you know that many extra-virgin olive oils in your supermarket or delicatessen may not be fresh or of sufficient quality to give you the benefits you seek? Here at Es-senza, we are dedicated to producing the highest quality extra-virgin oils from the best varieties of olives. Our certified Organic and ...",
     "website": "https://essenzaoliveoil.com",
-    "logo": "/images/producers/logo__essenza.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "establecimiento-olivum-sa",
@@ -483,32 +483,32 @@
     "region": "Argentina",
     "description": "Situated at the foot of the Andes in San Juan, Argentina, this prominent producer manages a sprawling 1,000-hectare olive grove. Utilizing state-of-the-art extraction technology, they craft Kosher-certified, globally recognized extra virgin olive oils from Arbequina, Coratina, and Picual varieties. Their commitment to early harvesting, traceability, and sustainable farming ensures exceptional quality for their award-winning products.",
     "website": "https://olivumsa.com.ar",
-    "logo": "/images/producers/logo__establecimiento-olivum-sa.jpg"
+    "logo": "/logo.png"
   },
   {
     "slug": "estancia-das-oliveiras",
-    "name": "Est\u00e2ncia Das Oliveiras",
+    "name": "Estância Das Oliveiras",
     "country": "Brazil",
     "region": "Rio Grande do Sul",
-    "description": "O ano 2024 foi surpreendente para a Est\u00e2ncia das Oliveiras. A agroind\u00fastria de azeite de oliva sediada em Viam\u00e3o, na Regi\u00e3o Metropolitana, foi reconhecida no ranking da EVOO WR (Extra Virgin Olive Oil World Ranking) este Ranking analisa o desempenho de todas as marcas...",
+    "description": "O ano 2024 foi surpreendente para a Estância das Oliveiras. A agroindústria de azeite de oliva sediada em Viamão, na Região Metropolitana, foi reconhecida no ranking da EVOO WR (Extra Virgin Olive Oil World Ranking) este Ranking analisa o desempenho de todas as marcas...",
     "website": "https://estanciadasoliveiras.com.br",
-    "logo": "/images/producers/estancia-das-oliveiras.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "etz-hasade",
     "name": "Etz Hasade",
     "country": "Israel",
     "region": "Israel (Various)",
-    "description": "Etz Hasade, meaning \"Tree of the Field\" in Hebrew, is a renowned Israeli olive oil producer located in the Binyamina\u2013Givat Ada region. With historical roots tracing back to the early 20th century, the farm produces exceptional cold-pressed extra virgin olive oils. Their diverse range features both local and international olive varieties, celebrated for their award-winning quality in the vibrant Israeli market.",
-    "logo": "/images/producers/logo__etz-hasade.jpg"
+    "description": "Etz Hasade, meaning \"Tree of the Field\" in Hebrew, is a renowned Israeli olive oil producer located in the Binyamina–Givat Ada region. With historical roots tracing back to the early 20th century, the farm produces exceptional cold-pressed extra virgin olive oils. Their diverse range features both local and international olive varieties, celebrated for their award-winning quality in the vibrant Israeli market.",
+    "logo": "/logo.png"
   },
   {
     "slug": "fazenda-maria-da-fe",
-    "name": "Fazenda Maria da F\u00e9",
+    "name": "Fazenda Maria da Fé",
     "country": "Brazil",
     "region": "Minas Gerais",
-    "description": "Located high in the Mantiqueira Mountains of Minas Gerais, Fazenda Maria da F\u00e9 is a pioneer in Brazilian extra virgin olive oil. Operating in the historic town where Brazil's first EVOO extraction occurred in 2008, the estate benefits from a cold, high-altitude climate ideal for olive cultivation. They produce highly regarded artisanal blends characterized by exceptionally low acidity and fresh, unique sensory profiles.",
-    "logo": "/images/producers/logo__fazenda-maria-da-fe.jpg"
+    "description": "Located high in the Mantiqueira Mountains of Minas Gerais, Fazenda Maria da Fé is a pioneer in Brazilian extra virgin olive oil. Operating in the historic town where Brazil's first EVOO extraction occurred in 2008, the estate benefits from a cold, high-altitude climate ideal for olive cultivation. They produce highly regarded artisanal blends characterized by exceptionally low acidity and fresh, unique sensory profiles.",
+    "logo": "/logo.png"
   },
   {
     "slug": "finca-la-comarca",
@@ -516,15 +516,15 @@
     "country": "Argentina",
     "region": "Argentina",
     "description": "Situated in Coronel Dorrego, the provincial capital of the olive in Buenos Aires, Finca La Comarca is a premier Argentine olive oil producer. The estate meticulously oversees the entire production process from its own groves to its on-site mill, crafting highly acclaimed extra virgin olive oils like their award-winning Arbequina. Additionally, the farm is a prominent destination on the regional \"Ruta del Olivo,\" offering immersive oleotourism experiences.",
-    "logo": "/images/producers/logo__finca-la-comarca.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "gaia-oliva-ltd",
     "name": "Gaia Oliva LTD",
     "country": "Turkey",
     "region": "Aegean",
-    "description": "Gaia Oliva LTD is an award-winning boutique olive oil producer situated in the Salihli district of Turkey's Aegean region. Dedicated to sustainable agriculture and preserving Turkish olive heritage, they utilize modern extraction technologies to process traditional olive varieties like Memecik and Ayval\u0131k within hours of harvest. Their premium cold-pressed extra virgin olive oils consistently earn top honors at prestigious international competitions.",
-    "logo": "/images/producers/logo__gaia-oliva-ltd.png"
+    "description": "Gaia Oliva LTD is an award-winning boutique olive oil producer situated in the Salihli district of Turkey's Aegean region. Dedicated to sustainable agriculture and preserving Turkish olive heritage, they utilize modern extraction technologies to process traditional olive varieties like Memecik and Ayvalık within hours of harvest. Their premium cold-pressed extra virgin olive oils consistently earn top honors at prestigious international competitions.",
+    "logo": "/logo.png"
   },
   {
     "slug": "gallo-worldwide",
@@ -532,15 +532,15 @@
     "country": "Portugal",
     "region": "Alentejo",
     "description": "Founded in Abrantes in 1919 by Victor Guedes, Gallo Worldwide has grown into one of Portugal's most iconic and internationally recognized olive oil brands. Reaching over 40 countries, Gallo serves as a global ambassador for Portuguese culinary traditions. The company continues to prioritize rigorous quality control and sensory excellence, consistently ranking among the top olive oil producers in international competitions.",
-    "logo": "/images/producers/logo__gallo-worldwide.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "gokduman-tarm-gda-turz-ltd-sti",
-    "name": "G\u00f6kduman Tar\u0131m G\u0131da Turz LTD \u015eT\u0130",
+    "name": "Gökduman Tarım Gıda Turz LTD ŞTİ",
     "country": "Turkey",
     "region": "Aegean",
-    "description": "Based in Havran on the slopes of the Kazda\u011f\u0131 mountains, G\u00f6kduman Tar\u0131m produces premium Turkish extra virgin olive oils under the renowned \"Nermin Han\u0131m Zeytinli\u011fi\" brand. Combining sustainable agriculture with modern cold-pressing techniques, they process high-quality early harvest varieties to preserve maximum antioxidants and polyphenols. Their exceptional oils are consistent gold-medal winners at prestigious international olive oil competitions.",
-    "logo": "/images/producers/logo__gokduman-tarm-gda-turz-ltd-sti.png"
+    "description": "Based in Havran on the slopes of the Kazdağı mountains, Gökduman Tarım produces premium Turkish extra virgin olive oils under the renowned \"Nermin Hanım Zeytinliği\" brand. Combining sustainable agriculture with modern cold-pressing techniques, they process high-quality early harvest varieties to preserve maximum antioxidants and polyphenols. Their exceptional oils are consistent gold-medal winners at prestigious international olive oil competitions.",
+    "logo": "/logo.png"
   },
   {
     "slug": "gortys-extra-virgin-olive-oil",
@@ -548,15 +548,15 @@
     "country": "Greece",
     "region": "Peloponnese",
     "description": "Rooted in the historic Dionisi region of Crete, near the ancient ruins of Gortyna, Gortys is an acclaimed Greek extra virgin olive oil brand run by a three-generation family. They exclusively cultivate organic Koroneiki olives, globally prized for their rich aromatic profile and exceptional health benefits. The brand beautifully intertwines its award-winning organic production with the deep archaeological and cultural heritage of Minoan olive cultivation.",
-    "logo": "/images/producers/logo__gortys-extra-virgin-olive-oil.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "goya-en-espana-sau",
-    "name": "Goya En Espa\u00f1a S.A.U",
+    "name": "Goya En España S.A.U",
     "country": "Spain",
     "region": "Andalusia",
-    "description": "Operating from Alcal\u00e1 de Guada\u00edra in Seville, Goya En Espa\u00f1a S.A.U. is the esteemed Spanish subsidiary of Goya Foods, dedicated to crafting 100% Spanish extra virgin olive oils. Sourcing exclusively from premier Andalusian olive groves, they oversee rigorous blending and bottling processes to ensure single-country traceability and unblended purity. Renowned for strict quality standards, their award-winning oils frequently rank among the world's most awarded.",
-    "logo": "/images/producers/logo__goya-en-espana-sau.png"
+    "description": "Operating from Alcalá de Guadaíra in Seville, Goya En España S.A.U. is the esteemed Spanish subsidiary of Goya Foods, dedicated to crafting 100% Spanish extra virgin olive oils. Sourcing exclusively from premier Andalusian olive groves, they oversee rigorous blending and bottling processes to ensure single-country traceability and unblended purity. Renowned for strict quality standards, their award-winning oils frequently rank among the world's most awarded.",
+    "logo": "/logo.png"
   },
   {
     "slug": "grattaciello",
@@ -564,7 +564,7 @@
     "country": "Brazil",
     "region": "Rio Grande do Sul",
     "description": "Grattaciello is an emerging artisanal extra virgin olive oil producer based in Brazil, rapidly gaining recognition for its high-quality regional oils. The brand focuses on careful cultivation and crafting distinctive single-varietal products, such as their notable Arbosana EVOO. Their dedication to quality has been celebrated with prestigious accolades at international events like the OLIVINUS Extra Virgin Olive Oil Competition.",
-    "logo": "/images/producers/logo__grattaciello.jpg"
+    "logo": "/logo.png"
   },
   {
     "slug": "grattacielo",
@@ -572,23 +572,23 @@
     "country": "Brazil",
     "region": "Rio Grande do Sul",
     "description": "GrattaCielo is a multi-award-winning artisanal olive oil producer based in the high-altitude region of Minas Gerais, Brazil. The name \"GrattaCielo,\" meaning \"skyscraper\" in Italian, reflects the groves' location 1,760 meters above sea level. They craft highly acclaimed Arbosana, Arbequina, and Koroneiki extra virgin olive oils that highlight the growing international prestige of Brazilian olive oil.",
-    "logo": "/images/producers/logo__grattacielo.jpg"
+    "logo": "/logo.png"
   },
   {
     "slug": "hacienda-la-serrata-sl",
     "name": "Hacienda La Serrata S.L.",
     "country": "Spain",
     "region": "Andalusia",
-    "description": "Hacienda La Serrata is a prestigious estate in Villena, Alicante, Spain, producing world-class oils under Bodegas Francisco G\u00f3mez. The producer crafts organic, vegan, and kosher-certified extra virgin olive oils from early-harvested varieties like Arbequina, Picual, and Cornicabra. Their premium labels frequently win international gold medals for their aromatic complexity, balance, and high polyphenol content.",
-    "logo": "/images/producers/logo__hacienda-la-serrata-sl.png"
+    "description": "Hacienda La Serrata is a prestigious estate in Villena, Alicante, Spain, producing world-class oils under Bodegas Francisco Gómez. The producer crafts organic, vegan, and kosher-certified extra virgin olive oils from early-harvested varieties like Arbequina, Picual, and Cornicabra. Their premium labels frequently win international gold medals for their aromatic complexity, balance, and high polyphenol content.",
+    "logo": "/logo.png"
   },
   {
     "slug": "halil-esen-zeytin-zeytinyag",
-    "name": "Halil Esen Zeytin Zeytinya\u011f\u0131",
+    "name": "Halil Esen Zeytin Zeytinyağı",
     "country": "Turkey",
     "region": "Aegean",
     "description": "Halil Esen Zeytincilik is a respected family-owned producer located at the foothills of Mount Ida in Edremit, Turkey. Capitalizing on the region's ideal climate, they combine traditional farming with modern cold-pressing to create exceptional and authentic extra virgin olive oils. Their commitment to quality has earned them numerous international gold medals, making them a celebrated name in global olive oil rankings.",
-    "logo": "/images/producers/logo__halil-esen-zeytin-zeytinyag.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "hanotrim-meshek-naftaly-meshek-shternberg-meshek-kabesa-meshek-igner-meshek-refa",
@@ -596,7 +596,7 @@
     "country": "Israel",
     "region": "Galilee / Coastal Plain",
     "description": "Hanotrim is a premium Israeli olive oil collective founded by young families in Moshav Natur within the southern Golan Heights. Driven by community spirit and a deep connection to the land, they cultivate primarily Arbequina and Koroneiki olives. The resulting low-acidity extra virgin olive oils frequently win international gold medals, symbolizing agricultural resilience and exceptional local quality.",
-    "logo": "/images/producers/logo__hanotrim-meshek-naftaly-meshek-shternberg-meshek-kabesa-meshek-igner-meshek-refa.jpg"
+    "logo": "/logo.png"
   },
   {
     "slug": "hashemen-shel-srulik",
@@ -604,7 +604,7 @@
     "country": "Israel",
     "region": "Israel (Various)",
     "description": "Hashemen shel Srulik is an acclaimed family-run boutique olive oil producer situated in the historic town of Zichron Ya'akov, Israel. Managed by a fourth-generation local resident, the brand is celebrated for its outstanding extra virgin olive oil, meticulously crafted with traditional expertise. Their award-winning Koroneiki variety consistently earns top marks in professional competitions and international rankings.",
-    "logo": "/images/producers/logo__hashemen-shel-srulik.jpg"
+    "logo": "/logo.png"
   },
   {
     "slug": "il-fontanaro",
@@ -612,15 +612,15 @@
     "country": "Italy",
     "region": "Puglia",
     "description": "Il Fontanaro is a traditional organic family estate in Paciano, Umbria, Italy, renowned for its signature \"Olio della Pace\" (Source of Peace). Hand-picking a blend of Leccino, Frantoio, Moraiolo, and other local varieties, the estate mills its olives within hours to produce incredibly fresh, award-winning oil. With its golden-green hue and complex spicy-bitter notes, their extra virgin olive oil frequently secures top spots in international guides like Flos Olei.",
-    "logo": "/images/producers/logo__il-fontanaro.jpg"
+    "logo": "/logo.png"
   },
   {
     "slug": "jaencoop-sca-2grado",
-    "name": "Jaencoop Sca 2\u00bagrado",
+    "name": "Jaencoop Sca 2ºgrado",
     "country": "Spain",
     "region": "Andalusia",
-    "description": "Jaencoop S.C.A. 2\u00ba Grado is a powerhouse in the global olive oil industry, functioning as a major cooperative representing thousands of farmers across Ja\u00e9n, Andalusia, Spain. Focusing primarily on the region's famous Picual olives, the cooperative balances vast production scale with rigorous quality controls. Their premium extra virgin olive oil brands, such as Pr\u00f3logo, are celebrated globally for their robust flavor profiles and commitment to sustainable agricultural practices.",
-    "logo": "/images/producers/logo__jaencoop-sca-2grado.png"
+    "description": "Jaencoop S.C.A. 2º Grado is a powerhouse in the global olive oil industry, functioning as a major cooperative representing thousands of farmers across Jaén, Andalusia, Spain. Focusing primarily on the region's famous Picual olives, the cooperative balances vast production scale with rigorous quality controls. Their premium extra virgin olive oil brands, such as Prólogo, are celebrated globally for their robust flavor profiles and commitment to sustainable agricultural practices.",
+    "logo": "/logo.png"
   },
   {
     "slug": "jahshan",
@@ -628,15 +628,15 @@
     "country": "Israel",
     "region": "Israel (Various)",
     "description": "Jahshan is a historic, family-operated Israeli producer with olive oil-making roots in the Galilee region dating back to 1863. Operating an advanced mill and visitor center at Moshav Kalanit, the seventh-generation business produces widely respected extra virgin olive oils known for low acidity and traditional cold-pressing. Their high-quality oils, alongside a variety of authentic Galilean culinary products, proudly bear the official Israeli olive oil quality mark.",
-    "logo": "/images/producers/logo__jahshan.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "jordan-olivenol-gmbh",
-    "name": "Jordan Oliven\u00f6l Gmbh",
+    "name": "Jordan Olivenöl Gmbh",
     "country": "Greece",
     "region": "Peloponnese",
-    "description": "Jordan Oliven\u00f6l GmbH is a unique family enterprise headquartered in Germany that cultivates and produces outstanding extra virgin olive oil on the Greek island of Lesbos. Focusing on traditional, sustainable, and no-irrigation farming of Kolovi and Adramitiana olives, they process their harvest using an unfiltered system to retain a naturally mild and fruity profile. Their multi-award-winning oil is highly prized by professional chefs and gourmets across Europe.",
-    "logo": "/images/producers/logo__jordan-olivenol-gmbh.jpg"
+    "description": "Jordan Olivenöl GmbH is a unique family enterprise headquartered in Germany that cultivates and produces outstanding extra virgin olive oil on the Greek island of Lesbos. Focusing on traditional, sustainable, and no-irrigation farming of Kolovi and Adramitiana olives, they process their harvest using an unfiltered system to retain a naturally mild and fruity profile. Their multi-award-winning oil is highly prized by professional chefs and gourmets across Europe.",
+    "logo": "/logo.png"
   },
   {
     "slug": "kavalaria-estate-saridakis-georgios",
@@ -644,7 +644,7 @@
     "country": "Greece",
     "region": "Peloponnese",
     "description": "Kavalaria Estate is an award-winning, family-run producer situated in the eastern foothills of Mount Psiloritis in Crete, Greece. Owned by Georgios Saridakis, the estate is famous for its \"Pathos\" extra virgin olive oil, an organic, early-harvest product made exclusively from 100% Koroneiki olives. Cold-pressed within hours of hand-harvesting, this high-polyphenol oil is celebrated internationally for its incredibly low acidity and complex, grassy flavor profile.",
-    "logo": "/images/producers/logo__kavalaria-estate-saridakis-georgios.webp"
+    "logo": "/logo.png"
   },
   {
     "slug": "kibutz-shomriya",
@@ -652,7 +652,7 @@
     "country": "Israel",
     "region": "Israel (Various)",
     "description": "Kibbutz Shomria, also known as Meshek Shomriya, is a respected Israeli agricultural producer cultivating olive groves in the country's south. They offer a diverse, high-quality line of extra virgin olive oils, including popular varietals like Koroneiki, Arbequina, and the intensely spicy Coratina. Praised for their distinct and versatile flavor profiles, their oils are frequently recognized in major industry competitions and rankings.",
-    "logo": "/images/producers/logo__kibutz-shomriya.jpg"
+    "logo": "/logo.png"
   },
   {
     "slug": "kielder-south-africa-pty-ltd",
@@ -660,23 +660,23 @@
     "country": "South Africa",
     "region": "South Africa",
     "description": "Kielder South Africa is a prestigious agricultural producer based in the Nuy Valley of the Western Cape. Operating orchards established for over a quarter of a century, they craft the highly acclaimed \"Kielder Premium Selection,\" a masterfully blended extra virgin olive oil. This medium-intensity, fruity, and slightly spicy oil consistently captures gold medals at top international competitions, showcasing the exceptional potential of South African olives.",
-    "logo": "/images/producers/logo__kielder-south-africa-pty-ltd.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "knolive-oils-sl",
     "name": "Knolive Oils S.L.",
     "country": "Spain",
     "region": "Andalusia",
-    "description": "Knolive Oils is an internationally celebrated producer situated in the heart of the Subb\u00e9tica Cordobesa Natural Park in Andalusia, Spain. Operating entirely hand-harvested groves on mountainous terrain, they are famed for their \"Knolive Epicure,\" a premium extra virgin blend of Hojiblanca and Picuda. Characterized by fresh notes of green apple and almond, their oils consistently top global rankings and symbolize the ultimate Mediterranean lifestyle.",
-    "logo": "/images/producers/logo__knolive-oils-sl.jpg"
+    "description": "Knolive Oils is an internationally celebrated producer situated in the heart of the Subbética Cordobesa Natural Park in Andalusia, Spain. Operating entirely hand-harvested groves on mountainous terrain, they are famed for their \"Knolive Epicure,\" a premium extra virgin blend of Hojiblanca and Picuda. Characterized by fresh notes of green apple and almond, their oils consistently top global rankings and symbolize the ultimate Mediterranean lifestyle.",
+    "logo": "/logo.png"
   },
   {
     "slug": "kochen-azeite-saborizado",
     "name": "Kochen Azeite Saborizado",
     "country": "Brazil",
     "region": "Rio Grande do Sul",
-    "description": "Kochen Azeites Saborizados is an acclaimed Brazilian artisanal producer specializing in exceptionally crafted flavored olive oils from Minas Gerais. Founded by an international olive oil sommelier, the brand uses organic, entirely natural ingredients to infuse oils with vibrant flavors like Pesto, Thyme, and Black Truffle. Celebrated worldwide, Kochen\u2019s innovative gastronomic oils regularly win prestigious international gold medals at competitions like the EVO IOOC.",
-    "logo": "/images/producers/logo__kochen-azeite-saborizado.jpg"
+    "description": "Kochen Azeites Saborizados is an acclaimed Brazilian artisanal producer specializing in exceptionally crafted flavored olive oils from Minas Gerais. Founded by an international olive oil sommelier, the brand uses organic, entirely natural ingredients to infuse oils with vibrant flavors like Pesto, Thyme, and Black Truffle. Celebrated worldwide, Kochen’s innovative gastronomic oils regularly win prestigious international gold medals at competitions like the EVO IOOC.",
+    "logo": "/logo.png"
   },
   {
     "slug": "laconiko",
@@ -684,7 +684,7 @@
     "country": "Greece",
     "region": "Peloponnese",
     "description": "Laconiko is a prestigious, award-winning Greek family estate producing outstanding extra virgin olive oil in the coastal Trinisa area of Laconia. Focusing exclusively on the robust, high-polyphenol Koroneiki olive, the fourth-generation producers hand-harvest and mill their crop to yield exceptionally low-acidity oils. With hundreds of international awards and global reach, Laconiko is celebrated worldwide for its supreme quality, aromatic profile, and profound health benefits.",
-    "logo": "/images/producers/logo__laconiko.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "lagar-h-agroindustria-ltda",
@@ -692,7 +692,7 @@
     "country": "Brazil",
     "region": "Rio Grande do Sul",
     "description": "Located in Cachoeira do Sul, Rio Grande do Sul, Lagar H Agroindustria is a prominent Brazilian producer of premium, fresh extra virgin olive oils. Thriving in a Mediterranean-like climate, the estate focuses on sustainable practices and rapid processing to preserve vital biophenols. Their expertly crafted blends and monovarietals, such as their signature Koroneiki, regularly earn prestigious 'Best of South America' awards at international competitions.",
-    "logo": "/images/producers/logo__lagar-h-agroindustria-ltda.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "lamda-foods-sa",
@@ -700,7 +700,7 @@
     "country": "Greece",
     "region": "Peloponnese",
     "description": "Based in Giannitsa, Pella, Lamda Foods S.A. has been producing high-quality Greek extra virgin olive oils and table olives since 2009. Utilizing modern, high-standard bottling facilities paired with traditional agricultural expertise, they process olives sourced from premier regions like Messinia. Their renowned product lines, such as 'Lamda Estate' and 'Oleus', are celebrated for their authentic flavors and premium early harvest qualities.",
-    "logo": "/images/producers/logo__lamda-foods-sa.jpg"
+    "logo": "/logo.png"
   },
   {
     "slug": "levant",
@@ -708,7 +708,7 @@
     "country": "Israel",
     "region": "Israel (Various)",
     "description": "Located in Moshav Avihayil near Netanya, Levant Olive Oil is a premium boutique brand crafted by the fourth-generation family-run Armoni Farm. Established in 1932, the farm specializes in producing complex, award-winning blends like 'Green Meadow' and 'Sea Breeze' rather than single-varietal oils. Their high-quality, cold-pressed olive oils reflect the rich, historic traditions of the eastern Mediterranean.",
-    "logo": "/images/producers/logo__levant.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "levin-farm",
@@ -716,15 +716,15 @@
     "country": "Israel",
     "region": "Israel (Various)",
     "description": "Levin Farm is a respected family-owned boutique estate situated in Moshav Mazor, specializing in high-quality, cold-pressed extra virgin olive oil. Renowned in the Modi'in region for their commitment to sustainable and traditional farming methods, their award-winning olive oils are Kosher LeMehadrin certified. The farm is also a popular agro-tourism destination, offering visitors immersive tasting tours and insights into the olive cultivation process.",
-    "logo": "/images/producers/levin-farm-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "lia-cultivators-ike",
     "name": "Lia Cultivators Ike",
     "country": "Greece",
     "region": "Rio Grande do Sul",
-    "description": "LI\u00c1 Cultivators is an acclaimed producer of premium Koroneiki extra virgin olive oil based in Filiatra, Messinia. Merging traditional hand-harvesting techniques with innovative, sustainable production, they extract their exceptional oil early and store it in iconic opaque white bottles. Founded by siblings who operate the LI\u00c1 Olive Oil Hub, their EVOO consistently earns prestigious 'Best-in-Class' awards globally.",
-    "logo": "/images/producers/logo__lia-cultivators-ike.png"
+    "description": "LIÁ Cultivators is an acclaimed producer of premium Koroneiki extra virgin olive oil based in Filiatra, Messinia. Merging traditional hand-harvesting techniques with innovative, sustainable production, they extract their exceptional oil early and store it in iconic opaque white bottles. Founded by siblings who operate the LIÁ Olive Oil Hub, their EVOO consistently earns prestigious 'Best-in-Class' awards globally.",
+    "logo": "/logo.png"
   },
   {
     "slug": "liokareas-olive-oil",
@@ -732,7 +732,7 @@
     "country": "Greece",
     "region": "Peloponnese",
     "description": "Rooted in the village of Lagkada near Kalamata, Liokareas Olive Oil is a family-owned producer with a rich heritage spanning over five generations. They expertly blend traditional hand-harvesting with modern cold-pressing technology to craft exceptional Koroneiki extra virgin and unique cold-fused flavored oils. Their premium Greek olive oils have gained significant international acclaim, particularly in the United States where they maintain a strong distribution presence.",
-    "logo": "/images/producers/logo__liokareas-olive-oil.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "mardouw-investments-za-pty-ltd",
@@ -740,7 +740,7 @@
     "country": "South Africa",
     "region": "South Africa",
     "description": "Mardouw Olive Estate is an award-winning family-owned producer located in the Breede River Valley of the Western Cape, South Africa. Cultivating over 50,000 trees on a 1,000-hectare estate, they manage the entire production process from hand-picking to cold extraction. Their commitment to excellence has earned them top rankings, consistently placing them among South Africa's finest creators of pure extra virgin olive oil.",
-    "logo": "/images/producers/logo__mardouw-investments-za-pty-ltd.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "markakis-vasileios-kai-sia-oe",
@@ -748,7 +748,7 @@
     "country": "Greece",
     "region": "Peloponnese",
     "description": "Markakis Vasileios & Sia OE is a respected Greek olive oil press located in Hani Alexandrou, Rethymno, on the island of Crete. They specialize in crafting \"Eleou Vios,\" a premium extra virgin olive oil exclusively derived from the renowned Koroneiki olive variety. Their dedication to authentic Cretan traditions has garnered local and international praise for the quality of their olive oil.",
-    "logo": "/images/producers/logo__markakis-vasileios-kai-sia-oe.jpg"
+    "logo": "/logo.png"
   },
   {
     "slug": "maxouli-sa",
@@ -756,15 +756,15 @@
     "country": "Greece",
     "region": "Peloponnese",
     "description": "Maxouli S.A. is a distinguished producer based in Sparta, Laconia, with a rich family heritage in olive cultivation dating back to 1850. Showcasing the exceptional Laconian terroir, they expertly blend local Koroneiki and Athinolia olives to craft award-winning extra virgin olive oil. Beyond production, the company actively promotes Greek olive oil culture through educational tasting tours and experiences.",
-    "logo": "/images/producers/logo__maxouli-sa.jpg"
+    "logo": "/logo.png"
   },
   {
     "slug": "melissa-kikizas-sa-for-terra-creta-evoo-brand",
-    "name": "Melissa-Kikizas Sa (For Terra Creta Evoo Brand)",
+    "name": "Terra Creta",
     "country": "Greece",
     "region": "Peloponnese",
     "description": "The Terra Creta brand, under the umbrella of historic Greek food company Melissa-Kikizas SA, represents the pinnacle of Cretan extra virgin olive oil. Operating from state-of-the-art facilities in Kolymvari, Chania, they are celebrated for their unwavering commitment to sustainability, traceability, and the Koroneiki olive variety. Through initiatives like the Terra Creta Olive Academy, they continually empower local farmers while delivering exceptional quality to global markets.",
-    "logo": "/images/producers/logo__melissa-kikizas-sa-for-terra-creta-evoo-brand.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "meshek-80-martin-kutcher",
@@ -772,7 +772,7 @@
     "country": "Israel",
     "region": "Galilee / Coastal Plain",
     "description": "Meshek 80 Martin Kutcher is an esteemed Israeli producer recognized for crafting exceptional extra virgin olive oils. Their signature Arbequina variety olive oil has received significant acclaim, including top honors and gold medals at international competitions like TerraOlivo. The brand consistently ranks among the most celebrated boutique producers in the thriving Israeli olive oil industry.",
-    "logo": "/images/producers/logo__meshek-80-martin-kutcher.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "meshek-achiya",
@@ -780,15 +780,15 @@
     "country": "Israel",
     "region": "Galilee / Coastal Plain",
     "description": "Meshek Achiya is a prominent Israeli agricultural estate located in the Shiloh area, renowned for its award-winning extra virgin olive oils. Operating an advanced on-site cold-press mill, they expertly extract oil from premium varieties including Barnea, Fishulin, and Arbequina. Their commitment to quality has established them as a leading brand in the Israeli culinary scene, favored by chefs and specialty food purveyors alike.",
-    "logo": "/images/producers/logo__meshek-achiya.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "meshek-avner",
     "name": "Meshek Avner",
     "country": "Israel",
     "region": "Galilee / Coastal Plain",
-    "description": "Meshek Avner is a distinguished boutique olive oil producer situated in Beit Itzhak, Israel, celebrated for its premium extra virgin olive oils. Cultivating a diverse range of olive varieties\u2014including Coratina, Koroneiki, and Barnea\u2014the family-run farm consistently earns top honors in prestigious EVOO rankings. Bearing the esteemed \"Olive Branch\" quality seal, their products represent the highest standards of Israeli olive cultivation and craftsmanship.",
-    "logo": "/images/producers/logo__meshek-avner.jpg"
+    "description": "Meshek Avner is a distinguished boutique olive oil producer situated in Beit Itzhak, Israel, celebrated for its premium extra virgin olive oils. Cultivating a diverse range of olive varieties—including Coratina, Koroneiki, and Barnea—the family-run farm consistently earns top honors in prestigious EVOO rankings. Bearing the esteemed \"Olive Branch\" quality seal, their products represent the highest standards of Israeli olive cultivation and craftsmanship.",
+    "logo": "/logo.png"
   },
   {
     "slug": "meshek-azar",
@@ -796,7 +796,7 @@
     "country": "Israel",
     "region": "Galilee / Coastal Plain",
     "description": "Located in the agricultural community of Sde Moshe, Meshek Azar is a highly regarded Israeli producer of exceptional extra virgin olive oils. Their carefully crafted Picual and signature house blends have garnered international acclaim, including top medals at the TerraOlivo competition. Proudly registered with Israel's \"Olive Branch\" council, the farm is a testament to the thriving, quality-focused boutique olive oil industry in the region.",
-    "logo": "/images/producers/logo__meshek-azar.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "meshek-ben-yaacov",
@@ -804,15 +804,15 @@
     "country": "Israel",
     "region": "Galilee / Coastal Plain",
     "description": "Meshek Ben Yaacov is an artisanal Israeli family farm dedicated to the sustainable cultivation and production of high-quality extra virgin olive oil. Embracing both traditional agricultural practices and modern cold-extraction techniques, they carefully harvest premium regional olive varieties to craft robust, aromatic oils. Their steadfast commitment to highlighting the local terroir has made their products a sought-after choice among boutique olive oil enthusiasts.",
-    "logo": "/images/producers/logo__meshek-ben-yaacov.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "meshek-dagan",
     "name": "Meshek Dagan",
     "country": "Israel",
     "region": "Galilee / Coastal Plain",
-    "description": "Meshek Dagan is a family-owned farm located in Moshav Natur in the southern Golan Heights, Israel, led by third-generation farmer Yuval Dagan. Combining traditional practices with expertise from the University of Ja\u00e9n, the farm specializes in premium single-varietal extra virgin olive oils like Picual, Coratina, and Barnea. Their cold-pressed oils are treated with the care of fine wine, earning high rankings in international competitions like TerraOlivo.",
-    "logo": "/images/producers/logo__meshek-dagan.png"
+    "description": "Meshek Dagan is a family-owned farm located in Moshav Natur in the southern Golan Heights, Israel, led by third-generation farmer Yuval Dagan. Combining traditional practices with expertise from the University of Jaén, the farm specializes in premium single-varietal extra virgin olive oils like Picual, Coratina, and Barnea. Their cold-pressed oils are treated with the care of fine wine, earning high rankings in international competitions like TerraOlivo.",
+    "logo": "/logo.png"
   },
   {
     "slug": "meshek-eshed",
@@ -820,7 +820,7 @@
     "country": "Israel",
     "region": "Galilee / Coastal Plain",
     "description": "Based in the Galilee region of Israel, Meshek Eshed is a notable producer of high-quality extra virgin olive oil. They are dedicated to sustainable agricultural practices and employ modern pressing techniques to ensure the purity and flavor of their oils. Known for their exceptional monovarietal oils such as Coratina and Picholine, Meshek Eshed frequently receives accolades at prestigious international competitions like TerraOlivo.",
-    "logo": "/images/producers/logo__meshek-eshed.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "meshek-hilman",
@@ -828,7 +828,7 @@
     "country": "Israel",
     "region": "Galilee / Coastal Plain",
     "description": "Established in 2010, Meshek Hilman is a boutique olive oil producer located in Moshav Nov in the southern Golan Heights, Israel. Growing their olive groves on rich volcanic soil, they produce very low-acidity extra virgin olive oil using cold-pressing methods. Their award-winning single-varietal oils, including Arbequina, Koroneiki, and Coratina, have earned significant recognition at the TerraOlivo international competition.",
-    "logo": "/images/producers/logo__meshek-hilman.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "meshek-inbal",
@@ -836,7 +836,7 @@
     "country": "Israel",
     "region": "Galilee / Coastal Plain",
     "description": "Situated in Neot Golan in the Golan Heights, Meshek Inbal is a boutique producer of premium extra virgin olive oil benefiting from the region's rich basalt soil. The farm emphasizes modern agricultural practices, including precision pruning and mechanized harvesting, to maximize oil quality and aroma. Their exceptional craftsmanship is highlighted by their Koroneiki variety, which was awarded \"Best Koroneiki\" at the TerraOlivo international competition.",
-    "logo": "/images/producers/logo__meshek-inbal.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "meshek-salomon",
@@ -844,39 +844,39 @@
     "country": "Israel",
     "region": "Galilee / Coastal Plain",
     "description": "Meshek Salomon is a multi-generational family-owned farm located in the moshav of Kidron, Israel. Established around the time of Israel's founding, the farm handles the entire production process from grove to cold-press. They specialize in high-quality extra virgin olive oil, focusing on the Italian Coratina and the local Askal varieties, which have earned them \"Prestige Gold\" awards at the TerraOlivo international competition.",
-    "logo": "/images/producers/logo__meshek-salomon.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "mesogis-zeytin-zeytinyag-gda-san-ve-tic-ltd-sti",
-    "name": "Mesogis Zeytin Zeytinya\u011f\u0131 G\u0131da San Ve Tic. Ltd. \u015eti",
+    "name": "Mesogis Zeytin Zeytinyağı Gıda San Ve Tic. Ltd. Şti",
     "country": "Turkey",
     "region": "Aegean",
-    "description": "Mesogis Zeytin is a boutique Turkish producer based in the Kuyucak district of Ayd\u0131n, utilizing olives sourced from the ancient lands of the Aegean region. Focusing on traditional, sustainable practices, they produce early-harvest, cold-pressed extra virgin olive oils under the \"Olikarnas\" brand, primarily using Memecik, Domat, and E\u015fek varieties. Their premium, high-polyphenol oils have received notable international recognition at competitions like NYIOOC, JOOP, and ATHENA.",
-    "logo": "/images/producers/logo__mesogis-zeytin-zeytinyag-gda-san-ve-tic-ltd-sti.jpg"
+    "description": "Mesogis Zeytin is a boutique Turkish producer based in the Kuyucak district of Aydın, utilizing olives sourced from the ancient lands of the Aegean region. Focusing on traditional, sustainable practices, they produce early-harvest, cold-pressed extra virgin olive oils under the \"Olikarnas\" brand, primarily using Memecik, Domat, and Eşek varieties. Their premium, high-polyphenol oils have received notable international recognition at competitions like NYIOOC, JOOP, and ATHENA.",
+    "logo": "/logo.png"
   },
   {
     "slug": "molino-alfonso-belchite-dop-aceite-del-bajo-aragon",
-    "name": "Molino Alfonso (Belchite) - Dop Aceite Del Bajo Arag\u00f3n",
+    "name": "Molino Alfonso (Belchite) - Dop Aceite Del Bajo Aragón",
     "country": "Spain",
     "region": "Aragon",
-    "description": "Founded in 1907 by the Alfonso family, Molino Alfonso is a historic olive oil producer based in Belchite, Zaragoza, Spain. Operating under the Bajo Arag\u00f3n Designation of Origin, they combine centenary olive-growing heritage with modern cold-extraction technology. Working primarily with Empeltre and Arbequina olives, their high-quality oils, including premium first-harvest lines and the renowned Oleum Belia, are deeply rooted in the region's agricultural tradition.",
-    "logo": "/images/producers/logo__molino-alfonso-belchite-dop-aceite-del-bajo-aragon.jpg"
+    "description": "Founded in 1907 by the Alfonso family, Molino Alfonso is a historic olive oil producer based in Belchite, Zaragoza, Spain. Operating under the Bajo Aragón Designation of Origin, they combine centenary olive-growing heritage with modern cold-extraction technology. Working primarily with Empeltre and Arbequina olives, their high-quality oils, including premium first-harvest lines and the renowned Oleum Belia, are deeply rooted in the region's agricultural tradition.",
+    "logo": "/logo.png"
   },
   {
     "slug": "monva-sl",
     "name": "Monva S.L.",
     "country": "Spain",
     "region": "Andalusia",
-    "description": "Monva S.L. is a family-owned producer founded in 1972, located in the Sierra M\u00e1gina Natural Park in Ja\u00e9n, Spain. They produce estate-grown extra virgin olive oils, carefully controlling the process from cultivation on their 650-hectare Cortijo Virgen de los Milagros estate to their on-site mill. Specializing in the Picual variety, their renowned brands like Dominus and Montabes carry the Sierra M\u00e1gina Protected Designation of Origin and international quality certifications.",
-    "logo": "/images/producers/logo__monva-sl.png"
+    "description": "Monva S.L. is a family-owned producer founded in 1972, located in the Sierra Mágina Natural Park in Jaén, Spain. They produce estate-grown extra virgin olive oils, carefully controlling the process from cultivation on their 650-hectare Cortijo Virgen de los Milagros estate to their on-site mill. Specializing in the Picual variety, their renowned brands like Dominus and Montabes carry the Sierra Mágina Protected Designation of Origin and international quality certifications.",
+    "logo": "/logo.png"
   },
   {
     "slug": "muela-olives-sl",
     "name": "Muela-Olives S.L.",
     "country": "Spain",
     "region": "Andalusia",
-    "description": "Established over 80 years ago, Muela-Olives S.L. (Mueloliva) is a renowned family-owned producer based in Priego de C\u00f3rdoba, in Spain's Andalusian Subbetica mountains. Combining traditional wisdom with modern cold-pressing technology without heat or water, they craft exceptional extra virgin olive oils like Venta del Bar\u00f3n and Mueloliva Picuda. As a global leader exporting to over 80 countries, their dedication to quality has earned hundreds of international awards.",
-    "logo": "/images/producers/logo__muela-olives-sl.png"
+    "description": "Established over 80 years ago, Muela-Olives S.L. (Mueloliva) is a renowned family-owned producer based in Priego de Córdoba, in Spain's Andalusian Subbetica mountains. Combining traditional wisdom with modern cold-pressing technology without heat or water, they craft exceptional extra virgin olive oils like Venta del Barón and Mueloliva Picuda. As a global leader exporting to over 80 countries, their dedication to quality has earned hundreds of international awards.",
+    "logo": "/logo.png"
   },
   {
     "slug": "nahalei-shemen",
@@ -884,7 +884,7 @@
     "country": "Israel",
     "region": "Israel (Various)",
     "description": "Located in the moshav of Nehalim, Israel, Nahalei Shemen takes its name from the biblical phrase meaning \"rivers of oil.\" This local producer focuses on crafting high-quality varietal extra virgin olive oils. Recognized for its award-winning quality in domestic competitions, the farm also connects visitors with its agricultural heritage through seasonal grove tours and educational experiences.",
-    "logo": "/images/producers/logo__nahalei-shemen.jpg"
+    "logo": "/logo.png"
   },
   {
     "slug": "nicola-pantaleo-spa",
@@ -892,24 +892,24 @@
     "country": "Italy",
     "region": "Puglia",
     "description": "Nicola Pantaleo S.p.A. is a prominent family-run Italian producer with roots dating back to 1890, located in Fasano di Puglia, Brindisi. Producing around 12,000 tons of oil annually, they combine traditional Pugliese methods with modern packaging standards. Their diverse portfolio includes high-quality extra virgin, organic, and flavored olive oils, establishing a strong international presence in markets worldwide.",
-    "logo": "/images/producers/logo__nicola-pantaleo-spa.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "novavera-ltd-sti",
-    "name": "Novavera LTD \u015eT\u0130",
+    "name": "Novavera LTD ŞTİ",
     "country": "Turkey",
     "region": "Aegean",
-    "description": "Based in the Ayval\u0131k region of Turkey, NovaVera is an acclaimed family-owned producer dedicated to sustainable, organic farming. Utilizing high-precision, cold-pressing techniques below 22\u00b0C, they ensure their oils retain maximum phenolic compounds and antioxidants. Renowned for exceptional monovarietal oils like Ayval\u0131k and Memecik, NovaVera consistently achieves top placements in the EVOO World Ranking.",
+    "description": "Based in the Ayvalık region of Turkey, NovaVera is an acclaimed family-owned producer dedicated to sustainable, organic farming. Utilizing high-precision, cold-pressing techniques below 22°C, they ensure their oils retain maximum phenolic compounds and antioxidants. Renowned for exceptional monovarietal oils like Ayvalık and Memecik, NovaVera consistently achieves top placements in the EVOO World Ranking.",
     "website": "https://www.novavera.com.tr",
-    "logo": "/images/producers/logo__novavera-ltd-sti.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "oleicola-de-lemporda-sl",
-    "name": "Oleicola De L'Empord\u00e0 S.L.",
+    "name": "Oleicola De L'Empordà S.L.",
     "country": "Spain",
     "region": "Catalonia",
-    "description": "Located in Rab\u00f3s d'Empord\u00e0, Catalonia, Ole\u00edcola de l'Empord\u00e0 S.L. operates within the \"Oli de l'Empord\u00e0\" Protected Designation of Origin. Their flagship Clos de la Torre extra virgin olive oil is crafted exclusively from estate-grown native varieties like Argudell and Arbequina. Marrying traditional manual methods with modern technology, their premium oils have garnered numerous awards at international competitions such as TerraOlivo.",
-    "logo": "/images/producers/logo__oleicola-de-lemporda-sl.jpg"
+    "description": "Located in Rabós d'Empordà, Catalonia, Oleícola de l'Empordà S.L. operates within the \"Oli de l'Empordà\" Protected Designation of Origin. Their flagship Clos de la Torre extra virgin olive oil is crafted exclusively from estate-grown native varieties like Argudell and Arbequina. Marrying traditional manual methods with modern technology, their premium oils have garnered numerous awards at international competitions such as TerraOlivo.",
+    "logo": "/logo.png"
   },
   {
     "slug": "olioinversiones-glam-sa",
@@ -917,7 +917,7 @@
     "country": "Argentina",
     "region": "Rio Grande do Sul",
     "description": "Olioinversiones Glam S.A. operates Finca Rumaroli, a premier olive estate in Coronel Dorrego, Buenos Aires, Argentina. Cultivating diverse varieties like Arbequina, Coratina, and Frantoio across multiple terroirs, the company produces acclaimed monovarietal and blended extra virgin olive oils. Their prestigious brands, Garbo and Rumaroli, have earned significant recognition at global competitions, including the EVOO World Ranking and London Olive Oil Awards.",
-    "logo": "/images/producers/logo__olioinversiones-glam-sa.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "olivapalacios-sl",
@@ -925,7 +925,7 @@
     "country": "Spain",
     "region": "Andalusia",
     "description": "Olivapalacios, S.L. is a family-owned producer situated in the nutrient-rich, volcanic soils of Almagro, Ciudad Real, Spain. Managing nearly 300 hectares of groves and an on-site mill, they produce the internationally celebrated \"Palacio de los Olivos\" brand. Emphasizing sustainability and early harvesting, their Picual, Arbequina, and Arbosana extra virgin olive oils consistently rank among the best in the world.",
-    "logo": "/images/producers/logo__olivapalacios-sl.jpg"
+    "logo": "/logo.png"
   },
   {
     "slug": "olivea",
@@ -933,31 +933,31 @@
     "country": "Israel",
     "region": "Israel (Various)",
     "description": "Olivea is a brand of extra virgin olive oil recognized within the Israeli market, notably for its Coratina varietals which have featured in regional rankings. Known for delivering high-quality, cold-pressed olive oil, the brand brings distinct flavors to local consumers. It stands as an appreciated choice for those seeking quality olive oil experiences in Israel.",
-    "logo": "/images/producers/logo__olivea.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "opg-nives-morovic",
-    "name": "Opg Nives Morovi\u0107",
+    "name": "Opg Nives Morović",
     "country": "Croatia",
     "region": "Croatia",
-    "description": "OPG Nives Morovi\u0107 is a highly acclaimed Croatian producer based in \u017dman on the island of Dugi Otok, famed for their centuries-old olive cultivation dating back to 1607. Their ecological, award-winning brand 'Nai 3.3' produces premium extra virgin olive oils, notably their globally recognized Coratina variety. Processed in their own high-tech mill on the same day as harvest, their oils are celebrated for exceptional quality and high polyphenol content.",
-    "logo": "/images/producers/logo__opg-nives-morovic.png"
+    "description": "OPG Nives Morović is a highly acclaimed Croatian producer based in Žman on the island of Dugi Otok, famed for their centuries-old olive cultivation dating back to 1607. Their ecological, award-winning brand 'Nai 3.3' produces premium extra virgin olive oils, notably their globally recognized Coratina variety. Processed in their own high-tech mill on the same day as harvest, their oils are celebrated for exceptional quality and high polyphenol content.",
+    "logo": "/logo.png"
   },
   {
     "slug": "otto-olivas-de-gramado-ltda",
     "name": "Otto Olivas de Gramado Ltda",
     "country": "Brazil",
     "region": "Rio Grande do Sul",
-    "description": "Otto Olivas de Gramado Ltda is a prominent olive oil producer and agricultural tourist destination nestled in the Serra Ga\u00facha region of Brazil. Managing over 12,000 olive trees across 29 hectares, they cultivate varieties like Arbequina and Koroneiki to create their globally recognized, award-winning 'Terroir Serrano' extra virgin olive oil. Their estate blends high-quality olive production with a rich cultural and gastronomic visitor experience.",
-    "logo": "/images/producers/logo__otto-olivas-de-gramado-ltda.png"
+    "description": "Otto Olivas de Gramado Ltda is a prominent olive oil producer and agricultural tourist destination nestled in the Serra Gaúcha region of Brazil. Managing over 12,000 olive trees across 29 hectares, they cultivate varieties like Arbequina and Koroneiki to create their globally recognized, award-winning 'Terroir Serrano' extra virgin olive oil. Their estate blends high-quality olive production with a rich cultural and gastronomic visitor experience.",
+    "logo": "/logo.png"
   },
   {
     "slug": "ozemle-yasam",
-    "name": "\u00d6zem'le Ya\u015fam",
+    "name": "Özem'le Yaşam",
     "country": "Turkey",
     "region": "Aegean",
-    "description": "\u00d6zem'le Ya\u015fam is a premium Turkish olive oil brand based in the Ayval\u0131k/G\u00f6me\u00e7 region of Bal\u0131kesir, dedicated to sustainable agriculture and clean eating. They specialize in high-quality, cold-pressed extra virgin olive oils, particularly early harvest varieties prized for their intense aroma and high polyphenol content. Led by an olive oil tasting expert, the brand also promotes agro-tourism, offering authentic Aegean culinary and educational experiences.",
-    "logo": "/images/producers/logo__ozemle-yasam.jpg"
+    "description": "Özem'le Yaşam is a premium Turkish olive oil brand based in the Ayvalık/Gömeç region of Balıkesir, dedicated to sustainable agriculture and clean eating. They specialize in high-quality, cold-pressed extra virgin olive oils, particularly early harvest varieties prized for their intense aroma and high polyphenol content. Led by an olive oil tasting expert, the brand also promotes agro-tourism, offering authentic Aegean culinary and educational experiences.",
+    "logo": "/logo.png"
   },
   {
     "slug": "pmmatsoukas-ltd",
@@ -965,23 +965,23 @@
     "country": "Cyprus",
     "region": "Cyprus",
     "description": "P.M. Matsoukas Ltd is an award-winning producer of organic extra virgin olive oil located in the village of Athienou in Cyprus's Mesaoria region. Established in 2011 to honor a long-standing family tradition, they focus on cultivating the Koroneiki olive variety using strictly organic, pesticide-free practices. Their meticulously cold-pressed oils are renowned for their low acidity and exceptional quality, earning recognition at international competitions.",
-    "logo": "/images/producers/logo__pmmatsoukas-ltd.jpg"
+    "logo": "/logo.png"
   },
   {
     "slug": "pago-de-los-baldios-de-san-carlos-sl",
     "name": "Pago De Los Baldios De San Carlos S.L.",
     "country": "Spain",
     "region": "Andalusia",
-    "description": "Pago de los Bald\u00edos de San Carlos S.L. is a distinguished Spanish olive oil estate situated in the Ti\u00e9tar Valley of Extremadura. Benefiting from a unique microclimate that allows for an exceptionally early harvest, they produce award-winning, minimally processed extra virgin olive oils primarily from the Arbequina variety. Their premium products, characterized by remarkably low acidity and vibrant fruity aromas, are favored by Michelin-starred chefs and gourmet culinary establishments worldwide.",
-    "logo": "/images/producers/logo__pago-de-los-baldios-de-san-carlos-sl.png"
+    "description": "Pago de los Baldíos de San Carlos S.L. is a distinguished Spanish olive oil estate situated in the Tiétar Valley of Extremadura. Benefiting from a unique microclimate that allows for an exceptionally early harvest, they produce award-winning, minimally processed extra virgin olive oils primarily from the Arbequina variety. Their premium products, characterized by remarkably low acidity and vibrant fruity aromas, are favored by Michelin-starred chefs and gourmet culinary establishments worldwide.",
+    "logo": "/logo.png"
   },
   {
     "slug": "pallas-tarm-urunleri-ltd-sti",
-    "name": "Pallas Tar\u0131m \u00dcr\u00fcnleri LTD \u015eT\u0130",
+    "name": "Pallas Tarım Ürünleri LTD ŞTİ",
     "country": "Turkey",
     "region": "Aegean",
-    "description": "Pallas Tar\u0131m \u00dcr\u00fcnleri LTD \u015eT\u0130 is an esteemed Turkish olive oil producer based in the major cultivation hub of Manisa. Established in 2017, the company is dedicated to creating elite, early-harvest extra virgin olive oils primarily using the premium Arbequina olive variety. Certified organic and renowned for extremely low acidity and high polyphenol content, their meticulously crafted oils consistently win top honors at prestigious international competitions like the NYIOOC.",
-    "logo": "/images/producers/logo__pallas-tarm-urunleri-ltd-sti.jpg"
+    "description": "Pallas Tarım Ürünleri LTD ŞTİ is an esteemed Turkish olive oil producer based in the major cultivation hub of Manisa. Established in 2017, the company is dedicated to creating elite, early-harvest extra virgin olive oils primarily using the premium Arbequina olive variety. Certified organic and renowned for extremely low acidity and high polyphenol content, their meticulously crafted oils consistently win top honors at prestigious international competitions like the NYIOOC.",
+    "logo": "/logo.png"
   },
   {
     "slug": "papadopoulos-olive-oil-pc",
@@ -989,15 +989,15 @@
     "country": "Greece",
     "region": "Peloponnese",
     "description": "Papadopoulos Olive Oil P.C., renowned for its 'The Master Miller' brand, is a celebrated family-owned producer located near Ancient Olympia in Greece's Peloponnese region. Leveraging sustainable, smart agricultural practices and a modern mill, they specialize in early-harvest, high-phenolic extra virgin olive oils, including distinctive local monovarieties like Nemoutiana. Their unwavering commitment to quality has earned them a reputation as one of the most awarded olive oil producers globally.",
-    "logo": "/images/producers/logo__papadopoulos-olive-oil-pc.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "prosperato",
     "name": "Prosperato",
     "country": "Brazil",
-    "region": "S\u00e3o Paulo",
+    "region": "São Paulo",
     "description": "Prosperato is a pioneering, family-owned Brazilian extra virgin olive oil producer operating out of Rio Grande do Sul since 2013. Employing an artisanal, single-estate approach from seedling to bottling, they craft both premium blends and exquisite monovarietal oils using state-of-the-art Italian machinery. Recognized as one of Brazil's most awarded brands, their remarkably fresh oils have garnered prestigious international accolades, including top medals at the NYIOOC.",
-    "logo": "/images/producers/logo__prosperato.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "ptora-family-boutique",
@@ -1005,39 +1005,39 @@
     "country": "Israel",
     "region": "Israel (Various)",
     "description": "Ptora Family Boutique is a prestigious, family-owned Israeli olive farm founded in 1956 in the Lachish region, resting above an ancient Byzantine city. Guided by internationally certified olive oil judge Ido Tamir, they produce an exceptional array of single-varietal and blended extra virgin olive oils from both local and international olive varieties. Their dedication to heritage and craftsmanship has established them as a premier Israeli brand, consistently earning top international awards.",
-    "logo": "/images/producers/logo__ptora-family-boutique.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "reales-almazaras-de-alcaniz-coop-del-mezquin-scl-la-codonera-dop-aceite-del-bajo",
-    "name": "Reales Almazaras De Alca\u00f1iz / Coop. Del Mezqu\u00edn, Scl (La Codo\u00f1era) - Dop Aceite Del Bajo Arag\u00f3n",
+    "name": "Reales Almazaras De Alcañiz / Coop. Del Mezquín, Scl (La Codoñera) - Dop Aceite Del Bajo Aragón",
     "country": "Spain",
     "region": "Aragon",
-    "description": "Reales Almazaras de Alca\u00f1iz is the flagship extra virgin olive oil brand of Cooperativa del Mezqu\u00edn, located in La Codo\u00f1era, Spain. Representing over 450 local growers and 3,000 hectares of groves, the cooperative exclusively uses native Empeltre olives to craft their internationally awarded oils. Certified under the D.O.P. \"Aceite del Bajo Arag\u00f3n,\" their production perfectly captures the balanced, fruity profile and rich heritage of the Teruel region.",
-    "logo": "/images/producers/logo__reales-almazaras-de-alcaniz-coop-del-mezquin-scl-la-codonera-dop-aceite-del-bajo.jpg"
+    "description": "Reales Almazaras de Alcañiz is the flagship extra virgin olive oil brand of Cooperativa del Mezquín, located in La Codoñera, Spain. Representing over 450 local growers and 3,000 hectares of groves, the cooperative exclusively uses native Empeltre olives to craft their internationally awarded oils. Certified under the D.O.P. \"Aceite del Bajo Aragón,\" their production perfectly captures the balanced, fruity profile and rich heritage of the Teruel region.",
+    "logo": "/logo.png"
   },
   {
     "slug": "roma-olivas-agroindustria-ltda",
-    "name": "Roma Olivas Agroind\u00fastria Ltda",
+    "name": "Roma Olivas Agroindústria Ltda",
     "country": "Brazil",
     "region": "Rio Grande do Sul",
-    "description": "Roma Olivas Agroind\u00fastria Ltda is the visionary Brazilian company behind the internationally recognized \"Olive Jungle\" brand. Based in Farroupilha, Rio Grande do Sul, they craft premium extra virgin olive oils\u2014including exceptional Koroneiki and artisanal blends\u2014using environmentally sustainable practices. Their commitment to artisanal harvesting and gastronomic excellence has made their oils a standout in global quality and design competitions.",
-    "logo": "/images/producers/logo__roma-olivas-agroindustria-ltda.webp"
+    "description": "Roma Olivas Agroindústria Ltda is the visionary Brazilian company behind the internationally recognized \"Olive Jungle\" brand. Based in Farroupilha, Rio Grande do Sul, they craft premium extra virgin olive oils—including exceptional Koroneiki and artisanal blends—using environmentally sustainable practices. Their commitment to artisanal harvesting and gastronomic excellence has made their oils a standout in global quality and design competitions.",
+    "logo": "/logo.png"
   },
   {
     "slug": "rumeli-zirai-ve-gida-yatirimlari-as",
     "name": "Rumeli Zirai Ve Gida Yatirimlari A.S.",
     "country": "Turkey",
     "region": "Aegean",
-    "description": "Rumeli Zirai ve G\u0131da Yat\u0131r\u0131mlar\u0131 A.\u015e. is a highly respected Turkish producer operating from the historic region of Eceabat, \u00c7anakkale. Renowned for their \"Kirte\" brand, they masterfully blend regional Edremit and Memecik olives, often emphasizing traditional early harvests for maximum freshness. Their dedication to preserving authentic Turkish flavors has earned them top medals and accolades at both national and international olive oil competitions.",
-    "logo": "/images/producers/logo__rumeli-zirai-ve-gida-yatirimlari-as.png"
+    "description": "Rumeli Zirai ve Gıda Yatırımları A.Ş. is a highly respected Turkish producer operating from the historic region of Eceabat, Çanakkale. Renowned for their \"Kirte\" brand, they masterfully blend regional Edremit and Memecik olives, often emphasizing traditional early harvests for maximum freshness. Their dedication to preserving authentic Turkish flavors has earned them top medals and accolades at both national and international olive oil competitions.",
+    "logo": "/logo.png"
   },
   {
     "slug": "sabia",
     "name": "Sabia",
     "country": "Brazil",
     "region": "Rio Grande do Sul",
-    "description": "Azeite Sabi\u00e1 is an acclaimed Brazilian producer whose extraordinary extra virgin olive oils consistently rank among the world's finest. Cultivating varieties like Koroneiki and Arbequina in both the Serra da Mantiqueira and Serra do Sudeste regions, founders Bia Pereira and Bob Costa emphasize meticulous cold extraction and sustainable agriculture. Their relentless pursuit of perfection frequently earns them \"Best of the Southern Hemisphere\" titles at prestigious international contests.",
-    "logo": "/images/producers/logo__sabia.jpg"
+    "description": "Azeite Sabiá is an acclaimed Brazilian producer whose extraordinary extra virgin olive oils consistently rank among the world's finest. Cultivating varieties like Koroneiki and Arbequina in both the Serra da Mantiqueira and Serra do Sudeste regions, founders Bia Pereira and Bob Costa emphasize meticulous cold extraction and sustainable agriculture. Their relentless pursuit of perfection frequently earns them \"Best of the Southern Hemisphere\" titles at prestigious international contests.",
+    "logo": "/logo.png"
   },
   {
     "slug": "sakellaropoulos-organic-farms",
@@ -1045,7 +1045,7 @@
     "country": "Greece",
     "region": "Peloponnese",
     "description": "Nestled near Sparta in Laconia, Sakellaropoulos Organic Farms is a celebrated family-run estate renowned for its pioneering single-estate organic extra virgin olive oils. Since 1992, they have seamlessly blended traditional farming with scientific innovation to craft award-winning gourmet infused oils and high-polyphenol \"bio-functional\" varieties. Their unyielding dedication to health and quality makes them one of the most internationally decorated organic olive oil producers globally.",
-    "logo": "/images/producers/logo__sakellaropoulos-organic-farms.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "sant-isidre-de-les-borges-blanques-i-seccio-de-credit",
@@ -1053,23 +1053,23 @@
     "country": "Spain",
     "region": "Andalusia",
     "description": "Founded in 1912 in Catalonia, Spain, Cooperativa Sant Isidre de les Borges Blanques produces high-quality extra virgin olive oil under the brand Terrall. Their premium oils are crafted exclusively from the Arbequina olive variety and hold the prestigious Protected Designation of Origin (PDO) Les Garrigues certification. Utilizing traditional cold-pressing methods alongside modern technology, they create award-winning olive oils without additives.",
-    "logo": "/images/producers/logo__sant-isidre-de-les-borges-blanques-i-seccio-de-credit.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "sc-agricola-san-lorenzo-maella-dop-aceite-del-bajo-aragon",
-    "name": "SC Agr\u00edcola San Lorenzo (Maella) - Dop Aceite Del Bajo Arag\u00f3n",
+    "name": "SC Agrícola San Lorenzo (Maella) - Dop Aceite Del Bajo Aragón",
     "country": "Spain",
     "region": "Aragon",
-    "description": "Located in Maella, Zaragoza, the Sociedad Cooperativa Agr\u00edcola San Lorenzo is an award-winning cooperative operating under the D.O.P. Aceite del Bajo Arag\u00f3n. They are renowned for their extra virgin olive oil marketed under the brand name \"Magalia.\" Working closely with local farmers, their high-quality oils have achieved international recognition, reflecting the region's rich agricultural heritage.",
-    "logo": "/images/producers/logo__sc-agricola-san-lorenzo-maella-dop-aceite-del-bajo-aragon.jpg"
+    "description": "Located in Maella, Zaragoza, the Sociedad Cooperativa Agrícola San Lorenzo is an award-winning cooperative operating under the D.O.P. Aceite del Bajo Aragón. They are renowned for their extra virgin olive oil marketed under the brand name \"Magalia.\" Working closely with local farmers, their high-quality oils have achieved international recognition, reflecting the region's rich agricultural heritage.",
+    "logo": "/logo.png"
   },
   {
     "slug": "sca-olivarera-la-purisima",
-    "name": "Sca. Olivarera La Pur\u00edsima",
+    "name": "Sca. Olivarera La Purísima",
     "country": "Spain",
     "region": "Andalusia",
-    "description": "S.C.A. Olivarera La Pur\u00edsima refers to notable Andalusian olive oil cooperatives, with the most famous situated in Priego de C\u00f3rdoba, operating since 1945. Under the strict D.O.P. Priego de C\u00f3rdoba certification, they produce the highly acclaimed, multi-award-winning extra virgin olive oil brand \"El Empiedro.\" These cooperatives reflect the deep-rooted tradition and exceptional quality of Spanish olive oil production.",
-    "logo": "/images/producers/logo__sca-olivarera-la-purisima.png"
+    "description": "S.C.A. Olivarera La Purísima refers to notable Andalusian olive oil cooperatives, with the most famous situated in Priego de Córdoba, operating since 1945. Under the strict D.O.P. Priego de Córdoba certification, they produce the highly acclaimed, multi-award-winning extra virgin olive oil brand \"El Empiedro.\" These cooperatives reflect the deep-rooted tradition and exceptional quality of Spanish olive oil production.",
+    "logo": "/logo.png"
   },
   {
     "slug": "schorr-wolf-farm",
@@ -1077,7 +1077,7 @@
     "country": "Israel",
     "region": "Israel (Various)",
     "description": "Situated in Moshav Orot within Israel's Judean Lowlands, Schorr Wolf Farm is a family-owned estate dedicated to ecological farming practices. The farm produces premium extra virgin olive oils from various cultivars and is especially known for its signature \"Nahal Ha'ela\" blend. Avoiding pesticides to preserve biodiversity, their internationally recognized oils celebrate sustainable agriculture and the region's unique terroir.",
-    "logo": "/images/producers/logo__schorr-wolf-farm.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "shemen-darom",
@@ -1085,7 +1085,7 @@
     "country": "Israel",
     "region": "Israel (Various)",
     "description": "Shemen Darom, meaning \"Southern Oil,\" is an acclaimed boutique olive oil producer in Israel, frequently recognized in international competitions like the EVOO World Ranking. They are particularly celebrated for their high-quality Coratina extra virgin olive oil. Their award-winning products highlight the growing prominence of premium, artisanal Israeli olive oils on the global stage.",
-    "logo": "/images/producers/logo__shemen-darom.jpg"
+    "logo": "/logo.png"
   },
   {
     "slug": "shemen-yogev",
@@ -1093,7 +1093,7 @@
     "country": "Israel",
     "region": "Israel (Various)",
     "description": "Operating since 1995 in Moshav Kfar Achim, Israel, Shemen Yogev is a multigenerational, family-run boutique farm. They produce award-winning extra virgin olive oils from various cultivars such as Picual, Coratina, and Askal. Balancing traditional values with modern production standards, their internationally recognized oils celebrate Israel's rich agricultural heritage.",
-    "logo": "/images/producers/logo__shemen-yogev.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "shiloach-farm",
@@ -1101,7 +1101,7 @@
     "country": "Israel",
     "region": "Israel (Various)",
     "description": "Established in the 1980s in Israel's Galilee region, Shiloach Farm is an acclaimed boutique olive oil producer known for handling the entire production process on-site. Managing their own groves and pressing the olives with an Italian mill, they create award-winning blends frequently recognized in the EVOO World Rankings. Their commitment to quality has earned them prestigious titles like \"Best Israeli Boutique Brand.\"",
-    "logo": "/images/producers/logo__shiloach-farm.jpg"
+    "logo": "/logo.png"
   },
   {
     "slug": "shimon-paz",
@@ -1109,7 +1109,7 @@
     "country": "Israel",
     "region": "Israel (Various)",
     "description": "Shimon Paz Olive Oil is a highly regarded boutique producer located in Kfar Shmuel, Israel. Owned by Shimon Paz, a retired border police officer and passionate advocate for local agriculture, the farm produces high-quality olive oil using traditional methods. Their carefully crafted products reflect a deep commitment to preserving Israel's local olive-growing heritage.",
-    "logo": "/images/producers/logo__shimon-paz.jpg"
+    "logo": "/logo.png"
   },
   {
     "slug": "sindyanna-of-galilee",
@@ -1117,7 +1117,7 @@
     "country": "Israel",
     "region": "Galilee",
     "description": "Sindyanna of Galilee is a unique, female-led non-profit organization and fair-trade social enterprise in Israel. Producing award-winning extra virgin olive oils, they foster cooperation between Arab and Jewish women and channel profits into educational opportunities. Their premium oils are cold-pressed and internationally recognized, reflecting a commitment to both exceptional quality and social impact.",
-    "logo": "/images/producers/logo__sindyanna-of-galilee.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "solfrut-sa-2",
@@ -1125,7 +1125,7 @@
     "country": "Argentina",
     "region": "Argentina",
     "description": "Based in San Juan, Argentina, Solfrut S.A. is one of Latin America's largest and most advanced agro-industrial producers of extra virgin olive oil. Utilizing high-density cultivation across expansive groves, they produce the internationally acclaimed \"Oliovita\" brand. Their state-of-the-art facilities and commitment to quality have significantly expanded Argentina's presence in the global olive oil market.",
-    "logo": "/images/producers/logo__solfrut-sa-2.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "solfrut-sa",
@@ -1133,7 +1133,7 @@
     "country": "Argentina",
     "region": "Argentina",
     "description": "Based in San Juan, Argentina, Solfrut S.A. is one of Latin America's largest and most advanced agro-industrial producers of extra virgin olive oil. Utilizing high-density cultivation across expansive groves, they produce the internationally acclaimed \"Oliovita\" brand. Their state-of-the-art facilities and commitment to quality have significantly expanded Argentina's presence in the global olive oil market.",
-    "logo": "/images/producers/logo__solfrut-sa.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "soul-mantiqueira",
@@ -1141,15 +1141,15 @@
     "country": "Brazil",
     "region": "Rio Grande do Sul",
     "description": "Emerging from Brazil's Serra da Mantiqueira region, Soul Mantiqueira is an acclaimed producer of extra virgin olive oil. Utilizing hand-harvesting techniques and on-site milling, they produce premium monovarietal oils and blends featuring cultivars like Arbequina and Picual. The brand's award-winning oils have gained international recognition, spotlighting Brazil's growing prominence in the global olive oil market.",
-    "logo": "/images/producers/logo__soul-mantiqueira.jpg"
+    "logo": "/logo.png"
   },
   {
     "slug": "sovena-consumer-and-goods-sa",
     "name": "Sovena Consumer And Goods S.A.",
     "country": "Portugal",
     "region": "Alentejo",
-    "description": "Based in Alg\u00e9s, Portugal, Sovena Consumer And Goods S.A. is a prominent global leader in olive oil production and distribution. Managing vast olive groves and state-of-the-art facilities, they produce acclaimed consumer brands such as \"Oliveira da Serra\" and \"Andorinha.\" Their comprehensive control over the entire value chain ensures high-quality products that reach over 70 countries worldwide.",
-    "logo": "/images/producers/logo__sovena-consumer-and-goods-sa.jpg"
+    "description": "Based in Algés, Portugal, Sovena Consumer And Goods S.A. is a prominent global leader in olive oil production and distribution. Managing vast olive groves and state-of-the-art facilities, they produce acclaimed consumer brands such as \"Oliveira da Serra\" and \"Andorinha.\" Their comprehensive control over the entire value chain ensures high-quality products that reach over 70 countries worldwide.",
+    "logo": "/logo.png"
   },
   {
     "slug": "sparta-gourmet",
@@ -1157,7 +1157,7 @@
     "country": "Greece",
     "region": "Peloponnese",
     "description": "Operating out of Laconia in the Peloponnese, Greece, Sparta Gourmet produces premium extra virgin olive oil primarily from native Koroneiki olives. Emphasizing vertical integration, they maintain their own groves and processing facilities to ensure exceptional quality via cold-extraction methods. Their high-polyphenol, authentic Greek oils bring the traditional flavors of Sparta to international markets.",
-    "logo": "/images/producers/logo__sparta-gourmet.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "terra-nova",
@@ -1165,7 +1165,7 @@
     "country": "Israel",
     "region": "Israel (Various)",
     "description": "Situated on Moshav Kanaf in the southern Golan Heights, Terra Nova is a family-run boutique winery and farm that produces exceptional extra virgin olive oil. Cultivating Arbequina and Koroneiki olives in the region's fertile volcanic soil, their oils have earned accolades at the TerraOlivo international competition. They offer a unique agritourism experience that celebrates the terroir of northern Israel.",
-    "logo": "/images/producers/logo__terra-nova.jpg"
+    "logo": "/logo.png"
   },
   {
     "slug": "torres-morente-de-aceites-maeva",
@@ -1173,7 +1173,7 @@
     "country": "Spain",
     "region": "Andalusia",
     "description": "Aceites Maeva, guided by the Torres Morente family, is a renowned Spanish olive oil producer rooted in a rich heritage dating back to 1930 in Andalusia. Today operating out of Granada, the third generation oversees the production of their highly acclaimed extra virgin olive oils. Their expertise blends traditional agricultural wisdom with modern innovation to create exceptional, award-winning oils that celebrate the robust flavors of Spanish olives.",
-    "logo": "/images/producers/logo__torres-morente-de-aceites-maeva.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "vassilakis-emm-sa",
@@ -1181,7 +1181,7 @@
     "country": "Greece",
     "region": "Peloponnese",
     "description": "Vassilakis Estate is a historic, family-run olive oil producer situated in the picturesque Mirambello Valley of Crete, Greece, with a legacy spanning back to 1865. Focusing primarily on the indigenous Koroneiki olive, the estate utilizes careful cold-extraction methods to craft premium and organic extra virgin olive oils known for their high antioxidant content and peppery finish. The acclaimed estate offers immersive visitor experiences and exports its award-winning \"Charisma\" and estate lines worldwide.",
-    "logo": "/images/producers/logo__vassilakis-emm-sa.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "via-viv",
@@ -1189,7 +1189,7 @@
     "country": "Italy",
     "region": "Puglia",
     "description": "Via Viv is a distinguished olive oil brand founded by Vivian van Wordragen, a Dutch olive oil expert and certified professional taster. Sourcing premium extra virgin olive oils from renowned regions such as Italy, the brand is dedicated to offering exceptionally high-quality and award-winning robust oils. Beyond curating exquisite olive oils, Via Viv emphasizes education through masterclasses and tastings, elevating the appreciation of fine olive oils for both chefs and discerning consumers.",
-    "logo": "/images/producers/logo__via-viv.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "willow-creek-products-pty-ltd",
@@ -1197,7 +1197,7 @@
     "country": "South Africa",
     "region": "South Africa",
     "description": "Situated in the scenic Nuy Valley near Worcester, Willow Creek is one of the largest and most celebrated producers of extra virgin olive oil in South Africa. Cultivating a diverse range of olive varieties including Frantoio and Coratina, the estate employs state-of-the-art cold extraction technology to produce vibrant, award-winning oils ranging from delicate to intense. Through sustainable practices and their \"Partnering Farms\" initiative, Willow Creek consistently delivers premium quality oils while supporting the local agricultural community.",
-    "logo": "/images/producers/logo__willow-creek-products-pty-ltd.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "yad-mordechai-apiary-strauss",
@@ -1205,23 +1205,23 @@
     "country": "Israel",
     "region": "Israel (Various)",
     "description": "Yad Mordechai is a historic Israeli brand, renowned for its natural food products and exceptional extra virgin olive oil. Operating under the Strauss Group umbrella since a strategic partnership in 2002, the brand combines its heritage agricultural roots with advanced manufacturing and distribution capabilities. Their olive oils showcase a commitment to quality and natural ingredients, serving as a trusted staple in kitchens while reflecting the rich agricultural traditions of the region.",
-    "logo": "/images/producers/logo__yad-mordechai-apiary-strauss.jpg"
+    "logo": "/logo.png"
   },
   {
     "slug": "yagmur-organik-urunler-ltd-sti",
-    "name": "Ya\u011fmur Organik \u00dcr\u00fcnler LTD \u015eT\u0130",
+    "name": "Yağmur Organik Ürünler LTD ŞTİ",
     "country": "Turkey",
     "region": "Aegean",
-    "description": "Ya\u011fmur Organik \u00dcr\u00fcnler is a prominent Turkish producer best known for its premium \"Ninurta\" olive oil brand. Sourcing exceptional olive varieties such as Edremit and Trilye, the company crafts high-quality monovarietal and blended extra virgin olive oils. Recognized consistently at prestigious international competitions like OLIVE JAPAN and the London Olive Oil Awards, Ya\u011fmur Organik is celebrated for its dedication to organic practices and exceptional quality.",
-    "logo": "/images/producers/logo__yagmur-organik-urunler-ltd-sti.png"
+    "description": "Yağmur Organik Ürünler is a prominent Turkish producer best known for its premium \"Ninurta\" olive oil brand. Sourcing exceptional olive varieties such as Edremit and Trilye, the company crafts high-quality monovarietal and blended extra virgin olive oils. Recognized consistently at prestigious international competitions like OLIVE JAPAN and the London Olive Oil Awards, Yağmur Organik is celebrated for its dedication to organic practices and exceptional quality.",
+    "logo": "/logo.png"
   },
   {
     "slug": "yihai-kerry-foodstuffs-marketing-co-ltd",
     "name": "Yihai Kerry Foodstuffs Marketing Co. Ltd",
     "country": "Spain",
     "region": "Andalusia",
-    "description": "While Yihai Kerry Foodstuffs is a major Chinese food processing conglomerate, it plays a vital commercial role in the Spanish olive oil industry as a leading importer and distributor. Through its widely recognized \"Olivoil\u00e0\" brand, the company brings high-quality Spanish extra virgin olive oil to the Chinese market. Emphasizing Mediterranean origins and health benefits, Yihai Kerry serves as a crucial bridge connecting Spanish olive oil production with an expansive international consumer base.",
-    "logo": "/images/producers/logo__yihai-kerry-foodstuffs-marketing-co-ltd.png"
+    "description": "While Yihai Kerry Foodstuffs is a major Chinese food processing conglomerate, it plays a vital commercial role in the Spanish olive oil industry as a leading importer and distributor. Through its widely recognized \"Olivoilà\" brand, the company brings high-quality Spanish extra virgin olive oil to the Chinese market. Emphasizing Mediterranean origins and health benefits, Yihai Kerry serves as a crucial bridge connecting Spanish olive oil production with an expansive international consumer base.",
+    "logo": "/logo.png"
   },
   {
     "slug": "yosef-olive-oil",
@@ -1229,22 +1229,23 @@
     "country": "Israel",
     "region": "Israel (Various)",
     "description": "Yosef Olive Oil is an esteemed boutique producer of extra virgin olive oil in Israel, noted particularly for its exceptional Koroneiki variety. Drawing from the region's deep agricultural history and optimal Mediterranean climate, this boutique farm focuses on small-batch, artisanal production. Their commitment to careful cultivation and precise extraction results in an internationally recognized oil that captures the authentic, vibrant essence of the Israeli terroir.",
-    "logo": "/images/producers/logo__yosef-olive-oil.jpg"
+    "logo": "/logo.png"
   },
   {
     "slug": "stathorakis-olive-oil-mill",
-    "name": "\u0395\u03bb\u03b1\u03b9\u03bf\u03c5\u03c1\u03b3\u03b5\u03b9\u03bf \u03a3\u03c4\u03b1\u03b8\u03bf\u03c1\u03b1\u03ba\u03b7\u03c3 (Stathorakis Olive Oil Mill)",
+    "name": "Ελαιουργειο Σταθορακησ (Stathorakis Olive Oil Mill)",
     "country": "Greece",
     "region": "Peloponnese",
     "description": "The Stathorakis Olive Oil Mill, located in the Moires region of Heraklion, Crete, is a third-generation family business renowned for its \"Agroulida\" brand. Dedicated exclusively to the native Koroneiki olive, the mill utilizes cold extraction and modern standards to create an oil that is deeply rooted in natural and sustainable cultivation. The resulting extra virgin olive oil, recognized at major international competitions, beautifully reflects the pure, unadulterated character of the Cretan landscape.",
-    "logo": "/images/producers/logo__stathorakis-olive-oil-mill.jpg"
+    "logo": "/logo.png"
   },
   {
     "slug": "azeite-sitio-da-pedra",
     "name": "Azeite Sitio Da Pedra",
     "country": "Brasil",
     "region": "",
-    "description": "Azeite Sitio Da Pedra is an award-winning olive oil producer from Brasil."
+    "description": "Azeite Sitio Da Pedra is an award-winning olive oil producer from Brasil.",
+    "logo": "/logo.png"
   },
   {
     "slug": "galili-olive-oil",
@@ -1252,7 +1253,7 @@
     "country": "Israel",
     "region": "",
     "description": "Galili Olive Oil is an award-winning olive oil producer from Israel.",
-    "logo": "/images/producers/galili-olive-oil-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "lisadurne-hill",
@@ -1260,7 +1261,7 @@
     "country": "Australia",
     "region": "",
     "description": "Lisadurne Hill is an award-winning olive oil producer from Australia.",
-    "logo": "/images/producers/lisadurne-hill-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "monte-rosso-doo",
@@ -1268,14 +1269,15 @@
     "country": "Croatia",
     "region": "",
     "description": "Monte Rosso D.O.O. is an award-winning olive oil producer from Croatia.",
-    "logo": "/images/producers/monte-rosso-doo-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "rbk-holding-llc",
     "name": "Rbk Holding Llc",
     "country": "Jordan",
     "region": "",
-    "description": "Rbk Holding Llc is an award-winning olive oil producer from Jordan."
+    "description": "Rbk Holding Llc is an award-winning olive oil producer from Jordan.",
+    "logo": "/logo.png"
   },
   {
     "slug": "frantoi-cutrera-srl",
@@ -1283,23 +1285,23 @@
     "country": "Italy",
     "region": "",
     "description": "Frantoi Cutrera Srl is an award-winning olive oil producer from Italy.",
-    "logo": "/images/producers/frantoi-cutrera-srl-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "lutfu-sen-ltd-sti",
-    "name": "L\u00fctf\u00fc \u015een Ltd \u015eti",
+    "name": "Lütfü Şen Ltd Şti",
     "country": "Turkey",
     "region": "",
-    "description": "L\u00fctf\u00fc \u015een Ltd \u015eti is an award-winning olive oil producer from Turkey.",
-    "logo": "/images/producers/lutfu-sen-ltd-sti-logo.png"
+    "description": "Lütfü Şen Ltd Şti is an award-winning olive oil producer from Turkey.",
+    "logo": "/logo.png"
   },
   {
     "slug": "sairogullar-as",
-    "name": "\u015eairo\u011fullar\u0131 A.\u015e",
+    "name": "Şairoğulları A.Ş",
     "country": "Turkey",
     "region": "",
-    "description": "\u015eairo\u011fullar\u0131 A.\u015e is an award-winning olive oil producer from Turkey.",
-    "logo": "/images/producers/sairogullar-as-logo.png"
+    "description": "Şairoğulları A.Ş is an award-winning olive oil producer from Turkey.",
+    "logo": "/logo.png"
   },
   {
     "slug": "campo-di-fiori",
@@ -1307,7 +1309,7 @@
     "country": "Brasil",
     "region": "",
     "description": "Campo Di Fiori is an award-winning olive oil producer from Brasil.",
-    "logo": "/images/producers/campo-di-fiori-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "meshek-haklai-shai-shiloach",
@@ -1315,7 +1317,7 @@
     "country": "Israel",
     "region": "",
     "description": "Meshek Haklai Shai Shiloach is an award-winning olive oil producer from Israel.",
-    "logo": "/images/producers/meshek-haklai-shai-shiloach-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "alta-da-serra",
@@ -1323,7 +1325,7 @@
     "country": "Brasil",
     "region": "",
     "description": "Alta Da Serra is an award-winning olive oil producer from Brasil.",
-    "logo": "/images/producers/alta-da-serra-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "meshek-schorr-wolf",
@@ -1331,7 +1333,7 @@
     "country": "Israel",
     "region": "",
     "description": "Meshek Schorr Wolf is an award-winning olive oil producer from Israel.",
-    "logo": "/images/producers/meshek-schorr-wolf-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "nombre-propio",
@@ -1339,7 +1341,7 @@
     "country": "Spain",
     "region": "",
     "description": "Nombre Propio is an award-winning olive oil producer from Spain.",
-    "logo": "/images/producers/nombre-propio-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "mesogis-olive-oil",
@@ -1347,7 +1349,7 @@
     "country": "Turkey",
     "region": "",
     "description": "Mesogis Olive Oil is an award-winning olive oil producer from Turkey.",
-    "logo": "/images/producers/mesogis-olive-oil-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "oli-vogue",
@@ -1355,22 +1357,23 @@
     "country": "Turkey",
     "region": "",
     "description": "Oli Vogue is an award-winning olive oil producer from Turkey.",
-    "logo": "/images/producers/oli-vogue-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "vienzo",
     "name": "Vienzo",
     "country": "Brasil",
     "region": "",
-    "description": "Vienzo is an award-winning olive oil producer from Brasil."
+    "description": "Vienzo is an award-winning olive oil producer from Brasil.",
+    "logo": "/logo.png"
   },
   {
     "slug": "delice-zeytincilik-ltd-sti",
-    "name": "Delice Zeytincilik Ltd \u015eti",
+    "name": "Delice Zeytincilik Ltd Şti",
     "country": "Turkey",
     "region": "",
-    "description": "Delice Zeytincilik Ltd \u015eti is an award-winning olive oil producer from Turkey.",
-    "logo": "/images/producers/delice-zeytincilik-ltd-sti-logo.png"
+    "description": "Delice Zeytincilik Ltd Şti is an award-winning olive oil producer from Turkey.",
+    "logo": "/logo.png"
   },
   {
     "slug": "santolivo",
@@ -1378,7 +1381,7 @@
     "country": "Peru",
     "region": "",
     "description": "Santolivo is an award-winning olive oil producer from Peru.",
-    "logo": "/images/producers/santolivo-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "antica-compagnia-olearia-sarda",
@@ -1386,14 +1389,15 @@
     "country": "Italy",
     "region": "",
     "description": "Antica Compagnia Olearia Sarda is an award-winning olive oil producer from Italy.",
-    "logo": "/images/producers/antica-compagnia-olearia-sarda-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "azeite-veroli",
-    "name": "Azeite Verol\u00ed",
+    "name": "Azeite Verolí",
     "country": "Brasil",
     "region": "",
-    "description": "Azeite Verol\u00ed is an award-winning olive oil producer from Brasil."
+    "description": "Azeite Verolí is an award-winning olive oil producer from Brasil.",
+    "logo": "/logo.png"
   },
   {
     "slug": "azeite-vertentes",
@@ -1401,7 +1405,7 @@
     "country": "Brasil",
     "region": "",
     "description": "Azeite Vertentes is an award-winning olive oil producer from Brasil.",
-    "logo": "/images/producers/azeite-vertentes-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "azeite-poema",
@@ -1409,7 +1413,7 @@
     "country": "Brasil",
     "region": "",
     "description": "Azeite Poema is an award-winning olive oil producer from Brasil.",
-    "logo": "/images/producers/azeite-poema-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "goldi",
@@ -1417,7 +1421,7 @@
     "country": "Australia",
     "region": "",
     "description": "Goldi is an award-winning olive oil producer from Australia.",
-    "logo": "/images/producers/goldi-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "oasis-olives",
@@ -1425,14 +1429,15 @@
     "country": "Australia",
     "region": "",
     "description": "Oasis Olives is an award-winning olive oil producer from Australia.",
-    "logo": "/images/producers/oasis-olives-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "ravla-gida-tarim-sanayi-ve-ticaret-as",
-    "name": "Ravla Gida Tarim Sanayi Ve Ticaret A.\u015e.",
+    "name": "Ravla Gida Tarim Sanayi Ve Ticaret A.Ş.",
     "country": "Turkey",
     "region": "",
-    "description": "Ravla Gida Tarim Sanayi Ve Ticaret A.\u015e. is an award-winning olive oil producer from Turkey."
+    "description": "Ravla Gida Tarim Sanayi Ve Ticaret A.Ş. is an award-winning olive oil producer from Turkey.",
+    "logo": "/logo.png"
   },
   {
     "slug": "vulcano",
@@ -1440,7 +1445,7 @@
     "country": "Brasil",
     "region": "",
     "description": "Vulcano is an award-winning olive oil producer from Brasil.",
-    "logo": "/images/producers/vulcano-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "ruach-mekedem",
@@ -1448,7 +1453,7 @@
     "country": "Israel",
     "region": "",
     "description": "Ruach Mekedem is an award-winning olive oil producer from Israel.",
-    "logo": "/images/producers/ruach-mekedem-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "pereira-e-fragoso-lda",
@@ -1456,7 +1461,7 @@
     "country": "Portugal",
     "region": "",
     "description": "Pereira E Fragoso, Lda is an award-winning olive oil producer from Portugal.",
-    "logo": "/images/producers/pereira-e-fragoso-lda-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "zaytec-argentina-sa",
@@ -1464,23 +1469,23 @@
     "country": "Argentina",
     "region": "",
     "description": "Zaytec Argentina S.A. is an award-winning olive oil producer from Argentina.",
-    "logo": "/images/producers/zaytec-argentina-sa-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "genius-ltd-sti",
-    "name": "Genius Ltd \u015eti",
+    "name": "Genius Ltd Şti",
     "country": "Turkey",
     "region": "",
-    "description": "Genius Ltd \u015eti is an award-winning olive oil producer from Turkey.",
-    "logo": "/images/producers/genius-ltd-sti-logo.png"
+    "description": "Genius Ltd Şti is an award-winning olive oil producer from Turkey.",
+    "logo": "/logo.png"
   },
   {
     "slug": "gokceovack-ltd-sti",
-    "name": "G\u00f6k\u00e7eovac\u0131k Ltd \u015eti",
+    "name": "Gökçeovacık Ltd Şti",
     "country": "Turkey",
     "region": "",
-    "description": "G\u00f6k\u00e7eovac\u0131k Ltd \u015eti is an award-winning olive oil producer from Turkey.",
-    "logo": "/images/producers/gokceovack-ltd-sti-logo.png"
+    "description": "Gökçeovacık Ltd Şti is an award-winning olive oil producer from Turkey.",
+    "logo": "/logo.png"
   },
   {
     "slug": "kerem-ahinoam",
@@ -1488,7 +1493,7 @@
     "country": "Israel",
     "region": "",
     "description": "Kerem Ahinoam is an award-winning olive oil producer from Israel.",
-    "logo": "/images/producers/kerem-ahinoam-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "orfeu",
@@ -1496,7 +1501,7 @@
     "country": "Brasil",
     "region": "",
     "description": "Orfeu is an award-winning olive oil producer from Brasil.",
-    "logo": "/images/producers/orfeu-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "recanto-maestro",
@@ -1504,7 +1509,7 @@
     "country": "Brasil",
     "region": "",
     "description": "Recanto Maestro is an award-winning olive oil producer from Brasil.",
-    "logo": "/images/producers/recanto-maestro-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "tamir-farm",
@@ -1512,7 +1517,7 @@
     "country": "Israel",
     "region": "",
     "description": "Tamir Farm is an award-winning olive oil producer from Israel.",
-    "logo": "/images/producers/tamir-farm-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "la-calandina",
@@ -1520,7 +1525,7 @@
     "country": "Spain",
     "region": "",
     "description": "La Calandina is an award-winning olive oil producer from Spain.",
-    "logo": "/images/producers/la-calandina-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "eliad-olive-mill-golan-hights",
@@ -1528,7 +1533,7 @@
     "country": "Israel",
     "region": "",
     "description": "Eliad Olive Mill Golan Hights is an award-winning olive oil producer from Israel.",
-    "logo": "/images/producers/eliad-olive-mill-golan-hights-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "meshek-paz",
@@ -1536,7 +1541,7 @@
     "country": "Israel",
     "region": "",
     "description": "Meshek Paz is an award-winning olive oil producer from Israel.",
-    "logo": "/images/producers/meshek-paz-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "olibest-lda",
@@ -1544,7 +1549,7 @@
     "country": "Portugal",
     "region": "",
     "description": "Olibest, Lda is an award-winning olive oil producer from Portugal.",
-    "logo": "/images/producers/olibest-lda-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "azeite-vera-cruz",
@@ -1552,7 +1557,7 @@
     "country": "Brasil",
     "region": "",
     "description": "Azeite Vera Cruz is an award-winning olive oil producer from Brasil.",
-    "logo": "/images/producers/azeite-vera-cruz-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "verde-louro-azeites-ltda",
@@ -1560,7 +1565,7 @@
     "country": "Brasil",
     "region": "",
     "description": "Verde Louro Azeites Ltda is an award-winning olive oil producer from Brasil.",
-    "logo": "/images/producers/verde-louro-azeites-ltda-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "azeite-mantiq",
@@ -1568,7 +1573,7 @@
     "country": "Brasil",
     "region": "",
     "description": "Azeite Mantiq is an award-winning olive oil producer from Brasil.",
-    "logo": "/images/producers/azeite-mantiq-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "havat-hashomer-farm",
@@ -1576,7 +1581,7 @@
     "country": "Israel",
     "region": "",
     "description": "Havat Hashomer Farm is an award-winning olive oil producer from Israel.",
-    "logo": "/images/producers/havat-hashomer-farm-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "azeite-batalha-agroindustrial-ltda",
@@ -1584,7 +1589,7 @@
     "country": "Brasil",
     "region": "",
     "description": "Azeite Batalha Agroindustrial Ltda is an award-winning olive oil producer from Brasil.",
-    "logo": "/images/producers/azeite-batalha-agroindustrial-ltda-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "azeite-sao-mateus",
@@ -1592,7 +1597,7 @@
     "country": "Brasil",
     "region": "",
     "description": "Azeite Sao Mateus is an award-winning olive oil producer from Brasil.",
-    "logo": "/images/producers/azeite-sao-mateus-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "casa-foz",
@@ -1600,7 +1605,7 @@
     "country": "Brasil",
     "region": "",
     "description": "Casa Foz is an award-winning olive oil producer from Brasil.",
-    "logo": "/images/producers/casa-foz-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "oleosophia",
@@ -1608,7 +1613,7 @@
     "country": "Greece",
     "region": "",
     "description": "Oleosophia is an award-winning olive oil producer from Greece.",
-    "logo": "/images/producers/oleosophia-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "arens-arad-farm",
@@ -1616,7 +1621,7 @@
     "country": "Israel",
     "region": "",
     "description": "Arens Arad Farm is an award-winning olive oil producer from Israel.",
-    "logo": "/images/producers/arens-arad-farm-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "kerem-adi",
@@ -1624,7 +1629,7 @@
     "country": "Israel",
     "region": "",
     "description": "Kerem Adi is an award-winning olive oil producer from Israel.",
-    "logo": "/images/producers/kerem-adi-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "meshek-yamin",
@@ -1632,15 +1637,15 @@
     "country": "Israel",
     "region": "",
     "description": "Meshek Yamin is an award-winning olive oil producer from Israel.",
-    "logo": "/images/producers/meshek-yamin-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "fabricadouro",
-    "name": "F\u00e1bricadouro",
+    "name": "Fábricadouro",
     "country": "Portugal",
     "region": "",
-    "description": "F\u00e1bricadouro is an award-winning olive oil producer from Portugal.",
-    "logo": "/images/producers/fabricadouro-logo.png"
+    "description": "Fábricadouro is an award-winning olive oil producer from Portugal.",
+    "logo": "/logo.png"
   },
   {
     "slug": "diego-roberto-hollender",
@@ -1648,7 +1653,7 @@
     "country": "Argentina",
     "region": "",
     "description": "Diego Roberto Hollender is an award-winning olive oil producer from Argentina.",
-    "logo": "/images/producers/diego-roberto-hollender-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "cooperativa-san-pedro-bautista",
@@ -1656,7 +1661,7 @@
     "country": "Spain",
     "region": "",
     "description": "Cooperativa San Pedro Bautista is an award-winning olive oil producer from Spain.",
-    "logo": "/images/producers/cooperativa-san-pedro-bautista-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "casa-colombi",
@@ -1664,29 +1669,31 @@
     "country": "Brasil",
     "region": "",
     "description": "Casa Colombi is an award-winning olive oil producer from Brasil.",
-    "logo": "/images/producers/casa-colombi-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "guven-asa-ltd-sti",
-    "name": "G\u00fcven Asa Ltd \u015eti",
+    "name": "Güven Asa Ltd Şti",
     "country": "Turkey",
     "region": "",
-    "description": "G\u00fcven Asa Ltd \u015eti is an award-winning olive oil producer from Turkey.",
-    "logo": "/images/producers/guven-asa-ltd-sti-logo.png"
+    "description": "Güven Asa Ltd Şti is an award-winning olive oil producer from Turkey.",
+    "logo": "/logo.png"
   },
   {
     "slug": "coopor-coop-agri-concelho-portalegre-crl",
     "name": "Coopor Coop. Agri Concelho Portalegre Crl",
     "country": "Portugal",
     "region": "",
-    "description": "Coopor Coop. Agri Concelho Portalegre Crl is an award-winning olive oil producer from Portugal."
+    "description": "Coopor Coop. Agri Concelho Portalegre Crl is an award-winning olive oil producer from Portugal.",
+    "logo": "/logo.png"
   },
   {
     "slug": "alcober",
     "name": "Alcober",
     "country": "Spain",
     "region": "",
-    "description": "Alcober is an award-winning olive oil producer from Spain."
+    "description": "Alcober is an award-winning olive oil producer from Spain.",
+    "logo": "/logo.png"
   },
   {
     "slug": "azeite-amantiqir",
@@ -1694,7 +1701,7 @@
     "country": "Brasil",
     "region": "",
     "description": "Azeite Amantiqir is an award-winning olive oil producer from Brasil.",
-    "logo": "/images/producers/azeite-amantiqir-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "saba-habib-olive-oil-ltd",
@@ -1702,14 +1709,15 @@
     "country": "Israel",
     "region": "",
     "description": "Saba Habib Olive Oil Ltd is an award-winning olive oil producer from Israel.",
-    "logo": "/images/producers/saba-habib-olive-oil-ltd-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "fattoria-roman",
     "name": "Fattoria Roman",
     "country": "Brasil",
     "region": "",
-    "description": "Fattoria Roman is an award-winning olive oil producer from Brasil."
+    "description": "Fattoria Roman is an award-winning olive oil producer from Brasil.",
+    "logo": "/logo.png"
   },
   {
     "slug": "azeite-olivas-gerais",
@@ -1717,15 +1725,15 @@
     "country": "Brasil",
     "region": "",
     "description": "Azeite Olivas Gerais is an award-winning olive oil producer from Brasil.",
-    "logo": "/images/producers/azeite-olivas-gerais-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "azeite-casa-dias",
-    "name": "Azeite Casa D\u00edas",
+    "name": "Azeite Casa Días",
     "country": "Brasil",
     "region": "",
-    "description": "Azeite Casa D\u00edas is an award-winning olive oil producer from Brasil.",
-    "logo": "/images/producers/azeite-casa-dias-logo.png"
+    "description": "Azeite Casa Días is an award-winning olive oil producer from Brasil.",
+    "logo": "/logo.png"
   },
   {
     "slug": "vento-negro",
@@ -1733,7 +1741,7 @@
     "country": "Brasil",
     "region": "",
     "description": "Vento Negro is an award-winning olive oil producer from Brasil.",
-    "logo": "/images/producers/vento-negro-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "bene-organic",
@@ -1741,7 +1749,7 @@
     "country": "Brasil",
     "region": "",
     "description": "Bene Organic is an award-winning olive oil producer from Brasil.",
-    "logo": "/images/producers/bene-organic-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "palacio-de-andilla-1624",
@@ -1749,7 +1757,7 @@
     "country": "Spain",
     "region": "",
     "description": "Palacio De Andilla 1624 is an award-winning olive oil producer from Spain.",
-    "logo": "/images/producers/palacio-de-andilla-1624-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "meshek-margolin-shalom-tel-adashim",
@@ -1757,7 +1765,7 @@
     "country": "Israel",
     "region": "",
     "description": "Meshek Margolin Shalom Tel Adashim is an award-winning olive oil producer from Israel.",
-    "logo": "/images/producers/meshek-margolin-shalom-tel-adashim-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "familia-kanje",
@@ -1765,15 +1773,15 @@
     "country": "Argentina",
     "region": "",
     "description": "Familia Kanje is an award-winning olive oil producer from Argentina.",
-    "logo": "/images/producers/familia-kanje-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "olivicola-gullo-srl",
-    "name": "Oliv\u00edcola Gullo Srl",
+    "name": "Olivícola Gullo Srl",
     "country": "Argentina",
     "region": "",
-    "description": "Oliv\u00edcola Gullo Srl is an award-winning olive oil producer from Argentina.",
-    "logo": "/images/producers/olivicola-gullo-srl-logo.png"
+    "description": "Olivícola Gullo Srl is an award-winning olive oil producer from Argentina.",
+    "logo": "/logo.png"
   },
   {
     "slug": "raiz-organic",
@@ -1781,7 +1789,7 @@
     "country": "Brasil",
     "region": "",
     "description": "Raiz Organic is an award-winning olive oil producer from Brasil.",
-    "logo": "/images/producers/raiz-organic-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "agostinho",
@@ -1789,15 +1797,15 @@
     "country": "Brasil",
     "region": "",
     "description": "Agostinho is an award-winning olive oil producer from Brasil.",
-    "logo": "/images/producers/agostinho-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "oz-koyum-ltd-sti",
-    "name": "\u00d6z K\u00f6y\u00fcm Ltd \u015eti",
+    "name": "Öz Köyüm Ltd Şti",
     "country": "Turkey",
     "region": "",
-    "description": "\u00d6z K\u00f6y\u00fcm Ltd \u015eti is an award-winning olive oil producer from Turkey.",
-    "logo": "/images/producers/oz-koyum-ltd-sti-logo.png"
+    "description": "Öz Köyüm Ltd Şti is an award-winning olive oil producer from Turkey.",
+    "logo": "/logo.png"
   },
   {
     "slug": "kerem-tidhar",
@@ -1805,7 +1813,7 @@
     "country": "Israel",
     "region": "",
     "description": "Kerem Tidhar is an award-winning olive oil producer from Israel.",
-    "logo": "/images/producers/kerem-tidhar-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "azienda-agricola-fanelli-maria-teresa",
@@ -1813,7 +1821,7 @@
     "country": "Italy",
     "region": "",
     "description": "Azienda Agricola Fanelli Maria Teresa is an award-winning olive oil producer from Italy.",
-    "logo": "/images/producers/azienda-agricola-fanelli-maria-teresa-logo.png"
+    "logo": "/logo.png"
   },
   {
     "slug": "q-zeid",
@@ -1821,6 +1829,6 @@
     "country": "Spain",
     "region": "",
     "description": "Q Zeid is an award-winning olive oil producer from Spain.",
-    "logo": "/images/producers/q-zeid-logo.png"
+    "logo": "/logo.png"
   }
 ]

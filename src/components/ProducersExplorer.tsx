@@ -16,7 +16,7 @@ export default function ProducersExplorer({ producers }: Props) {
     if (!q) return producers;
 
     return producers.filter((p) => {
-      const haystack = [p.name, p.country, p.region, p.description]
+      const haystack = [p.name, p.country, p.description]
         .join(" ")
         .toLowerCase();
       return haystack.includes(q);
@@ -30,7 +30,7 @@ export default function ProducersExplorer({ producers }: Props) {
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search producers by name, country, or region..."
+          placeholder="Search producers by name or country..."
           className="w-full rounded-lg border border-olive-300 bg-white px-4 py-3 text-sm text-olive-900 focus:border-olive-600 focus:outline-none"
           aria-label="Search producers"
         />

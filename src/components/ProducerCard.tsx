@@ -36,7 +36,7 @@ export default function ProducerCard({
             {producer.name}
           </h3>
           <p className="text-sm text-olive-600">
-            {producer.region}, {producer.country}
+            {producer.country}
           </p>
         </div>
       </div>

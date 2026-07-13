@@ -1,55 +1,90 @@
 import Link from "next/link";
-import AwardBadge from "@/components/AwardBadge";
+import AwardSticker from "@/components/AwardSticker";
 import OilImage from "@/components/OilImage";
-import { bestAward } from "@/lib/data";
-import type { OliveOil } from "@/lib/types";
+import { bestAward, getProducerBySlug } from "@/lib/data";
+import { getAwardSticker } from "@/lib/awardStickers";
+import type { Award, OliveOil } from "@/lib/types";
+
+function titleCaseSlug(slug: string) {
+  return slug
+    .split("-")
+    .filter(Boolean)
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+}
 
 export default function OilCard({
   oil,
+  award,
   priority = false,
 }: {
   oil: OliveOil;
+  award?: Award;
   priority?: boolean;
 }) {
-  const best = bestAward(oil);
-  const wins = oil.awards.length;
+  const best = award ?? bestAward(oil);
+  const bestSticker = getAwardSticker(best);
+  const producerName =
+    getProducerBySlug(oil.producerSlug)?.name ?? titleCaseSlug(oil.producerSlug);
 
   return (
     <Link
       href={`/winners/${oil.slug}`}
-      className="group relative flex flex-col h-full transition hover:-translate-y-1"
+      className="group relative flex h-full flex-col transition duration-300 hover:-translate-y-1.5"
     >
-      <div className="relative flex-1 flex flex-col rounded-2xl bg-olive-900 border border-olive-800 shadow-md p-2 sm:p-5 text-center">
-        
-        {/* Score Badge */}
-        {best.score !== undefined && (
-          <span className="absolute right-1 top-1 sm:right-3 sm:top-3 grid h-6 w-6 sm:h-10 sm:w-10 place-items-center rounded-full bg-gold-500 text-[9px] sm:text-sm font-bold text-olive-950 z-30 shadow-md">
-            {best.score}
-          </span>
-        )}
+      <div className="relative flex flex-1 flex-col overflow-hidden rounded-lg border border-olive-950/15 bg-[#fbf7ec] text-center shadow-[0_16px_38px_rgba(28,34,16,0.14)] ring-1 ring-white/70 transition duration-300 group-hover:border-gold-400/75 group-hover:shadow-[0_26px_64px_rgba(28,34,16,0.26)]">
+        <div className="pointer-events-none absolute inset-x-0 top-0 z-40 h-1 bg-gradient-to-r from-transparent via-gold-400 to-transparent opacity-70 transition-opacity duration-300 group-hover:opacity-100" />
 
-        {/* Contained Bottle Image */}
-        <div className="flex justify-center items-center h-28 sm:h-52 w-full mb-2 sm:mb-4 pointer-events-none z-20">
-           <OilImage
-             src={oil.image}
-             name={oil.name}
-             intensity={oil.intensity}
-             className="h-full w-full"
-             sizes="(max-width: 640px) 33vw, (max-width: 1024px) 25vw, 220px"
-             eager={priority}
-             transparentBg
-           />
+        <div className="relative min-h-[300px] overflow-hidden bg-[radial-gradient(circle_at_46%_34%,#fffaf0_0%,#eee5cd_43%,#c3ce9d_100%)] px-3 pb-3 pt-4 sm:min-h-[320px] sm:px-5 sm:pb-5 sm:pt-6">
+          <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(135deg,rgba(255,255,255,0.58),rgba(201,162,39,0.08)_45%,rgba(28,34,16,0.17))]" />
+          <div className="pointer-events-none absolute inset-x-8 bottom-5 h-12 rounded-full bg-olive-950/12 blur-2xl transition duration-300 group-hover:bg-gold-500/20" />
+          <div className="pointer-events-none absolute left-4 top-4 h-20 w-px bg-gradient-to-b from-gold-400/50 to-transparent opacity-70" />
+          <div className="pointer-events-none absolute left-4 top-4 h-px w-20 bg-gradient-to-r from-gold-400/50 to-transparent opacity-70" />
+
+          {/* Official award sticker */}
+          {bestSticker ? (
+            <AwardSticker
+              award={best}
+              className="absolute right-2 top-2 z-30 h-14 w-14 rotate-6 rounded-full bg-cream/75 p-1 shadow-[0_12px_28px_rgba(28,34,16,0.26)] ring-1 ring-white/80 transition duration-300 group-hover:rotate-0 group-hover:scale-105 sm:right-4 sm:top-4 sm:h-24 sm:w-24 sm:p-1.5"
+              sizes="(max-width: 640px) 56px, 96px"
+              priority={priority}
+            />
+          ) : best.score !== undefined ? (
+            <span className="absolute right-2 top-2 z-30 grid h-8 w-8 place-items-center rounded-full bg-gold-500 text-[10px] font-bold text-olive-950 shadow-md sm:right-4 sm:top-4 sm:h-12 sm:w-12 sm:text-sm">
+              {best.score}
+            </span>
+          ) : null}
+
+          {/* Contained Bottle Image */}
+          <div className="pointer-events-none relative z-20 flex h-60 w-full items-center justify-center sm:h-64">
+            <OilImage
+              src={oil.image}
+              name={oil.name}
+              intensity={oil.intensity}
+              className="h-full w-full transition duration-500 group-hover:scale-[1.06]"
+              imageClassName="drop-shadow-[0_22px_28px_rgba(28,34,16,0.32)]"
+              sizes="(max-width: 640px) 82vw, (max-width: 1024px) 33vw, 280px"
+              eager={priority}
+              transparentBg
+            />
+          </div>
+
+          <div className="absolute bottom-3 left-3 z-30 hidden rounded-full border border-gold-400/45 bg-white/75 px-2.5 py-1 text-[10px] font-bold uppercase tracking-[0.14em] text-olive-900 shadow-sm backdrop-blur sm:block">
+            {best.prize.replace(" Medal", "")} · {best.year}
+          </div>
         </div>
 
-        <div className="flex flex-col items-center justify-end gap-0.5 sm:gap-1.5 mt-auto">
-          <h3 className="font-serif text-[11px] sm:text-xl font-bold text-cream group-hover:text-gold-400 transition-colors leading-tight">
+        <div className="relative flex flex-1 min-h-[118px] flex-col items-center justify-end gap-1 bg-[linear-gradient(180deg,#1d260f_0%,#101706_100%)] px-3 pb-4 pt-5 sm:min-h-[158px] sm:gap-1.5 sm:px-5 sm:pb-6 sm:pt-7">
+          <div className="absolute inset-x-6 top-0 h-px bg-gradient-to-r from-transparent via-gold-400/70 to-transparent" />
+          <div className="pointer-events-none absolute inset-x-0 top-0 h-12 bg-gradient-to-b from-gold-400/8 to-transparent" />
+          <h3 className="font-serif text-[14px] font-bold leading-tight text-cream transition-colors group-hover:text-gold-400 sm:text-xl">
             {oil.name}
           </h3>
-          <p className="text-[8px] sm:text-xs font-medium text-olive-300 line-clamp-1">
-            by {oil.producerSlug?.replace(/-/g, ' ')}
+          <p className="line-clamp-1 text-[10px] font-medium text-olive-200 sm:text-xs">
+            by {producerName}
           </p>
-          <p className="text-[8px] sm:text-xs font-semibold text-olive-400 mt-0.5 sm:mt-1 line-clamp-1">
-            {oil.country} {oil.intensity ? `· ${oil.intensity}` : ''}
+          <p className="mt-0.5 line-clamp-1 text-[10px] font-bold uppercase tracking-[0.12em] text-gold-400/80 sm:mt-1 sm:text-xs">
+            {oil.country}
           </p>
         </div>
       </div>

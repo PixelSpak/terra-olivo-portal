@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import AwardBadge from "@/components/AwardBadge";
+import AwardSticker from "@/components/AwardSticker";
 import CertificateImage from "@/components/CertificateImage";
 import OilCard from "@/components/OilCard";
 import OilImage from "@/components/OilImage";
@@ -29,10 +30,6 @@ export async function generateMetadata({
   return { title: oil.name, description: oil.description };
 }
 
-function isOrganic(name: string) {
-  return /\b(organic|bio|biolog|biologico|biologique|organico)\b/i.test(name);
-}
-
 export default async function WinnerPage({
   params,
 }: {
@@ -49,7 +46,6 @@ export default async function WinnerPage({
     .filter((o) => o.slug !== oil.slug)
     .slice(0, 3);
 
-  const organic = isOrganic(oil.name) || isOrganic(producer?.name ?? "");
   const years = [...new Set(oil.awards.map((a) => a.year))].sort();
 
   return (
@@ -68,26 +64,25 @@ export default async function WinnerPage({
 
         {/* Left — image + certificates */}
         <div className="flex flex-col gap-5 pt-8">
-          <div className="relative rounded-2xl bg-olive-900 shadow-sm border border-olive-800 pb-8 px-6 pt-8 flex flex-col items-center">
-            
-            {/* Year badge - moved to the top left of the card in normal flow */}
-            <div className="absolute left-4 top-4 grid h-14 w-14 place-items-center rounded-full border-2 border-gold-400 bg-olive-950 text-center shadow-md z-30">
-              <span className="block text-[10px] font-semibold uppercase leading-none tracking-wide text-gold-400">
-                Terra
-              </span>
-              <span className="block font-serif text-sm font-bold leading-none text-cream">
-                {years[years.length - 1]}
-              </span>
-            </div>
+          <div className="relative flex flex-col items-center overflow-hidden rounded-lg border border-gold-400/25 bg-[radial-gradient(circle_at_48%_34%,#fff9eb_0%,#eee4ca_42%,#c5cf9d_100%)] px-6 pb-8 pt-10 shadow-[0_22px_52px_rgba(28,34,16,0.18)]">
+            <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(135deg,rgba(255,255,255,0.56),rgba(201,162,39,0.08)_42%,rgba(28,34,16,0.2))]" />
+            <div className="pointer-events-none absolute inset-x-8 bottom-8 h-16 rounded-full bg-olive-950/10 blur-2xl" />
+            <AwardSticker
+              award={best}
+              className="absolute right-3 top-3 z-30 h-24 w-24 rotate-6 drop-shadow-2xl sm:right-5 sm:top-5 sm:h-28 sm:w-28"
+              sizes="112px"
+              priority
+            />
 
             {/* Contained Bottle Image */}
-            <div className="flex justify-center items-center h-80 w-full mb-6 pointer-events-none z-20">
+            <div className="flex h-[26rem] w-full justify-center items-center mb-6 pointer-events-none z-20 sm:h-[30rem]">
               <OilImage
                 src={oil.image}
                 name={oil.name}
                 intensity={oil.intensity}
                 className="h-full w-full"
-                sizes="(max-width: 1024px) 90vw, 380px"
+                imageClassName="drop-shadow-[0_22px_30px_rgba(28,34,16,0.32)]"
+                sizes="(max-width: 1024px) 90vw, 440px"
                 eager
                 transparentBg
               />
@@ -128,25 +123,6 @@ export default async function WinnerPage({
         {/* Right — all details */}
         <div className="flex flex-col gap-7">
 
-          {/* Meta tags */}
-          <div className="flex flex-wrap items-center gap-2 text-sm font-medium text-olive-600">
-            <span>{oil.country}</span>
-            {oil.varieties.length > 0 && (
-              <>
-                <span className="text-terracotta-500">·</span>
-                <span>{oil.varieties.join(", ")}</span>
-              </>
-            )}
-            <span className="text-terracotta-500">·</span>
-            <span>{oil.intensity}</span>
-            {organic && (
-              <>
-                <span className="text-terracotta-500">·</span>
-                <span className="text-olive-500">Organic</span>
-              </>
-            )}
-          </div>
-
           {/* Name + producer */}
           <div>
             <h1 className="font-serif text-4xl font-bold leading-tight text-olive-900 sm:text-5xl">
@@ -163,6 +139,11 @@ export default async function WinnerPage({
                 </Link>
               </p>
             )}
+            <div className="mt-3 flex flex-wrap gap-2">
+              <span className="rounded-sm border border-terracotta-400 px-3 py-1 text-xs font-bold uppercase tracking-wide text-terracotta-500">
+                {oil.country}
+              </span>
+            </div>
           </div>
 
           {/* Award badges */}
@@ -176,39 +157,6 @@ export default async function WinnerPage({
           <p className="text-base leading-relaxed text-olive-700">
             {oil.description}
           </p>
-
-          {/* Classification card */}
-          <div className="rounded-2xl border border-olive-200 bg-white p-5">
-            <p className="text-xs font-semibold uppercase tracking-[0.15em] text-olive-400">
-              Classification
-            </p>
-            <div className="mt-3 flex flex-wrap gap-2">
-              <span className="rounded-sm border border-terracotta-400 px-3 py-1 text-xs font-bold uppercase tracking-wide text-terracotta-500">
-                {oil.country}
-              </span>
-              {organic && (
-                <span className="rounded-sm border border-olive-500 px-3 py-1 text-xs font-bold uppercase tracking-wide text-olive-600">
-                  🌿 Organic
-                </span>
-              )}
-              <span className="rounded-sm border border-olive-300 px-3 py-1 text-xs font-bold uppercase tracking-wide text-olive-700">
-                {oil.intensity}
-              </span>
-              {oil.varieties.map((v) => (
-                <span
-                  key={v}
-                  className="rounded-sm border border-gold-500 px-3 py-1 text-xs font-bold uppercase tracking-wide text-gold-600"
-                >
-                  {v}
-                </span>
-              ))}
-              {oil.acidity !== undefined && (
-                <span className="rounded-sm border border-olive-200 px-3 py-1 text-xs font-bold uppercase tracking-wide text-olive-600">
-                  Acidity {oil.acidity.toFixed(2)}%
-                </span>
-              )}
-            </div>
-          </div>
 
           {/* Tasting sensations — only if data exists */}
           {oil.tastingNotes.length > 0 && (
@@ -255,21 +203,13 @@ export default async function WinnerPage({
             </p>
           </div>
 
-          {/* Harvest / acidity quick facts */}
-          {(oil.harvestYear || oil.region) && (
+          {/* Harvest quick fact */}
+          {oil.harvestYear && (
             <div className="grid grid-cols-2 gap-px overflow-hidden rounded-xl border border-olive-200 bg-olive-200 sm:grid-cols-3">
-              {oil.harvestYear && (
-                <div className="bg-white p-4">
-                  <p className="text-xs uppercase tracking-wide text-olive-400">Harvest</p>
-                  <p className="mt-1 font-semibold text-olive-900">{oil.harvestYear}</p>
-                </div>
-              )}
-              {oil.region && (
-                <div className="bg-white p-4">
-                  <p className="text-xs uppercase tracking-wide text-olive-400">Region</p>
-                  <p className="mt-1 font-semibold text-olive-900">{oil.region}</p>
-                </div>
-              )}
+              <div className="bg-white p-4">
+                <p className="text-xs uppercase tracking-wide text-olive-400">Harvest</p>
+                <p className="mt-1 font-semibold text-olive-900">{oil.harvestYear}</p>
+              </div>
             </div>
           )}
         </div>
@@ -307,7 +247,7 @@ export default async function WinnerPage({
                   {producer.name}
                 </h3>
                 <p className="text-sm text-olive-600">
-                  {[producer.region, producer.country].filter(Boolean).join(", ")}
+                  {producer.country}
                 </p>
                 <p className="mt-3 text-sm leading-relaxed text-olive-700">
                   {producer.description}

@@ -2,30 +2,65 @@
 
 import { useMemo, useState } from "react";
 import OilCard from "@/components/OilCard";
-import { prizeRank, type OliveOil, type Prize } from "@/lib/types";
+import {
+  compareAwards,
+  prizeRank,
+  type Award,
+  type OliveOil,
+  type Prize,
+} from "@/lib/types";
 
 interface Props {
   oils: OliveOil[];
   years: number[];
   prizes: Prize[];
   countries: string[];
-  varieties: string[];
 }
 
 const ALL = "All";
+
+function primaryAwardForFilters(
+  oil: OliveOil,
+  selectedYear: string,
+  selectedPrize: string,
+): Award {
+  const matchingAwards = oil.awards.filter((award) => {
+    if (selectedYear !== ALL && award.year !== Number(selectedYear)) return false;
+    if (selectedPrize !== ALL && award.prize !== selectedPrize) return false;
+    return true;
+  });
+
+  return [...(matchingAwards.length > 0 ? matchingAwards : oil.awards)].sort(
+    compareAwards,
+  )[0];
+}
+
+function hasMatchingAward(
+  oil: OliveOil,
+  selectedYear: string,
+  selectedPrize: string,
+): boolean {
+  return oil.awards.some((award) => {
+    if (selectedYear !== ALL && award.year !== Number(selectedYear)) return false;
+    if (selectedPrize !== ALL && award.prize !== selectedPrize) return false;
+    return true;
+  });
+}
+
+function compareAwardsForExplorer(a: Award, b: Award): number {
+  return b.year - a.year || prizeRank(a.prize) - prizeRank(b.prize);
+}
 
 export default function WinnersExplorer({
   oils,
   years,
   prizes,
   countries,
-  varieties,
 }: Props) {
   const [query, setQuery] = useState("");
   const [year, setYear] = useState<string>(ALL);
   const [prize, setPrize] = useState<string>(ALL);
   const [country, setCountry] = useState<string>(ALL);
-  const [variety, setVariety] = useState<string>(ALL);
 
   const [showFilters, setShowFilters] = useState(false);
 
@@ -33,17 +68,12 @@ export default function WinnersExplorer({
     const q = query.trim().toLowerCase();
     return oils.filter((oil) => {
       if (country !== ALL && oil.country !== country) return false;
-      if (variety !== ALL && !oil.varieties.includes(variety)) return false;
-      if (year !== ALL && !oil.awards.some((a) => a.year === Number(year)))
-        return false;
-      if (prize !== ALL && !oil.awards.some((a) => a.prize === prize))
-        return false;
+      if (!hasMatchingAward(oil, year, prize)) return false;
       if (q) {
         const haystack = [
           oil.name,
-          oil.region,
+          oil.producerSlug.replace(/-/g, " "),
           oil.country,
-          ...oil.varieties,
           ...oil.tastingNotes,
         ]
           .join(" ")
@@ -52,73 +82,64 @@ export default function WinnersExplorer({
       }
       return true;
     }).sort((a, b) => {
-      const rank = (oil: OliveOil) => {
-        if (!oil.image) return 3; // Missing image at the very bottom
-        if (oil.format === "good") return 1; // Good format at the very top
-        return 2; // Bad format in the middle
-      };
-      return rank(a) - rank(b);
+      const awardOrder = compareAwardsForExplorer(
+        primaryAwardForFilters(a, year, prize),
+        primaryAwardForFilters(b, year, prize),
+      );
+      return awardOrder || a.name.localeCompare(b.name);
     });
-  }, [oils, query, year, prize, country, variety]);
+  }, [oils, query, year, prize, country]);
 
   const reset = () => {
     setQuery("");
     setYear(ALL);
     setPrize(ALL);
     setCountry(ALL);
-    setVariety(ALL);
   };
 
   const isFiltered =
     query !== "" ||
     year !== ALL ||
     prize !== ALL ||
-    country !== ALL ||
-    variety !== ALL;
+    country !== ALL;
 
   const selectClass =
     "rounded-lg border border-olive-300 bg-white px-3 py-2 text-sm text-olive-900 focus:border-olive-600 focus:outline-none w-full";
 
   return (
     <div>
-      <div className="mb-6 flex space-x-2 rounded-xl bg-olive-100 p-1 overflow-x-auto">
-        <button
-          onClick={() => setYear(ALL)}
-          className={`whitespace-nowrap rounded-lg px-6 py-2.5 text-sm font-semibold transition-all ${year === ALL ? 'bg-white text-olive-900 shadow-sm' : 'text-olive-600 hover:text-olive-900 hover:bg-olive-200/50'}`}
-        >
-          All Editions
-        </button>
-        {years.map((y) => (
-          <button
-            key={y}
-            onClick={() => setYear(y.toString())}
-            className={`whitespace-nowrap rounded-lg px-6 py-2.5 text-sm font-semibold transition-all ${year === y.toString() ? 'bg-white text-olive-900 shadow-sm' : 'text-olive-600 hover:text-olive-900 hover:bg-olive-200/50'}`}
-          >
-            {y} Edition
-          </button>
-        ))}
-      </div>
+      <div className="rounded-xl border border-olive-200 bg-white p-3 sm:p-4">
+        <input
+          type="search"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="Search oils, producers, countries..."
+          className={selectClass}
+          aria-label="Search winners"
+        />
 
-      <div className="rounded-xl border border-olive-200 bg-white p-4">
-        {/* Mobile toggle button */}
         <button
           type="button"
           onClick={() => setShowFilters(!showFilters)}
-          className="flex w-full items-center justify-between lg:hidden text-olive-900 font-semibold mb-2"
+          className="mt-2 flex w-full items-center justify-center rounded-lg border border-olive-200 bg-cream/50 px-3 py-2 text-xs font-semibold uppercase tracking-[0.14em] text-olive-800 transition-colors hover:bg-olive-50 lg:hidden"
         >
-          <span>Filters</span>
-          <span className="text-xl leading-none">{showFilters ? "−" : "+"}</span>
+          {showFilters ? "Hide filters" : "Show filters"}
         </button>
 
-        <div className={`${showFilters ? "grid" : "hidden"} lg:grid gap-3 sm:grid-cols-2 lg:grid-cols-4`}>
-          <input
-            type="search"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search oils, varieties, notes…"
+        <div className={`${showFilters ? "grid" : "hidden"} mt-3 gap-3 sm:grid-cols-2 lg:grid lg:grid-cols-3`}>
+          <select
+            value={year}
+            onChange={(e) => setYear(e.target.value)}
             className={selectClass}
-            aria-label="Search winners"
-          />
+            aria-label="Filter by edition"
+          >
+            <option value={ALL}>All years</option>
+            {years.map((y) => (
+              <option key={y} value={y.toString()}>
+                {y}
+              </option>
+            ))}
+          </select>
 
           <select
             value={prize}
@@ -148,21 +169,8 @@ export default function WinnersExplorer({
               </option>
             ))}
           </select>
-          <select
-            value={variety}
-            onChange={(e) => setVariety(e.target.value)}
-            className={selectClass}
-            aria-label="Filter by olive variety"
-          >
-            <option value={ALL}>All varieties</option>
-            {varieties.map((v) => (
-              <option key={v} value={v}>
-                {v}
-              </option>
-            ))}
-          </select>
         </div>
-        <div className={`mt-3 flex items-center justify-between ${!showFilters ? 'lg:flex' : ''}`}>
+        <div className="mt-3 flex items-center justify-between">
           <p className="text-sm text-olive-600">
             {results.length} {results.length === 1 ? "winner" : "winners"}
           </p>
@@ -179,10 +187,18 @@ export default function WinnersExplorer({
       </div>
 
       {results.length > 0 ? (
-        <div className="mt-6 grid gap-2 sm:gap-6 grid-cols-3 lg:grid-cols-4">
-          {results.map((oil, index) => (
-            <OilCard key={oil.slug} oil={oil} priority={index < 4} />
-          ))}
+        <div className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          {results.map((oil, index) => {
+            const displayAward = primaryAwardForFilters(oil, year, prize);
+            return (
+              <OilCard
+                key={oil.slug}
+                oil={oil}
+                award={displayAward}
+                priority={index < 4}
+              />
+            );
+          })}
         </div>
       ) : (
         <p className="mt-12 text-center text-olive-600">
