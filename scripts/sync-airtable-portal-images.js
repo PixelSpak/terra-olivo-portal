@@ -3,10 +3,13 @@
 const fs = require("node:fs");
 const path = require("node:path");
 
+const sharp = require("sharp");
+
 const DEFAULT_TABLE_NAME = "New images for portal";
 const DEFAULT_STATUS_FIELD = "Status";
 const DEFAULT_UPDATE_STATUS = "Update";
 const DEFAULT_DONE_STATUS = "Done";
+const DEFAULT_TRANSPARENT_BG_FIELD = "Transparent bg";
 const ATTACHMENTS_FIELD = "Attachments";
 const IMAGE_EXTENSIONS = new Set(["png", "jpg", "jpeg", "webp"]);
 const IMAGE_TYPE_TO_EXTENSION = {
@@ -99,6 +102,8 @@ function resolveAirtableConfig(env = process.env) {
     statusField: env.AIRTABLE_IMAGE_SUBMISSIONS_STATUS_FIELD || DEFAULT_STATUS_FIELD,
     updateStatus: env.AIRTABLE_IMAGE_SUBMISSIONS_UPDATE_STATUS || DEFAULT_UPDATE_STATUS,
     doneStatus: env.AIRTABLE_IMAGE_SUBMISSIONS_DONE_STATUS || DEFAULT_DONE_STATUS,
+    transparentBgField:
+      env.AIRTABLE_IMAGE_SUBMISSIONS_TRANSPARENT_BG_FIELD || DEFAULT_TRANSPARENT_BG_FIELD,
   };
 }
 
@@ -116,6 +121,16 @@ function airtableUrl(baseId, tableName, recordId) {
   return parts.join("/");
 }
 
+function airtableAttachmentUploadUrl(baseId, recordId, fieldName) {
+  return [
+    "https://api.airtable.com/v0",
+    encodeURIComponent(baseId),
+    encodeURIComponent(recordId),
+    encodeURIComponent(fieldName),
+    "uploadAttachment",
+  ].join("/");
+}
+
 function createAirtableClient({
   token,
   baseId,
@@ -123,6 +138,7 @@ function createAirtableClient({
   statusField = DEFAULT_STATUS_FIELD,
   updateStatus = DEFAULT_UPDATE_STATUS,
   doneStatus = DEFAULT_DONE_STATUS,
+  transparentBgField = DEFAULT_TRANSPARENT_BG_FIELD,
   fetchImpl = fetch,
   limit,
 }) {
@@ -179,6 +195,25 @@ function createAirtableClient({
           typecast: true,
         }),
       });
+      return parseAirtableResponse(response);
+    },
+
+    async uploadTransparentBackgroundAttachment(recordId, image) {
+      const response = await fetchImpl(
+        airtableAttachmentUploadUrl(baseId, recordId, transparentBgField),
+        {
+          method: "POST",
+          headers: {
+            Authorization: `Bearer ${token}`,
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            contentType: image.contentType,
+            file: image.buffer.toString("base64"),
+            filename: image.filename,
+          }),
+        },
+      );
       return parseAirtableResponse(response);
     },
   };
@@ -313,10 +348,79 @@ async function defaultDownloadAttachment(attachment, fetchImpl = fetch) {
   };
 }
 
+function isEdgeBackgroundPixel(data, pixelIndex) {
+  const offset = pixelIndex * 4;
+  const alpha = data[offset + 3];
+  if (alpha === 0) return false;
+
+  const red = data[offset];
+  const green = data[offset + 1];
+  const blue = data[offset + 2];
+  const brightest = Math.max(red, green, blue);
+  const darkest = Math.min(red, green, blue);
+
+  return red >= 235 && green >= 235 && blue >= 235 && brightest - darkest <= 35;
+}
+
+async function removeWhiteBackgroundFromImage(buffer) {
+  const { data, info } = await sharp(buffer)
+    .ensureAlpha()
+    .raw()
+    .toBuffer({ resolveWithObject: true });
+  const { width, height } = info;
+  const pixelCount = width * height;
+  const visited = new Uint8Array(pixelCount);
+  const queue = [];
+
+  function enqueue(pixelIndex) {
+    if (pixelIndex < 0 || pixelIndex >= pixelCount) return;
+    if (visited[pixelIndex]) return;
+    if (!isEdgeBackgroundPixel(data, pixelIndex)) return;
+    visited[pixelIndex] = 1;
+    queue.push(pixelIndex);
+  }
+
+  for (let x = 0; x < width; x += 1) {
+    enqueue(x);
+    enqueue((height - 1) * width + x);
+  }
+  for (let y = 0; y < height; y += 1) {
+    enqueue(y * width);
+    enqueue(y * width + width - 1);
+  }
+
+  for (let index = 0; index < queue.length; index += 1) {
+    const pixelIndex = queue[index];
+    const x = pixelIndex % width;
+    const y = Math.floor(pixelIndex / width);
+    if (x > 0) enqueue(pixelIndex - 1);
+    if (x < width - 1) enqueue(pixelIndex + 1);
+    if (y > 0) enqueue(pixelIndex - width);
+    if (y < height - 1) enqueue(pixelIndex + width);
+  }
+
+  for (let pixelIndex = 0; pixelIndex < pixelCount; pixelIndex += 1) {
+    if (visited[pixelIndex]) {
+      data[pixelIndex * 4 + 3] = 0;
+    }
+  }
+
+  return {
+    buffer: await sharp(data, {
+      raw: { width, height, channels: 4 },
+    })
+      .png({ compressionLevel: 9 })
+      .toBuffer(),
+    contentType: "image/png",
+    extension: "png",
+  };
+}
+
 async function syncAirtablePortalImages({
   rootDir = path.resolve(__dirname, ".."),
   airtableClient,
   downloadAttachment = defaultDownloadAttachment,
+  processImage = removeWhiteBackgroundFromImage,
   dryRun = false,
   markDone = true,
 } = {}) {
@@ -343,7 +447,17 @@ async function syncAirtablePortalImages({
       const oil = findOilForRecord(record, oils);
       const attachment = selectAttachment(record);
       const downloaded = await downloadAttachment(attachment);
-      const ext = extensionForAttachment(attachment, downloaded.contentType);
+      const processed = await processImage({
+        buffer: downloaded.buffer,
+        contentType: downloaded.contentType,
+        attachment,
+        record,
+        oil,
+      });
+      const imageBuffer = processed?.buffer || downloaded.buffer;
+      const contentType = processed?.contentType || downloaded.contentType;
+      const ext =
+        processed?.extension || extensionForAttachment(attachment, contentType);
       const producerSlug = safeSlug(oil.producerSlug, "unknown-producer");
       const oilSlug = safeSlug(oil.slug, "unknown-oil");
       const filename = `bottle__${producerSlug}__${oilSlug}.${ext}`;
@@ -352,10 +466,17 @@ async function syncAirtablePortalImages({
 
       if (!dryRun) {
         fs.mkdirSync(imagesDir, { recursive: true });
-        fs.writeFileSync(imagePath, downloaded.buffer);
+        fs.writeFileSync(imagePath, imageBuffer);
         oil.image = publicImagePath;
         oil.format = "good";
         writeJson(oilsPath, oils);
+        if (airtableClient.uploadTransparentBackgroundAttachment) {
+          await airtableClient.uploadTransparentBackgroundAttachment(record.id, {
+            buffer: imageBuffer,
+            contentType,
+            filename,
+          });
+        }
         if (markDone) {
           await airtableClient.markRecordDone(record.id);
         }
@@ -436,5 +557,6 @@ if (require.main === module) {
 module.exports = {
   createAirtableClient,
   findOilForRecord,
+  removeWhiteBackgroundFromImage,
   syncAirtablePortalImages,
 };
