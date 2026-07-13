@@ -133,8 +133,20 @@ function airtableAttachmentUploadUrl(baseId, recordId, fieldName) {
   ].join("/");
 }
 
+function airtableMetadataTablesUrl(baseId) {
+  return [
+    "https://api.airtable.com/v0/meta/bases",
+    encodeURIComponent(baseId),
+    "tables",
+  ].join("/");
+}
+
 function formatMegabytes(bytes) {
   return (bytes / 1024 / 1024).toFixed(1);
+}
+
+function isAirtableFieldId(value) {
+  return /^fld[A-Za-z0-9]{14}$/.test(String(value || ""));
 }
 
 function createAirtableClient({
@@ -148,6 +160,8 @@ function createAirtableClient({
   fetchImpl = fetch,
   limit,
 }) {
+  let resolvedTransparentBgField = transparentBgField;
+
   async function parseAirtableResponse(response) {
     const data = await response.json().catch(() => null);
     if (!response.ok) {
@@ -158,6 +172,43 @@ function createAirtableClient({
       throw new Error(message);
     }
     return data;
+  }
+
+  async function resolveAttachmentFieldId(fieldName) {
+    if (isAirtableFieldId(fieldName)) return fieldName;
+
+    const response = await fetchImpl(airtableMetadataTablesUrl(baseId), {
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+    });
+    const data = await parseAirtableResponse(response);
+    const table = (data.tables || []).find(
+      (candidate) => candidate.id === tableName || candidate.name === tableName,
+    );
+    const field = (table?.fields || []).find((candidate) => candidate.name === fieldName);
+
+    if (!field?.id) {
+      throw new Error(`Could not find Airtable attachment field "${fieldName}".`);
+    }
+
+    resolvedTransparentBgField = field.id;
+    return field.id;
+  }
+
+  async function uploadAttachment(recordId, image, fieldNameOrId) {
+    return fetchImpl(airtableAttachmentUploadUrl(baseId, recordId, fieldNameOrId), {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${token}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        contentType: image.contentType,
+        file: image.buffer.toString("base64"),
+        filename: image.filename,
+      }),
+    });
   }
 
   return {
@@ -213,21 +264,14 @@ function createAirtableClient({
         );
       }
 
-      const response = await fetchImpl(
-        airtableAttachmentUploadUrl(baseId, recordId, transparentBgField),
-        {
-          method: "POST",
-          headers: {
-            Authorization: `Bearer ${token}`,
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            contentType: image.contentType,
-            file: image.buffer.toString("base64"),
-            filename: image.filename,
-          }),
-        },
-      );
+      let response = await uploadAttachment(recordId, image, resolvedTransparentBgField);
+      if (
+        response.status === 404 &&
+        !isAirtableFieldId(resolvedTransparentBgField)
+      ) {
+        const fieldId = await resolveAttachmentFieldId(resolvedTransparentBgField);
+        response = await uploadAttachment(recordId, image, fieldId);
+      }
       return parseAirtableResponse(response);
     },
   };

@@ -432,3 +432,68 @@ test("Airtable client uploads transparent images to the Transparent bg attachmen
     filename: "bottle.png",
   });
 });
+
+test("Airtable client retries Transparent bg uploads with field ID when field name returns 404", async () => {
+  const requests = [];
+  const client = createAirtableClient({
+    token: "pat123",
+    baseId: "app123",
+    tableName: "New images for portal",
+    transparentBgField: "Transparent bg",
+    fetchImpl: async (url, init) => {
+      requests.push({ url: String(url), init });
+      if (String(url).endsWith("/Transparent%20bg/uploadAttachment")) {
+        return {
+          ok: false,
+          status: 404,
+          async json() {
+            return { error: { message: "Not found" } };
+          },
+        };
+      }
+      if (String(url) === "https://api.airtable.com/v0/meta/bases/app123/tables") {
+        return {
+          ok: true,
+          async json() {
+            return {
+              tables: [
+                {
+                  id: "tbl123",
+                  name: "New images for portal",
+                  fields: [
+                    {
+                      id: "fld5XvOBrKbThUdYv",
+                      name: "Transparent bg",
+                      type: "multipleAttachments",
+                    },
+                  ],
+                },
+              ],
+            };
+          },
+        };
+      }
+      return {
+        ok: true,
+        async json() {
+          return { id: "rec123", fields: {} };
+        },
+      };
+    },
+  });
+
+  await client.uploadTransparentBackgroundAttachment("rec123", {
+    buffer: Buffer.from("transparent png"),
+    contentType: "image/png",
+    filename: "bottle.png",
+  });
+
+  assert.deepEqual(
+    requests.map((request) => request.url),
+    [
+      "https://api.airtable.com/v0/app123/rec123/Transparent%20bg/uploadAttachment",
+      "https://api.airtable.com/v0/meta/bases/app123/tables",
+      "https://api.airtable.com/v0/app123/rec123/fld5XvOBrKbThUdYv/uploadAttachment",
+    ],
+  );
+});
