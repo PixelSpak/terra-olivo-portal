@@ -125,7 +125,7 @@ function airtableUrl(baseId, tableName, recordId) {
 
 function airtableAttachmentUploadUrl(baseId, recordId, fieldName) {
   return [
-    "https://api.airtable.com/v0",
+    "https://content.airtable.com/v0",
     encodeURIComponent(baseId),
     encodeURIComponent(recordId),
     encodeURIComponent(fieldName),

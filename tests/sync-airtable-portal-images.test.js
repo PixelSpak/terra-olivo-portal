@@ -422,7 +422,7 @@ test("Airtable client uploads transparent images to the Transparent bg attachmen
 
   assert.equal(
     requests[0].url,
-    "https://api.airtable.com/v0/app123/rec123/Transparent%20bg/uploadAttachment",
+    "https://content.airtable.com/v0/app123/rec123/Transparent%20bg/uploadAttachment",
   );
   assert.equal(requests[0].init.method, "POST");
   assert.equal(requests[0].init.headers.Authorization, "Bearer pat123");
@@ -491,9 +491,9 @@ test("Airtable client retries Transparent bg uploads with field ID when field na
   assert.deepEqual(
     requests.map((request) => request.url),
     [
-      "https://api.airtable.com/v0/app123/rec123/Transparent%20bg/uploadAttachment",
+      "https://content.airtable.com/v0/app123/rec123/Transparent%20bg/uploadAttachment",
       "https://api.airtable.com/v0/meta/bases/app123/tables",
-      "https://api.airtable.com/v0/app123/rec123/fld5XvOBrKbThUdYv/uploadAttachment",
+      "https://content.airtable.com/v0/app123/rec123/fld5XvOBrKbThUdYv/uploadAttachment",
     ],
   );
 });
