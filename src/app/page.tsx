@@ -32,14 +32,8 @@ export default function HomePage() {
         
         {/* HERO CONTENT */}
         <section className="container-page relative z-10 flex flex-col items-center justify-center flex-grow text-center py-4 px-4 sm:py-6">
-          {/* Badge */}
-          <div className="inline-flex items-center gap-2 rounded-full border border-gold-400/40 bg-gold-400/10 px-3 py-1 sm:px-4 sm:py-1 text-[10px] sm:text-xs font-semibold uppercase tracking-[0.2em] text-gold-400">
-            <span>★</span>
-            <span>{latestYear} Official Results</span>
-          </div>
-
           {/* Headline */}
-          <h1 className="mt-3 sm:mt-5 max-w-3xl font-serif text-4xl font-bold leading-[1.05] sm:text-5xl lg:text-6xl mx-auto">
+          <h1 className="max-w-3xl font-serif text-4xl font-bold leading-[1.05] sm:text-5xl lg:text-6xl mx-auto">
             <span className="text-cream">The World&apos;s Best</span>
             <br />
             <span className="text-gold-400">Olive Oils.</span>
