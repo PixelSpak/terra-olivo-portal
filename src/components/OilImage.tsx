@@ -1,4 +1,8 @@
+"use client";
+
 import Image from "next/image";
+import { useEffect, useState } from "react";
+import { fallbackOilImageSrc, TEMP_BOTTLE_IMAGE } from "@/lib/imageFallback";
 import type { Intensity } from "@/lib/types";
 
 /**
@@ -25,8 +29,14 @@ export default function OilImage({
   sizes?: string;
   eager?: boolean;
 }) {
-  const imageSrc = src ?? "/images/tempbottle_image.png";
-  const alt = src ? name : `${name} bottle`;
+  const initialImageSrc = src ?? TEMP_BOTTLE_IMAGE;
+  const [imageSrc, setImageSrc] = useState(initialImageSrc);
+  const alt = imageSrc === TEMP_BOTTLE_IMAGE ? `${name} bottle` : name;
+
+  useEffect(() => {
+    setImageSrc(initialImageSrc);
+  }, [initialImageSrc]);
+
   const image = (
     <Image
       src={imageSrc}
@@ -36,6 +46,9 @@ export default function OilImage({
       className={`object-contain p-1 drop-shadow-xl ${imageClassName}`}
       loading={eager ? "eager" : "lazy"}
       preload={eager}
+      onError={() => {
+        setImageSrc((currentSrc) => fallbackOilImageSrc(currentSrc));
+      }}
     />
   );
 
