@@ -35,7 +35,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/tempbottle_image.png",
+    "image": "/images/oils/42-premium-blend.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1jwmun76NpdvXMbYEdUeyM-E5wuiBfg0X"
   },
@@ -2980,7 +2980,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/tempbottle_image.png",
+    "image": "/images/oils/gemstone.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1H8-vapt-MeFFQlJE2gEf-b_w4h7tbN3N"
   },
@@ -3274,7 +3274,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1r6EIxxaW6Wc6sIiUvcWGQWypKHIXg8BU"
+    "certificate": "https://drive.google.com/uc?export=download&id=1r6EIxxaW6Wc6sIiUvcWGQWypKHIXg8BU",
+    "image": "/images/oils/grattacielo-koroneiki.png"
   },
   {
     "slug": "halil-esen",
@@ -3484,7 +3485,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/tempbottle_image.png",
+    "image": "/images/oils/jahshan-classic-galilean-blend.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1zLC14bsp2skZ_7RYIxk30yvJvdh_m7_g"
   },
@@ -3506,7 +3507,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/tempbottle_image.png",
+    "image": "/images/oils/jahshan-koroneiki.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1KMCq6gdZJzIPvKJDjP0vEtwOlfxWTp78"
   },
@@ -3528,7 +3529,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/tempbottle_image.png",
+    "image": "/images/oils/jahshan-traditional-nabali.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1rd_natNP8DjMQ37JuPrNx6LIatBk6Txp"
   },
@@ -3898,7 +3899,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1VTEt77Li2TMNlMIEG55eVU5Q4xktJB-5"
+    "certificate": "https://drive.google.com/uc?export=download&id=1VTEt77Li2TMNlMIEG55eVU5Q4xktJB-5",
+    "image": "/images/oils/laconiko-garlic.png"
   },
   {
     "slug": "laconiko-lemon",
@@ -4140,7 +4142,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/tempbottle_image.png",
+    "image": "/images/oils/levant-green-fields.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1ELjMCdW8qOT7olyeaZ4Q1wn3xGqVZhXC"
   },
@@ -4160,7 +4162,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/tempbottle_image.png",
+    "image": "/images/oils/levant-late-blooming.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1wzn6u2llPgMqaZHhYTvLs-lsAGcPJfRJ"
   },
@@ -4534,7 +4536,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/tempbottle_image.png",
+    "image": "/images/oils/liokareas-early-harvest.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1laVucgvVSoUupgZP2DXtWi3uvPz-nGcD"
   },
@@ -4675,7 +4677,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/tempbottle_image.png",
+    "image": "/images/oils/majestic.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1S01BVtSl_ifqn6bUXSU5YDKYiUAHavo2"
   },
@@ -4889,7 +4891,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1ce8nskVikTWYG7AOWS8S9GiiUn7UjKOG"
+    "certificate": "https://drive.google.com/uc?export=download&id=1ce8nskVikTWYG7AOWS8S9GiiUn7UjKOG",
+    "image": "/images/oils/masterpiece.png"
   },
   {
     "slug": "matsoukas",
@@ -4933,7 +4936,7 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/tempbottle_image.png",
+    "image": "/images/oils/meshek-achiya-koroneiki.png",
     "format": "bad",
     "certificate": "https://drive.google.com/uc?export=download&id=1UwE4gLBYOicu6VSoxs90jq0Z-6Gcpm32"
   },
@@ -5777,7 +5780,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1MZpvrI9Yv73uoQm-rECfQmIdM5W8wQMg"
+    "certificate": "https://drive.google.com/uc?export=download&id=1MZpvrI9Yv73uoQm-rECfQmIdM5W8wQMg",
+    "image": "/images/oils/novavera-cocuk.png"
   },
   {
     "slug": "novavera-ege-blend",
@@ -5975,7 +5979,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1Tt45vrXiqCVp8bQrEOYV_TTUQQ73zDDM"
+    "certificate": "https://drive.google.com/uc?export=download&id=1Tt45vrXiqCVp8bQrEOYV_TTUQQ73zDDM",
+    "image": "/images/oils/novavera-premium-organik.png"
   },
   {
     "slug": "novavera-trilye",
@@ -6306,7 +6311,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1iPVGGIH9oGYoW5hIg_Cui1Y4f44OYx7Y"
+    "certificate": "https://drive.google.com/uc?export=download&id=1iPVGGIH9oGYoW5hIg_Cui1Y4f44OYx7Y",
+    "image": "/images/oils/oliveira-da-serra-ouro.png"
   },
   {
     "slug": "oliveira-da-serra-primeira-colheita",
@@ -6324,7 +6330,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=15nsOukTQDis7D_Roqd4qUmW1fjZhaewH"
+    "certificate": "https://drive.google.com/uc?export=download&id=15nsOukTQDis7D_Roqd4qUmW1fjZhaewH",
+    "image": "/images/oils/oliveira-da-serra-primeira-colheita.png"
   },
   {
     "slug": "olivoila",
@@ -6465,7 +6472,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1TDvqoJWbnVmjMH-utqobcZN2unerOg4a"
+    "certificate": "https://drive.google.com/uc?export=download&id=1TDvqoJWbnVmjMH-utqobcZN2unerOg4a",
+    "image": "/images/oils/pago-baldios-san-carlos.png"
   },
   {
     "slug": "pago-francisco-gomez-chiquitita",
@@ -6561,7 +6569,7 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/tempbottle_image.png",
+    "image": "/images/oils/pago-francisco-gomez-grosal.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1nI4GBqcpIDFpzQE3jJig-YtfsypzMU2R"
   },
@@ -7177,7 +7185,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/tempbottle_image.png",
+    "image": "/images/oils/ptora-midnight-picholine.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1Klx8MhgBuZkNIO8vqqFHV2vx0bgNhk3p"
   },
@@ -7445,7 +7453,8 @@
         "certificatePdf": "/certificates/special-awards/2026/rumaroli-blend-best-of-argentina.pdf"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1i523HCXqU6THIJ_l23YZcnRJEG6mKr9x"
+    "certificate": "https://drive.google.com/uc?export=download&id=1i523HCXqU6THIJ_l23YZcnRJEG6mKr9x",
+    "image": "/images/oils/rumaroli-blend.png"
   },
   {
     "slug": "sabia-blend-de-terroir",
@@ -7842,7 +7851,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/tempbottle_image.png",
+    "image": "/images/oils/sparta-gourmet.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1grSxCE6Fm89T0MXBsogxxpMu7n5rKkSR"
   },
@@ -8570,7 +8579,7 @@
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1KgXwp8KM60Zca82-5vA2pVeqH_aWaBx2",
-    "image": "/images/tempbottle_image.png"
+    "image": "/images/oils/jerusalemoliveoil-zaatar-olive-oil.png"
   },
   {
     "slug": "lisadurne-hill-hojiblanca",
@@ -8590,7 +8599,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1KvCj9GRke9GUCKcJLnbNcjcTx826tKeC"
+    "certificate": "https://drive.google.com/uc?export=download&id=1KvCj9GRke9GUCKcJLnbNcjcTx826tKeC",
+    "image": "/images/oils/lisadurne-hill-hojiblanca.png"
   },
   {
     "slug": "monte-rosso-grand-selection",
@@ -8610,7 +8620,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1LL5RALHdix03Dr9k7Pt0WRyMSa13H7It"
+    "certificate": "https://drive.google.com/uc?export=download&id=1LL5RALHdix03Dr9k7Pt0WRyMSa13H7It",
+    "image": "/images/oils/monte-rosso-grand-selection.png"
   },
   {
     "slug": "petra-mandarin",
@@ -8678,7 +8689,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1gmZ-e_Vhm6hfqovjoiWgZGBwEFQaO38G"
+    "certificate": "https://drive.google.com/uc?export=download&id=1gmZ-e_Vhm6hfqovjoiWgZGBwEFQaO38G",
+    "image": "/images/oils/azeite-sabia-arbequina.png"
   },
   {
     "slug": "iliada-kalamata-pdo-gold-line",
@@ -8746,7 +8758,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1NT3cg4YH61QkkqTl9iqFQuQdJYrH-CV2"
+    "certificate": "https://drive.google.com/uc?export=download&id=1NT3cg4YH61QkkqTl9iqFQuQdJYrH-CV2",
+    "image": "/images/oils/gallo-bio-frutado.png"
   },
   {
     "slug": "iliada-organic-kalamata-pdo-platinum-line",
@@ -8789,7 +8802,7 @@
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1lCH_aayhqejyPuycIKYy3_1052-KovvV",
-    "image": "/images/tempbottle_image.png"
+    "image": "/images/oils/jerusalemoliveoil-lemon-olive-oil.png"
   },
   {
     "slug": "gallo-ancestral",
@@ -8837,7 +8850,8 @@
         "certificatePdf": "/certificates/special-awards/2026/terra-creta-pgi-kriti-evoo-best-of-crete.pdf"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=171VwYdpMBf0zBDkms0t6iivh4VKaZO9D"
+    "certificate": "https://drive.google.com/uc?export=download&id=171VwYdpMBf0zBDkms0t6iivh4VKaZO9D",
+    "image": "/images/oils/terra-creta-pgi-kriti-evoo.png"
   },
   {
     "slug": "azeite-sabia-coratina",
@@ -9264,7 +9278,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1wneG0Lppk6DC03C_xsW3yq_w4EfpUdzc"
+    "certificate": "https://drive.google.com/uc?export=download&id=1wneG0Lppk6DC03C_xsW3yq_w4EfpUdzc",
+    "image": "/images/oils/olikarnas-blend.png"
   },
   {
     "slug": "jordan-olivenol-bambatsa-nativ-extra-2",
@@ -9500,7 +9515,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1CB_46UWVd4pym5bOMy-hMzo7oh-lYsE-"
+    "certificate": "https://drive.google.com/uc?export=download&id=1CB_46UWVd4pym5bOMy-hMzo7oh-lYsE-",
+    "image": "/images/oils/hispasur-gold.png"
   },
   {
     "slug": "eliad-olive-oil-limited-edition-green-olive-aroma",
@@ -9718,7 +9734,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1EZEuhYxw-21vEwFoL0VMNSJKNplX9dJ-"
+    "certificate": "https://drive.google.com/uc?export=download&id=1EZEuhYxw-21vEwFoL0VMNSJKNplX9dJ-",
+    "image": "/images/oils/novavera-cocuk-2.png"
   },
   {
     "slug": "azeite-veroli-koroneiki",
@@ -10151,7 +10168,7 @@
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1KiEo-YoaH-D8xDornmzXb_ny0J2XlPOp",
-    "image": "/images/tempbottle_image.png"
+    "image": "/images/oils/jahshan-extra-virgin-olive-oil-koroneiki.png"
   },
   {
     "slug": "oasis-olives-frantoio-organic",
@@ -10444,7 +10461,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1HdBLbY9iJzL5ve1W_OZdjaZbPrKLIaa_"
+    "certificate": "https://drive.google.com/uc?export=download&id=1HdBLbY9iJzL5ve1W_OZdjaZbPrKLIaa_",
+    "image": "/images/oils/genius.png"
   },
   {
     "slug": "olivya-gokceovack-tavsan-yuregi",
@@ -10687,7 +10705,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1dcziIKCsYyJr2IFohlwqdMDIUyxkNHFB"
+    "certificate": "https://drive.google.com/uc?export=download&id=1dcziIKCsYyJr2IFohlwqdMDIUyxkNHFB",
+    "image": "/images/oils/pantaleo-oronovo.png"
   },
   {
     "slug": "jahshan-extra-virgin-olive-oil-traditional-nabali-olives",
@@ -10708,7 +10727,7 @@
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1pQiOHXFXqHScmxw_mz3rp0maDKJU-dnb",
-    "image": "/images/tempbottle_image.png"
+    "image": "/images/oils/jahshan-extra-virgin-olive-oil-traditional-nabali-olives.png"
   },
   {
     "slug": "ptora-family-boutique-arbequina",
@@ -10755,7 +10774,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1gWMvUoGeCHg8_Jz_I1p3fAV00YVLFtzs"
+    "certificate": "https://drive.google.com/uc?export=download&id=1gWMvUoGeCHg8_Jz_I1p3fAV00YVLFtzs",
+    "image": "/images/oils/las-tanas.png"
   },
   {
     "slug": "ptora-family-boutique-midnight-hojiblanca",
@@ -10888,7 +10908,7 @@
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1dcu1Rjt0zgIUI13q1XKgJgsc3XhmPGuK",
-    "image": "/images/tempbottle_image.png"
+    "image": "/images/oils/meshek-achiya-picual.png"
   },
   {
     "slug": "meshek-achiya-house-blend",
@@ -10950,7 +10970,7 @@
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1tYpIEhrVmjXgLVxC7nGFp9Zm-qUdBqK1",
-    "image": "/images/tempbottle_image.png"
+    "image": "/images/oils/ptora-family-boutique-midnight-picholine.png"
   },
   {
     "slug": "degustus-ecologic-seleccio-especial",
@@ -11728,7 +11748,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1rJgyyeCdW5RKQGMzxdzFQ_YOfKvl4xx0"
+    "certificate": "https://drive.google.com/uc?export=download&id=1rJgyyeCdW5RKQGMzxdzFQ_YOfKvl4xx0",
+    "image": "/images/oils/azeite-batalha-black.png"
   },
   {
     "slug": "estancia-das-oliveiras-galega",
@@ -11788,7 +11809,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1Ke5oQsZK7KnZ5Bwg0p7GrdN7ixV0dPmv"
+    "certificate": "https://drive.google.com/uc?export=download&id=1Ke5oQsZK7KnZ5Bwg0p7GrdN7ixV0dPmv",
+    "image": "/images/oils/laconiko-tuscan-herb.png"
   },
   {
     "slug": "casa-foz-blend-de-safra",
@@ -12014,7 +12036,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1dq4KGupWBGctpzMEjEcmU0KsxPBWqxp_"
+    "certificate": "https://drive.google.com/uc?export=download&id=1dq4KGupWBGctpzMEjEcmU0KsxPBWqxp_",
+    "image": "/images/oils/verde-louro-azeites-koroneiki.png"
   },
   {
     "slug": "quinta-das-fiandeiras-premium",
@@ -12238,7 +12261,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=10fdllg4vAP1uFNXrhBplLrkQCh1GNuDs"
+    "certificate": "https://drive.google.com/uc?export=download&id=10fdllg4vAP1uFNXrhBplLrkQCh1GNuDs",
+    "image": "/images/oils/nai-33-blend.png"
   },
   {
     "slug": "asiltane-academic-series-leaf",
@@ -12278,7 +12302,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1a_5DiWdpS4Iydeo7_-D5b1uPNYr5kHNn"
+    "certificate": "https://drive.google.com/uc?export=download&id=1a_5DiWdpS4Iydeo7_-D5b1uPNYr5kHNn",
+    "image": "/images/oils/terra-creta-42-premium-blend.png"
   },
   {
     "slug": "oasis-olives-coratina",
@@ -12665,7 +12690,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=11Ezjr42RUKPDCeaexC_M3U9VFTtD_ZCz"
+    "certificate": "https://drive.google.com/uc?export=download&id=11Ezjr42RUKPDCeaexC_M3U9VFTtD_ZCz",
+    "image": "/images/oils/guven-asa-erken-hasat-soguk-skm.png"
   },
   {
     "slug": "oasis-olives-blend",
@@ -12705,7 +12731,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1Oi8Vr5DCdt4mS84wlO3uuR8yYta2Q_U1"
+    "certificate": "https://drive.google.com/uc?export=download&id=1Oi8Vr5DCdt4mS84wlO3uuR8yYta2Q_U1",
+    "image": "/images/oils/olivum-arbequina.png"
   },
   {
     "slug": "asiltane-limited",
@@ -12826,7 +12853,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1qRNy4Vk9He4Of3rNJOe3edWyrXqD36Pp"
+    "certificate": "https://drive.google.com/uc?export=download&id=1qRNy4Vk9He4Of3rNJOe3edWyrXqD36Pp",
+    "image": "/images/oils/azeite-batalha-frutado.png"
   },
   {
     "slug": "bene-blend-de-safra-organico",
@@ -12928,7 +12956,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1tNieAApTk1_sbv87OrC-SAAQrwAgb7CG"
+    "certificate": "https://drive.google.com/uc?export=download&id=1tNieAApTk1_sbv87OrC-SAAQrwAgb7CG",
+    "image": "/images/oils/lagar-h-arbequina.png"
   },
   {
     "slug": "liokareas-neapolitan-herb",
