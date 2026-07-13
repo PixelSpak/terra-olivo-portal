@@ -68,7 +68,7 @@ export default function OilCard({
             />
           </div>
 
-          <div className="absolute bottom-3 left-1/2 z-30 hidden min-h-9 w-[calc(100%-2rem)] max-w-[17rem] -translate-x-1/2 items-center justify-center rounded-full border border-gold-400/45 bg-white/85 px-3 py-1 text-center text-[10px] font-bold uppercase leading-snug tracking-[0.14em] text-olive-900 shadow-sm backdrop-blur sm:flex">
+          <div className="absolute bottom-3 left-1/2 z-30 flex min-h-9 w-[calc(100%-2rem)] max-w-[17rem] -translate-x-1/2 items-center justify-center rounded-full border border-gold-400/45 bg-white/90 px-3 py-1 text-center text-[9px] font-bold uppercase leading-snug tracking-[0.13em] text-olive-900 shadow-sm backdrop-blur sm:text-[10px] sm:tracking-[0.14em]">
             {best.prize.replace(" Medal", "")} · {best.year}
           </div>
         </div>
