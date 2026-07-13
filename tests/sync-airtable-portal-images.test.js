@@ -282,6 +282,73 @@ test("sync writes the processed transparent PNG from uploaded images", async () 
   ]);
 });
 
+test("sync uses the default transparent background processor", async () => {
+  const rootDir = makePortalFixture();
+  const input = await sharp({
+    create: {
+      width: 3,
+      height: 3,
+      channels: 4,
+      background: { r: 255, g: 255, b: 255, alpha: 1 },
+    },
+  })
+    .composite([
+      {
+        input: Buffer.from([48, 82, 36, 255]),
+        raw: { width: 1, height: 1, channels: 4 },
+        left: 1,
+        top: 1,
+      },
+    ])
+    .png()
+    .toBuffer();
+
+  const result = await syncAirtablePortalImages({
+    rootDir,
+    dryRun: false,
+    airtableClient: {
+      async listRecordsToUpdate() {
+        return [
+          {
+            id: "recdefault",
+            fields: {
+              Status: "Update",
+              "Portal oil slug": "knolive-epicure",
+              Attachments: [
+                {
+                  filename: "official-bottle.png",
+                  type: "image/png",
+                  url: "https://example.com/official-bottle.png",
+                },
+              ],
+            },
+          },
+        ];
+      },
+      async markRecordDone() {},
+      async uploadTransparentBackgroundAttachment() {},
+    },
+    downloadAttachment: async () => ({
+      buffer: input,
+      contentType: "image/png",
+    }),
+  });
+
+  const imagePath = path.join(
+    rootDir,
+    "public/images/oils/bottle__knolive-oils-sl__knolive-epicure.png",
+  );
+  const { data } = await sharp(imagePath)
+    .ensureAlpha()
+    .raw()
+    .toBuffer({ resolveWithObject: true });
+
+  assert.equal(result.updated, 1);
+  assert.equal(result.failed, 0);
+  assert.equal(data[3], 0);
+  assert.equal(data[(1 * 3 + 1) * 4 + 3], 255);
+});
+
 test("Airtable client uploads transparent images to the Transparent bg attachment field", async () => {
   const requests = [];
   const client = createAirtableClient({

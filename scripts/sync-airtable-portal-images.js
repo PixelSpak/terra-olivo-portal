@@ -362,7 +362,12 @@ function isEdgeBackgroundPixel(data, pixelIndex) {
   return red >= 235 && green >= 235 && blue >= 235 && brightest - darkest <= 35;
 }
 
-async function removeWhiteBackgroundFromImage(buffer) {
+async function removeWhiteBackgroundFromImage(input) {
+  const buffer = Buffer.isBuffer(input) ? input : input?.buffer;
+  if (!buffer) {
+    throw new Error("Image processor received no image buffer.");
+  }
+
   const { data, info } = await sharp(buffer)
     .ensureAlpha()
     .raw()
