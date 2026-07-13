@@ -100,8 +100,17 @@ export default function WinnersExplorer({
     prize !== ALL ||
     country !== ALL;
 
-  const selectClass =
+  const inputClass =
     "rounded-lg border border-olive-300 bg-white px-3 py-2 text-sm text-olive-900 focus:border-olive-600 focus:outline-none w-full";
+  const selectClass =
+    "w-full appearance-none rounded-lg border border-olive-300 bg-white py-2 pl-3 pr-12 text-sm text-olive-900 focus:border-olive-600 focus:outline-none";
+  const selectStyle = {
+    backgroundImage:
+      "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='%23536031' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E\")",
+    backgroundPosition: "right 1rem center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "18px 18px",
+  };
 
   return (
     <div>
@@ -111,7 +120,7 @@ export default function WinnersExplorer({
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Search olive oils, producers, countries..."
-          className={selectClass}
+          className={inputClass}
           aria-label="Search winners"
         />
 
@@ -128,6 +137,7 @@ export default function WinnersExplorer({
             value={year}
             onChange={(e) => setYear(e.target.value)}
             className={selectClass}
+            style={selectStyle}
             aria-label="Filter by edition"
           >
             <option value={ALL}>All years</option>
@@ -142,6 +152,7 @@ export default function WinnersExplorer({
             value={prize}
             onChange={(e) => setPrize(e.target.value)}
             className={selectClass}
+            style={selectStyle}
             aria-label="Filter by award"
           >
             <option value={ALL}>All awards</option>
@@ -157,6 +168,7 @@ export default function WinnersExplorer({
             value={country}
             onChange={(e) => setCountry(e.target.value)}
             className={selectClass}
+            style={selectStyle}
             aria-label="Filter by country"
           >
             <option value={ALL}>All countries</option>

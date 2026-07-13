@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import AwardBadge from "@/components/AwardBadge";
 import AwardSticker, { awardStickerMedalClass } from "@/components/AwardSticker";
+import BottleImageSubmission from "@/components/BottleImageSubmission";
 import CertificateDownloads from "@/components/CertificateDownloads";
 import OilCard from "@/components/OilCard";
 import OilImage from "@/components/OilImage";
@@ -95,6 +96,8 @@ export default async function WinnerPage({
   const shareTitle = `${oil.name} | TerraOlivo ${best.year} ${best.prize}`;
   const shareText = `${oil.name}${producer ? ` by ${producer.name}` : ""} won ${best.prize} at TerraOlivo ${best.year}.`;
   const shareUrl = absoluteUrl(`/winners/${oil.slug}`);
+  const currentImage = oil.image ?? "/images/tempbottle_image.png";
+  const usesTemporaryBottle = currentImage === "/images/tempbottle_image.png";
 
   return (
     <div className="container-page py-10">
@@ -135,6 +138,17 @@ export default async function WinnerPage({
               />
             </div>
           </div>
+          <BottleImageSubmission
+            oilSlug={oil.slug}
+            oilName={oil.name}
+            producerSlug={oil.producerSlug}
+            producerName={producer?.name}
+            country={oil.country}
+            awardYears={years.join(", ")}
+            currentImage={currentImage}
+            usesTemporaryBottle={usesTemporaryBottle}
+            sourcePage={`/winners/${oil.slug}`}
+          />
         </div>
 
         {/* Right — all details */}

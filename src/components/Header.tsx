@@ -21,7 +21,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-[100] border-b border-olive-100 bg-white/95 backdrop-blur">
       <div className="container-page relative flex h-14 items-center justify-between sm:h-16">
-        <Link href="/" className="flex items-center gap-2">
+        <Link href="/" className="flex items-center gap-2" aria-label="Terra Olivo home">
           <Image
             src="/logo.png"
             alt="Terra Olivo"
@@ -30,9 +30,6 @@ export default function Header() {
             className="h-10 w-10 shrink-0 sm:h-12 sm:w-12"
             priority
           />
-          <span className="font-serif text-lg font-semibold leading-none tracking-tight text-olive-900 sm:text-xl">
-            Terra Olivo
-          </span>
         </Link>
         <nav className="hidden items-center gap-8 md:flex">
           {navLinks.map((link) => (
