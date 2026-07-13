@@ -59,7 +59,6 @@ const awardStickerAliases: Record<string, string> = {
     "best-israeli-olive-council-quality-award",
   [normalize("Best Israeli Olive Council Quality Award")]:
     "best-israeli-olive-council-quality-award",
-  [normalize("Best of Brasil")]: "best-of-brasil",
   [normalize("Best of Brazil")]: "best-of-brasil",
   [normalize("Best of Creta")]: "best-of-crete",
   [normalize("Best of Crete")]: "best-of-crete",
