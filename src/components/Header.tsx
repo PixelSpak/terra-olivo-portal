@@ -24,7 +24,7 @@ export default function Header() {
   }
 
   return (
-    <header className="sticky top-0 z-40 border-b border-olive-100 bg-white/95 backdrop-blur">
+    <header className="sticky top-0 z-[100] border-b border-olive-100 bg-white/95 backdrop-blur">
       <div className="container-page relative flex h-14 items-center justify-between sm:h-16">
         <Link href="/" className="flex items-center gap-2">
           <Image
@@ -64,7 +64,7 @@ export default function Header() {
           </span>
         </button>
         {isOpen && (
-          <nav className="absolute left-4 right-4 top-[calc(100%+8px)] z-50 rounded-lg border border-olive-200 bg-white p-2 shadow-[0_18px_40px_rgba(28,34,16,0.14)] md:hidden">
+          <nav className="absolute left-4 right-4 top-[calc(100%+8px)] z-[110] rounded-lg border border-olive-200 bg-white p-2 shadow-[0_18px_40px_rgba(28,34,16,0.14)] md:hidden">
             {navLinks.map((link) => (
               <Link
                 key={link.href}

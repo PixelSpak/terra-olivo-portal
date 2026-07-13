@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import AwardBadge from "@/components/AwardBadge";
-import AwardSticker from "@/components/AwardSticker";
+import AwardSticker, { awardStickerMedalClass } from "@/components/AwardSticker";
 import CertificateImage from "@/components/CertificateImage";
 import OilCard from "@/components/OilCard";
 import OilImage from "@/components/OilImage";
@@ -69,8 +69,7 @@ export default async function WinnerPage({
             <div className="pointer-events-none absolute inset-x-8 bottom-8 h-16 rounded-full bg-olive-950/10 blur-2xl" />
             <AwardSticker
               award={best}
-              className="absolute right-3 top-3 z-30 h-24 w-24 rotate-6 drop-shadow-2xl sm:right-5 sm:top-5 sm:h-28 sm:w-28"
-              sizes="112px"
+              className={`absolute right-3 top-3 z-30 sm:right-5 sm:top-5 ${awardStickerMedalClass}`}
               priority
             />
 

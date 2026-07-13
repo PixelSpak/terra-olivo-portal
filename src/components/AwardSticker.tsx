@@ -1,18 +1,18 @@
-import Image from "next/image";
 import { getAwardSticker } from "@/lib/awardStickers";
 import type { Award } from "@/lib/types";
+
+export const awardStickerMedalClass =
+  "h-32 w-32 rotate-6 drop-shadow-[0_14px_28px_rgba(28,34,16,0.24)] transition duration-300 hover:rotate-0 hover:scale-105 group-hover:rotate-0 group-hover:scale-105";
 
 export default function AwardSticker({
   award,
   className = "",
   imageClassName = "",
-  sizes = "80px",
   priority = false,
 }: {
   award: Pick<Award, "year" | "prize">;
   className?: string;
   imageClassName?: string;
-  sizes?: string;
   priority?: boolean;
 }) {
   const sticker = getAwardSticker(award);
@@ -25,13 +25,12 @@ export default function AwardSticker({
       aria-label={`${sticker.label} ${sticker.year}`}
     >
       <span className="relative block h-full w-full">
-        <Image
+        <img
           src={sticker.image}
           alt=""
-          fill
-          sizes={sizes}
-          className={`object-contain ${imageClassName}`}
-          priority={priority}
+          className={`h-full w-full object-contain ${imageClassName}`}
+          loading={priority ? "eager" : "lazy"}
+          decoding="async"
         />
       </span>
     </span>

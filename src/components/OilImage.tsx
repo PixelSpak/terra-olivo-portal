@@ -35,6 +35,7 @@ export default function OilImage({
       sizes={sizes}
       className={`object-contain p-1 drop-shadow-xl ${imageClassName}`}
       loading={eager ? "eager" : "lazy"}
+      preload={eager}
     />
   );
 

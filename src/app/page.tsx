@@ -47,9 +47,9 @@ export default function HomePage() {
 
           {/* Subtitle */}
           <p className="mt-3 sm:mt-4 max-w-xl mx-auto text-sm leading-relaxed text-olive-100 sm:text-base hidden sm:block">
-            Terra Olivo is the International Olive Oil Competition held annually
-            in Israel — a prestigious blind-tasting event that recognises
-            excellence in extra virgin olive oil from every corner of the globe.
+            TerraOlivo is an International Olive Oil Competition - a prestigious
+            blind-tasting event that recognises excellence in extra virgin olive
+            oil from every corner of the globe since 2010.
           </p>
 
           {/* Primary CTAs */}

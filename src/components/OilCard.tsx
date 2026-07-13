@@ -1,5 +1,5 @@
 import Link from "next/link";
-import AwardSticker from "@/components/AwardSticker";
+import AwardSticker, { awardStickerMedalClass } from "@/components/AwardSticker";
 import OilImage from "@/components/OilImage";
 import { bestAward, getProducerBySlug } from "@/lib/data";
 import { getAwardSticker } from "@/lib/awardStickers";
@@ -33,7 +33,7 @@ export default function OilCard({
       className="group relative flex h-full flex-col transition duration-300 hover:-translate-y-1.5"
     >
       <div className="relative flex flex-1 flex-col overflow-hidden rounded-lg border border-olive-950/15 bg-[#fbf7ec] text-center shadow-[0_16px_38px_rgba(28,34,16,0.14)] ring-1 ring-white/70 transition duration-300 group-hover:border-gold-400/75 group-hover:shadow-[0_26px_64px_rgba(28,34,16,0.26)]">
-        <div className="pointer-events-none absolute inset-x-0 top-0 z-40 h-1 bg-gradient-to-r from-transparent via-gold-400 to-transparent opacity-70 transition-opacity duration-300 group-hover:opacity-100" />
+        <div className="pointer-events-none absolute inset-x-0 top-0 z-20 h-1 bg-gradient-to-r from-transparent via-gold-400 to-transparent opacity-70 transition-opacity duration-300 group-hover:opacity-100" />
 
         <div className="relative min-h-[300px] overflow-hidden bg-[radial-gradient(circle_at_46%_34%,#fffaf0_0%,#eee5cd_43%,#c3ce9d_100%)] px-3 pb-3 pt-4 sm:min-h-[320px] sm:px-5 sm:pb-5 sm:pt-6">
           <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(135deg,rgba(255,255,255,0.58),rgba(201,162,39,0.08)_45%,rgba(28,34,16,0.17))]" />
@@ -45,8 +45,7 @@ export default function OilCard({
           {bestSticker ? (
             <AwardSticker
               award={best}
-              className="absolute right-2 top-2 z-30 h-14 w-14 rotate-6 rounded-full bg-cream/75 p-1 shadow-[0_12px_28px_rgba(28,34,16,0.26)] ring-1 ring-white/80 transition duration-300 group-hover:rotate-0 group-hover:scale-105 sm:right-4 sm:top-4 sm:h-24 sm:w-24 sm:p-1.5"
-              sizes="(max-width: 640px) 56px, 96px"
+              className={`absolute right-2 top-2 z-30 sm:right-4 sm:top-4 ${awardStickerMedalClass}`}
               priority={priority}
             />
           ) : best.score !== undefined ? (
