@@ -13,6 +13,8 @@ const DEFAULT_TRANSPARENT_BG_FIELD = "Transparent bg";
 const ATTACHMENTS_FIELD = "Attachments";
 const MAX_AIRTABLE_ATTACHMENT_BYTES = 5 * 1024 * 1024;
 const MAX_TRANSPARENT_IMAGE_DIMENSION = 1800;
+const REMOVE_BG_API_URL = "https://api.remove.bg/v1.0/removebg";
+const DEFAULT_REMOVE_BG_SIZE = "auto";
 const IMAGE_EXTENSIONS = new Set(["png", "jpg", "jpeg", "webp"]);
 const IMAGE_TYPE_TO_EXTENSION = {
   "image/png": "png",
@@ -106,6 +108,18 @@ function resolveAirtableConfig(env = process.env) {
     doneStatus: env.AIRTABLE_IMAGE_SUBMISSIONS_DONE_STATUS || DEFAULT_DONE_STATUS,
     transparentBgField:
       env.AIRTABLE_IMAGE_SUBMISSIONS_TRANSPARENT_BG_FIELD || DEFAULT_TRANSPARENT_BG_FIELD,
+  };
+}
+
+function resolveBackgroundRemovalConfig(env = process.env) {
+  const apiKey = env.REMOVE_BG_API_KEY || env.REMOVEBG_API_KEY || "";
+  const provider =
+    env.AIRTABLE_IMAGE_BG_REMOVAL_PROVIDER || (apiKey ? "removebg" : "local");
+
+  return {
+    provider,
+    removeBgApiKey: apiKey,
+    removeBgSize: env.REMOVE_BG_SIZE || "auto",
   };
 }
 
@@ -406,6 +420,18 @@ async function defaultDownloadAttachment(attachment, fetchImpl = fetch) {
   };
 }
 
+async function normalizeTransparentPng(buffer) {
+  return sharp(buffer)
+    .resize({
+      width: MAX_TRANSPARENT_IMAGE_DIMENSION,
+      height: MAX_TRANSPARENT_IMAGE_DIMENSION,
+      fit: "inside",
+      withoutEnlargement: true,
+    })
+    .png({ compressionLevel: 9 })
+    .toBuffer();
+}
+
 function isEdgeBackgroundPixel(data, pixelIndex) {
   const offset = pixelIndex * 4;
   const alpha = data[offset + 3];
@@ -469,27 +495,82 @@ async function removeWhiteBackgroundFromImage(input) {
   }
 
   return {
-    buffer: await sharp(data, {
+    buffer: await normalizeTransparentPng(await sharp(data, {
       raw: { width, height, channels: 4 },
     })
-      .resize({
-        width: MAX_TRANSPARENT_IMAGE_DIMENSION,
-        height: MAX_TRANSPARENT_IMAGE_DIMENSION,
-        fit: "inside",
-        withoutEnlargement: true,
-      })
-      .png({ compressionLevel: 9 })
-      .toBuffer(),
+      .png()
+      .toBuffer()),
     contentType: "image/png",
     extension: "png",
   };
+}
+
+async function removeBackgroundWithRemoveBgApi(input, {
+  apiKey,
+  fetchImpl = fetch,
+  size = DEFAULT_REMOVE_BG_SIZE,
+} = {}) {
+  const buffer = Buffer.isBuffer(input) ? input : input?.buffer;
+  if (!buffer) {
+    throw new Error("remove.bg processor received no image buffer.");
+  }
+  if (!apiKey) {
+    throw new Error("Missing REMOVE_BG_API_KEY for remove.bg background removal.");
+  }
+
+  const contentType = input?.contentType || "application/octet-stream";
+  const filename = input?.attachment?.filename || "image";
+  const formData = new FormData();
+  formData.append("size", size);
+  formData.append("format", "png");
+  formData.append("image_file", new Blob([buffer], { type: contentType }), filename);
+
+  const response = await fetchImpl(REMOVE_BG_API_URL, {
+    method: "POST",
+    headers: {
+      "X-Api-Key": apiKey,
+    },
+    body: formData,
+  });
+
+  if (!response.ok) {
+    const message = await response.text().catch(() => "");
+    throw new Error(
+      `remove.bg request failed with HTTP ${response.status}${message ? `: ${message}` : ""}`,
+    );
+  }
+
+  return {
+    buffer: await normalizeTransparentPng(Buffer.from(await response.arrayBuffer())),
+    contentType: "image/png",
+    extension: "png",
+  };
+}
+
+function createBackgroundRemovalProcessor({
+  env = process.env,
+  fetchImpl = fetch,
+} = {}) {
+  const config = resolveBackgroundRemovalConfig(env);
+  if (config.provider === "removebg") {
+    return (input) =>
+      removeBackgroundWithRemoveBgApi(input, {
+        apiKey: config.removeBgApiKey,
+        fetchImpl,
+        size: config.removeBgSize,
+      });
+  }
+  if (config.provider === "local") {
+    return removeWhiteBackgroundFromImage;
+  }
+  throw new Error(`Unsupported background removal provider: ${config.provider}.`);
 }
 
 async function syncAirtablePortalImages({
   rootDir = path.resolve(__dirname, ".."),
   airtableClient,
   downloadAttachment = defaultDownloadAttachment,
-  processImage = removeWhiteBackgroundFromImage,
+  processImage,
   dryRun = false,
   markDone = true,
 } = {}) {
@@ -497,6 +578,9 @@ async function syncAirtablePortalImages({
     loadLocalEnv(rootDir);
     const config = resolveAirtableConfig();
     airtableClient = createAirtableClient(config);
+  }
+  if (!processImage) {
+    processImage = createBackgroundRemovalProcessor();
   }
 
   const oilsPath = path.join(rootDir, "src/data/oils.json");
@@ -624,8 +708,10 @@ if (require.main === module) {
 }
 
 module.exports = {
+  createBackgroundRemovalProcessor,
   createAirtableClient,
   findOilForRecord,
+  removeBackgroundWithRemoveBgApi,
   removeWhiteBackgroundFromImage,
   syncAirtablePortalImages,
 };

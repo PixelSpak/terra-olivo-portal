@@ -7,7 +7,9 @@ const test = require("node:test");
 const sharp = require("sharp");
 
 const {
+  createBackgroundRemovalProcessor,
   createAirtableClient,
+  removeBackgroundWithRemoveBgApi,
   removeWhiteBackgroundFromImage,
   syncAirtablePortalImages,
 } = require("../scripts/sync-airtable-portal-images.js");
@@ -231,6 +233,103 @@ test("resizes processed transparent images for Airtable upload", async () => {
 
   assert.equal(metadata.width, 1800);
   assert.equal(metadata.height, 982);
+});
+
+test("remove.bg processor uploads image bytes and normalizes transparent PNG output", async () => {
+  const apiOutput = await sharp({
+    create: {
+      width: 2200,
+      height: 1200,
+      channels: 4,
+      background: { r: 255, g: 255, b: 255, alpha: 0 },
+    },
+  })
+    .png()
+    .toBuffer();
+  const requests = [];
+
+  const result = await removeBackgroundWithRemoveBgApi(
+    {
+      buffer: Buffer.from("jpg bytes"),
+      contentType: "image/jpeg",
+      attachment: { filename: "producer-bottle.jpg" },
+    },
+    {
+      apiKey: "rbg_test_key",
+      fetchImpl: async (url, init) => {
+        requests.push({ url: String(url), init });
+        return {
+          ok: true,
+          async arrayBuffer() {
+            return apiOutput.buffer.slice(
+              apiOutput.byteOffset,
+              apiOutput.byteOffset + apiOutput.byteLength,
+            );
+          },
+        };
+      },
+    },
+  );
+
+  const entries = Array.from(requests[0].init.body.entries());
+  const imageFile = entries.find(([key]) => key === "image_file")?.[1];
+  const metadata = await sharp(result.buffer).metadata();
+
+  assert.equal(requests[0].url, "https://api.remove.bg/v1.0/removebg");
+  assert.equal(requests[0].init.method, "POST");
+  assert.equal(requests[0].init.headers["X-Api-Key"], "rbg_test_key");
+  assert.deepEqual(
+    entries.filter(([key]) => key !== "image_file"),
+    [
+      ["size", "auto"],
+      ["format", "png"],
+    ],
+  );
+  assert.equal(imageFile.name, "producer-bottle.jpg");
+  assert.equal(imageFile.type, "image/jpeg");
+  assert.equal(imageFile.size, 9);
+  assert.equal(result.contentType, "image/png");
+  assert.equal(result.extension, "png");
+  assert.equal(metadata.width, 1800);
+  assert.equal(metadata.height, 982);
+});
+
+test("uses remove.bg as the default processor when REMOVE_BG_API_KEY is configured", async () => {
+  const apiOutput = await sharp({
+    create: {
+      width: 4,
+      height: 4,
+      channels: 4,
+      background: { r: 255, g: 255, b: 255, alpha: 0 },
+    },
+  })
+    .png()
+    .toBuffer();
+  const requests = [];
+  const processor = createBackgroundRemovalProcessor({
+    env: { REMOVE_BG_API_KEY: "rbg_test_key" },
+    fetchImpl: async (url, init) => {
+      requests.push({ url: String(url), init });
+      return {
+        ok: true,
+        async arrayBuffer() {
+          return apiOutput.buffer.slice(
+            apiOutput.byteOffset,
+            apiOutput.byteOffset + apiOutput.byteLength,
+          );
+        },
+      };
+    },
+  });
+
+  const result = await processor({
+    buffer: Buffer.from("image bytes"),
+    contentType: "image/png",
+    attachment: { filename: "bottle.png" },
+  });
+
+  assert.equal(requests[0].url, "https://api.remove.bg/v1.0/removebg");
+  assert.equal(result.contentType, "image/png");
 });
 
 test("Airtable client rejects transparent images over the upload limit before fetch", async () => {
