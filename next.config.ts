@@ -2,8 +2,8 @@ import type { NextConfig } from "next";
 
 const scriptSrc =
   process.env.NODE_ENV === "development"
-    ? "script-src 'self' 'unsafe-inline' 'unsafe-eval'"
-    : "script-src 'self' 'unsafe-inline'";
+    ? "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com"
+    : "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com";
 
 const securityHeaders = [
   {
@@ -32,9 +32,9 @@ const securityHeaders = [
       "default-src 'self'",
       scriptSrc,
       "style-src 'self' 'unsafe-inline'",
-      "img-src 'self' data: blob:",
+      "img-src 'self' data: blob: https://www.googletagmanager.com https://www.google-analytics.com",
       "font-src 'self' data:",
-      "connect-src 'self'",
+      "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com",
       "frame-ancestors 'self'",
       "base-uri 'self'",
       "form-action 'self' mailto:",

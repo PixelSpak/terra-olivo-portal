@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollToTopButton from "@/components/ScrollToTopButton";
 import { SITE_URL } from "@/lib/site";
 import "./globals.css";
+
+const GA_MEASUREMENT_ID = "G-QFCRZM4KDR";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -50,6 +53,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="flex min-h-screen flex-col">
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_MEASUREMENT_ID}');
+          `}
+        </Script>
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
