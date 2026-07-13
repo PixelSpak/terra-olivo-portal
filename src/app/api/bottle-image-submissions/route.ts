@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { buildAirtableFieldAttempts } from "@/lib/bottleImageSubmissionFields";
 
 const TABLE_NAME = "New images for portal";
 const MAX_IMAGE_SIZE = 4.9 * 1024 * 1024;
@@ -70,6 +71,55 @@ async function airtableRequest({
   return data;
 }
 
+function isUnknownAirtableFieldError(error: unknown): boolean {
+  return (
+    error instanceof Error &&
+    /unknown field|unknown.*field|field.*does not exist/i.test(error.message)
+  );
+}
+
+async function createAirtableRecordWithFallback({
+  token,
+  baseId,
+  tableName,
+  requiredFields,
+  statusFields,
+  identityFields,
+  optionalMetadataFields,
+}: {
+  token: string;
+  baseId: string;
+  tableName: string;
+  requiredFields: Record<string, string>;
+  statusFields: Record<string, string>;
+  identityFields: Record<string, string>;
+  optionalMetadataFields: Record<string, string>;
+}) {
+  const attempts = buildAirtableFieldAttempts({
+    requiredFields,
+    statusFields,
+    identityFields,
+    optionalMetadataFields,
+  });
+
+  let lastUnknownFieldError: unknown;
+  for (const fields of attempts) {
+    try {
+      return await airtableRequest({
+        token,
+        baseId,
+        tableName,
+        body: { fields, typecast: true },
+      });
+    } catch (error) {
+      if (!isUnknownAirtableFieldError(error)) throw error;
+      lastUnknownFieldError = error;
+    }
+  }
+
+  throw lastUnknownFieldError;
+}
+
 async function uploadAirtableAttachment({
   token,
   baseId,
@@ -106,6 +156,14 @@ async function uploadAirtableAttachment({
   }
 
   return data;
+}
+
+function addOptionalField(
+  fields: Record<string, string>,
+  airtableFieldName: string,
+  value: string | undefined,
+) {
+  if (value) fields[airtableFieldName] = value;
 }
 
 export async function POST(request: Request) {
@@ -149,24 +207,61 @@ export async function POST(request: Request) {
       );
     }
 
-    const fields = {
+    const requiredFields: Record<string, string> = {
       "Olive oil name": requiredText(formData, "oilName"),
-      "Company name": optionalText(formData, "producerName"),
       Email: requiredText(formData, "contactEmail"),
     };
+    addOptionalField(
+      requiredFields,
+      "Company name",
+      optionalText(formData, "producerName"),
+    );
 
-    if (!fields["Olive oil name"] || !fields.Email) {
+    if (!requiredFields["Olive oil name"] || !requiredFields.Email) {
       return NextResponse.json(
         { error: "Missing required submission details." },
         { status: 400 },
       );
     }
 
-    const created = await airtableRequest({
+    const submittedStatus = requiredText(formData, "status") || "New";
+    const statusFields: Record<string, string> = {
+      Status: submittedStatus === "Pending" ? "New" : submittedStatus,
+    };
+    const identityFields: Record<string, string> = {};
+    addOptionalField(identityFields, "Portal oil slug", optionalText(formData, "oilSlug"));
+    addOptionalField(
+      identityFields,
+      "Portal producer slug",
+      optionalText(formData, "producerSlug"),
+    );
+    const optionalMetadataFields: Record<string, string> = {};
+    addOptionalField(optionalMetadataFields, "Country", optionalText(formData, "country"));
+    addOptionalField(optionalMetadataFields, "Award years", optionalText(formData, "awardYears"));
+    addOptionalField(
+      optionalMetadataFields,
+      "Current portal image",
+      optionalText(formData, "currentImage"),
+    );
+    addOptionalField(
+      optionalMetadataFields,
+      "Uses temporary bottle",
+      optionalText(formData, "usesTemporaryBottle"),
+    );
+    addOptionalField(
+      optionalMetadataFields,
+      "Source page",
+      optionalText(formData, "sourcePage"),
+    );
+
+    const created = await createAirtableRecordWithFallback({
       token,
       baseId,
       tableName,
-      body: { fields, typecast: true },
+      requiredFields,
+      statusFields,
+      identityFields,
+      optionalMetadataFields,
     });
 
     const recordId = created?.id;

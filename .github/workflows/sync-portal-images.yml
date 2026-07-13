@@ -1,0 +1,49 @@
+name: Sync Airtable Portal Images
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types:
+      - sync-portal-images
+  schedule:
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+      AIRTABLE_IMAGE_SUBMISSIONS_BASE_ID: ${{ secrets.AIRTABLE_IMAGE_SUBMISSIONS_BASE_ID }}
+      AIRTABLE_IMAGE_SUBMISSIONS_TABLE_ID: ${{ secrets.AIRTABLE_IMAGE_SUBMISSIONS_TABLE_ID }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Sync Airtable images
+        run: npm run sync:portal-images
+
+      - name: Commit portal image updates
+        run: |
+          if [ -z "$(git status --porcelain -- src/data/oils.json public/images/oils)" ]; then
+            echo "No portal image changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/oils.json public/images/oils
+          git commit -m "Sync Airtable portal images"
+          git push

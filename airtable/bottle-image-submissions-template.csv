@@ -1,2 +1,2 @@
-Olive oil name,Company name,Email,Attachments
-Knolive Epicure,Knolive Oils S.L.,producer@example.com,
+Status,Portal oil slug,Portal producer slug,Olive oil name,Company name,Email,Country,Award years,Current portal image,Uses temporary bottle,Source page,Attachments
+New,knolive-epicure,knolive-oils-sl,Knolive Epicure,Knolive Oils S.L.,producer@example.com,Spain,2026,/images/tempbottle_image.png,Yes,/winners/knolive-epicure,

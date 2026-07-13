@@ -142,7 +142,7 @@ export default function BottleImageSubmission({
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-4 px-5 py-5">
-                <input type="hidden" name="status" value="Pending" />
+                <input type="hidden" name="status" value="New" />
                 <input type="hidden" name="oilSlug" value={oilSlug} />
                 <input type="hidden" name="oilName" value={oilName} />
                 <input type="hidden" name="producerSlug" value={producerSlug} />

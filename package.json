@@ -7,6 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "sync:portal-images": "node scripts/sync-airtable-portal-images.js",
+    "test:portal-image-sync": "node --test tests/bottle-image-submission-fields.test.js tests/sync-airtable-portal-images.test.js",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
