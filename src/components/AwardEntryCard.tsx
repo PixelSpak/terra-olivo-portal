@@ -15,6 +15,8 @@ export default function AwardEntryCard({
   const href = entry.kind === "oil" ? `/winners/${entry.oil.slug}` : `/awards/${entry.slug}`;
 
   if (entry.kind === "producer") {
+    const producerLogo = entry.award.displayLogo ?? entry.producer.logo;
+
     return (
       <Link
         href={href}
@@ -33,16 +35,30 @@ export default function AwardEntryCard({
               priority={priority}
             />
             <div className="pointer-events-none relative z-20 flex h-60 w-full items-center justify-center sm:h-64">
-              {entry.producer.logo ? (
-                <Image
-                  src={entry.producer.logo}
-                  alt={entry.producer.name}
-                  width={112}
-                  height={112}
-                  sizes="112px"
-                  className="h-28 w-28 rounded-full border border-gold-400/45 bg-white object-cover p-1 shadow-[0_18px_36px_rgba(28,34,16,0.22)] transition duration-500 group-hover:scale-[1.06]"
-                  priority={priority}
-                />
+              {producerLogo ? (
+                entry.award.displayLogo ? (
+                  <span className="grid h-28 w-28 place-items-center rounded-full border border-gold-400/45 bg-white p-4 shadow-[0_18px_36px_rgba(28,34,16,0.22)] transition duration-500 group-hover:scale-[1.06]">
+                    <Image
+                      src={producerLogo}
+                      alt={entry.producer.name}
+                      width={112}
+                      height={112}
+                      sizes="112px"
+                      className="h-full w-full object-contain"
+                      priority={priority}
+                    />
+                  </span>
+                ) : (
+                  <Image
+                    src={producerLogo}
+                    alt={entry.producer.name}
+                    width={112}
+                    height={112}
+                    sizes="112px"
+                    className="h-28 w-28 rounded-full border border-gold-400/45 bg-white object-cover p-1 shadow-[0_18px_36px_rgba(28,34,16,0.22)] transition duration-500 group-hover:scale-[1.06]"
+                    priority={priority}
+                  />
+                )
               ) : (
                 <span className="grid h-28 w-28 place-items-center rounded-full border border-gold-400/45 bg-olive-950 font-serif text-4xl font-bold text-gold-400 shadow-[0_18px_36px_rgba(28,34,16,0.22)] transition duration-500 group-hover:scale-[1.06]">
                   {entry.producer.name.charAt(0)}

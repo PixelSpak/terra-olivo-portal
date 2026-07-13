@@ -75,6 +75,8 @@ export interface ProducerAward extends Award {
   slug: string;
   producerSlug: string;
   country: string;
+  /** Award-specific logo shown on award cards/pages without changing the producer logo. */
+  displayLogo?: string;
 }
 
 export interface OilAwardEntry {

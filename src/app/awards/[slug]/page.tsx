@@ -31,7 +31,9 @@ export async function generateMetadata({
   const description = `${getAwardEntryTitle(entry)} won ${entry.award.prize} at TerraOlivo ${entry.award.year}.`;
   const url = absoluteUrl(`/awards/${entry.slug}`);
   const image =
-    entry.kind === "oil" ? entry.oil.image ?? "/logo.png" : entry.producer.logo ?? "/logo.png";
+    entry.kind === "oil"
+      ? entry.oil.image ?? "/logo.png"
+      : entry.award.displayLogo ?? entry.producer.logo ?? "/logo.png";
 
   return {
     title,
@@ -76,6 +78,10 @@ export default async function AwardPage({
   const shareTitle = `${award.prize} | ${getAwardEntryTitle(entry)} | TerraOlivo ${award.year}`;
   const shareText = `${getAwardEntryTitle(entry)} won ${award.prize} at TerraOlivo ${award.year}.`;
   const shareUrl = absoluteUrl(`/awards/${entry.slug}`);
+  const producerAwardLogo =
+    entry.kind === "producer" ? entry.award.displayLogo ?? entry.producer.logo : undefined;
+  const usesAwardDisplayLogo =
+    entry.kind === "producer" && Boolean(entry.award.displayLogo);
 
   return (
     <div className="container-page py-10">
@@ -190,16 +196,30 @@ export default async function AwardPage({
                 priority
               />
               <div className="relative z-20">
-                {entry.producer.logo ? (
-                  <Image
-                    src={entry.producer.logo}
-                    alt={entry.producer.name}
-                    width={152}
-                    height={152}
-                    sizes="152px"
-                    className="h-36 w-36 rounded-full border border-gold-400/45 bg-white object-cover p-1 shadow-[0_20px_44px_rgba(28,34,16,0.24)]"
-                    priority
-                  />
+                {producerAwardLogo ? (
+                  usesAwardDisplayLogo ? (
+                    <span className="grid h-36 w-36 place-items-center rounded-full border border-gold-400/45 bg-white p-5 shadow-[0_20px_44px_rgba(28,34,16,0.24)]">
+                      <Image
+                        src={producerAwardLogo}
+                        alt={entry.producer.name}
+                        width={152}
+                        height={152}
+                        sizes="152px"
+                        className="h-full w-full object-contain"
+                        priority
+                      />
+                    </span>
+                  ) : (
+                    <Image
+                      src={producerAwardLogo}
+                      alt={entry.producer.name}
+                      width={152}
+                      height={152}
+                      sizes="152px"
+                      className="h-36 w-36 rounded-full border border-gold-400/45 bg-white object-cover p-1 shadow-[0_20px_44px_rgba(28,34,16,0.24)]"
+                      priority
+                    />
+                  )
                 ) : (
                   <span className="grid h-36 w-36 place-items-center rounded-full border border-gold-400/45 bg-olive-950 font-serif text-5xl font-bold text-gold-400 shadow-[0_20px_44px_rgba(28,34,16,0.24)]">
                     {entry.producer.name.charAt(0)}
