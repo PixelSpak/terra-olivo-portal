@@ -2,8 +2,20 @@ import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 
+function isSafeLogoFilename(filename: unknown): filename is string {
+  return (
+    typeof filename === 'string' &&
+    filename === path.basename(filename) &&
+    /^[a-zA-Z0-9._-]+-logo\.png$/.test(filename)
+  );
+}
+
 export async function POST(request: Request) {
   const { filename } = await request.json();
+  if (!isSafeLogoFilename(filename)) {
+    return NextResponse.json({ error: 'Invalid filename' }, { status: 400 });
+  }
+
   const filePath = path.join(process.cwd(), 'public/images/producers', filename);
   
   if (fs.existsSync(filePath)) {

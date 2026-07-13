@@ -4,6 +4,13 @@ import path from 'path';
 
 export async function POST(request: Request) {
   const { oil2026_slug, image } = await request.json();
+  if (
+    typeof oil2026_slug !== 'string' ||
+    typeof image !== 'string' ||
+    !/^\/images\/oils\/[a-zA-Z0-9._-]+\.png$/.test(image)
+  ) {
+    return NextResponse.json({ error: 'Invalid suggestion' }, { status: 400 });
+  }
   
   const jsonPath = path.join(process.cwd(), 'src/data/oils.json');
   const oils = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
