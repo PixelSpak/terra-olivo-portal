@@ -6,11 +6,13 @@ import AwardBadge from "@/components/AwardBadge";
 import AwardSticker, { awardStickerMedalClass } from "@/components/AwardSticker";
 import CertificateImage from "@/components/CertificateImage";
 import OilImage from "@/components/OilImage";
+import ShareButton from "@/components/ShareButton";
 import {
   getAllAwardEntries,
   getAwardEntryBySlug,
   getAwardEntryTitle,
 } from "@/lib/data";
+import { absoluteUrl } from "@/lib/site";
 
 export function generateStaticParams() {
   return getAllAwardEntries().map((entry) => ({ slug: entry.slug }));
@@ -25,9 +27,39 @@ export async function generateMetadata({
   const entry = getAwardEntryBySlug(slug);
   if (!entry) return { title: "Award Not Found" };
 
+  const title = `${entry.award.prize} | ${getAwardEntryTitle(entry)} | TerraOlivo ${entry.award.year}`;
+  const description = `${getAwardEntryTitle(entry)} won ${entry.award.prize} at TerraOlivo ${entry.award.year}.`;
+  const url = absoluteUrl(`/awards/${entry.slug}`);
+  const image =
+    entry.kind === "oil" ? entry.oil.image ?? "/logo.png" : entry.producer.logo ?? "/logo.png";
+
   return {
-    title: `${entry.award.prize} - ${getAwardEntryTitle(entry)}`,
-    description: `${getAwardEntryTitle(entry)} won ${entry.award.prize} at TerraOlivo ${entry.award.year}.`,
+    title,
+    description,
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      type: "article",
+      title,
+      description,
+      url,
+      siteName: "Terra Olivo Awards",
+      images: [
+        {
+          url: image,
+          width: 1200,
+          height: 630,
+          alt: getAwardEntryTitle(entry),
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [image],
+    },
   };
 }
 
@@ -41,6 +73,9 @@ export default async function AwardPage({
   if (!entry) notFound();
 
   const award = entry.award;
+  const shareTitle = `${award.prize} | ${getAwardEntryTitle(entry)} | TerraOlivo ${award.year}`;
+  const shareText = `${getAwardEntryTitle(entry)} won ${award.prize} at TerraOlivo ${award.year}.`;
+  const shareUrl = absoluteUrl(`/awards/${entry.slug}`);
 
   return (
     <div className="container-page py-10">
@@ -108,9 +143,14 @@ export default async function AwardPage({
                 <span className="rounded-sm border border-terracotta-400 px-3 py-1 text-xs font-bold uppercase tracking-wide text-terracotta-500">
                   {entry.oil.country}
                 </span>
-                <span className="rounded-sm border border-olive-300 px-3 py-1 text-xs font-bold uppercase tracking-wide text-olive-600">
-                  {award.category ?? "Olive Oil Award"}
-                </span>
+              </div>
+              <div className="mt-2">
+                <ShareButton
+                  title={shareTitle}
+                  text={shareText}
+                  url={shareUrl}
+                  label="Share"
+                />
               </div>
             </div>
 
@@ -189,9 +229,14 @@ export default async function AwardPage({
                 <span className="rounded-sm border border-terracotta-400 px-3 py-1 text-xs font-bold uppercase tracking-wide text-terracotta-500">
                   {entry.award.country}
                 </span>
-                <span className="rounded-sm border border-olive-300 px-3 py-1 text-xs font-bold uppercase tracking-wide text-olive-600">
-                  Producer Award
-                </span>
+              </div>
+              <div className="mt-2">
+                <ShareButton
+                  title={shareTitle}
+                  text={shareText}
+                  url={shareUrl}
+                  label="Share"
+                />
               </div>
             </div>
 

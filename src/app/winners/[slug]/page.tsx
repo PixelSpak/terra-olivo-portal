@@ -6,6 +6,7 @@ import AwardSticker, { awardStickerMedalClass } from "@/components/AwardSticker"
 import CertificateDownloads from "@/components/CertificateDownloads";
 import OilCard from "@/components/OilCard";
 import OilImage from "@/components/OilImage";
+import ShareButton from "@/components/ShareButton";
 import {
   awardsByYear,
   bestAward,
@@ -15,6 +16,7 @@ import {
   getOilsByProducer,
   getProducerBySlug,
 } from "@/lib/data";
+import { absoluteUrl } from "@/lib/site";
 
 export function generateStaticParams() {
   return getAllOils().map((oil) => ({ slug: oil.slug }));
@@ -28,7 +30,41 @@ export async function generateMetadata({
   const { slug } = await params;
   const oil = getOilBySlug(slug);
   if (!oil) return { title: "Winner Not Found" };
-  return { title: oil.name, description: oil.description };
+
+  const producer = getProducerBySlug(oil.producerSlug);
+  const best = bestAward(oil);
+  const title = `${oil.name} | TerraOlivo ${best.year} ${best.prize}`;
+  const description = `${oil.name}${producer ? ` by ${producer.name}` : ""} won ${best.prize} at TerraOlivo ${best.year}.`;
+  const url = absoluteUrl(`/winners/${oil.slug}`);
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      type: "article",
+      title,
+      description,
+      url,
+      siteName: "Terra Olivo Awards",
+      images: [
+        {
+          url: oil.image ?? "/logo.png",
+          width: 1200,
+          height: 630,
+          alt: oil.name,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [oil.image ?? "/logo.png"],
+    },
+  };
 }
 
 export default async function WinnerPage({
@@ -56,6 +92,9 @@ export default async function WinnerPage({
     .slice(0, 3);
 
   const years = [...new Set(oil.awards.map((a) => a.year))].sort();
+  const shareTitle = `${oil.name} | TerraOlivo ${best.year} ${best.prize}`;
+  const shareText = `${oil.name}${producer ? ` by ${producer.name}` : ""} won ${best.prize} at TerraOlivo ${best.year}.`;
+  const shareUrl = absoluteUrl(`/winners/${oil.slug}`);
 
   return (
     <div className="container-page py-10">
@@ -121,6 +160,14 @@ export default async function WinnerPage({
               <span className="rounded-sm border border-terracotta-400 px-3 py-1 text-xs font-bold uppercase tracking-wide text-terracotta-500">
                 {oil.country}
               </span>
+            </div>
+            <div className="mt-2">
+              <ShareButton
+                title={shareTitle}
+                text={shareText}
+                url={shareUrl}
+                label="Share"
+              />
             </div>
           </div>
 

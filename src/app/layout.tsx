@@ -2,15 +2,40 @@ import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollToTopButton from "@/components/ScrollToTopButton";
+import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "Terra Olivo | The World's Best Olive Oils",
     template: "%s | Terra Olivo",
   },
   description:
     "Terra Olivo is the official guide to the world's best extra virgin olive oils — an audited classification of award-winning producers and brands.",
+  openGraph: {
+    type: "website",
+    siteName: "Terra Olivo Awards",
+    title: "Terra Olivo | The World's Best Olive Oils",
+    description:
+      "Explore the official TerraOlivo award-winning extra virgin olive oils and producers.",
+    url: SITE_URL,
+    images: [
+      {
+        url: "/logo.png",
+        width: 512,
+        height: 512,
+        alt: "Terra Olivo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Terra Olivo | The World's Best Olive Oils",
+    description:
+      "Explore the official TerraOlivo award-winning extra virgin olive oils and producers.",
+    images: ["/logo.png"],
+  },
   icons: {
     icon: "/favicon.png",
     apple: "/apple-touch-icon.png",
