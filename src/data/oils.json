@@ -9183,7 +9183,9 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=10aIllE5NhkoKPyue7vjKL8AN8JZjt7Ix"
+    "certificate": "https://drive.google.com/uc?export=download&id=10aIllE5NhkoKPyue7vjKL8AN8JZjt7Ix",
+    "image": "/images/oils/bottle__lagar-h-agroindustria-ltda__lagar-h-blend.png",
+    "format": "good"
   },
   {
     "slug": "meshek-schorr-wolf-pichuline-early-harvest",
@@ -9820,7 +9822,9 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1kmBGWybD5ngWbOHsUW2UmxBxDWMC4Crp"
+    "certificate": "https://drive.google.com/uc?export=download&id=1kmBGWybD5ngWbOHsUW2UmxBxDWMC4Crp",
+    "image": "/images/oils/bottle__lagar-h-agroindustria-ltda__lagar-h-coratina.png",
+    "format": "good"
   },
   {
     "slug": "liokareas-cold-fused-persian-lime",
@@ -12928,7 +12932,9 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1tNieAApTk1_sbv87OrC-SAAQrwAgb7CG"
+    "certificate": "https://drive.google.com/uc?export=download&id=1tNieAApTk1_sbv87OrC-SAAQrwAgb7CG",
+    "image": "/images/oils/bottle__lagar-h-agroindustria-ltda__lagar-h-arbequina.png",
+    "format": "good"
   },
   {
     "slug": "liokareas-neapolitan-herb",
