@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { buildAirtableFieldAttempts } from "@/lib/bottleImageSubmissionFields";
 
 const TABLE_NAME = "New images for portal";
-const MAX_IMAGE_SIZE = 4.9 * 1024 * 1024;
+const MAX_IMAGE_SIZE = 5 * 1024 * 1024;
 const ALLOWED_IMAGE_TYPES = new Set(["image/png", "image/jpeg", "image/webp"]);
 
 function requiredText(formData: FormData, key: string): string {
@@ -192,7 +192,7 @@ export async function POST(request: Request) {
 
     if (image.size > MAX_IMAGE_SIZE) {
       return NextResponse.json(
-        { error: "Image must be 4.9 MB or less." },
+        { error: "Image must be 5 MB or less." },
         { status: 400 },
       );
     }

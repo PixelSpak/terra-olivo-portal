@@ -30,13 +30,13 @@ export default function BottleImageSubmission({
   const [fileName, setFileName] = useState("");
   const [error, setError] = useState("");
   const [isSending, setIsSending] = useState(false);
-  const maxImageSize = 4.9 * 1024 * 1024;
+  const maxImageSize = 5 * 1024 * 1024;
 
   function handleFileChange(event: React.ChangeEvent<HTMLInputElement>) {
     const file = event.target.files?.[0];
     setFileName(file?.name ?? "");
     if (file && file.size > maxImageSize) {
-      setError("Image must be 4.9 MB or less.");
+      setError("Image must be 5 MB or less.");
       event.target.value = "";
       setFileName("");
       return;
@@ -188,7 +188,10 @@ export default function BottleImageSubmission({
                     </span>
                   )}
                   <span className="mt-2 block text-xs text-olive-500">
-                    Maximum size: 4.9 MB.
+                    Maximum size: 5 MB.
+                  </span>
+                  <span className="mt-1 block text-xs text-olive-500">
+                    Please upload transparent background image if possible.
                   </span>
                 </label>
 
