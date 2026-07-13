@@ -8975,7 +8975,9 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1N7z1IoHBeQcYfTl4zLzJGW7ETj1FH3nm"
+    "certificate": "https://drive.google.com/uc?export=download&id=1N7z1IoHBeQcYfTl4zLzJGW7ETj1FH3nm",
+    "image": "/images/oils/bottle__estancia-das-oliveiras__estancia-das-oliveiras-frantoio.png",
+    "format": "good"
   },
   {
     "slug": "sen-bey-tekir",
@@ -9676,7 +9678,9 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1ENVe0sVMPjkS6Iml3267yYYAmCiO29mq"
+    "certificate": "https://drive.google.com/uc?export=download&id=1ENVe0sVMPjkS6Iml3267yYYAmCiO29mq",
+    "image": "/images/oils/bottle__estancia-das-oliveiras__estancia-das-oliveiras-la-mamma.png",
+    "format": "good"
   },
   {
     "slug": "santolivo",
@@ -11773,7 +11777,9 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1xKjT4HuSIE4AdTY9RsSqziUfb1Bole9D"
+    "certificate": "https://drive.google.com/uc?export=download&id=1xKjT4HuSIE4AdTY9RsSqziUfb1Bole9D",
+    "image": "/images/oils/bottle__estancia-das-oliveiras__estancia-das-oliveiras-galega.png",
+    "format": "good"
   },
   {
     "slug": "azeite-sao-mateus-blend-suave",
