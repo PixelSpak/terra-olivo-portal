@@ -1677,8 +1677,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/tempbottle_image.png",
-    "format": "bad",
+    "image": "/images/oils/bottle__eliad-olive-oil__eliad-olive-oil-arbosana.png",
+    "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1oOqURz_rtRzw0Tg5KsPtSqK3jP24eALw"
   },
   {
@@ -1697,8 +1697,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/tempbottle_image.png",
-    "format": "bad",
+    "image": "/images/oils/bottle__eliad-olive-oil__eliad-olive-oil-classic-flavor.png",
+    "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1OM-LhYJB5_vXjNSIBoUOXAR0yyAj0TCS"
   },
   {
@@ -1719,8 +1719,8 @@
         "prize": "Gold Medal"
       }
     ],
-    "image": "/images/tempbottle_image.png",
-    "format": "bad",
+    "image": "/images/oils/bottle__eliad-olive-oil__eliad-olive-oil-coratina.png",
+    "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1L9kIXcj_e50eGbdn3ykteOzMKzlXI1gw"
   },
   {
@@ -1741,8 +1741,8 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "image": "/images/tempbottle_image.png",
-    "format": "bad",
+    "image": "/images/oils/bottle__eliad-olive-oil__eliad-olive-oil-koroneiki.png",
+    "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1Cn34gppf3JPe6mStqfGLqoLbIjbAdtQ8"
   },
   {
@@ -1764,7 +1764,8 @@
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1zSKgW4jMmYt1YAv6desyKOZvad1KzLo4",
-    "image": "/images/tempbottle_image.png"
+    "image": "/images/oils/bottle__eliad-olive-oil__eliad-olive-oil-limited-edition-blend-soft-green.png",
+    "format": "good"
   },
   {
     "slug": "eliad-olive-oil-rich-and-unique-flavor",
@@ -1782,8 +1783,8 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/tempbottle_image.png",
-    "format": "bad",
+    "image": "/images/oils/bottle__eliad-olive-oil__eliad-olive-oil-rich-and-unique-flavor.png",
+    "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1HfFaB2QCeM2E6Yi4utPcwYubpwqn_ghj"
   },
   {
@@ -13143,7 +13144,8 @@
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1Zm1gzreXgZfsyCyNvglVK8TmDlOOBl1p",
-    "image": "/images/tempbottle_image.png"
+    "image": "/images/oils/bottle__eliad-olive-oil__eliad-olive-oil-arbequina.png",
+    "format": "good"
   },
   {
     "slug": "meshek-margolin-shalom-tel-adashim-blend",
@@ -13706,7 +13708,8 @@
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1RXdaSj1Q5z4uLXOWboByamKfrHb0KD8t",
-    "image": "/images/tempbottle_image.png"
+    "image": "/images/oils/bottle__eliad-olive-oil__eliad-olive-oil-limited-edition-refreshing-herbal-aroma.png",
+    "format": "good"
   },
   {
     "slug": "molino-alfonso-dop-aceite-del-bajo-aragon",
