@@ -10304,7 +10304,7 @@
   },
   {
     "slug": "ruach-mekedem-blend",
-    "name": "Ruach Mekedem Blend",
+    "name": "Olive",
     "producerSlug": "ruach-mekedem",
     "country": "Israel",
     "region": "",
@@ -10312,12 +10312,13 @@
       "Souri, Picual, , ,"
     ],
     "intensity": "Medium",
-    "description": "Ruach Mekedem Blend is an award-winning extra virgin olive oil from Israel.",
+    "description": "Olive is an award-winning extra virgin olive oil from Israel.",
     "tastingNotes": [],
     "awards": [
       {
         "year": 2026,
-        "prize": "Grand Prestige Gold"
+        "prize": "Grand Prestige Gold",
+        "certificatePdf": "/certificates/awards/2026/ruach-mekedem-blend-grand-prestige-gold.pdf"
       },
       {
         "year": 2026,
@@ -10326,7 +10327,6 @@
         "certificatePdf": "/certificates/special-awards/2026/ruach-mekedem-blend-best-israeli-family-boutique-grand-champion.pdf"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1KBJr53A8qC2V6ToK0G6UOYh79_I_sIvo",
     "image": "/images/tempbottle_image.png"
   },
   {
