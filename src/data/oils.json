@@ -9047,7 +9047,9 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=18fmgxyUTNF4wS7qmZYszWil0JFjPyQx0"
+    "certificate": "https://drive.google.com/uc?export=download&id=18fmgxyUTNF4wS7qmZYszWil0JFjPyQx0",
+    "image": "/images/oils/bottle__campo-di-fiori__campo-di-fiori-coratina.png",
+    "format": "good"
   },
   {
     "slug": "shay-shiloach-hojiblanca",
@@ -11435,7 +11437,9 @@
         "prize": "Prestige Gold",
         "certificatePdf": "/certificates/awards/2026/campo-di-fiori-blend-de-safra-intenso-prestige-gold.pdf"
       }
-    ]
+    ],
+    "image": "/images/oils/bottle__campo-di-fiori__campo-di-fiori-blend-de-safra.png",
+    "format": "good"
   },
   {
     "slug": "havat-hashomer-farm-shimen",
