@@ -9,6 +9,7 @@ const sharp = require("sharp");
 const {
   createBackgroundRemovalProcessor,
   createAirtableClient,
+  parseArgs,
   removeBackgroundWithRemoveBgApi,
   removeBackgroundWithRembg,
   removeWhiteBackgroundFromImage,
@@ -710,6 +711,18 @@ test("sync uses the default transparent background processor for review uploads"
   assert.equal(data[(1 * 3 + 1) * 4 + 3], 255);
 });
 
+test("parseArgs supports approved and update sync modes", () => {
+  assert.deepEqual(parseArgs(["--mode", "approved", "--limit", "3"]), {
+    dryRun: false,
+    rootDir: undefined,
+    limit: 3,
+    markDone: true,
+    mode: "approved",
+  });
+  assert.equal(parseArgs(["--mode", "update"]).mode, "update");
+  assert.throws(() => parseArgs(["--mode", "later"]), /--mode must be all, approved, or update/);
+});
+
 test("Airtable client lists Update and Approved records and can mark rows ready for review", async () => {
   const requests = [];
   const client = createAirtableClient({
@@ -745,6 +758,30 @@ test("Airtable client lists Update and Approved records and can mark rows ready 
     },
     typecast: true,
   });
+});
+
+test("Airtable client can filter only Approved records", async () => {
+  const requests = [];
+  const client = createAirtableClient({
+    token: "pat123",
+    baseId: "app123",
+    tableName: "tbl123",
+    statuses: ["Approved"],
+    fetchImpl: async (url, init) => {
+      requests.push({ url: String(url), init });
+      return {
+        ok: true,
+        async json() {
+          return { records: [] };
+        },
+      };
+    },
+  });
+
+  await client.listRecordsToUpdate();
+
+  const listUrl = new URL(requests[0].url);
+  assert.equal(listUrl.searchParams.get("filterByFormula"), "{Status} = 'Approved'");
 });
 
 test("Airtable client uploads transparent images to the Transparent bg attachment field", async () => {

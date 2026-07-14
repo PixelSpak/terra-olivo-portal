@@ -43,6 +43,7 @@ function parseArgs(argv) {
     rootDir: undefined,
     limit: undefined,
     markDone: true,
+    mode: "all",
   };
 
   for (let index = 0; index < argv.length; index += 1) {
@@ -57,6 +58,9 @@ function parseArgs(argv) {
     } else if (arg === "--limit") {
       args.limit = Number.parseInt(argv[index + 1], 10);
       index += 1;
+    } else if (arg === "--mode") {
+      args.mode = argv[index + 1];
+      index += 1;
     } else if (arg === "--help" || arg === "-h") {
       args.help = true;
     } else {
@@ -66,6 +70,9 @@ function parseArgs(argv) {
 
   if (Number.isNaN(args.limit)) {
     throw new Error("--limit must be a number.");
+  }
+  if (!["all", "approved", "update"].includes(args.mode)) {
+    throw new Error("--mode must be all, approved, or update.");
   }
 
   return args;
@@ -188,6 +195,7 @@ function createAirtableClient({
   transparentBgField = DEFAULT_TRANSPARENT_BG_FIELD,
   fetchImpl = fetch,
   limit,
+  statuses,
 }) {
   let resolvedTransparentBgField = transparentBgField;
 
@@ -268,11 +276,14 @@ function createAirtableClient({
     async listRecordsToUpdate() {
       const records = [];
       let offset;
-      const statuses = [updateStatus, approvedStatus].filter(Boolean);
+      const statusesToList =
+        Array.isArray(statuses) && statuses.length
+          ? statuses
+          : [updateStatus, approvedStatus].filter(Boolean);
       const filterFormula =
-        statuses.length === 1
-          ? `{${statusField}} = ${airtableString(statuses[0])}`
-          : `OR(${statuses
+        statusesToList.length === 1
+          ? `{${statusField}} = ${airtableString(statusesToList[0])}`
+          : `OR(${statusesToList
               .map((status) => `{${statusField}} = ${airtableString(status)}`)
               .join(", ")})`;
 
@@ -806,6 +817,12 @@ async function syncAirtablePortalImages({
   return result;
 }
 
+function statusesForMode(mode, config) {
+  if (mode === "approved") return [config.approvedStatus || DEFAULT_APPROVED_STATUS];
+  if (mode === "update") return [config.updateStatus || DEFAULT_UPDATE_STATUS];
+  return undefined;
+}
+
 function printHelp() {
   console.log(`Usage: node scripts/sync-airtable-portal-images.js [options]
 
@@ -813,6 +830,7 @@ Options:
   --dry-run        Show what would update without writing files or Airtable status.
   --no-mark-done  Leave Airtable Status unchanged after processing.
   --limit N       Process at most N Airtable records.
+  --mode MODE      all, approved, or update. Defaults to all.
   --root PATH     Portal project root. Defaults to this repository.
 `);
 }
@@ -827,7 +845,11 @@ async function main() {
   const rootDir = path.resolve(args.rootDir || path.join(__dirname, ".."));
   loadLocalEnv(rootDir);
   const config = resolveAirtableConfig();
-  const airtableClient = createAirtableClient({ ...config, limit: args.limit });
+  const airtableClient = createAirtableClient({
+    ...config,
+    limit: args.limit,
+    statuses: statusesForMode(args.mode, config),
+  });
   const result = await syncAirtablePortalImages({
     rootDir,
     airtableClient,
@@ -862,8 +884,10 @@ module.exports = {
   createBackgroundRemovalProcessor,
   createAirtableClient,
   findOilForRecord,
+  parseArgs,
   removeBackgroundWithRemoveBgApi,
   removeBackgroundWithRembg,
   removeWhiteBackgroundFromImage,
+  statusesForMode,
   syncAirtablePortalImages,
 };

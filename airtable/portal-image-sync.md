@@ -27,6 +27,13 @@ Use a safe preview first:
 npm run sync:portal-images -- --dry-run --limit 5
 ```
 
+You can also run one phase at a time:
+
+```bash
+npm run sync:portal-images -- --mode approved
+npm run sync:portal-images -- --mode update
+```
+
 ## Airtable Fields
 
 Keep these fields in `New images for portal`:
@@ -47,7 +54,9 @@ older rows.
 
 `.github/workflows/sync-portal-images.yml` runs every 15 minutes, can be started
 manually, and can be triggered by a GitHub `repository_dispatch` event named
-`sync-portal-images`.
+`sync-portal-images`. The workflow publishes `Approved` rows and commits portal
+changes first, then prepares `Update` rows for review. That keeps slow
+background-removal work from delaying already-approved website updates.
 
 Add these GitHub Actions secrets before enabling the cloud workflow:
 

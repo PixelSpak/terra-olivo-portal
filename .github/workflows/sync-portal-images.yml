@@ -50,10 +50,10 @@ jobs:
       - name: Install rembg
         run: python -m pip install "rembg[cpu,cli]"
 
-      - name: Sync Airtable images
-        run: npm run sync:portal-images
+      - name: Publish approved portal images
+        run: npm run sync:portal-images -- --mode approved
 
-      - name: Commit portal image updates
+      - name: Commit approved portal image updates
         run: |
           if [ -z "$(git status --porcelain -- src/data/oils.json public/images/oils)" ]; then
             echo "No portal image changes to commit."
@@ -65,3 +65,6 @@ jobs:
           git add src/data/oils.json public/images/oils
           git commit -m "Sync Airtable portal images"
           git push
+
+      - name: Prepare submitted images for review
+        run: npm run sync:portal-images -- --mode update
