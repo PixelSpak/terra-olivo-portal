@@ -6,16 +6,20 @@ The portal can publish approved Airtable image submissions with:
 npm run sync:portal-images
 ```
 
-The script reads Airtable table `New images for portal`, finds records where
-`Status` is `Update`, downloads the first image in `Attachments`, writes it to
-`public/images/oils`, updates `src/data/oils.json`, and marks the Airtable row
-`Done`.
+The script reads Airtable table `New images for portal` and uses a two-step
+review flow:
 
-If `REMOVE_BG_API_KEY` is configured, the sync sends each uploaded image to the
-remove.bg API first and uses the returned transparent PNG for both the portal
-and Airtable's `Transparent bg` attachment field. The GitHub workflow sets
-`AIRTABLE_IMAGE_BG_REMOVAL_PROVIDER=removebg`, so cloud syncs fail safely if the
-secret is missing. Local runs without a key fall back to the white-edge cleanup.
+- `Status = Update`: downloads the first image in `Attachments`, removes the
+  background, uploads the processed PNG to `Transparent bg`, and changes the row
+  to `Check`. It does not update the portal yet.
+- `Status = Approved`: downloads the reviewed image from `Transparent bg`,
+  writes it to `public/images/oils`, updates `src/data/oils.json`, and marks the
+  row `Done`.
+
+The GitHub workflow uses local `rembg` with the `birefnet-general` model, so the
+background removal does not need a paid remove.bg API key. Local runs without
+`AIRTABLE_IMAGE_BG_REMOVAL_PROVIDER=rembg` still use the lightweight white-edge
+cleanup fallback.
 
 Use a safe preview first:
 
@@ -27,7 +31,7 @@ npm run sync:portal-images -- --dry-run --limit 5
 
 Keep these fields in `New images for portal`:
 
-- `Status`: single select with `New`, `Update`, `Done`
+- `Status`: single select with `New`, `Update`, `Check`, `Approved`, `Done`
 - `Portal oil slug`: single line text, matching `src/data/oils.json`
 - `Portal producer slug`: single line text
 - `Olive oil name`: single line text
@@ -50,7 +54,13 @@ Add these GitHub Actions secrets before enabling the cloud workflow:
 - `AIRTABLE_API_KEY`
 - `AIRTABLE_IMAGE_SUBMISSIONS_BASE_ID`
 - `AIRTABLE_IMAGE_SUBMISSIONS_TABLE_ID`
-- `REMOVE_BG_API_KEY`
 
 If the repository is connected to Vercel, the workflow commit will trigger the
 normal production deployment.
+
+Optional environment overrides:
+
+- `AIRTABLE_IMAGE_BG_REMOVAL_PROVIDER`: `rembg`, `local`, or `removebg`
+- `REMBG_MODEL`: defaults to `birefnet-general`
+- `AIRTABLE_IMAGE_SUBMISSIONS_REVIEW_STATUS`: defaults to `Check`
+- `AIRTABLE_IMAGE_SUBMISSIONS_APPROVED_STATUS`: defaults to `Approved`

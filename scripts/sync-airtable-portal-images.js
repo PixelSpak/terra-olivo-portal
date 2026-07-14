@@ -1,13 +1,20 @@
 #!/usr/bin/env node
 
 const fs = require("node:fs");
+const os = require("node:os");
 const path = require("node:path");
+const { execFile } = require("node:child_process");
+const { promisify } = require("node:util");
 
 const sharp = require("sharp");
+
+const execFileAsync = promisify(execFile);
 
 const DEFAULT_TABLE_NAME = "New images for portal";
 const DEFAULT_STATUS_FIELD = "Status";
 const DEFAULT_UPDATE_STATUS = "Update";
+const DEFAULT_REVIEW_STATUS = "Check";
+const DEFAULT_APPROVED_STATUS = "Approved";
 const DEFAULT_DONE_STATUS = "Done";
 const DEFAULT_TRANSPARENT_BG_FIELD = "Transparent bg";
 const ATTACHMENTS_FIELD = "Attachments";
@@ -15,6 +22,8 @@ const MAX_AIRTABLE_ATTACHMENT_BYTES = 5 * 1024 * 1024;
 const MAX_TRANSPARENT_IMAGE_DIMENSION = 1800;
 const REMOVE_BG_API_URL = "https://api.remove.bg/v1.0/removebg";
 const DEFAULT_REMOVE_BG_SIZE = "auto";
+const DEFAULT_REMBG_COMMAND = "rembg";
+const DEFAULT_REMBG_MODEL = "birefnet-general";
 const IMAGE_EXTENSIONS = new Set(["png", "jpg", "jpeg", "webp"]);
 const IMAGE_TYPE_TO_EXTENSION = {
   "image/png": "png",
@@ -105,6 +114,9 @@ function resolveAirtableConfig(env = process.env) {
       DEFAULT_TABLE_NAME,
     statusField: env.AIRTABLE_IMAGE_SUBMISSIONS_STATUS_FIELD || DEFAULT_STATUS_FIELD,
     updateStatus: env.AIRTABLE_IMAGE_SUBMISSIONS_UPDATE_STATUS || DEFAULT_UPDATE_STATUS,
+    reviewStatus: env.AIRTABLE_IMAGE_SUBMISSIONS_REVIEW_STATUS || DEFAULT_REVIEW_STATUS,
+    approvedStatus:
+      env.AIRTABLE_IMAGE_SUBMISSIONS_APPROVED_STATUS || DEFAULT_APPROVED_STATUS,
     doneStatus: env.AIRTABLE_IMAGE_SUBMISSIONS_DONE_STATUS || DEFAULT_DONE_STATUS,
     transparentBgField:
       env.AIRTABLE_IMAGE_SUBMISSIONS_TRANSPARENT_BG_FIELD || DEFAULT_TRANSPARENT_BG_FIELD,
@@ -113,13 +125,14 @@ function resolveAirtableConfig(env = process.env) {
 
 function resolveBackgroundRemovalConfig(env = process.env) {
   const apiKey = env.REMOVE_BG_API_KEY || env.REMOVEBG_API_KEY || "";
-  const provider =
-    env.AIRTABLE_IMAGE_BG_REMOVAL_PROVIDER || (apiKey ? "removebg" : "local");
+  const provider = env.AIRTABLE_IMAGE_BG_REMOVAL_PROVIDER || "local";
 
   return {
     provider,
     removeBgApiKey: apiKey,
     removeBgSize: env.REMOVE_BG_SIZE || "auto",
+    rembgCommand: env.REMBG_COMMAND || DEFAULT_REMBG_COMMAND,
+    rembgModel: env.REMBG_MODEL || DEFAULT_REMBG_MODEL,
   };
 }
 
@@ -169,6 +182,8 @@ function createAirtableClient({
   tableName,
   statusField = DEFAULT_STATUS_FIELD,
   updateStatus = DEFAULT_UPDATE_STATUS,
+  reviewStatus = DEFAULT_REVIEW_STATUS,
+  approvedStatus = DEFAULT_APPROVED_STATUS,
   doneStatus = DEFAULT_DONE_STATUS,
   transparentBgField = DEFAULT_TRANSPARENT_BG_FIELD,
   fetchImpl = fetch,
@@ -225,17 +240,45 @@ function createAirtableClient({
     });
   }
 
+  async function patchRecordStatus(recordId, status) {
+    const response = await fetchImpl(airtableUrl(baseId, tableName, recordId), {
+      method: "PATCH",
+      headers: {
+        Authorization: `Bearer ${token}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        fields: {
+          [statusField]: status,
+        },
+        typecast: true,
+      }),
+    });
+    return parseAirtableResponse(response);
+  }
+
   return {
+    statusField,
+    updateStatus,
+    reviewStatus,
+    approvedStatus,
+    doneStatus,
+    transparentBgField,
+
     async listRecordsToUpdate() {
       const records = [];
       let offset;
+      const statuses = [updateStatus, approvedStatus].filter(Boolean);
+      const filterFormula =
+        statuses.length === 1
+          ? `{${statusField}} = ${airtableString(statuses[0])}`
+          : `OR(${statuses
+              .map((status) => `{${statusField}} = ${airtableString(status)}`)
+              .join(", ")})`;
 
       do {
         const url = new URL(airtableUrl(baseId, tableName));
-        url.searchParams.set(
-          "filterByFormula",
-          `{${statusField}} = ${airtableString(updateStatus)}`,
-        );
+        url.searchParams.set("filterByFormula", filterFormula);
         url.searchParams.set("pageSize", "100");
         if (offset) url.searchParams.set("offset", offset);
 
@@ -252,21 +295,12 @@ function createAirtableClient({
       return limit ? records.slice(0, limit) : records;
     },
 
+    async markRecordReadyForReview(recordId) {
+      return patchRecordStatus(recordId, reviewStatus);
+    },
+
     async markRecordDone(recordId) {
-      const response = await fetchImpl(airtableUrl(baseId, tableName, recordId), {
-        method: "PATCH",
-        headers: {
-          Authorization: `Bearer ${token}`,
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          fields: {
-            [statusField]: doneStatus,
-          },
-          typecast: true,
-        }),
-      });
-      return parseAirtableResponse(response);
+      return patchRecordStatus(recordId, doneStatus);
     },
 
     async uploadTransparentBackgroundAttachment(recordId, image) {
@@ -374,10 +408,10 @@ function findOilForRecord(record, oils) {
   throw new Error(`No portal oil matches "${oilName}".`);
 }
 
-function selectAttachment(record) {
-  const attachments = record.fields?.[ATTACHMENTS_FIELD];
+function selectAttachment(record, fieldName = ATTACHMENTS_FIELD, description = "image") {
+  const attachments = record.fields?.[fieldName];
   if (!Array.isArray(attachments) || !attachments.length) {
-    throw new Error("Record has no image attachment.");
+    throw new Error(`Record has no ${description} attachment.`);
   }
 
   const attachment = attachments.find((item) => {
@@ -387,10 +421,20 @@ function selectAttachment(record) {
   });
 
   if (!attachment?.url) {
-    throw new Error("Record has no supported image attachment URL.");
+    throw new Error(`Record has no supported ${description} attachment URL.`);
   }
 
   return attachment;
+}
+
+function recordStatus(record, statusField = DEFAULT_STATUS_FIELD) {
+  const value = record.fields?.[statusField];
+  if (typeof value === "string") return value.trim();
+  if (Array.isArray(value)) {
+    const text = value.find((item) => typeof item === "string" && item.trim());
+    if (text) return text.trim();
+  }
+  return "";
 }
 
 function extensionForAttachment(attachment, contentType) {
@@ -430,6 +474,23 @@ async function normalizeTransparentPng(buffer) {
     })
     .png({ compressionLevel: 9 })
     .toBuffer();
+}
+
+async function hasTransparentPixels(buffer) {
+  let data;
+  try {
+    ({ data } = await sharp(buffer)
+      .ensureAlpha()
+      .raw()
+      .toBuffer({ resolveWithObject: true }));
+  } catch {
+    return false;
+  }
+
+  for (let index = 3; index < data.length; index += 4) {
+    if (data[index] < 255) return true;
+  }
+  return false;
 }
 
 function isEdgeBackgroundPixel(data, pixelIndex) {
@@ -547,9 +608,61 @@ async function removeBackgroundWithRemoveBgApi(input, {
   };
 }
 
+async function removeBackgroundWithRembg(input, {
+  command = DEFAULT_REMBG_COMMAND,
+  model = DEFAULT_REMBG_MODEL,
+  execFileImpl = execFileAsync,
+  tmpDir = os.tmpdir(),
+} = {}) {
+  const buffer = Buffer.isBuffer(input) ? input : input?.buffer;
+  if (!buffer) {
+    throw new Error("rembg processor received no image buffer.");
+  }
+
+  if (await hasTransparentPixels(buffer)) {
+    return {
+      buffer: await normalizeTransparentPng(buffer),
+      contentType: "image/png",
+      extension: "png",
+    };
+  }
+
+  let inputExtension = "png";
+  try {
+    inputExtension = extensionForAttachment(input?.attachment || {}, input?.contentType || "");
+  } catch {
+    inputExtension = "png";
+  }
+
+  const workDir = fs.mkdtempSync(path.join(tmpDir, "terra-rembg-"));
+  const inputPath = path.join(workDir, `input.${inputExtension}`);
+  const outputPath = path.join(workDir, "output.png");
+
+  try {
+    fs.writeFileSync(inputPath, buffer);
+    await execFileImpl(command, ["i", "-m", model, inputPath, outputPath], {
+      maxBuffer: 20 * 1024 * 1024,
+    });
+    if (!fs.existsSync(outputPath)) {
+      throw new Error("rembg did not create an output image.");
+    }
+    return {
+      buffer: await normalizeTransparentPng(fs.readFileSync(outputPath)),
+      contentType: "image/png",
+      extension: "png",
+    };
+  } catch (error) {
+    const detail = error?.stderr || error?.message || String(error);
+    throw new Error(`rembg background removal failed: ${detail}`);
+  } finally {
+    fs.rmSync(workDir, { recursive: true, force: true });
+  }
+}
+
 function createBackgroundRemovalProcessor({
   env = process.env,
   fetchImpl = fetch,
+  execFileImpl = execFileAsync,
 } = {}) {
   const config = resolveBackgroundRemovalConfig(env);
   if (config.provider === "removebg") {
@@ -562,6 +675,14 @@ function createBackgroundRemovalProcessor({
   }
   if (config.provider === "local") {
     return removeWhiteBackgroundFromImage;
+  }
+  if (config.provider === "rembg") {
+    return (input) =>
+      removeBackgroundWithRembg(input, {
+        command: config.rembgCommand,
+        model: config.rembgModel,
+        execFileImpl,
+      });
   }
   throw new Error(`Unsupported background removal provider: ${config.provider}.`);
 }
@@ -594,19 +715,39 @@ async function syncAirtablePortalImages({
     failed: 0,
     records: [],
   };
+  const statusField = airtableClient.statusField || DEFAULT_STATUS_FIELD;
+  const updateStatus = airtableClient.updateStatus || DEFAULT_UPDATE_STATUS;
+  const approvedStatus = airtableClient.approvedStatus || DEFAULT_APPROVED_STATUS;
+  const transparentBgField =
+    airtableClient.transparentBgField || DEFAULT_TRANSPARENT_BG_FIELD;
 
   for (const record of records) {
     try {
       const oil = findOilForRecord(record, oils);
-      const attachment = selectAttachment(record);
+      const currentStatus = recordStatus(record, statusField);
+      const isApproved = currentStatus === approvedStatus;
+      const isUpdate = currentStatus === updateStatus || (!currentStatus && !isApproved);
+      const attachment = isApproved
+        ? selectAttachment(
+            record,
+            transparentBgField,
+            `${transparentBgField} review image`,
+          )
+        : selectAttachment(record);
       const downloaded = await downloadAttachment(attachment);
-      const processed = await processImage({
-        buffer: downloaded.buffer,
-        contentType: downloaded.contentType,
-        attachment,
-        record,
-        oil,
-      });
+      const processed = isApproved
+        ? {
+            buffer: downloaded.buffer,
+            contentType: downloaded.contentType,
+            extension: extensionForAttachment(attachment, downloaded.contentType),
+          }
+        : await processImage({
+            buffer: downloaded.buffer,
+            contentType: downloaded.contentType,
+            attachment,
+            record,
+            oil,
+          });
       const imageBuffer = processed?.buffer || downloaded.buffer;
       const contentType = processed?.contentType || downloaded.contentType;
       const ext =
@@ -618,19 +759,23 @@ async function syncAirtablePortalImages({
       const imagePath = path.join(imagesDir, filename);
 
       if (!dryRun) {
-        fs.mkdirSync(imagesDir, { recursive: true });
-        fs.writeFileSync(imagePath, imageBuffer);
-        oil.image = publicImagePath;
-        oil.format = "good";
-        writeJson(oilsPath, oils);
-        if (airtableClient.uploadTransparentBackgroundAttachment) {
+        if (isUpdate && airtableClient.uploadTransparentBackgroundAttachment) {
           await airtableClient.uploadTransparentBackgroundAttachment(record.id, {
             buffer: imageBuffer,
             contentType,
             filename,
           });
         }
-        if (markDone) {
+        if (isApproved) {
+          fs.mkdirSync(imagesDir, { recursive: true });
+          fs.writeFileSync(imagePath, imageBuffer);
+          oil.image = publicImagePath;
+          oil.format = "good";
+          writeJson(oilsPath, oils);
+        }
+        if (markDone && isUpdate && airtableClient.markRecordReadyForReview) {
+          await airtableClient.markRecordReadyForReview(record.id);
+        } else if (markDone && isApproved && airtableClient.markRecordDone) {
           await airtableClient.markRecordDone(record.id);
         }
       }
@@ -638,7 +783,13 @@ async function syncAirtablePortalImages({
       result.updated += 1;
       result.records.push({
         id: record.id,
-        status: dryRun ? "would-update" : "updated",
+        status: dryRun
+          ? isApproved
+            ? "would-update"
+            : "would-prepare-review"
+          : isApproved
+            ? "updated"
+            : "ready-for-review",
         oilSlug: oil.slug,
         image: publicImagePath,
       });
@@ -660,7 +811,7 @@ function printHelp() {
 
 Options:
   --dry-run        Show what would update without writing files or Airtable status.
-  --no-mark-done  Write portal files but leave Airtable Status as Update.
+  --no-mark-done  Leave Airtable Status unchanged after processing.
   --limit N       Process at most N Airtable records.
   --root PATH     Portal project root. Defaults to this repository.
 `);
@@ -712,6 +863,7 @@ module.exports = {
   createAirtableClient,
   findOilForRecord,
   removeBackgroundWithRemoveBgApi,
+  removeBackgroundWithRembg,
   removeWhiteBackgroundFromImage,
   syncAirtablePortalImages,
 };

@@ -18,8 +18,8 @@ jobs:
       AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
       AIRTABLE_IMAGE_SUBMISSIONS_BASE_ID: ${{ secrets.AIRTABLE_IMAGE_SUBMISSIONS_BASE_ID }}
       AIRTABLE_IMAGE_SUBMISSIONS_TABLE_ID: ${{ secrets.AIRTABLE_IMAGE_SUBMISSIONS_TABLE_ID }}
-      AIRTABLE_IMAGE_BG_REMOVAL_PROVIDER: removebg
-      REMOVE_BG_API_KEY: ${{ secrets.REMOVE_BG_API_KEY }}
+      AIRTABLE_IMAGE_BG_REMOVAL_PROVIDER: rembg
+      REMBG_MODEL: birefnet-general
 
     steps:
       - name: Checkout
@@ -31,8 +31,25 @@ jobs:
           node-version: 22
           cache: npm
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Cache rembg models
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.u2net
+            ~/.cache/huggingface
+          key: rembg-models-${{ runner.os }}-birefnet-general
+
       - name: Install dependencies
         run: npm ci
+
+      - name: Install rembg
+        run: python -m pip install "rembg[cpu,cli]"
 
       - name: Sync Airtable images
         run: npm run sync:portal-images
