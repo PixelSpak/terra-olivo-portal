@@ -8519,7 +8519,8 @@
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1AmeMANLyygBquYahQVFJV2CkuGNIWjHu",
-    "image": "/images/tempbottle_image.png"
+    "image": "/images/oils/bottle__galili-olive-oil__galili-olive-oil-basil-flavored.png",
+    "format": "good"
   },
   {
     "slug": "azeite-porca-de-murca-cocoa",
@@ -13394,7 +13395,9 @@
         "prize": "Gold Medal",
         "certificatePdf": "/certificates/awards/2026/santo-agostinho-gold-medal.pdf"
       }
-    ]
+    ],
+    "image": "/images/oils/bottle__agostinho__marcos.png",
+    "format": "good"
   },
   {
     "slug": "pago-francisco-gomez-coupage-de-autor-2",
