@@ -13389,10 +13389,10 @@
     "awards": [
       {
         "year": 2026,
-        "prize": "Gold Medal"
+        "prize": "Gold Medal",
+        "certificatePdf": "/certificates/awards/2026/santo-agostinho-gold-medal.pdf"
       }
-    ],
-    "certificate": "https://drive.google.com/uc?export=download&id=13LkkGZgt0Ef87tLf1xO1sGgXETYq4y1z"
+    ]
   },
   {
     "slug": "pago-francisco-gomez-coupage-de-autor-2",
