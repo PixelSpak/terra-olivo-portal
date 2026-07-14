@@ -155,6 +155,13 @@
   },
   {
     "year": 2026,
+    "label": "Best of Australia",
+    "slug": "best-of-australia",
+    "image": "/images/award-stickers/2026/best-of-australia.png",
+    "sourceFile": "TERRAOLIVO 2026 - Best of Australia.png"
+  },
+  {
+    "year": 2026,
     "label": "Best of Brazil",
     "slug": "best-of-brasil",
     "image": "/images/award-stickers-svg/2026/best-of-brasil.svg",

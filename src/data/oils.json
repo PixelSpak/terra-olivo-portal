@@ -8601,6 +8601,12 @@
       {
         "year": 2026,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "Best of Australia",
+        "category": "Special Award",
+        "certificatePdf": "/certificates/special-awards/2026/lisadurne-hill-hojiblanca-best-of-australia.pdf"
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=1KvCj9GRke9GUCKcJLnbNcjcTx826tKeC",
