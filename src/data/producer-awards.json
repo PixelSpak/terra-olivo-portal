@@ -25,6 +25,7 @@
     "prize": "Best Israeli Olive Mill",
     "category": "Producer Award",
     "country": "Israel",
+    "displayLogo": "/images/producers/jahshan-award-logo.png",
     "certificatePdf": "/certificates/special-awards/2026/1863-extra-virgin-olive-oil-best-israeli-olive-mill.pdf"
   },
   {
@@ -34,6 +35,7 @@
     "prize": "Best Israeli Boutique Brand",
     "category": "Producer Award",
     "country": "Israel",
+    "displayLogo": "/images/producers/meshek-dagan-award-logo.jpg",
     "certificatePdf": "/certificates/special-awards/2026/meshek-dagan-pichuline-best-israeli-boutique-brand.pdf"
   }
 ]
