@@ -199,7 +199,7 @@ export default async function WinnerPage({
           </div>
 
           {/* Description */}
-          <p className="text-base leading-relaxed text-olive-700">
+          <p className="whitespace-pre-line text-base leading-relaxed text-olive-700">
             {oil.description}
           </p>
 
@@ -293,7 +293,7 @@ export default async function WinnerPage({
                 <p className="text-sm text-olive-600">
                   {producer.country}
                 </p>
-                <p className="mt-3 text-sm leading-relaxed text-olive-700">
+                <p className="mt-3 whitespace-pre-line text-sm leading-relaxed text-olive-700">
                   {producer.description}
                 </p>
               </div>

@@ -160,7 +160,7 @@ export default async function AwardPage({
               </div>
             </div>
 
-            <p className="text-base leading-relaxed text-olive-700">
+            <p className="whitespace-pre-line text-base leading-relaxed text-olive-700">
               {entry.oil.description}
             </p>
 
@@ -260,7 +260,7 @@ export default async function AwardPage({
               </div>
             </div>
 
-            <p className="text-base leading-relaxed text-olive-700">
+            <p className="whitespace-pre-line text-base leading-relaxed text-olive-700">
               {entry.producer.description}
             </p>
 

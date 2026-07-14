@@ -40,7 +40,7 @@ export default function ProducerCard({
           </p>
         </div>
       </div>
-      <p className="mt-3 line-clamp-3 text-sm text-olive-700">
+      <p className="mt-3 line-clamp-3 whitespace-pre-line text-sm text-olive-700">
         {producer.description}
       </p>
       <div className="mt-4 flex items-center gap-2">

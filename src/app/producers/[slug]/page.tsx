@@ -93,7 +93,7 @@ export default async function ProducerPage({
               </p>
             </div>
           </div>
-          <p className="mt-5 max-w-2xl text-olive-700">
+          <p className="mt-5 max-w-2xl whitespace-pre-line text-olive-700">
             {producer.description}
           </p>
           <dl className="mt-6 flex flex-wrap gap-x-10 gap-y-3">
