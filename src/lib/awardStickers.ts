@@ -6,6 +6,7 @@ export interface AwardSticker {
   label: string;
   slug: string;
   image: string;
+  cardImage?: string;
   sourceFile: string;
 }
 

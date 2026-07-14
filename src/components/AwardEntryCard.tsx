@@ -33,6 +33,7 @@ export default function AwardEntryCard({
               award={award}
               className={`absolute right-2 top-2 z-30 sm:right-4 sm:top-4 ${awardStickerMedalClass}`}
               priority={priority}
+              variant="card"
             />
             <div className="pointer-events-none relative z-20 flex h-60 w-full items-center justify-center sm:h-64">
               {producerLogo ? (
@@ -108,6 +109,7 @@ export default function AwardEntryCard({
             award={award}
             className={`absolute right-2 top-2 z-30 sm:right-4 sm:top-4 ${awardStickerMedalClass}`}
             priority={priority}
+            variant="card"
           />
           <div className="pointer-events-none relative z-20 flex h-60 w-full items-center justify-center sm:h-64">
             <OilImage

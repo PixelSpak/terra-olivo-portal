@@ -9,14 +9,18 @@ export default function AwardSticker({
   className = "",
   imageClassName = "",
   priority = false,
+  variant = "default",
 }: {
   award: Pick<Award, "year" | "prize">;
   className?: string;
   imageClassName?: string;
   priority?: boolean;
+  variant?: "default" | "card";
 }) {
   const sticker = getAwardSticker(award);
   if (!sticker) return null;
+  const image =
+    variant === "card" && sticker.cardImage ? sticker.cardImage : sticker.image;
 
   return (
     <span
@@ -26,7 +30,7 @@ export default function AwardSticker({
     >
       <span className="relative block h-full w-full">
         <img
-          src={sticker.image}
+          src={image}
           alt=""
           className={`h-full w-full object-contain ${imageClassName}`}
           loading={priority ? "eager" : "lazy"}

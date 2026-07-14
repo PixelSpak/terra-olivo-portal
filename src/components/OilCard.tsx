@@ -47,6 +47,7 @@ export default function OilCard({
               award={best}
               className={`absolute right-2 top-2 z-30 sm:right-4 sm:top-4 ${awardStickerMedalClass}`}
               priority={priority}
+              variant="card"
             />
           ) : best.score !== undefined ? (
             <span className="absolute right-2 top-2 z-30 grid h-8 w-8 place-items-center rounded-full bg-gold-500 text-[10px] font-bold text-olive-950 shadow-md sm:right-4 sm:top-4 sm:h-12 sm:w-12 sm:text-sm">
