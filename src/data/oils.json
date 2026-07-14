@@ -11413,7 +11413,7 @@
   },
   {
     "slug": "campo-di-fiori-blend-de-safra",
-    "name": "Campo Di Fiori Blend De Safra",
+    "name": "Campo Di Fiori Blend De Safra Intenso",
     "producerSlug": "campo-di-fiori",
     "country": "Brazil",
     "region": "",
@@ -11421,15 +11421,15 @@
       "Arbequina.Koroneiki, Grapollo"
     ],
     "intensity": "Medium",
-    "description": "Campo Di Fiori Blend De Safra is an award-winning extra virgin olive oil from Brazil.",
+    "description": "Campo Di Fiori Blend De Safra Intenso is an award-winning extra virgin olive oil from Brazil.",
     "tastingNotes": [],
     "awards": [
       {
         "year": 2026,
-        "prize": "Prestige Gold"
+        "prize": "Prestige Gold",
+        "certificatePdf": "/certificates/awards/2026/campo-di-fiori-blend-de-safra-intenso-prestige-gold.pdf"
       }
-    ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1fbavk8wHRA5ULPbum7cMHf28RIAvtsF3"
+    ]
   },
   {
     "slug": "havat-hashomer-farm-shimen",
