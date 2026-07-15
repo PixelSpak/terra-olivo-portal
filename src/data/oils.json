@@ -8540,7 +8540,9 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=11i3y1hvhk8XcN7M37SOFb1JWwKuB7kRN"
+    "certificate": "https://drive.google.com/uc?export=download&id=11i3y1hvhk8XcN7M37SOFb1JWwKuB7kRN",
+    "image": "/images/oils/bottle__cooperativa-agricola-dos-olivicultores-de-murca-crl__azeite-porca-de-murca-cocoa.png",
+    "format": "good"
   },
   {
     "slug": "agrumato-method-calabrian-chili",
@@ -9082,7 +9084,8 @@
       }
     ],
     "certificate": "https://drive.google.com/uc?export=download&id=17ZaeSGxQjkxVH4t3eoYnH4A2WUVwgQ6D",
-    "image": "/images/tempbottle_image.png"
+    "image": "/images/oils/bottle__meshek-haklai-shai-shiloach__shay-shiloach-hojiblanca.png",
+    "format": "good"
   },
   {
     "slug": "sen-bey-bahce-blendi",
@@ -9718,7 +9721,9 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1AXy5qfKkNZlImWruREQ63WVWW3DZfKm2"
+    "certificate": "https://drive.google.com/uc?export=download&id=1AXy5qfKkNZlImWruREQ63WVWW3DZfKm2",
+    "image": "/images/oils/bottle__santolivo__santolivo.png",
+    "format": "good"
   },
   {
     "slug": "figuera",
@@ -11315,7 +11320,9 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=12phbr6j82M1_Eek-FeREsMuET9QlKYd5"
+    "certificate": "https://drive.google.com/uc?export=download&id=12phbr6j82M1_Eek-FeREsMuET9QlKYd5",
+    "image": "/images/oils/bottle__cooperativa-agricola-dos-olivicultores-de-murca-crl__azeite-porca-de-murca-matura.png",
+    "format": "good"
   },
   {
     "slug": "azeite-porca-de-murca-dop",
@@ -11525,7 +11532,9 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1uxJD6dH0TDbJK3gvd41NJq8Bsh7MrHEB"
+    "certificate": "https://drive.google.com/uc?export=download&id=1uxJD6dH0TDbJK3gvd41NJq8Bsh7MrHEB",
+    "image": "/images/oils/bottle__cooperativa-agricola-dos-olivicultores-de-murca-crl__azeite-porca-de-murca-organic.png",
+    "format": "good"
   },
   {
     "slug": "majestic-blend-flavored-evoo-with-lemongrass-and-tarragon",
@@ -13704,7 +13713,9 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1BBiWO-y6W2d4brqFLs5wuwafLTS76rQT"
+    "certificate": "https://drive.google.com/uc?export=download&id=1BBiWO-y6W2d4brqFLs5wuwafLTS76rQT",
+    "image": "/images/oils/bottle__cooperativa-agricola-dos-olivicultores-de-murca-crl__azeite-porca-de-murca-tempora.png",
+    "format": "good"
   },
   {
     "slug": "eliad-olive-oil-limited-edition-refreshing-herbal-aroma",
