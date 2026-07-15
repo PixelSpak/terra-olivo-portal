@@ -80,7 +80,7 @@ export default function Footer() {
           <p>
             Made with passion by{" "}
             <a
-              href="https://webstack.agency/"
+              href="https://webstack.agency/en/homepage/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#a8ad52] transition-colors hover:text-[#c0c764]"
