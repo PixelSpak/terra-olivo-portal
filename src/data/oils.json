@@ -10349,7 +10349,9 @@
         "prize": "Grand Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1zWNEC2dkYkNQ0PeqFS55Irrp8LylyXIU"
+    "certificate": "https://drive.google.com/uc?export=download&id=1zWNEC2dkYkNQ0PeqFS55Irrp8LylyXIU",
+    "image": "/images/oils/bottle__pereira-e-fragoso-lda__herdade-da-bica-cobrancosa.png",
+    "format": "good"
   },
   {
     "slug": "azeite-vertentes-blend-intenso",
@@ -13680,7 +13682,9 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1Lkk49pvoTb9A4anUZ0SW1IaQQ_GVSA0J"
+    "certificate": "https://drive.google.com/uc?export=download&id=1Lkk49pvoTb9A4anUZ0SW1IaQQ_GVSA0J",
+    "image": "/images/oils/bottle__cooperativa-agricola-dos-olivicultores-de-murca-crl__azeite-porca-de-murca-peeled-jewish-chestnuts.png",
+    "format": "good"
   },
   {
     "slug": "azeite-porca-de-murca-tempora",
