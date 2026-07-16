@@ -27,8 +27,10 @@ export default function Header() {
             alt="Terra Olivo"
             width={48}
             height={48}
+            sizes="48px"
             className="h-10 w-10 shrink-0 sm:h-12 sm:w-12"
             priority
+            unoptimized
           />
         </Link>
         <nav className="hidden items-center gap-8 md:flex">

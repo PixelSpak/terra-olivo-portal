@@ -78,6 +78,7 @@ export default async function ProducerPage({
                 height={64}
                 sizes="64px"
                 className="h-16 w-16 shrink-0 rounded-full object-cover border border-olive-200 bg-white"
+                unoptimized
               />
             ) : (
               <span className="grid h-16 w-16 shrink-0 place-items-center rounded-full bg-olive-700 font-serif text-2xl font-bold text-cream">

@@ -18,15 +18,15 @@ const AWARD_LADDER = [
 ];
 
 const SPONSORS = [
-  { file: "olive-division", alt: "Olive Division" },
-  { file: "kbuzat-iguda", alt: "Kbuzat Iguda" },
-  { file: "shaal", alt: "Sha'al" },
-  { file: "evoo-world", alt: "EVOO World Ranking" },
-  { file: "reg-calabria", alt: "Regione Calabria" },
-  { file: "olive-oil-times", alt: "The Olive Oil Times" },
-  { file: "portal-olivicola", alt: "Portal Olivícola" },
-  { file: "portal-azeite", alt: "Portal do Azeite" },
-  { file: "mercacei", alt: "MERCACEI" },
+  { file: "olive-division", ext: "webp", alt: "Olive Division" },
+  { file: "kbuzat-iguda", ext: "webp", alt: "Kbuzat Iguda" },
+  { file: "shaal", ext: "webp", alt: "Sha'al" },
+  { file: "evoo-world", ext: "webp", alt: "EVOO World Ranking" },
+  { file: "reg-calabria", ext: "webp", alt: "Regione Calabria" },
+  { file: "olive-oil-times", ext: "webp", alt: "The Olive Oil Times" },
+  { file: "portal-olivicola", ext: "webp", alt: "Portal Olivícola" },
+  { file: "portal-azeite", ext: "webp", alt: "Portal do Azeite" },
+  { file: "mercacei", ext: "webp", alt: "MERCACEI" },
 ];
 
 export const metadata = {
@@ -59,8 +59,10 @@ export default function HomepageTestPage() {
               alt="Terra Olivo IOOC"
               width={132}
               height={132}
+              sizes="132px"
               className="h-28 w-28 object-contain"
               priority
+              unoptimized
             />
             <div className="[writing-mode:vertical-rl] rotate-180 text-[11px] font-semibold uppercase tracking-[0.34em] text-olive-600">
               Awarding excellence since 2010
@@ -75,8 +77,10 @@ export default function HomepageTestPage() {
                 alt=""
                 width={76}
                 height={76}
+                sizes="76px"
                 className="h-16 w-16 object-contain lg:hidden"
                 priority
+                unoptimized
               />
               <div>
                 <p className="text-xs font-semibold uppercase tracking-[0.28em] text-gold-600">
@@ -334,11 +338,13 @@ export default function HomepageTestPage() {
                 className="flex h-24 items-center justify-center bg-white p-4 ring-1 ring-olive-900/10"
               >
                 <Image
-                  src={`/sponsors/${sponsor.file}.png`}
+                  src={`/sponsors/${sponsor.file}.${sponsor.ext}`}
                   alt={sponsor.alt}
                   width={170}
                   height={80}
+                  sizes="170px"
                   className="max-h-14 w-auto object-contain"
+                  unoptimized
                 />
               </div>
             ))}

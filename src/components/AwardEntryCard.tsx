@@ -47,6 +47,7 @@ export default function AwardEntryCard({
                       sizes="112px"
                       className="h-full w-full object-contain"
                       priority={priority}
+                      unoptimized
                     />
                   </span>
                 ) : (
@@ -58,6 +59,7 @@ export default function AwardEntryCard({
                     sizes="112px"
                     className="h-28 w-28 rounded-full border border-gold-400/45 bg-white object-cover p-1 shadow-[0_18px_36px_rgba(28,34,16,0.22)] transition duration-500 group-hover:scale-[1.06]"
                     priority={priority}
+                    unoptimized
                   />
                 )
               ) : (

@@ -25,6 +25,7 @@ export default function ProducerCard({
             height={48}
             sizes="48px"
             className="h-12 w-12 shrink-0 rounded-full object-cover border border-olive-200"
+            unoptimized
           />
         ) : (
           <span className="grid h-12 w-12 shrink-0 place-items-center rounded-full bg-olive-700 font-serif text-xl font-bold text-cream">

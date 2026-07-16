@@ -207,6 +207,7 @@ export default async function AwardPage({
                         sizes="152px"
                         className="h-full w-full object-contain"
                         priority
+                        unoptimized
                       />
                     </span>
                   ) : (
@@ -218,6 +219,7 @@ export default async function AwardPage({
                       sizes="152px"
                       className="h-36 w-36 rounded-full border border-gold-400/45 bg-white object-cover p-1 shadow-[0_20px_44px_rgba(28,34,16,0.24)]"
                       priority
+                      unoptimized
                     />
                   )
                 ) : (

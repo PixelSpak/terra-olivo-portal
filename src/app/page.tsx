@@ -3,17 +3,17 @@ import Link from "next/link";
 import { getLatestYear, getPortalStats } from "@/lib/data";
 
 const SPONSORS = [
-  { file: "olive-division",   alt: "Olive Division" },
-  { file: "kbuzat-iguda",     alt: "Kbuzat Iguda" },
-  { file: "shaal",            alt: "Sha'al" },
-  { file: "evoo-world",       alt: "EVOO World Ranking" },
-  { file: "reg-calabria",     alt: "Regione Calabria" },
-  { file: "sensory-eval",     alt: "Sensory Evaluation Lab of Crete ACR" },
-  { file: "bajo-aragon",      alt: "Aceite del Bajo Aragón" },
-  { file: "olive-oil-times",  alt: "The Olive Oil Times" },
-  { file: "portal-olivicola", alt: "Portal Olivícola" },
-  { file: "portal-azeite",    alt: "Portal do Azeite" },
-  { file: "mercacei",         alt: "MERCACEI" },
+  { file: "olive-division",   ext: "webp", alt: "Olive Division" },
+  { file: "kbuzat-iguda",     ext: "webp", alt: "Kbuzat Iguda" },
+  { file: "shaal",            ext: "webp", alt: "Sha'al" },
+  { file: "evoo-world",       ext: "webp", alt: "EVOO World Ranking" },
+  { file: "reg-calabria",     ext: "webp", alt: "Regione Calabria" },
+  { file: "sensory-eval",     ext: "webp", alt: "Sensory Evaluation Lab of Crete ACR" },
+  { file: "bajo-aragon",      ext: "webp", alt: "Aceite del Bajo Aragón" },
+  { file: "olive-oil-times",  ext: "webp", alt: "The Olive Oil Times" },
+  { file: "portal-olivicola", ext: "webp", alt: "Portal Olivícola" },
+  { file: "portal-azeite",    ext: "webp", alt: "Portal do Azeite" },
+  { file: "mercacei",         ext: "webp", alt: "MERCACEI" },
 ];
 
 export default function HomePage() {
@@ -108,11 +108,13 @@ export default function HomePage() {
                   className="flex h-14 w-32 sm:h-20 sm:w-48 shrink-0 items-center justify-center rounded-xl bg-white px-3 shadow-sm ring-1 ring-white/80 sm:px-4"
                 >
                   <Image
-                    src={`/sponsors/${s.file}.png`}
+                    src={`/sponsors/${s.file}.${s.ext}`}
                     alt={s.alt}
                     width={180}
                     height={80}
+                    sizes="180px"
                     className="max-h-10 w-auto object-contain opacity-95 transition-opacity hover:opacity-100 sm:max-h-14"
+                    unoptimized
                   />
                 </div>
               ))}

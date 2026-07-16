@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next start",
     "sync:portal-images": "node scripts/sync-airtable-portal-images.js",
+    "optimize:images": "node scripts/optimize-public-images.mjs",
     "test:portal-image-sync": "node --test tests/bottle-image-submission-fields.test.js tests/image-fallback.test.js tests/sync-airtable-portal-images.test.js",
     "typecheck": "tsc --noEmit"
   },
