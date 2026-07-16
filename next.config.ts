@@ -53,6 +53,7 @@ const nextConfig: NextConfig = {
     ];
   },
   images: {
+    unoptimized: true,
     formats: ["image/webp"],
     deviceSizes: [640, 828, 1080, 1200],
     imageSizes: [32, 48, 64, 96, 128, 192, 256, 384, 512],
