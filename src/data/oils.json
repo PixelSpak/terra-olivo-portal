@@ -12137,7 +12137,7 @@
         "prize": "Prestige Gold"
       }
     ],
-    "image": "/images/oils/estilo-oliva-coratina-2.png",
+    "image": "/images/oils/bottle__diego-hollender__estilo-oliva-coratina-2.png",
     "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1mJoaqIxkmnaRX-h2_ey2gqn6VMTSptx_"
   },
@@ -13461,7 +13461,9 @@
         "prize": "Gold Medal"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=167jWl-AQTU57nOvuRc55Giz_QviG2VDH"
+    "certificate": "https://drive.google.com/uc?export=download&id=167jWl-AQTU57nOvuRc55Giz_QviG2VDH",
+    "image": "/images/oils/bottle__diego-hollender__estilo-oliva-arbosana.png",
+    "format": "good"
   },
   {
     "slug": "petra-baladi",
