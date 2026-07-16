@@ -467,6 +467,26 @@
     "certificate": "https://drive.google.com/uc?export=download&id=16Bft6oqDctfJJ_7PKvthwr2CPjqtNvvy"
   },
   {
+    "slug": "athenas-doron",
+    "name": "Athena's Doron",
+    "producerSlug": "papadopoulos-olive-oil-pc",
+    "country": "Greece",
+    "region": "",
+    "varieties": [],
+    "intensity": "Medium",
+    "description": "Athena's Doron is an award-winning extra virgin olive oil from Greece.",
+    "tastingNotes": [],
+    "awards": [
+      {
+        "year": 2026,
+        "prize": "Grand Prestige Gold",
+        "certificatePdf": "/certificates/awards/2026/athenas-doron-grand-prestige-gold.pdf"
+      }
+    ],
+    "image": "/images/tempbottle_image.png",
+    "format": "bad"
+  },
+  {
     "slug": "azeite-casa-mourad-blend-da-safra-2025",
     "name": "Azeite Casa Mourad Blend da safra 2025",
     "producerSlug": "azeite-casa-mourad",
@@ -1103,6 +1123,11 @@
       {
         "year": 2025,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "Grand Prestige Gold",
+        "certificatePdf": "/certificates/awards/2026/charisma-dios-olympia-pgi-grand-prestige-gold.pdf"
       }
     ],
     "image": "/images/oils/charisma-dios-olympia-pgi.png",
@@ -7975,13 +8000,20 @@
       {
         "year": 2025,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "Grand Prestige Gold",
+        "certificatePdf": "/certificates/awards/2026/the-master-miller-blend-organic-grand-prestige-gold.pdf"
       }
     ],
+    "image": "/images/oils/bottle__papadopoulos-olive-oil-p-c__the-master-miller-blend-organic.png",
+    "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1z3OpWIA4Vt4KZITGNaK6CgsXV5CE8mLd"
   },
   {
     "slug": "the-master-miller-koroneiki-early-harvest",
-    "name": "The Master Miller Koroneiki Early Harvest",
+    "name": "The Master Miller Koroneiki Early Harvest Organic",
     "producerSlug": "papadopoulos-olive-oil-pc",
     "country": "Greece",
     "region": "",
@@ -7989,32 +8021,46 @@
       "Koroneiki"
     ],
     "intensity": "Medium",
-    "description": "The Master Miller Koroneiki Early Harvest is an award-winning extra virgin olive oil from Greece.",
+    "description": "The Master Miller Koroneiki Early Harvest Organic is an award-winning extra virgin olive oil from Greece.",
     "tastingNotes": [],
     "awards": [
       {
         "year": 2025,
         "prize": "Gold Medal"
+      },
+      {
+        "year": 2026,
+        "prize": "Prestige Gold",
+        "certificatePdf": "/certificates/awards/2026/the-master-miller-koroneiki-early-harvest-prestige-gold.pdf"
       }
     ],
+    "image": "/images/oils/bottle__papadopoulos-olive-oil-p-c__the-master-miller-koroneiki-early-harvest.png",
+    "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1tPpE0TG6iQWRHT-wTogtA_RkYwS5Bly9"
   },
   {
     "slug": "the-master-miller-olympia-pgi-early-harvest",
-    "name": "The Master Miller Olympia Pgi Early Harvest",
+    "name": "The Master Miller Olympia PGI Early Harvest Organic",
     "producerSlug": "papadopoulos-olive-oil-pc",
     "country": "Greece",
     "region": "",
     "varieties": [],
     "intensity": "Medium",
-    "description": "The Master Miller Olympia Pgi Early Harvest is an award-winning extra virgin olive oil from Greece.",
+    "description": "The Master Miller Olympia PGI Early Harvest Organic is an award-winning extra virgin olive oil from Greece.",
     "tastingNotes": [],
     "awards": [
       {
         "year": 2025,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "Grand Prestige Gold",
+        "certificatePdf": "/certificates/awards/2026/the-master-miller-olympia-pgi-early-harvest-grand-prestige-gold.pdf"
       }
     ],
+    "image": "/images/oils/bottle__papadopoulos-olive-oil-p-c__the-master-miller-olympia-pgi-early-harvest.png",
+    "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1AD2W8N9x0FbvdSQn9UUklfWlWuNaHBAt"
   },
   {
@@ -8031,8 +8077,15 @@
       {
         "year": 2025,
         "prize": "Grand Prestige Gold"
+      },
+      {
+        "year": 2026,
+        "prize": "Prestige Gold",
+        "certificatePdf": "/certificates/awards/2026/the-master-miller-omphacium-organic-prestige-gold.pdf"
       }
     ],
+    "image": "/images/oils/the-master-miller-omphacium-organic.png",
+    "format": "good",
     "certificate": "https://drive.google.com/uc?export=download&id=1eiQMyuK8nuhbcguSPeptIszhFKB3gWwR"
   },
   {
