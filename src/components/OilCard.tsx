@@ -1,5 +1,6 @@
 import Link from "next/link";
 import AwardSticker, { awardStickerMedalClass } from "@/components/AwardSticker";
+import CountryFlagBadge from "@/components/CountryFlagBadge";
 import OilImage from "@/components/OilImage";
 import { bestAward, getProducerBySlug } from "@/lib/data";
 import { getAwardSticker } from "@/lib/awardStickers";
@@ -38,8 +39,10 @@ export default function OilCard({
         <div className="relative min-h-[300px] overflow-hidden bg-[radial-gradient(circle_at_46%_34%,#fffaf0_0%,#eee5cd_43%,#c3ce9d_100%)] px-3 pb-3 pt-4 sm:min-h-[320px] sm:px-5 sm:pb-5 sm:pt-6">
           <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(135deg,rgba(255,255,255,0.58),rgba(201,162,39,0.08)_45%,rgba(28,34,16,0.17))]" />
           <div className="pointer-events-none absolute inset-x-8 bottom-5 h-12 rounded-full bg-olive-950/12 blur-2xl transition duration-300 group-hover:bg-gold-500/20" />
-          <div className="pointer-events-none absolute left-4 top-4 h-20 w-px bg-gradient-to-b from-gold-400/50 to-transparent opacity-70" />
-          <div className="pointer-events-none absolute left-4 top-4 h-px w-20 bg-gradient-to-r from-gold-400/50 to-transparent opacity-70" />
+          <CountryFlagBadge
+            country={oil.country}
+            className="absolute left-2 top-2 z-30 sm:left-4 sm:top-4"
+          />
 
           {/* Official award sticker */}
           {bestSticker ? (

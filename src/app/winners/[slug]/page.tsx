@@ -5,6 +5,7 @@ import AwardBadge from "@/components/AwardBadge";
 import AwardSticker, { awardStickerMedalClass } from "@/components/AwardSticker";
 import BottleImageSubmission from "@/components/BottleImageSubmission";
 import CertificateDownloads from "@/components/CertificateDownloads";
+import CountryFlagBadge from "@/components/CountryFlagBadge";
 import OilCard from "@/components/OilCard";
 import OilImage from "@/components/OilImage";
 import ShareButton from "@/components/ShareButton";
@@ -100,24 +101,28 @@ export default async function WinnerPage({
   const usesTemporaryBottle = currentImage === "/images/tempbottle_image.png";
 
   return (
-    <div className="container-page py-10">
+    <div className="container-page py-6 sm:py-10">
       {/* Breadcrumb */}
-      <nav className="flex items-center gap-2 text-sm text-olive-500">
+      <nav className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs leading-snug text-olive-500 sm:text-sm">
         <Link href="/winners" className="hover:text-olive-700">
           Winners
         </Link>
         <span>/</span>
-        <span className="text-olive-800">{oil.name}</span>
+        <span className="max-w-full text-olive-800">{oil.name}</span>
       </nav>
 
       {/* Hero grid */}
-      <div className="mt-8 grid gap-10 lg:grid-cols-[380px_1fr] lg:items-start">
+      <div className="mt-5 grid gap-8 sm:mt-8 sm:gap-10 lg:grid-cols-[380px_1fr] lg:items-start">
 
         {/* Left — image */}
-        <div className="flex flex-col gap-5 pt-8">
+        <div className="flex flex-col gap-5 pt-0 lg:pt-8">
           <div className="relative flex flex-col items-center overflow-hidden rounded-lg border border-gold-400/25 bg-[radial-gradient(circle_at_48%_34%,#fff9eb_0%,#eee4ca_42%,#c5cf9d_100%)] px-6 pb-8 pt-10 shadow-[0_22px_52px_rgba(28,34,16,0.18)]">
             <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(135deg,rgba(255,255,255,0.56),rgba(201,162,39,0.08)_42%,rgba(28,34,16,0.2))]" />
             <div className="pointer-events-none absolute inset-x-8 bottom-8 h-16 rounded-full bg-olive-950/10 blur-2xl" />
+            <CountryFlagBadge
+              country={oil.country}
+              className="absolute left-3 top-3 z-30 sm:left-5 sm:top-5"
+            />
             <AwardSticker
               award={best}
               className={`absolute right-3 top-3 z-30 sm:right-5 sm:top-5 ${awardStickerMedalClass}`}
@@ -282,7 +287,7 @@ export default async function WinnerPage({
             </p>
           </div>
           <div className="bg-white p-6">
-            <div className="flex items-start gap-4">
+            <div className="flex items-center gap-4">
               <span className="grid h-14 w-14 shrink-0 place-items-center rounded-full border-2 border-gold-400 bg-olive-900 font-serif text-2xl font-bold text-gold-400">
                 {producer.name.charAt(0)}
               </span>
@@ -293,15 +298,15 @@ export default async function WinnerPage({
                 <p className="text-sm text-olive-600">
                   {producer.country}
                 </p>
-                <p className="mt-3 whitespace-pre-line text-sm leading-relaxed text-olive-700">
-                  {producer.description}
-                </p>
               </div>
             </div>
-            <div className="mt-5 flex flex-wrap gap-3">
+            <p className="mt-5 whitespace-pre-line text-sm leading-relaxed text-olive-700">
+              {producer.description}
+            </p>
+            <div className="mt-5 grid grid-cols-1 gap-3 sm:flex sm:flex-wrap">
               <Link
                 href={`/producers/${producer.slug}`}
-                className="inline-block rounded-sm bg-olive-900 px-5 py-2.5 text-sm font-semibold text-cream hover:bg-olive-800"
+                className="inline-block rounded-sm bg-olive-900 px-5 py-2.5 text-center text-sm font-semibold text-cream hover:bg-olive-800"
               >
                 Producer Profile
               </Link>
@@ -310,7 +315,7 @@ export default async function WinnerPage({
                   href={producer.website}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block rounded-sm border border-olive-300 px-5 py-2.5 text-sm font-semibold text-olive-700 hover:bg-olive-50"
+                  className="inline-block rounded-sm border border-olive-300 px-5 py-2.5 text-center text-sm font-semibold text-olive-700 hover:bg-olive-50"
                 >
                   Visit Website
                 </a>

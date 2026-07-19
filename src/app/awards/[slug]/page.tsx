@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import AwardBadge from "@/components/AwardBadge";
 import AwardSticker, { awardStickerMedalClass } from "@/components/AwardSticker";
 import CertificateImage from "@/components/CertificateImage";
+import CountryFlagBadge from "@/components/CountryFlagBadge";
 import OilImage from "@/components/OilImage";
 import ShareButton from "@/components/ShareButton";
 import {
@@ -98,6 +99,10 @@ export default async function AwardPage({
           <div className="flex flex-col gap-5 pt-8">
             <div className="relative flex flex-col items-center overflow-hidden rounded-lg border border-gold-400/25 bg-[radial-gradient(circle_at_48%_34%,#fff9eb_0%,#eee4ca_42%,#c5cf9d_100%)] px-6 pb-8 pt-10 shadow-[0_22px_52px_rgba(28,34,16,0.18)]">
               <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(135deg,rgba(255,255,255,0.56),rgba(201,162,39,0.08)_42%,rgba(28,34,16,0.2))]" />
+              <CountryFlagBadge
+                country={entry.oil.country}
+                className="absolute left-3 top-3 z-30 sm:left-5 sm:top-5"
+              />
               <AwardSticker
                 award={award}
                 className={`absolute right-3 top-3 z-30 sm:right-5 sm:top-5 ${awardStickerMedalClass}`}
@@ -190,6 +195,10 @@ export default async function AwardPage({
           <div className="flex flex-col gap-5 pt-8">
             <div className="relative flex min-h-[420px] flex-col items-center justify-center overflow-hidden rounded-lg border border-gold-400/25 bg-[radial-gradient(circle_at_48%_34%,#fff9eb_0%,#eee4ca_42%,#c5cf9d_100%)] px-6 py-10 text-center shadow-[0_22px_52px_rgba(28,34,16,0.18)]">
               <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(135deg,rgba(255,255,255,0.56),rgba(201,162,39,0.08)_42%,rgba(28,34,16,0.2))]" />
+              <CountryFlagBadge
+                country={entry.award.country}
+                className="absolute left-3 top-3 z-30 sm:left-5 sm:top-5"
+              />
               <AwardSticker
                 award={award}
                 className={`absolute right-3 top-3 z-30 sm:right-5 sm:top-5 ${awardStickerMedalClass}`}

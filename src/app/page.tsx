@@ -31,7 +31,7 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-olive-950/50"></div>
         
         {/* HERO CONTENT */}
-        <section className="container-page relative z-10 flex flex-col items-center justify-center flex-grow text-center py-4 px-4 sm:py-6">
+        <section className="container-page relative z-10 flex flex-col items-center justify-center flex-grow text-center px-4 pb-4 pt-24 sm:py-6 sm:pt-28 lg:pt-24">
           {/* Headline */}
           <h1 className="max-w-3xl font-serif text-4xl font-bold leading-[1.05] sm:text-5xl lg:text-6xl mx-auto">
             <span className="text-cream">The World&apos;s Best</span>

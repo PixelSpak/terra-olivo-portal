@@ -84,6 +84,15 @@ export function getAwardSticker(
   return stickersByYearAndSlug.get(`${award.year}:${stickerSlug}`);
 }
 
+export function getAwardStickerPngHref(
+  award: Pick<Award, "year" | "prize">,
+): string | undefined {
+  const sticker = getAwardSticker(award);
+  if (!sticker) return undefined;
+
+  return `/images/award-stickers/${sticker.year}/${sticker.slug}.png`;
+}
+
 export function hasAwardSticker(prize: Prize, year: number): boolean {
   return Boolean(getAwardSticker({ prize, year }));
 }
