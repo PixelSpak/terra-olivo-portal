@@ -11962,7 +11962,9 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1tZI69Npq-io4J9mXpfE2cfIaHewyQ4bd"
+    "certificate": "https://drive.google.com/uc?export=download&id=1tZI69Npq-io4J9mXpfE2cfIaHewyQ4bd",
+    "image": "/images/oils/bottle__oleosophia__oleosophia-early-harvest-manaki.png",
+    "format": "good"
   },
   {
     "slug": "arens-blend",
@@ -12456,7 +12458,9 @@
         "prize": "Prestige Gold"
       }
     ],
-    "certificate": "https://drive.google.com/uc?export=download&id=1vPvsUnrhXJWUp9XwPmdlxa7MTJ-1iDDR"
+    "certificate": "https://drive.google.com/uc?export=download&id=1vPvsUnrhXJWUp9XwPmdlxa7MTJ-1iDDR",
+    "image": "/images/oils/bottle__coopor-coop-agri-concelho-portalegre-crl__sao-mamede-azeite-virgem-extra.png",
+    "format": "good"
   },
   {
     "slug": "pantaleo-classico",
